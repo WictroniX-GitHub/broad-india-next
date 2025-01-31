@@ -8,6 +8,7 @@ const nextConfig = {
       "upload.wikimedia.org",
       "download.logo.wine",
       "animationvisarts.com",
+      "www.jsw.in",
     ],
   },
 };
