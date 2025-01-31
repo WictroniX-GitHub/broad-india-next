@@ -69,7 +69,7 @@ export default function Header() {
                   <Link href="/Chillers">BROAD CCHP System</Link>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                  <Link href="/peChillers">
+                  <Link href="/magneticBearingChillers">
                     Magnetic Bearing Oil Free Chiller
                   </Link>
                 </Dropdown.Item>

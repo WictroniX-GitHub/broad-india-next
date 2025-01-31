@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Logo and Socials */}
           <div className="flex flex-col items-center">
             <Image
-              src="/assets/images/BROAD INDIA.webp"
+              src="/images/BROAD INDIA.webp"
               alt="Broad India"
               width={120}
               height={120}
@@ -25,7 +25,7 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <Image
-                  src="/assets/images/facebook.png"
+                  src="/images/facebook.png"
                   alt="Facebook"
                   width={24}
                   height={24}
@@ -37,7 +37,7 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <Image
-                  src="/assets/images/instagram.webp"
+                  src="/images/instagram.webp"
                   alt="Instagram"
                   width={24}
                   height={24}
@@ -49,10 +49,10 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <Image
-                  src="/assets/images/youtube.png"
+                  src="/images/youtube.png"
                   alt="YouTube"
-                  width={24}
-                  height={24}
+                  width={28}
+                  height={28}
                 />
               </a>
               <a
@@ -61,7 +61,7 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <Image
-                  src="/assets/images/linkedin.png"
+                  src="/images/linkedin.png"
                   alt="LinkedIn"
                   width={24}
                   height={24}
