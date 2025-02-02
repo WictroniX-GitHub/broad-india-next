@@ -1,15 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Image from "next/image";
+import { useEffect } from "react";
 import ContactForm from "@/components/ContactForm";
 import bg from "@/public/images/contactBG.jpg";
 
 export default function ContactUs() {
-  const [isMobile, setIsMobile] = useState(true);
-
   useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
     window.scrollTo(0, 0);
   }, []);
 
@@ -25,7 +21,7 @@ export default function ContactUs() {
       </div>
 
       <div className="max-w-6xl mx-auto my-20 px-6">
-        <h2 className="text-3xl font-semibold mb-5">We're Here to Help</h2>
+        <h2 className="text-3xl font-semibold mb-5">We&apos;re Here to Help</h2>
         <div className="grid md:grid-cols-3 gap-10">
           <div className="md:col-span-2">
             <ContactForm />

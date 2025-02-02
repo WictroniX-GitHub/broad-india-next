@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const articles = [
@@ -31,12 +30,6 @@ const articles = [
 ];
 
 export default function RecentNews() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerHeight > window.innerWidth);
-  }, []);
-
   return (
     <div className="px-6 py-16">
       <h2 className="text-3xl font-bold text-center mb-10">Articles</h2>

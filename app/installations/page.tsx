@@ -54,7 +54,16 @@ const installations = [
 ];
 
 export default function Installations() {
-  const [selectedInstallation, setSelectedInstallation] = useState<any>(null);
+  interface Installation {
+    id: number;
+    title: string;
+    image: string;
+    description: string;
+    details: string[];
+  }
+
+  const [selectedInstallation, setSelectedInstallation] =
+    useState<Installation | null>(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);

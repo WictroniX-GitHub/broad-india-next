@@ -52,8 +52,9 @@ export default function SpecialistsProduct() {
         Our Best Quality Products
       </h2>
       <p className="text-center text-gray-600">
-        Discover cost-effective cooling and heating solutions with BROAD India's
-        energy-efficient HVAC systems and power-efficient absorption chillers.
+        Discover cost-effective cooling and heating solutions with BROAD
+        India&apos;s energy-efficient HVAC systems and power-efficient
+        absorption chillers.
       </p>
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {products.map((product) => (

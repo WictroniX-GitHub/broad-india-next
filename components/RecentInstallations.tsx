@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import itcImg from "@/public/images/itc.webp";
 
@@ -31,12 +30,6 @@ const installations = [
 ];
 
 export default function RecentInstallations() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerHeight > window.innerWidth);
-  }, []);
-
   return (
     <div className="w-full my-40 py-20 bg-gradient-to-t from-blue-700 to-blue-500 text-white">
       <h2 className="text-3xl font-semibold text-center mb-10">

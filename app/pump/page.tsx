@@ -1,14 +1,11 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import pumpImg from "@/public/images/broadPump.webp";
 
 const Pump = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
   useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
     window.scrollTo(0, 0);
   }, []);
 
@@ -58,7 +55,7 @@ const Pump = () => {
               <li>
                 <strong>Complete bacteria killing</strong> - Auto dosing device
                 charges biocide to the cooling water system automatically to
-                eradicate legionnaire's diseases.
+                eradicate legionnaire&apos;s diseases.
               </li>
               <li>
                 <strong>Quick installation</strong> - Installation time is 10%
@@ -72,7 +69,7 @@ const Pump = () => {
               </li>
               <li>
                 <strong>Worry-free & carefree</strong> - Whole system factory
-                made and tested. Customers' management cost saved. All
+                made and tested. Customers&apos; management cost saved. All
                 European/US safety certificates secured. Central Air
                 conditioning industrialization materialized.
               </li>

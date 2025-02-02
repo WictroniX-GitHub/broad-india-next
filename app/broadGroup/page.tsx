@@ -1,14 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Image from "next/image";
+import { useEffect } from "react";
 import bg from "@/public/images/bgbg.jpg";
 
 export default function BroadGroup() {
-  const [isMobile, setIsMobile] = useState(true);
-
   useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
     window.scrollTo(0, 0);
   }, []);
 
@@ -30,7 +26,7 @@ export default function BroadGroup() {
               BROAD Group is a privately-owned enterprise founded in 1988 with
               RMB 30,000. The company has developed hundreds of hi-tech products
               and has never copied any technology of its peers since inception.
-              The mission of BROAD Group is “For Humanity's Future: Using
+              The mission of BROAD Group is “For Humanity&apos;s Future: Using
               original low carbon & durable technology for the earth. Using
               original clean & safe technology for humans.” Headquartered in
               Changsha, BROAD Group has exported products to over 80 countries.

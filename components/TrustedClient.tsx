@@ -1,6 +1,5 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import bhilosa from "@/public/images/bhilosa.png";
 
@@ -43,12 +42,6 @@ const clients = [
 ];
 
 export default function TrustedClients() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    setIsMobile(window.innerHeight > window.innerWidth);
-  }, []);
-
   return (
     <div className="my-20 bg-white py-16 px-6">
       <h2 className="text-3xl font-bold text-center">Trusted Clients</h2>

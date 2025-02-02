@@ -28,10 +28,10 @@ export default function Sustainable() {
           chain, analyzing the extraction of raw materials, production of
           components, design of products, and organization of return markets, to
           achieve resource productivity. BROAD India focuses on introducing the
-          next generation of sustainable HVAC solutions to enhance the planet's
-          well-being. BROAD builds energy-efficient absorption chillers that
-          reduce carbon emissions. BROAD India realizes this vision and delivers
-          clean, green solutions.
+          next generation of sustainable HVAC solutions to enhance the
+          planet&apos;s well-being. BROAD builds energy-efficient absorption
+          chillers that reduce carbon emissions. BROAD India realizes this
+          vision and delivers clean, green solutions.
         </p>
         <div className="mt-10 flex flex-col md:flex-row justify-around items-center">
           {[

@@ -1,15 +1,12 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import nonElec from "@/public/images/nonElec.jpg";
 import wasteHeat from "@/public/images/wasteHeat.jpg";
 
 const VapAbsorptionChiller = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
   useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
     window.scrollTo(0, 0);
   }, []);
 

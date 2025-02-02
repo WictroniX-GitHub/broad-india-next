@@ -19,11 +19,9 @@ const slides = [
 ];
 
 export default function HomePageCarousel() {
-  const [isMobile, setIsMobile] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
-    setIsMobile(window.innerHeight > window.innerWidth);
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 5000);

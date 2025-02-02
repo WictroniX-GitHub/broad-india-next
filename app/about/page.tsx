@@ -43,8 +43,8 @@ export default function About() {
             <h3 className="text-2xl font-semibold mt-6">Key Achievements</h3>
             <ul className="list-disc ml-5 mt-2 text-gray-700">
               <li>
-                Asia's Largest CHP Project: Managing the largest combined heat
-                and power (CHP) project in DLF, Gurugram.
+                Asia&apos;s Largest CHP Project: Managing the largest combined
+                heat and power (CHP) project in DLF, Gurugram.
               </li>
               <li>
                 Industry Applications: BROAD chillers are utilized in

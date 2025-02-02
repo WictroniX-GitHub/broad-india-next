@@ -41,9 +41,9 @@ const Careers = () => {
 
         <div className="max-w-4xl mx-auto mt-12 space-y-6">
           <p>
-            We're looking for talented Sales and Service professionals in Surat
-            and Bangalore to help bring our cutting-edge HVAC products to the
-            market.
+            We&apos;re looking for talented Sales and Service professionals in
+            Surat and Bangalore to help bring our cutting-edge HVAC products to
+            the market.
           </p>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">

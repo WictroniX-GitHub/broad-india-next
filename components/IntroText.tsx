@@ -12,7 +12,8 @@ export default function IntroText() {
         <p className="mt-4">
           The petrochemical, food processing, textile, healthcare, and office
           sectors use our energy-efficient HVAC systems and clean air technology
-          solutions, significantly contributing to Asia's largest CHP project.
+          solutions, significantly contributing to Asia&apos;s largest CHP
+          project.
         </p>
         <p className="mt-4">
           We offer comprehensive services, including installation, maintenance,
