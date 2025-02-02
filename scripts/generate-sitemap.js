@@ -4,8 +4,8 @@ const path = require("path");
 const BASE_URL = "https://www.broadindia.com"; // 🔹 Update with your actual domain
 
 const generateSitemap = () => {
-  const blogDir = path.join(__dirname, "../content/blog");
-  const articlesDir = path.join(__dirname, "../content/articles");
+  const blogDir = path.join(__dirname, "../data/articles"); // Blog content directory
+  const articlesDir = path.join(__dirname, "../data/articles"); // Articles directory
   const publicDir = path.join(__dirname, "../public");
 
   if (!fs.existsSync(publicDir)) {
@@ -18,7 +18,7 @@ const generateSitemap = () => {
         const slug = fileName.replace(".mdx", "");
         return `
           <url>
-            <loc>${BASE_URL}/blog/${slug}</loc>
+            <loc>${BASE_URL}/blogs/${slug}</loc>
             <lastmod>${new Date().toISOString()}</lastmod>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -34,14 +34,14 @@ const generateSitemap = () => {
           <url>
             <loc>${BASE_URL}/articles/${slug}</loc>
             <lastmod>${new Date().toISOString()}</lastmod>
-            <changefreq=weekly</changefreq>
+            <changefreq>weekly</changefreq>
             <priority>0.8</priority>
           </url>`;
       })
     : [];
 
   // 📌 Add static pages (update as needed)
-  const staticPages = ["", "about", "contact", "blog", "articles"].map(
+  const staticPages = ["", "about", "contact", "blogs", "articles"].map(
     (page) => `
       <url>
         <loc>${BASE_URL}/${page}</loc>
