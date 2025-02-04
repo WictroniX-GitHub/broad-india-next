@@ -70,6 +70,13 @@ const VapAbsorptionChiller = () => {
         <div className="shadow p-6 rounded-lg mt-8">
           <h2 className="text-3xl font-bold mb-4">Waste Heat Chiller</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <Image
+              src={wasteHeat}
+              alt="Waste Heat Chiller"
+              width={600}
+              height={400}
+              className="rounded-lg"
+            />
             <div>
               <h4 className="text-lg font-semibold">Function</h4>
               <p>Cooling, heating, hot water (separately or simultaneously)</p>
@@ -93,18 +100,12 @@ const VapAbsorptionChiller = () => {
               </a>
               <a
                 href="/Chillers"
-                className="ml-4 inline-block bg-gray-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-700"
+                className="inline-block bg-gray-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-700 mt-4"
               >
                 Know More
               </a>
             </div>
-            <Image
-              src={wasteHeat}
-              alt="Waste Heat Chiller"
-              width={600}
-              height={400}
-              className="rounded-lg"
-            />
+            
           </div>
         </div>
       </div>

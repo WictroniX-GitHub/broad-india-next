@@ -66,10 +66,10 @@ export default function ArticlesDetailPage() {
                 {article.content}
                 <br />
                 <Link
-                  href="/register"
+                  href="/contactUs"
                   className="text-primary font-semibold hover:underline"
                 >
-                  Sign up{" "}
+                  Contact Us{" "}
                 </Link>{" "}
                 now to join the revolution!
               </p>

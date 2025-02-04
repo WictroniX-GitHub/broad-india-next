@@ -64,10 +64,10 @@ export default function BlogsDetailPage() {
                 {blog.content}
                 <br />
                 <Link
-                  href="/register"
+                  href="/contactUs"
                   className="text-primary font-semibold hover:underline"
                 >
-                  Sign up{" "}
+                  Contact us{" "}
                 </Link>{" "}
                 now to join the revolution!
               </p>

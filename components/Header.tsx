@@ -3,12 +3,13 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Offcanvas, Dropdown } from "react-bootstrap";
+import { Offcanvas } from "react-bootstrap";
 import logo from "@/public/images/broad-logo.webp";
 
 export default function Header() {
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isProductsOpen, setIsProductsOpen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,20 +20,16 @@ export default function Header() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const handleCloseMenu = () => {
+    setIsMenuOpen(false);
+    setIsProductsOpen(false);
+  };
+
   return (
-    <div className="fixed top-0 w-full z-10">
-      <div className="shadow-md bg-white/50 backdrop-blur-lg mx-auto mt-4 px-6 py-3 flex justify-between items-center rounded-xl w-[90%] md:w-[80%] lg:w-[70%]">
-        <Link
-          href="/"
-          className="flex items-center text-black font-semibold text-lg"
-        >
-          <Image
-            src={logo}
-            alt="logo"
-            width={48}
-            height={48}
-            className="mr-3"
-          />
+    <div className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[80%] lg:w-[80%] z-50 rounded-xl">
+      <div className="bg-white/30 backdrop-blur-lg border border-white/20 px-6 py-3 flex justify-between items-center rounded-xl shadow-lg w-full">
+        <Link href="/" className="flex items-center text-black font-semibold text-lg">
+          <Image src={logo} alt="logo" width={48} height={48} className="mr-3" />
           BROAD India
         </Link>
         {isMobile ? (
@@ -45,46 +42,40 @@ export default function Header() {
               stroke="black"
               className="h-8 w-8"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
           </button>
         ) : (
           <nav className="flex items-center space-x-6 text-gray-800">
             <Link href="/">Home</Link>
-            <Dropdown>
-              <Dropdown.Toggle className="bg-transparent text-gray-800 border-none">
+            <div className="relative">
+              <button
+                onClick={() => setIsProductsOpen(!isProductsOpen)}
+                className="focus:outline-none flex items-center gap-1"
+              >
                 Products
-              </Dropdown.Toggle>
-              <Dropdown.Menu className="shadow-lg bg-white border-none">
-                <Dropdown.Item>
-                  <Link href="/vapAbsorptionChiller">
+                <span className="text-xs">▼</span>
+              </button>
+              {isProductsOpen && (
+                <div className="absolute top-full mt-2 w-48 bg-white shadow-lg rounded-lg z-50">
+                  <Link href="/vapAbsorptionChiller" className="block px-4 py-2 hover:bg-gray-200">
                     Vapour Absorption Chiller
                   </Link>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <Link href="/Chillers">BROAD CCHP System</Link>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <Link href="/magneticBearingChillers">
+                  <Link href="/Chillers" className="block px-4 py-2 hover:bg-gray-200">BROAD CCHP System</Link>
+                  <Link href="/magneticBearingChillers" className="block px-4 py-2 hover:bg-gray-200">
                     Magnetic Bearing Oil Free Chiller
                   </Link>
-                </Dropdown.Item>
-                <Dropdown.Item>
-                  <Link href="/pump">Pumpset</Link>
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+                  <Link href="/pump" className="block px-4 py-2 hover:bg-gray-200">Pumpset</Link>
+                </div>
+              )}
+            </div>
             <Link href="/installations">Installations</Link>
             <Link href="/about">About</Link>
             <Link href="/broadGroup">BROAD Group</Link>
-            <Link href="/blogs-and-articles">Blogs & Articles</Link>
+            <Link href="/blogs">Blogs & Articles</Link>
             <Link href="/careers">Careers</Link>
-            <Link href="/contactUs" className="btn btn-primary">
-              Contact us
+            <Link href="/contactUs">
+              <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer">Contact Us</div>
             </Link>
           </nav>
         )}
@@ -95,28 +86,45 @@ export default function Header() {
         show={isMenuOpen}
         onHide={() => setIsMenuOpen(false)}
         placement="end"
+        className="fixed top-0 left-0 w-full h-screen bg-white z-50 shadow-lg p-6 flex flex-col items-center space-y-4"
       >
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Menu</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          <nav className="flex flex-col items-center space-y-4 text-gray-800">
-            <Link href="/">Home</Link>
-            <h5>Products</h5>
-            <Link href="/vapAbsorptionChiller">Vapour Absorption Chiller</Link>
-            <Link href="/Chillers">BROAD CCHP System</Link>
-            <Link href="/peChillers">Magnetic Bearing Oil Free Chiller</Link>
-            <Link href="/pump">Pumpset</Link>
-            <Link href="/installations">Installations</Link>
-            <Link href="/about">About</Link>
-            <Link href="/broadGroup">BROAD Group</Link>
-            <Link href="/blogs-and-articles">Blogs & Articles</Link>
-            <Link href="/careers">Careers</Link>
-            <Link href="/contactUs" className="btn btn-primary">
-              Contact us
-            </Link>
-          </nav>
-        </Offcanvas.Body>
+        <button className="absolute top-5 right-5 text-black text-2xl" onClick={() => setIsMenuOpen(false)}>
+          &times;
+        </button>
+        <nav className="flex flex-col items-center space-y-4 text-gray-800 mt-10">
+          <Link href="/" className="font-bold" onClick={handleCloseMenu}>Home</Link>
+
+          <button
+            onClick={() => setIsProductsOpen(!isProductsOpen)}
+            className="flex items-center gap-2 font-bold focus:outline-none"
+          >
+            Products <span className="text-xs">▼</span>
+          </button>
+          {isProductsOpen && (
+            <div className="w-full text-center">
+              <Link href="/vapAbsorptionChiller" className="block py-2" onClick={handleCloseMenu}>
+                Vapour Absorption Chiller
+              </Link>
+              <Link href="/Chillers" className="block py-2" onClick={handleCloseMenu}>BROAD CCHP System</Link>
+              <Link href="/magneticBearingChillers" className="block py-2" onClick={handleCloseMenu}>
+                Magnetic Bearing Oil Free Chiller
+              </Link>
+              <Link href="/pump" className="block py-2" onClick={handleCloseMenu}>Pumpset</Link>
+            </div>
+          )}
+
+          <Link href="/installations" className="font-bold" onClick={handleCloseMenu}>Installations</Link>
+          <Link href="/about" className="font-bold" onClick={handleCloseMenu}>About</Link>
+          <Link href="/broadGroup" className="font-bold" onClick={handleCloseMenu}>BROAD Group</Link>
+          <Link href="/blogs" className="font-bold" onClick={handleCloseMenu}>Blogs & Articles</Link>
+          <Link href="/careers" className="font-bold" onClick={handleCloseMenu}>Careers</Link>
+
+          <Link href="/contactUs" onClick={handleCloseMenu}>
+            <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer w-full text-center">
+              Contact Us
+            </div>
+          </Link>
+        </nav>
       </Offcanvas>
     </div>
   );
