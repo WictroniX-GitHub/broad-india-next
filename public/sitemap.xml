@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
-      <url>
-        <loc>https://www.broadindia.com/</loc>
-        <lastmod>2025-02-04T07:36:38.657Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-      </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://www.broadindia.com/</loc>
+      <lastmod>2025-02-04T16:28:14.561Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 
-      <url>
-        <loc>https://www.broadindia.com/about</loc>
-        <lastmod>2025-02-04T07:36:38.658Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-      </url>
+    <url>
+      <loc>https://www.broadindia.com/about</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 
-      <url>
-        <loc>https://www.broadindia.com/contact</loc>
-        <lastmod>2025-02-04T07:36:38.658Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-      </url>
+    <url>
+      <loc>https://www.broadindia.com/contactUs</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 
-      <url>
-        <loc>https://www.broadindia.com/blogs</loc>
-        <lastmod>2025-02-04T07:36:38.658Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-      </url>
+    <url>
+      <loc>https://www.broadindia.com/installations</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
 
-      <url>
-        <loc>https://www.broadindia.com/articles</loc>
-        <lastmod>2025-02-04T07:36:38.658Z</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
-      </url>
-  </urlset>
+    <url>
+      <loc>https://www.broadindia.com/broadGroup</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+
+    <url>
+      <loc>https://www.broadindia.com/blogs</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+
+    <url>
+      <loc>https://www.broadindia.com/articles</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+
+    <url>
+      <loc>https://www.broadindia.com/careers</loc>
+      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+    </url>
+</urlset>
