@@ -4,6 +4,38 @@ import { Article } from "@/types/article";
 export const articles: Article[] = [
   {
     id: "revolutionizing-cooling-with-absorption-chillers",
+    title: "The Rise of Eco-Friendly Refrigerants in HVAC Systems ",
+    description: "Advancing HVAC Sustainability with Eco-Friendly Refrigerants ",
+    date: "Feb 05, 2025",
+    readTime: "2 min read",
+    category: "HVAC Systems",
+    content: `
+The HVAC industry is transitioning to eco-friendly refrigerants to address environmental concerns like global warming and ozone depletion. Broad India leads this shift, incorporating refrigerants that reduce environmental impact while maintaining system efficiency. 
+
+Eco-Friendly Refrigerants: Benefits and Functionality 
+
+Eco-friendly refrigerants, characterized by low Global Warming Potential (GWP) and zero Ozone Depleting Potential (ODP), are crucial for reducing HVAC's environmental impact. These refrigerants help meet regulatory standards and improve system efficiency, contributing to lower energy consumption and operational costs. 
+
+Broad India's Commitment to Sustainable HVAC Solutions 
+
+Broad India utilizes advanced, environmentally friendly refrigerants to offer: 
+●	Innovative Leadership: Setting industry standards in sustainability. 
+●	Efficiency and Savings: Enhanced system efficiency leads to long-term cost reductions. 
+●	Customized Solutions: Tailored systems that meet diverse application needs while ensuring environmental compliance.
+
+Impact and Success of Sustainable Refrigerants 
+
+Adopting eco-friendly refrigerants has allowed Broad India to help clients significantly lower their carbon emissions and achieve compliance with international environmental regulations. Improved indoor air quality from these systems also enhances occupant health and satisfaction. 
+
+Conclusion: Embracing Eco-Friendly Innovations 
+
+Broad India remains at the forefront of the HVAC industry’s sustainable evolution, providing solutions that help tackle environmental challenges. Choosing these advanced systems means contributing to a sustainable future and enjoying greater efficiency and compliance. 
+
+    `,
+    image: "/images/Eco-Friendly Refrigerant.webp",
+  },
+  {
+    id: "revolutionizing-cooling-with-absorption-chillers",
     title: "Revolutionizing Cooling with Absorption Chillers",
     description: "The Rise of Absorption Chillers in Modern HVAC Systems",
     date: "Feb 04, 2025",
