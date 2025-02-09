@@ -113,4 +113,4 @@ const VapAbsorptionChiller = () => {
   );
 };
 
-export default VapAbsorptionChiller;
+export default vapour-absorption-chiller;
