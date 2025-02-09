@@ -35,9 +35,9 @@ Broad India remains at the forefront of the HVAC industry’s sustainable evolut
     image: "/images/Eco-Friendly Refrigerant.webp",
   },
   {
-    id: "revolutionizing-cooling-with-absorption-chillers",
+    id: "absorption-chillers",
     title: "Revolutionizing Cooling with Absorption Chillers",
-    description: "The Rise of Absorption Chillers in Modern HVAC Systems",
+    description: "The Growing Adoption of Absorption Chillers in Modern HVAC Systems",
     date: "Feb 04, 2025",
     readTime: "2 min read",
     category: "Chillers",
@@ -96,8 +96,7 @@ and take a significant step towards a sustainable future.
   {
     id: "harnessing-ai-for-enhanced-hvac-efficiency",
     title: "Harnessing AI for Enhanced HVAC Efficiency",
-    description:
-      " Revolutionizing HVAC Management with Artificial Intelligence",
+    description:"Transforming HVAC Management with Cutting-Edge Artificial Intelligence",
     date: "Feb 03, 2025",
     readTime: "2 min read",
     category: "AI",
