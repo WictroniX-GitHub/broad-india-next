@@ -2,11 +2,75 @@
 import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
+  {
+    id: "absorption-chillers",
+    title: "Exploring Vapor Absorption Chillers – A Sustainable Cooling Alternative",
+    description: "Eco-friendly cooling solution using heat-powered absorption refrigeration technology",
+    date: "Feb 08, 2025",
+    readTime: "2 min read",
+    category: "chillers",   
+    content: `
+
+With the increasing need for energy-efficient cooling solutions, Vapor Absorption Chillers (VACs) have emerged as a sustainable alternative to traditional electric-driven chillers. These systems utilize heat energy instead of electricity, making them ideal for industries looking to optimize their energy use.
+
+How Do Vapor Absorption Chillers Work ?
+
+Unlike conventional chillers that rely on compressors, VACs operate on absorption refrigeration technology. They use an absorbent-refrigerant pair, such as lithium bromide and water, to produce cooling effects. This method significantly reduces electricity consumption, making it ideal for facilities with available waste heat or renewable energy sources.
+
+Primary Benefits of Using VACs:
+
+•	Reduced Carbon Footprint: Since VACs use heat rather than electricity, they contribute to lower greenhouse gas emissions.
+•	Lower Energy Costs: These chillers can be powered by waste heat, reducing dependence on grid electricity.
+•	Minimal Maintenance Requirements: Compared to mechanical compressors in HVAC systems, VACs have fewer moving parts, leading to lower maintenance costs.
+•	Quiet Operation: The absence of a compressor results in significantly quieter operation.
+
+Comparing VACs with VAMs and Other Cooling Systems:
+
+While Vapor Absorption Machines (VAMs) refer to the broader category of absorption cooling technology, Vapor Absorption Chillers (VACs) specifically focus on chilled water production. Additionally, VAMs can sometimes include heating applications, whereas VACs are primarily used for cooling.
+
+Conclusion:
+
+Industries seeking to reduce their energy footprint and operational costs should consider adopting Vapor Absorption Chillers. Their ability to leverage waste heat and renewable energy sources makes them a future-ready solution for sustainable cooling.
+`,
+    image: "/images/sustainable.jpg",
+  },
+  {
+    id: "understanding-vapor-absorption-machines",
+    title: "Understanding Vapor Absorption Machines and Their Role in Energy-Efficient Cooling",
+    description: "Heat-driven cooling technology for energy-efficient refrigeration systems.",
+    date: "Feb 07, 2025",
+    readTime: "2 min read",
+    category: "VAM",
+    content: `
+
+Cooling technology is evolving rapidly, with a growing focus on energy efficiency and sustainability. One of the most efficient solutions in industrial and commercial cooling is the Vapor Absorption Machine (VAM). Unlike traditional HVAC systems that rely on electricity, VAM utilizes heat sources such as waste heat, solar energy, or steam to drive the cooling process. This article explores how VAMs work and their advantages over conventional systems.
+
+How Vapor Absorption Machines Work:
+
+VAMs operate on the principle of absorption refrigeration, using a refrigerant (usually water) and an absorbent (lithium bromide or ammonia) to transfer heat. Instead of an electrically driven compressor, VAMs use a thermal energy source to circulate the refrigerant. This process significantly reduces electricity consumption, making them ideal for industries that generate excess heat as a byproduct.
+
+Advantages of VAMs Over Traditional Cooling Systems:
+
+•	Energy Efficiency: VAMs utilize heat rather than electricity, reducing overall energy costs.
+•	Environmental Benefits: As they rely on natural refrigerants and waste heat, VAMs have a lower carbon footprint than traditional HVAC systems.
+•	Lower Operating Costs: By reducing dependence on electrical power, operational expenses decrease over time.
+•	Flexible Applications: VAMs can be integrated with industrial waste heat recovery systems, solar thermal systems, and cogeneration plants.
+
+VAM vs. Vapor Absorption Chillers (VAC):
+
+Though often used interchangeably, Vapor Absorption Chillers (VACs) are a subset of VAMs that focus solely on providing chilled water for cooling applications. VACs are widely used in air conditioning for large commercial buildings, hospitals, and data centers.
+
+Conclusion:
+
+Vapor Absorption Machines present a viable alternative to traditional air conditioning systems, particularly in environments where waste heat is abundant. By leveraging this technology, businesses can reduce energy costs and enhance sustainability efforts.
+`,
+    image: "/images/machines.jpg",
+  },
    {
     id: "vapor-absorption-chiller",
     title: "Vapor Absorption Chiller (VAC): The Future of Sustainable Cooling",
     description: "eco-friendly cooling for industries",
-    date: "Feb 05, 2025",
+    date: "Feb 06, 2025",
     readTime: "2 min read",
     category: "Technology",
     content: `
