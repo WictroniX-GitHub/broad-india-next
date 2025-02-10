@@ -1,108 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    <url>
-      <loc>https://www.broadindia.com/</loc>
-      <lastmod>2025-02-04T16:28:14.561Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    <url>
-      <loc>https://www.broadindia.com/about</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
 
-    <url>
-      <loc>https://www.broadindia.com/contactUs</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
 
-    <url>
-      <loc>https://www.broadindia.com/installations</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-
-    <url>
-      <loc>https://www.broadindia.com/broadGroup</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-
-    <url>
-      <loc>https://www.broadindia.com/blogs</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-
-    <url>
-      <loc>https://www.broadindia.com/articles</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-
-    <url>
-      <loc>https://www.broadindia.com/careers</loc>
-      <lastmod>2025-02-04T16:28:14.562Z</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-
-    <url>
-  <loc>https://www.broadindia.com/blogs/vapor-absorption-chiller</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+<url>
+  <loc>https://www.broadindia.com/</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/installations</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/about</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/broadGroup</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/blogs</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/articles</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/careers</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/contactUs</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/blogs/absorption-chillers</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://www.broadindia.com/blogs/understanding-vapor-absorption-machines</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/blogs/vapor-absorption-chiller</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 <url>
   <loc>https://www.broadindia.com/blogs/importance-of-regular-inspections</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 <url>
   <loc>https://www.broadindia.com/blogs/energy-saving-tips-for-your-hvac</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 <url>
   <loc>https://www.broadindia.com/blogs/how-to-choose-the-right-hvac-system</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://www.broadindia.com/articles/absorption-chillers-transforming-cooling</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/articles/future-of-cooling-vam</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 <url>
   <loc>https://www.broadindia.com/articles/vapor-absorption-machine</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 <url>
   <loc>https://www.broadindia.com/articles/revolutionizing-cooling-with-absorption-chillers</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 <url>
   <loc>https://www.broadindia.com/articles/absorption-chillers</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.broadindia.com/articles/harnessing-ai-for-enhanced-hvac-efficiency</loc>
+  <lastmod>2025-02-10T12:44:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
-<url>
-  <loc>https://www.broadindia.com/articles/harnessing-ai-for-enhanced-hvac-efficiency</loc>
-  <lastmod>2025-02-09T13:23:27+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
 
 </urlset>
