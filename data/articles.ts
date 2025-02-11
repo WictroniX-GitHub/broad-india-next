@@ -54,7 +54,7 @@ Conclusion: The Future of Steam Absorption Chillers
 The shift toward Steam Absorption Chillers represents a significant milestone in industrial cooling, offering a sustainable, cost-effective, and environmentally friendly alternative to traditional refrigeration methods. By utilizing excess steam, these chillers not only lower energy consumption but also reduce operational expenses and extend equipment lifespan. As global industries move toward green energy solutions, SACs are positioned to play a pivotal role in the future of industrial cooling, ensuring a balance between efficiency and sustainability.
 
     `,
-    image: "/images/steam chiller.jpg",
+    image: "/images/Steam-chiller.jpg",
   },
   {
     id: "absorption-chillers-transforming-cooling",
