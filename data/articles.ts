@@ -3,6 +3,73 @@ import { Article } from "@/types/article";
 
 export const articles: Article[] = [
   {
+    id: "mechanics-of-hot-water-absorption-chillers",
+    title: " Understanding the Mechanics of Hot Water Absorption Chillers for Energy-Efficient Cooling",
+    description: "Heat-powered absorption chillers enhance cooling efficiency sustainably",
+    date: "Feb 12, 2025",
+    readTime: "3 min read",
+    category: "SAC",
+    content: `
+Introduction: A Shift Toward Waste Heat Utilization
+The demand for low-energy cooling solutions is pushing industries toward Hot Water Absorption Chillers (HWACs). These systems convert waste hot water into a cooling effect, making them highly energy-efficient. Unlike conventional chillers that require substantial electrical power, HWACs are powered by heat-driven chemical reactions, reducing operational costs and environmental impact.
+
+The Absorption Cooling Process Explained:
+
+HWACs follow a four-step thermodynamic cycle-
+•	Evaporation: Water absorbs heat and evaporates, providing cooling.
+•	Absorption: Lithium bromide captures the water vapor, maintaining system efficiency.
+•	Regeneration: Hot water heats lithium bromide, releasing absorbed refrigerant vapor.
+•	Condensation: The refrigerant vapor cools and condenses, completing the cycle.
+
+Since HWACs require minimal electricity, they are ideal for industries where waste heat recovery is a priority.
+
+Industries Benefiting from HWACs:
+
+Industries such as power plants, refineries, manufacturing facilities, and commercial buildings are widely adopting Hot Water Absorption Chillers due to their energy-saving and eco-friendly benefits. Many large-scale industrial plants integrate HWACs with cogeneration systems, maximizing efficiency.
+
+Conclusion: The Future of Industrial Cooling
+
+Hot Water Absorption Chillers offer a practical and sustainable approach to industrial cooling, eliminating the need for high electricity consumption. As industries continue to focus on energy recovery and carbon reduction, HWACs will become a key player in modern HVAC solutions, ensuring both cost savings and environmental responsibility.
+    `,
+    image: "/images/hot water absortion chiller.jpg",
+  },
+  {
+    id: "turning-heat-into-cold",
+    title: "Turning Heat into Cold: The Game-Changing Role of Hot Water Absorption Chillers in Industry",
+    description: "Turning waste heat into cooling, absorption chillers redefine industrial HVAC",
+    date: "Feb 11, 2025",
+    readTime: "3 min read",
+    category: "SAC",
+    content: `
+Introduction: The Growing Demand for Sustainable Cooling
+
+With rising energy costs and environmental concerns, industries are shifting towards sustainable cooling technologies that minimize electricity consumption. One such breakthrough innovation is the Hot Water Absorption Chiller (HWAC), which utilizes hot water or waste heat to drive the cooling process instead of relying on electricity-powered compressors.
+
+How Hot Water Absorption Chillers Work:
+
+Unlike traditional chillers, Hot Water Absorption Chillers use a heat-driven absorption cycle to produce cooling. The key components include:
+•	Evaporator: Refrigerant (water) evaporates by absorbing heat.
+•	Absorber: Lithium bromide absorbs the refrigerant vapor.
+•	Generator: Hot water heats the lithium bromide, releasing refrigerant vapor.
+•	Condenser: The vapor condenses back into liquid, completing the cycle.
+
+By utilizing excess hot water from industrial processes, HWACs convert waste heat into usable cooling energy, enhancing efficiency and reducing carbon footprints.
+
+Applications of Hot Water Absorption Chillers:
+
+Industries and facilities benefiting from HWACs include-
+•	Power Plants – Utilizing waste steam and hot water for cooling.
+•	Data Centers – Providing energy-efficient cooling for server rooms.
+•	Chemical & Pharmaceutical Industries – Maintaining controlled temperatures in manufacturing processes.
+•	Hotels & District Cooling Systems – Supplying centralized cooling for large-scale operations.
+
+Conclusion: A Smart Choice for Energy-Efficient Cooling
+
+As industries strive to reduce energy consumption and operational costs, Hot Water Absorption Chillers are emerging as a highly sustainable and cost-effective solution. Their ability to repurpose waste heat makes them a preferred cooling option for industries focused on efficiency and environmental responsibility.
+    `,
+    image: "/images/hot-water-chiller.jpg",
+  },
+  {
     id: "mechanics-of-steam-absorption-chillers",
     title: "Understanding the Mechanics of Steam Absorption Chillers for Energy-Efficient Cooling",
     description: "Utilizing waste heat for efficient cooling through absorption refrigeration mechanics",
