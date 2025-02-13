@@ -2,6 +2,7 @@
 import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
+  
   {
     id: "heat-vs-power",
     title: "Heat vs. Power: Why Hot Water Absorption Chillers Are Changing the Cooling Game",
