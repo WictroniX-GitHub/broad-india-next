@@ -12,7 +12,7 @@ const products = [
     image: "https://broadusa.com/broad/wp-content/uploads/2020/04/home_DFA.jpg",
     description:
       "Building Central A/C System & Domestic Hot Water. Providing cooling with fuel saving caused by 4 times less energy conversions.",
-    link: "/vapAbsorptionChiller",
+    link: "/vap-absorption-chiller",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const products = [
       "https://broadusa.com/broad/wp-content/uploads/2020/04/home_CCHP-300x195.jpg",
     description:
       "Achieves Zero Emission with Exhaust Heat as Power Source - The CCHP System powered by exhaust heat from generator.",
-    link: "/Chillers",
+    link: "/chiller",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const products = [
       "https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg",
     description:
       "Cooling capacity ranging from 150 ton to 2000 ton, High COP (6.5) and excellent IPLV (maximum 13.26).",
-    link: "/magneticBearingChillers",
+    link: "/magnetic-bearing-chillers",
   },
   {
     id: 4,

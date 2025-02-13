@@ -72,19 +72,19 @@ export default function Header() {
               {isProductsOpen && (
                 <div className="absolute top-full mt-2 w-48 bg-white shadow-lg rounded-lg z-50">
                   <Link
-                    href="/vapAbsorptionChiller"
+                    href="/vap-absorption-chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     Vapour Absorption Chiller
                   </Link>
                   <Link
-                    href="/Chillers"
+                    href="/chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     BROAD CCHP System
                   </Link>
                   <Link
-                    href="/magneticBearingChillers"
+                    href="/magnetic-bearing-chillers"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     Magnetic Bearing Oil Free Chiller
@@ -100,11 +100,11 @@ export default function Header() {
             </div>
             <Link href="/installations">Installations</Link>
             <Link href="/about">About</Link>
-            <Link href="/broadGroup">BROAD Group</Link>
+            <Link href="/broad-group">BROAD Group</Link>
             <Link href="/blogs">Blogs</Link>
             <Link href="/articles">Articles</Link>
             <Link href="/careers">Careers</Link>
-            <Link href="/contactUs">
+            <Link href="/contact-us">
               <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer">
                 Contact Us
               </div>
@@ -140,21 +140,21 @@ export default function Header() {
           {isProductsOpen && (
             <div className="w-full text-center">
               <Link
-                href="/vapAbsorptionChiller"
+                href="/vap-absorption-chiller"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
                 Vapour Absorption Chiller
               </Link>
               <Link
-                href="/Chillers"
+                href="/chiller"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
                 BROAD CCHP System
               </Link>
               <Link
-                href="/magneticBearingChillers"
+                href="/magnetic-bearing-chillers"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
@@ -181,7 +181,7 @@ export default function Header() {
             About
           </Link>
           <Link
-            href="/broadGroup"
+            href="/broad-group"
             className="font-bold"
             onClick={handleCloseMenu}
           >
@@ -201,7 +201,7 @@ export default function Header() {
             Careers
           </Link>
 
-          <Link href="/contactUs" onClick={handleCloseMenu}>
+          <Link href="/contact-us" onClick={handleCloseMenu}>
             <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer w-full text-center">
               Contact Us
             </div>

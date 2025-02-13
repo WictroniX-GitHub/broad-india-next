@@ -66,7 +66,7 @@ export default function ArticlesDetailPage() {
                 {article.content}
                 <br />
                 <Link
-                  href="/contactUs"
+                  href="/contact-us"
                   className="text-primary font-semibold hover:underline"
                 >
                   Contact Us{" "}

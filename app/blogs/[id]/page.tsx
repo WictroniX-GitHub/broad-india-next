@@ -64,7 +64,7 @@ export default function BlogsDetailPage() {
                 {blog.content}
                 <br />
                 <Link
-                  href="/contactUs"
+                  href="/contact-us"
                   className="text-primary font-semibold hover:underline"
                 >
                   Contact us{" "}

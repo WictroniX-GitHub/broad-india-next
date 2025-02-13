@@ -55,10 +55,7 @@ export default function RecentNews() {
         ))}
       </div>
       <div className="text-center mt-10">
-        <Link
-          href="/blogs-and-articles"
-          className="btn btn-outline-primary px-5"
-        >
+        <Link href="/articles" className="btn btn-outline-primary px-5">
           More articles
         </Link>
       </div>

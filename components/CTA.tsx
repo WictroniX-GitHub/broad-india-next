@@ -53,7 +53,7 @@ export default function CTA() {
               Do you have a project we can help with?
             </span>
             <Link
-              href="/contactUs"
+              href="/contact-us"
               className="bg-blue-500 text-white px-4 py-2 rounded-md"
             >
               Contact Us

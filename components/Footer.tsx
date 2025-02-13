@@ -131,6 +131,7 @@ export default function Footer() {
               href="https://www.wictronix.com"
               target="_blank"
               rel="noreferrer"
+              className="flex justify-center"
             >
               <Image src={wxLogo} alt="WictroniX" width={120} height={40} />
             </a>

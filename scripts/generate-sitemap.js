@@ -41,9 +41,9 @@ const articles = generateUrls(articlesDir, "articles");
 const staticPages = [
   "",
   "about",
-  "contactUs",
+  "contact-us",
   "installations",
-  "broadGroup",
+  "broad-group",
   "blogs",
   "articles",
   "careers",
