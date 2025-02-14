@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "BROAD Air Conditioning India Pvt. Ltd. (BROAD India)",
   description:
-    "Discover the Broad Air Conditioning India Pvt. Ltd., Leader in Sustaianable HVAC Solution and energy-efficient absorption chiller since 2001. Exploring our comprehensive services and innovative Technologies.",
+    "BROAD India pioneers energy-efficient vapor absorption chillers (VAM) and sustainable HVAC solutions with 200+ installations. Optimize cooling, cut costs & go green with us!",
 };
 
 export default function RootLayout({
