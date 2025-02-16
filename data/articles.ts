@@ -144,7 +144,7 @@ Conclusion:
 
 As industries shift towards sustainable operations, vapor absorption chillers are proving to be a vital asset in reducing energy costs and meeting environmental standards. Companies investing in VAM not only enhance their cooling efficiency but also contribute to global sustainability efforts, positioning themselves as leaders in green innovation.
     `,
-    image: "/images/new vac.jpg",
+    image: "/images/new VAC.jpg",
   },
   {
     id: "mechanics-of-hot-water-absorption-chillers",
