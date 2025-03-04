@@ -3,6 +3,44 @@ import { Article } from "@/types/article";
 
 export const articles: Article[] = [
   {
+    id: "latest-innovations-in-sustainable-hvac-technology",
+    title: "Latest Innovations in Sustainable HVAC Technology",
+    description: "Pioneering Eco-Friendly Climate Control Solutions.",
+    date: "Feb 27, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
+Introduction:
+
+The HVAC industry is undergoing a transformative shift towards sustainability, driven by global demands for energy efficiency and reduced environmental impact. Recent technological advancements have introduced innovative solutions that not only enhance system performance but also contribute to a more sustainable future. This article explores the cutting-edge innovations in sustainable HVAC technology.
+
+Geothermal Heat Pumps:
+
+Geothermal heat pumps represent a significant leap in HVAC technology, utilizing the earth's stable underground temperature to provide heating and cooling with remarkable efficiency. By drawing on geothermal energy, these systems use significantly less electricity than conventional air-source pumps and do not rely on fossil fuels, reducing carbon emissions substantially.
+
+Solar-Powered HVAC Systems:
+
+Solar energy continues to be a front-runner in sustainable technology, with solar-powered HVAC systems leading the way in energy-efficient climate control. These systems integrate solar panels that collect and convert solar energy directly into power for heating and cooling. The excess energy generated can also be stored in batteries or fed back into the grid, further enhancing their eco-friendly profile.
+
+HVAC Smart Controls:
+
+The integration of IoT and artificial intelligence in HVAC systems has revolutionized their operation and efficiency. Smart HVAC controls optimize energy use by automatically adjusting temperature settings based on real-time data such as occupancy patterns, weather conditions, and even air quality. These systems offer significant energy savings and reduce operational costs by minimizing unnecessary heating and cooling.
+
+Ice-Powered Air Conditioning:
+
+A novel innovation in the HVAC field is ice-powered air conditioning. This system freezes water in a tank overnight and uses the ice to cool a building the next day. This process significantly reduces the peak daytime electrical load, shifting the energy-intensive process of cooling to off-peak hours, which helps manage energy consumption more effectively and can lower energy costs.
+
+Dual Fuel Heat Pumps:
+
+Dual fuel systems combine the efficiency of a heat pump with the power of a gas furnace. These systems intelligently switch between gas and electric heating as needed, depending on which is most efficient under current weather conditions. This flexibility allows for excellent energy conservation while maintaining optimal comfort levels.
+
+Conclusion: 
+
+The advancements in sustainable HVAC technology underscore the industry's commitment to innovation and environmental stewardship. By adopting these technologies, businesses and homeowners not only reduce their carbon footprint but also enhance their operational efficiency and contribute to a more sustainable world. The future of HVAC is clearly leaning towards integration of eco-friendly practices, promising better performance and lower environmental impact. As these technologies continue to evolve and become more accessible, they will play a crucial role in shaping the sustainable buildings of tomorrow.
+    `,
+    image: "/images/27-Feb article.jpeg",
+  },
+  {
     id: "vapor-absorption-chillers-the-smart-way-to-reduce-energy-costs",
     title: "Vapor Absorption Machine – A Smart Energy-Efficient Cooling System",
     description: "How Vapor Absorption Machines (VAM) enhance energy efficiency in cooling systems.",
