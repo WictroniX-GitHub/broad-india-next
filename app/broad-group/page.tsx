@@ -23,27 +23,24 @@ export default function BroadGroup() {
         <div className="grid md:grid-cols-2 gap-10">
           <div>
             <p>
-              BROAD Group is a privately-owned enterprise founded in 1988 with
-              RMB 30,000. The company has developed hundreds of hi-tech products
-              and has never copied any technology of its peers since inception.
-              The mission of BROAD Group is “For Humanity&apos;s Future: Using
-              original low carbon & durable technology for the earth. Using
-              original clean & safe technology for humans.” Headquartered in
-              Changsha, BROAD Group has exported products to over 80 countries.
-              BROAD subsidiaries are listed below:
+            BROAD Group is a privately held company that was established in 1988 with RMB 30,000.  Since its founding, the company has created hundreds of high-tech goods and has never imitated any of its competitors' innovations.
+
+            "For Humanity's Future: Using Original Low Carbon & Durable Technology for the Earth" is the mission statement of BROAD Group.  employing innovative, human-safe, and clean technology.  The BROAD Group, which has its headquarters in Changsha, exports its goods to more than 80 nations.<br></br><br></br>
+
+            The following is a list of BROAD subsidiaries:
+
             </p>
             <ol className="list-decimal ml-5 mt-3 space-y-2">
               <li>
-                BROAD Air Conditioning Co., Ltd. - Manufactures non-electric air
-                conditioning systems.
+              Non-electric air conditioning systems are produced by BROAD Air Conditioning Co., Ltd.
               </li>
               <li>
                 BROAD Clean Air Technology Co., Ltd. - Produces fresh air
                 machines and air purifiers.
               </li>
               <li>
-                BROAD Nearly Zero Energy Building Co., Ltd. - Specializes in
-                energy-efficient building retrofitting.
+              Energy-efficient building retrofitting is the area of expertise for BROAD Nearly Zero Energy Building Co., Ltd.
+
               </li>
               <li>
                 BROAD Energy Service Co., Ltd. - Provides energy consulting and
@@ -54,24 +51,21 @@ export default function BroadGroup() {
           <div>
             <ol start={5} className="list-decimal ml-5 mt-3 space-y-2">
               <li>
-                BROAD Renewable Resources Co., Ltd. - Produces clean oil from
-                waste materials.
+              BROAD Renewable Resources Co., Ltd. uses waste resources to produce clean oil.
               </li>
               <li>
                 BROAD Sustainable Building Co., Ltd. - Supplies ultra-strong and
                 ultra-light B-CORE slabs.
               </li>
               <li>
-                BROAD Holon Co., Ltd. - Manufactures factory-made B-CORE Holon
-                buildings.
+              The B-CORE Holon buildings are manufactured in a plant by BROAD Holon Co., Ltd.
               </li>
               <li>
                 BROAD Wind Power Co., Ltd. - Develops wind power generation
                 systems.
               </li>
               <li>
-                BROAD B-CORE Road and Bridge Co., Ltd. - Designs elevated
-                expressways and bridges.
+              Bridges and elevated motorways are designed by BROAD B-CORE Road and Bridge Co., Ltd.
               </li>
               <li>
                 BROAD Vacuum Loop Co., Ltd. - Works on high-speed vacuum
