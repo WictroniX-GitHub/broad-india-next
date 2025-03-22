@@ -3,6 +3,40 @@ import { Article } from "@/types/article";
 
 export const articles: Article[] = [
   {
+    id: "how-to-choose-the-right-hvac-system-for-your-home",
+    title: "HVAC and VAM Systems: Better Comfort and Energy Efficiency for Your Space",
+    description: "Explore how HVAC and VAM work together for better efficiency.",
+    date: "March 09, 2025",
+    readTime: "2-3 min read",
+    category: "VAM",
+    content: `
+  Introduction:
+
+Indoor comfort is important to everyone, and one of the best ways to control it is through an HVAC system. But did you know that adding VAM technology can make your HVAC system even more effective? Let’s break down what HVAC and VAM are, and how they can work together to improve the comfort of your home or business.
+
+What is an HVAC System?
+
+HVAC stands for Heating, Ventilation, and Air Conditioning. It’s the technology that keeps the temperature and air quality just right inside a building. During winter, HVAC systems warm the space, and in summer, they cool it down. HVAC systems also ensure the air remains clean by bringing in fresh air and removing stale air.
+
+Understanding VAM Technology:
+
+VAM, or Variable Air Volume, is a system that helps adjust the amount of air that flows into different rooms. Instead of delivering the same amount of air to every part of a building, VAM adjusts the airflow based on what each room needs. This means that rooms with more people or higher temperatures get more air, while empty rooms get less.
+
+How VAM Makes HVAC More Efficient:
+
+VAM works with HVAC systems to make them more energy-efficient. With VAM, the system only sends as much air as needed, preventing waste. For example, in a conference room full of people, the system will pump in more air to keep it cool. In an empty hallway, the system reduces airflow, saving energy and money.
+
+Why HVAC and VAM Matter:
+
+The combination of HVAC and VAM is great for both comfort and cost savings. With VAM adjusting the airflow, you don’t waste energy cooling or heating rooms that don’t need it. This leads to lower electricity bills, making both your home and office more energy-efficient. Additionally, proper airflow helps maintain better air quality inside the building.
+
+Conclusion:
+
+Using HVAC and VAM together offers plenty of benefits. First, you get better comfort since the air is regulated exactly where and when it’s needed. Second, these systems help save energy by preventing the waste of heating or cooling unoccupied rooms. Finally, the air quality in your building improves, leading to a healthier environment. Whether you're managing a home or a large office, combining HVAC with VAM ensures a more efficient and comfortable space for everyone.
+    `,
+    image: "/images/March 12 article.jpeg",
+  },
+  {
     id: "vapour-absorption-machine-vam-a-smart-alternative-for-energy-efficient-cooling",
     title: "Vapour Absorption Machine (VAM) - A Smart Alternative for Energy-Efficient Cooling",
     description: "VAMs offer an energy-efficient, eco-friendly cooling alternative by using heat instead of electricity.",

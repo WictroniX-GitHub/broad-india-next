@@ -3,6 +3,41 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    id: "how-hvac-and-vam-work-together-to-improve-comfort-and-save-energy",
+    title: "How HVAC and VAM Work Together to Improve Comfort and Save Energy",
+    description: "Learn how HVAC and VAM improve comfort, efficiency, and savings.",
+    date: "March 12, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC-VAM",   
+    content: `
+Introduction:
+
+When it comes to indoor comfort, an HVAC system is often what makes a building feel just right. However, there’s another system, VAM, that works with HVAC to make things even better. Let's explore what HVAC and VAM are, how they work together, and why they are important for your home or office.
+
+What is HVAC?
+
+HVAC stands for Heating, Ventilation, and Air Conditioning. It’s a system that controls the temperature and air quality inside buildings. Whether it’s cold or hot outside, HVAC systems help keep the inside comfortable by warming or cooling the air. They also make sure the air is clean and fresh by removing stale air and replacing it with fresh air.
+
+What is VAM?
+
+VAM stands for Variable Air Volume. It’s a technology that works with HVAC systems to adjust the amount of air being pumped into different parts of a building. Unlike a regular HVAC system, which blows the same amount of air everywhere, VAM systems can increase or decrease airflow based on the needs of each room.
+
+How Does VAM Help HVAC Systems?
+
+VAM helps HVAC systems be more efficient. Instead of wasting energy by cooling or heating empty rooms, VAM makes sure that only the areas that need air conditioning or heating get the airflow they need. For example, if you’re in a room with a lot of people, the system will send more air to that room. But if a room is empty, it won’t waste energy on it.
+
+Why Should You Care About HVAC and VAM?
+
+The main reason HVAC and VAM are important is because they help save energy. Using less energy means lower electricity bills, which is something everyone can appreciate. Plus, by having the right amount of air in each room, these systems can help improve indoor air quality, making it healthier to breathe.
+
+Conclusion:
+
+When HVAC and VAM systems work together, they can improve comfort and save energy. You’ll enjoy a more consistent temperature and better air quality, and you’ll also use less energy, which is good for the environment and your wallet. Whether you’re in your home or at work, these systems make sure you’re comfortable without wasting resources.
+
+`,
+    image: "/images/March 12 blog.jpeg",
+  },
+  {
     id: "understanding-vapour-absorption-machines-vam-and-their-role-in-energy-efficiency",
     title: "Understanding Vapour Absorption Machines (VAM) and Their Role in Energy Efficiency",
     description: "VAMs use heat energy for cooling, providing a sustainable and efficient alternative to traditional systems.",
