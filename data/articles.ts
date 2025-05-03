@@ -3,6 +3,42 @@ import { Article } from "@/types/article";
 
 export const articles: Article[] = [
   {
+    id: "why-hvac-systems-matter-in-todays-buildings",
+    title: "Why HVAC Systems Matter in Today’s Buildings",
+    description:"Learn how HVAC systems improve air, comfort, and health indoors.",
+    date: "May 03, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
+Introduction:
+
+In every big building you visit—like a school, hospital, or shopping mall—there is one important system working silently to keep the space comfortable: the HVAC system. HVAC stands for Heating, Ventilation, and Air Conditioning. It helps control the temperature and keeps the air clean so people can breathe easily and feel good inside.
+
+How Heating and Cooling Help:
+
+Heating systems are used when it’s cold outside. They make sure indoor spaces stay warm and cozy. On the other hand, cooling systems work during hot weather to keep rooms from getting too warm. Air conditioners also help remove moisture from the air, which makes it feel cooler and more pleasant. Together, heating and cooling make sure people are never too hot or too cold indoors.
+
+The Role of Ventilation:
+
+Ventilation is one of the most important parts of an HVAC system. It helps bring in clean air from outside and pushes out old, dirty air from inside. Without good ventilation, the air inside buildings could feel stuffy or even make people sick. Ventilation also helps control smells and removes things like dust, smoke, and germs from the air.
+
+HVAC and Health:
+
+Good air quality is important for everyone, especially in places like hospitals or schools where many people spend a lot of time. HVAC systems help keep indoor air safe by filtering out harmful particles and keeping the air moving. People with allergies or breathing problems feel better when the air is clean, which shows just how helpful these systems are.
+
+Making Buildings Energy Efficient:
+
+Modern HVAC systems are designed to use less energy while still doing a great job. They are made with smart controls that adjust temperatures based on how many people are in the room or what time of day it is. This helps buildings save money and reduces harm to the environment. Many new buildings are now built with these smart systems from the beginning.
+
+Conclusion:
+
+HVAC systems are more than just machines that control temperature. They help keep people healthy, save energy, and make sure indoor spaces are always pleasant. Whether it’s hot or cold outside, HVAC makes life inside more enjoyable. As buildings become smarter, these systems will play an even bigger role in how we live and work.
+
+
+    `,
+    image: "/images/May-03-article.jpeg",
+  },
+  {
     id: "ai-driven-energy-efficiency-in-hvac-revolutionizing-comfort-and-sustainability",
     title: "AI-Driven Energy Efficiency in HVAC: Revolutionizing Comfort and Sustainability",
     description:"AI in HVAC enhances energy efficiency, reducing costs and environmental impact.",

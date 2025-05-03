@@ -3,6 +3,40 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+    id: "explore-how-hvac-systems-keep-indoor-spaces-fresh-and-cozy",
+    title: "Explore how HVAC systems keep indoor spaces fresh and cozy.",
+    description:"Keeps buildings warm, cool, and fresh all year round.",
+    date: "May 03, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",   
+    content: `
+Introduction:
+
+Have you ever wondered why it feels warm inside during winter or cool during summer, even when the weather outside is the opposite? That’s because of HVAC systems. HVAC stands for Heating, Ventilation, and Air Conditioning. These systems work quietly in the background to make our homes, schools, offices, and malls comfortable throughout the year.
+
+What Does HVAC Mean?
+
+The “H” in HVAC stands for heating. This part warms up the air when it's cold outside. The “V” stands for ventilation. Ventilation means bringing in fresh air from outside and removing old, dirty air from inside. This keeps the air clean and safe to breathe. The “AC” stands for air conditioning, which cools the air and controls moisture during hot days.
+
+Why HVAC Is So Important:
+
+Without HVAC systems, it would be very hard to live or work in large buildings. These systems keep rooms at a comfortable temperature so people can focus, sleep, or enjoy their time. They also help stop the spread of germs and dust by cleaning the air and moving it around. This is especially helpful in hospitals, schools, and crowded places.
+
+How It Works:
+
+An HVAC system has many parts like fans, filters, heaters, coolers, and ducts. These parts work together to push air through a building. When it’s cold, the heater warms the air before sending it into rooms. When it’s hot, the air conditioner cools it down. The ventilation system keeps everything fresh by making sure air is always moving and being replaced.
+
+The Future of HVAC:
+
+New HVAC systems are being made to save energy and protect the environment. These systems use smart technology to turn off when not needed or adjust the temperature automatically. That means people can stay comfortable while using less power and saving money. Many buildings today are choosing these smarter, greener HVAC systems.
+
+Conclusion:
+
+HVAC systems are an important part of modern life. They help us feel good indoors no matter the season. By heating, cooling, and cleaning the air, they keep buildings safe and comfortable. As technology gets better, these systems will continue to improve how we live and work every day.
+`,
+    image: "/images/20-April-Blog.jpeg",
+  },
+  {
     id: "the-ultimate-guide-to-direct-fired-vapor-absorption-chillers",
     title: "The Ultimate Guide to Direct Fired Vapor Absorption Chillers",
     description:"Fuel-powered chillers using heat-driven cycles for efficient, electricity-free cooling.",
