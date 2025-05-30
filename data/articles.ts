@@ -3,6 +3,46 @@ import { Article } from "@/types/article";
 
 export const articles: Article[] = [
   {
+    id: "decarbonizing-industries-with-combined-cooling-heating-and-power-cchp-a-broad-perspective",
+    title: "Decarbonizing Industries with Combined Cooling, Heating, and Power (CCHP): A BROAD Perspective",
+    description:"Cutting-edge CCHP systems reducing industrial emissions and boosting efficiency.",
+    date: "May 10, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
+🔹 Introduction: The Industrial Carbon Dilemma
+
+As global industries grapple with rising energy costs and tightening climate regulations, the need for efficient, low-emission solutions is urgent. Traditional fossil-fuel-based energy systems continue to release significant greenhouse gases (GHGs), making industrial sectors one of the largest contributors to global carbon footprints. BROAD, a global leader in sustainable HVAC and energy solutions, offers a compelling answer: Combined Cooling, Heating, and Power (CCHP) systems. These systems are proving vital in decarbonizing large-scale industrial operations by maximizing fuel efficiency and minimizing emissions.
+
+🔹 Emission Reductions: Numbers That Matter
+
+BROAD’s CCHP systems are engineered to convert over 85% of the input fuel into useful energy—a massive improvement over conventional power systems that waste up to 60% as heat. As a result, CCHP solutions can reduce CO₂ emissions by 35–50%, NOx emissions by up to 60%, and completely eliminate the need for coal-fired steam boilers in many installations.
+In one case study, a BROAD CCHP system installed at a chemical manufacturing plant in Maharashtra reduced annual CO₂ emissions by 1,800 metric tons, equivalent to planting over 70,000 trees.
+
+🔹 Performance Benchmarks: Beyond Efficiency
+
+Performance isn’t just about emissions—it’s also about reliability, return on investment (ROI), and operational efficiency. BROAD CCHP systems typically achieve Energy Utilization Rates (EUR) above 80%, compared to the 35–40% efficiency of separate systems.
+
+ Cooling COP (Coefficient of Performance): 1.2 – 1.5
+
+ Power Output Range: 50 kW to 10 MW
+
+Payback Period: 2.5 to 4 years, depending on fuel and load profiles
+These benchmarks make BROAD systems especially valuable for continuous-process industries such as pharmaceuticals, steel, textiles, and food processing.
+
+🔹 Sustainability Alignment: Driving ESG & SDG Goals
+
+BROAD’s CCHP solutions strongly support corporate sustainability frameworks such as the UN Sustainable Development Goals (SDGs)—specifically SDG 7 (Affordable and Clean Energy), SDG 9 (Industry, Innovation, and Infrastructure), and SDG 13 (Climate Action).
+In terms of Environmental, Social, and Governance (ESG) reporting, adopting CCHP directly contributes to Scope 1 and Scope 2 emission reductions and helps businesses meet decarbonization KPIs set by investors and regulatory agencies.
+Companies utilizing BROAD systems have also reported enhanced ESG scores and access to green financing initiatives.
+
+🔹 Conclusion: Redefining Industrial Energy for a Low-Carbon Future
+
+Decarbonizing industries is no longer a distant vision—it is a present-day imperative. BROAD’s CCHP systems are accelerating this transformation by offering a sustainable, economically viable, and technologically advanced energy model. From measurable emission reductions to improved operational performance and alignment with global sustainability frameworks, BROAD is helping industries transition from high-consumption to high-efficiency ecosystems. For companies looking to lead in climate responsibility without compromising productivity, the BROAD CCHP pathway is a clear, future-proof solution.
+    `,
+    image: "/images/May-10 Article.jpg",
+  },
+  {
     id: "why-hvac-systems-matter-in-todays-buildings",
     title: "Why HVAC Systems Matter in Today’s Buildings",
     description:"Learn how HVAC systems improve air, comfort, and health indoors.",

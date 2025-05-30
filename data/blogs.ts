@@ -76,7 +76,7 @@ Conclusion:
 
 HVAC systems are an important part of modern life. They help us feel good indoors no matter the season. By heating, cooling, and cleaning the air, they keep buildings safe and comfortable. As technology gets better, these systems will continue to improve how we live and work every day.
 `,
-    image: "/images/20-April-Blog.jpeg",
+    image: "/images/May-03-blog.jpg",
   },
   {
     id: "the-ultimate-guide-to-direct-fired-vapor-absorption-chillers",
