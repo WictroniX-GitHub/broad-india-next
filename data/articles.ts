@@ -3,6 +3,72 @@ import { Article } from "@/types/article";
 
 export const articles: Article[] = [
   {
+    id: "ai-driven-hvac-management-building-the-smart-infrastructure-of-tomorrow",
+    title: "AI-Driven HVAC Management: Building the Smart Infrastructure of Tomorrow",
+    description:"AI transforms HVAC with predictive analytics, dashboards, and sustainability insights",
+    date: "May 24, 2025",
+    readTime: "2-3 min read",
+    category: "Chillers",
+    content: `
+Introduction: The Future of Climate Control is Smart and Autonomous
+
+As cities grow smarter and sustainability becomes non-negotiable, traditional HVAC systems are falling behind. Energy-intensive and often reactive, they struggle to meet the demands of dynamic, multi-use buildings. In contrast, AI-driven HVAC management systems represent a major leap forward—making heating and cooling more intelligent, responsive, and predictive. BROAD has emerged as a global leader in this transformation, offering innovative HVAC solutions that combine artificial intelligence, IoT, and data analytics to build the next generation of energy-efficient infrastructure.
+
+Real-Time Dashboards: Seeing Efficiency in Action
+
+One of the most powerful tools in AI-driven HVAC is the real-time energy dashboard. BROAD’s smart HVAC platforms offer facility managers and operators full visibility into system performance, energy usage, thermal loads, and zone-specific climate conditions—all in a single, intuitive interface. These dashboards are not just displays; they are decision-making tools. By analyzing real-time data, operators can make informed choices about adjusting temperatures, redirecting airflow, or scheduling maintenance—all of which significantly improve operational efficiency and occupant comfort. In a recent deployment at a technology campus in Hyderabad, BROAD’s dashboard helped reduce HVAC-related energy consumption by 38% within six months.
+
+Predictive Maintenance and Failure Detection
+
+AI's biggest advantage lies in its predictive capabilities. Traditional HVAC systems often react to breakdowns after they happen, resulting in costly downtime and emergency repairs. BROAD’s AI-powered systems continuously monitor critical components like compressors, coils, sensors, and fans, learning their performance patterns. When anomalies are detected, the system can alert operators before a failure occurs. This predictive maintenance approach reduces unscheduled service calls, extends equipment life, and ensures uninterrupted climate control. For example, a BROAD chiller installation in Pune flagged a vibration anomaly that would have caused system failure within weeks, allowing preemptive repair with zero disruption.
+
+Data-Driven Sustainability: Analytics That Go Beyond Cooling
+
+BROAD’s AI-integrated HVAC systems do more than optimize climate—they align with institutional sustainability goals. Real-time analytics allow facility managers to measure energy performance against benchmarks such as Green Building Index scores, ESG metrics, and carbon emission reduction targets. Data collected over time is compiled into trend reports and optimization suggestions, helping businesses make long-term decisions about infrastructure upgrades, zoning, and energy policy. In a multi-site deployment across Bengaluru, BROAD’s HVAC analytics helped identify zones with consistent overcooling, which were corrected to save ₹12 lakh annually in power costs—while improving thermal comfort for occupants.
+
+Conclusion: Building the Blueprint for Smart Cities
+
+As India races to modernize its infrastructure and embrace net-zero goals, HVAC systems must evolve from static utilities into intelligent building assets. BROAD’s AI-driven solutions are at the forefront of this shift—delivering unmatched energy insights, predictive resilience, and digital control. Whether it’s a hospital in Delhi or a corporate tower in Mumbai, AI is changing how we think about comfort, cost, and carbon in HVAC. The smart infrastructure of tomorrow is already here—and it’s powered by intelligent climate systems built for performance, sustainability, and future-readiness.
+    `,
+    image: "/images/May-24 Article.jpg",
+  },
+  {
+    id: "magnetic-bearing-vs-traditional-hvac-compressors-what-facility-managers-need-to-know",
+    title: "Magnetic Bearing vs. Traditional HVAC Compressors: What Facility Managers Need to Know",
+    description:"Magnetic bearing compressors outperform traditional systems in efficiency and reliability.",
+    date: "May 17, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
+🔹 Introduction: The Compressor Dilemma in Modern HVAC
+
+Facility managers are constantly under pressure to deliver energy efficiency, reduce downtime, and lower lifecycle costs—all while keeping HVAC systems running reliably. At the core of this challenge lies a crucial component: the compressor. Traditionally, compressors use oil-lubricated bearings and mechanical components that degrade over time. Enter magnetic bearing technology—a game-changing alternative that eliminates friction, cuts energy consumption, and slashes maintenance needs. This article breaks down how magnetic bearing compressors stack up against traditional systems and why the switch is worth considering for modern facilities.
+
+🔹 Technology Comparison: How They Work
+
+Traditional HVAC compressors rely on metal bearings and oil lubrication to reduce friction. Over time, these mechanical systems face wear and tear, leading to reduced efficiency and more frequent service requirements.
+In contrast, magnetic bearing compressors use electromagnets to levitate the shaft, allowing it to spin at high speeds without physical contact. This technology not only eliminates friction but also enables precise digital control, reducing energy use during part-load conditions.
+🔧 Key Stat: Magnetic bearing compressors can achieve up to 95% mechanical efficiency, compared to 70–80% in conventional systems.
+
+🔹 Energy & Performance Metrics
+
+Energy savings is where magnetic bearing compressors truly shine. Because they don’t lose energy to friction or oil drag, they consume significantly less power. In real-world settings, facilities using magnetic bearing chillers report energy reductions of 30–50%, especially in variable load environments.
+Additionally, the ability to operate efficiently at partial load makes them ideal for smart HVAC systems integrated with Building Management Systems (BMS).
+💡 Example: A commercial tower in Mumbai saw a drop from 1.1 kW/ton to 0.63 kW/ton after replacing traditional chillers with BROAD magnetic bearing models.
+
+🔹 Maintenance, Downtime & Lifecycle Costs
+
+Traditional compressors require regular oil changes, bearing replacements, vibration monitoring, and downtime for inspections. This not only increases maintenance costs but also leads to unplanned disruptions.
+Magnetic bearing systems, with no oil, no mechanical contact, and self-monitoring sensors, have minimal maintenance needs.
+📉 Cost Insight: Over a 10-year period, magnetic bearing chillers can result in up to 60% lower maintenance costs compared to traditional chillers. The longer lifespan of components and predictive diagnostics further reduce the risk of emergency repairs.
+
+🔹 Conclusion: A Smarter, Long-Term Investment
+
+For facility managers and procurement heads, the choice between traditional and magnetic bearing compressors boils down to performance, reliability, and cost over time. While the initial investment in magnetic bearing systems may be higher, the long-term savings in energy and maintenance, combined with enhanced reliability, make them a smarter option for institutions aiming to future-proof their infrastructure. BROAD’s magnetic bearing chillers represent the next evolution of HVAC technology—efficient, intelligent, and built to last.
+    `,
+    image: "/images/May-17 Article.jpg",
+  },
+  {
     id: "decarbonizing-industries-with-combined-cooling-heating-and-power-cchp-a-broad-perspective",
     title: "Decarbonizing Industries with Combined Cooling, Heating, and Power (CCHP): A BROAD Perspective",
     description:"Cutting-edge CCHP systems reducing industrial emissions and boosting efficiency.",
