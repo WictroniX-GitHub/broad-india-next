@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "BROAD Air Conditioning India Pvt. Ltd. (BROAD India)",
   description:
-    "BROAD India pioneers energy-efficient vapor absorption chillers (VAM) and sustainable HVAC solutions with 200+ installations. Optimize cooling, cut costs & go green with us!",
+    "BROAD India leads in energy-efficient VAM chillers & green HVAC with 200+ installs. Cut cooling costs & go sustainable with us!",
 };
 
 export default function RootLayout({
@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
