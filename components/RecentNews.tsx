@@ -45,7 +45,7 @@ export default function RecentNews() {
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h4 className="text-xl font-semibold mb-4">{article.title}</h4>
+              <h3 className="text-xl font-semibold mb-4">{article.title}</h3>
               <p className="text-gray-700 mb-4">{article.description}</p>
               <Link href={article.link} className="btn btn-primary">
                 Know more

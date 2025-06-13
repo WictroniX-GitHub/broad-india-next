@@ -8,9 +8,9 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BROAD Air Conditioning India Pvt. Ltd. (BROAD India)",
+  title: "BROAD India HVAC/Cooling Solutions",
   description:
-    "BROAD India leads in energy-efficient VAM chillers & green HVAC with 200+ installs. Cut cooling costs & go sustainable with us!",
+    "Explore BROAD non-electric Vapor Absorption Chillers VAC/VAM using steam, hot water, exhaust, or gas ideal for CCHP, decarbonisation, and waste heat recovery.",
 };
 
 export default function RootLayout({

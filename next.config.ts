@@ -18,6 +18,19 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true, // Enables native browser scroll restoration
   },
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          {
+            key: "Vary",
+            value: "User-Agent",
+          },
+        ],
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

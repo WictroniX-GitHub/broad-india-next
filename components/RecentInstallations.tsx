@@ -51,9 +51,9 @@ export default function RecentInstallations() {
                 className="rounded-lg"
               />
             </div>
-            <h4 className="mt-4 text-xl font-bold text-white">
+            <h3 className="mt-4 text-xl font-bold text-white">
               {install.title}
-            </h4>
+            </h3>
             <p className="mt-2 text-white/75">{install.description}</p>
           </div>
         ))}
