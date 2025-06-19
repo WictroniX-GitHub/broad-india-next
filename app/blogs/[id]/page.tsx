@@ -59,19 +59,10 @@ export default function BlogsDetailPage() {
               </div>
             </div>
 
-            <div className="prose prose-lg max-w-none text-gray-800">
-              <p className="leading-relaxed whitespace-pre-wrap">
-                {blog.content}
-                <br />
-                <Link
-                  href="/contact-us"
-                  className="text-primary font-semibold hover:underline"
-                >
-                  Contact us{" "}
-                </Link>{" "}
-                now to join the revolution!
-              </p>
-            </div>
+            <div
+              className="prose prose-lg max-w-none text-gray-800"
+              dangerouslySetInnerHTML={{ __html: blog.content }}
+            />
           </div>
         </motion.div>
       </div>

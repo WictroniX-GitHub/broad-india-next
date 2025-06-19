@@ -5,6 +5,10 @@ export interface Blog {
   date: string;
   readTime: string;
   category: string;
+  meta?: {
+    description: string;
+    keywords: string[];
+  };
   content: string;
   image: string;
 }

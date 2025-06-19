@@ -61,19 +61,10 @@ export default function ArticlesDetailPage() {
               </div>
             </div>
 
-            <div className="prose prose-lg max-w-none text-gray-800">
-              <p className="leading-relaxed whitespace-pre-wrap">
-                {article.content}
-                <br />
-                <Link
-                  href="/contact-us"
-                  className="text-primary font-semibold hover:underline"
-                >
-                  Contact Us{" "}
-                </Link>{" "}
-                now to join the revolution!
-              </p>
-            </div>
+            <div
+              className="prose prose-lg max-w-none text-gray-800"
+              dangerouslySetInnerHTML={{ __html: article.content }}
+            />
           </div>
         </motion.div>
       </div>
