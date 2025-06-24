@@ -42,10 +42,11 @@ const PowerEfficientChiller = () => {
             BROAD Power Efficient Chiller Solutions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            BROAD's Power Efficient Chillers represent the next generation of
-            electric cooling technology, featuring magnetic bearing compressors
-            that deliver unmatched energy efficiency, ultra-quiet operation, and
-            oil-free reliability for commercial and industrial applications.
+            BROAD&apos;s Power Efficient Chillers represent the next generation
+            of electric cooling technology, featuring magnetic bearing
+            compressors that deliver unmatched energy efficiency, ultra-quiet
+            operation, and oil-free reliability for commercial and industrial
+            applications.
           </p>
         </div>
 
@@ -231,7 +232,7 @@ const PowerEfficientChiller = () => {
           </h3>
           <p className="text-lg mb-6">
             Discover how our Power Efficient Chillers can revolutionize your
-            facility's energy performance.
+            facility&apos;s energy performance.
           </p>
           <Link
             href="/contact-us"

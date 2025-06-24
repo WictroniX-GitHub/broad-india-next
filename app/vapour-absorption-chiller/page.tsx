@@ -97,9 +97,9 @@ const VapourAbsorptionChiller = () => {
             BROAD Vapour Absorption Chiller Solutions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            BROAD's comprehensive range of vapour absorption chillers provides
-            non-electric cooling and heating solutions for industrial and
-            commercial applications. Our advanced lithium bromide-water
+            BROAD&apos;s comprehensive range of vapour absorption chillers
+            provides non-electric cooling and heating solutions for industrial
+            and commercial applications. Our advanced lithium bromide-water
             absorption technology delivers reliable, efficient, and
             environmentally friendly HVAC solutions.
           </p>

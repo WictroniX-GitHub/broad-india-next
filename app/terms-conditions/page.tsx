@@ -106,8 +106,8 @@ export default function TermsConditions() {
               <div className="space-y-4">
                 <div className="bg-yellow-50 p-6 rounded-lg border-l-4 border-yellow-400">
                   <p className="text-gray-700">
-                    The site and its content are provided "as is" without
-                    warranties of any kind.
+                    The site and its content are provided &quot;as is&quot;
+                    without warranties of any kind.
                   </p>
                 </div>
                 <div className="bg-orange-50 p-6 rounded-lg border-l-4 border-orange-400">
@@ -118,8 +118,8 @@ export default function TermsConditions() {
                 </div>
                 <div className="bg-red-50 p-6 rounded-lg border-l-4 border-red-400">
                   <p className="text-gray-700">
-                    To the full extent permissible under law, BROAD's maximum
-                    liability is limited to actual amounts paid, if any.
+                    To the full extent permissible under law, BROAD&apos;s
+                    maximum liability is limited to actual amounts paid, if any.
                   </p>
                 </div>
               </div>

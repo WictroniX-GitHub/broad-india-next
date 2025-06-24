@@ -56,11 +56,11 @@ const SolarDriven = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD's Solar Driven Absorption Chillers harness renewable solar
-              energy to provide sustainable cooling solutions. These systems
-              integrate seamlessly with solar thermal collectors to convert
-              solar heat into cooling energy, offering zero-emission operation
-              and reduced operational costs.
+              BROAD&apos;s Solar Driven Absorption Chillers harness renewable
+              solar energy to provide sustainable cooling solutions. These
+              systems integrate seamlessly with solar thermal collectors to
+              convert solar heat into cooling energy, offering zero-emission
+              operation and reduced operational costs.
             </p>
           </div>
           {/* Solar Driven Chiller Model Section */}

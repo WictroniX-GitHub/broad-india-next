@@ -74,7 +74,7 @@ const WasteHeatChiller = () => {
           {/* Description */}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed mb-6">
-              BROAD's Waste‑Heat‑Driven Vapour Absorption Chiller converts
+              BROAD&apos;s Waste‑Heat‑Driven Vapour Absorption Chiller converts
               low‑grade thermal energy into high-quality chilled water (above 5
               °C) and heating water (below 95 °C) with capacity ranges from 233
               kW to 11,630 kW (66–3,307 RT), enabling large-scale HVAC and

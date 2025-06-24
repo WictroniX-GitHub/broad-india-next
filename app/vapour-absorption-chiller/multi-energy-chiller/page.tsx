@@ -56,11 +56,11 @@ const MultiEnergy = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD's Multi-Energy Absorption Chillers are designed to utilize
-              multiple heat sources including steam, hot water, exhaust gas, and
-              natural gas, providing ultimate flexibility in energy supply. This
-              versatile system can switch between different energy sources based
-              on availability and cost optimization.
+              BROAD&apos;s Multi-Energy Absorption Chillers are designed to
+              utilize multiple heat sources including steam, hot water, exhaust
+              gas, and natural gas, providing ultimate flexibility in energy
+              supply. This versatile system can switch between different energy
+              sources based on availability and cost optimization.
             </p>
           </div>
           {/* Multi Energy Chiller Models Section */}

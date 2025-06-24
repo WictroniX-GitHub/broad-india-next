@@ -155,8 +155,8 @@ const TwoStageChiller = () => {
           </div>
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed mb-6">
-              BROAD's Two-Stage Absorption Chiller represents the pinnacle of
-              absorption cooling technology, utilizing a sophisticated
+              BROAD&apos;s Two-Stage Absorption Chiller represents the pinnacle
+              of absorption cooling technology, utilizing a sophisticated
               dual-stage process that delivers exceptional coefficient of
               performance (COP) and energy efficiency. This advanced system
               employs two separate absorption cycles working in tandem to

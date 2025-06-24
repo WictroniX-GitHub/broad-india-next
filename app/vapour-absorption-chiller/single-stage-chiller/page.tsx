@@ -56,7 +56,7 @@ const SingleStage = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD's Single-Stage Absorption Chiller provides proven,
+              BROAD&apos;s Single-Stage Absorption Chiller provides proven,
               cost-effective cooling solutions using reliable single-stage
               lithium bromide absorption technology. These systems offer
               excellent performance for standard commercial and industrial

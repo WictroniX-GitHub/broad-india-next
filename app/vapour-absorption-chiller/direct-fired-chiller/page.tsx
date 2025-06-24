@@ -86,15 +86,15 @@ const DirectFiredChiller = () => {
               233 kW to 11,630 kW (66–3,300 RT), with hot water output of up to
               65 °C. Its dual-fuel burner supports both gas and oil operation,
               offering flexibility in fuel choice while maintaining low
-              emissions with NOx levels below 10 ppm. The unit's modular design
-              enables it to serve multiple functions, including space cooling,
-              process cooling, domestic hot water supply, and supplementary
-              heating.
+              emissions with NOx levels below 10 ppm. The unit&apos;s modular
+              design enables it to serve multiple functions, including space
+              cooling, process cooling, domestic hot water supply, and
+              supplementary heating.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
-              BROAD's direct-fired model incorporates corrosion-resistant heat
-              exchangers, automatic non-condensable gas purging, and vacuum
+              BROAD&apos;s direct-fired model incorporates corrosion-resistant
+              heat exchangers, automatic non-condensable gas purging, and vacuum
               maintenance systems to extend service life and maintain stable
               long-term performance. Crystallization prevention, intelligent
               control logic, and automated capacity modulation ensure optimal

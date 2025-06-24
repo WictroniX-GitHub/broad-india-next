@@ -56,7 +56,7 @@ const Packaged = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD's Packaged Absorption Chillers offer complete
+              BROAD&apos;s Packaged Absorption Chillers offer complete
               factory-assembled solutions that are fully tested and optimized
               before delivery. These compact, self-contained units simplify
               installation and commissioning while ensuring consistent

@@ -42,7 +42,7 @@ const CCHPSystems = () => {
             BROAD CCHP (Combined Cooling, Heating & Power) Systems
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            BROAD's CCHP Systems deliver comprehensive energy solutions by
+            BROAD&apos;s CCHP Systems deliver comprehensive energy solutions by
             integrating cogeneration and thermally driven absorption technology
             to produce electricity, chilled water, and hot water from a single
             waste heat powered plant. These trigeneration systems achieve total

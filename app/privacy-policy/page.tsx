@@ -31,16 +31,16 @@ export default function PrivacyPolicy() {
                 1. Introduction
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                BROAD India ("we," "us," "our") is committed to protecting the
-                privacy of visitors to{" "}
+                BROAD India (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) is
+                committed to protecting the privacy of visitors to{" "}
                 <a
                   href="https://broadindia.com"
                   className="text-blue-600 hover:text-blue-800"
                 >
                   broadindia.com
                 </a>{" "}
-                (the "Site"). This Privacy Policy explains how we collect, use,
-                and safeguard your personal data.
+                (the &quot;Site&quot;). This Privacy Policy explains how we
+                collect, use, and safeguard your personal data.
               </p>
             </section>
 
@@ -168,8 +168,8 @@ export default function PrivacyPolicy() {
               </h2>
               <p className="text-gray-700 leading-relaxed">
                 We may revise this policy at any time; changes will be posted
-                here with an updated "Last updated" date. Continued use implies
-                acceptance.
+                here with an updated &quot;Last updated&quot; date. Continued
+                use implies acceptance.
               </p>
             </section>
           </div>

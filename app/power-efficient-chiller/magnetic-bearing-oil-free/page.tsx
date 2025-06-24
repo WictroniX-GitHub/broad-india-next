@@ -69,7 +69,7 @@ const MagneticBearingOilFree = () => {
           {/* Description */}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed mb-6">
-              BROAD's Power-Efficient Chiller is a next-generation,
+              BROAD&apos;s Power-Efficient Chiller is a next-generation,
               factory-packaged solution that integrates high-efficiency magnetic
               bearing centrifugal chillers with optional heat pump capability,
               offering unmatched energy savings, ultra-quiet performance, and
@@ -85,7 +85,7 @@ const MagneticBearingOilFree = () => {
               engineered to deliver precise cooling capacity modulation with
               variable-speed control as low as 0.1 Hz, maximizing part-load
               performance by over 50% compared to conventional systems. The
-              unit's integrated digital control platform, simplified piping
+              unit&apos;s integrated digital control platform, simplified piping
               layout, and compact footprint allow for seamless deployment across
               mission-critical environments such as data centers, healthcare
               facilities, high-rise buildings, and green campuses.
@@ -99,9 +99,9 @@ const MagneticBearingOilFree = () => {
               FEMP, while helping clients achieve ambitious ESG and carbon
               neutrality goals. Whether deployed as a standalone unit or as part
               of a broader district cooling or CCHP system, this chiller
-              embodies BROAD's mission to deliver long-life, low-carbon HVAC
-              solutions through precision engineering and system integration
-              excellence.
+              embodies BROAD&apos;s mission to deliver long-life, low-carbon
+              HVAC solutions through precision engineering and system
+              integration excellence.
             </p>{" "}
           </div>
           {/* Download Catalogue Section */}
@@ -449,7 +449,8 @@ const MagneticBearingOilFree = () => {
             </h3>
             <p className="text-lg mb-6">
               Discover how our Magnetic Bearing Oil-Free Chillers can transform
-              your facility's energy efficiency and operational performance.
+              your facility&apos;s energy efficiency and operational
+              performance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

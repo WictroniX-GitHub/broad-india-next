@@ -107,19 +107,19 @@ const BroadTriGenerationalSolutions = () => {
 
             <p className="text-lg leading-relaxed mb-6">
               Capable of achieving total system efficiencies between 60%–80%,
-              BROAD's CCHP solutions dramatically reduce lifecycle energy costs,
-              carbon emissions, and reliance on grid electricity. With the same
-              lithium bromide absorption core used in our chillers, BROAD CCHP
-              units eliminate CFC/HFC refrigerants while enhancing part-load
-              performance through industry-standard vacuum system control and
-              heat exchanger integrity.
+              BROAD&apos;s CCHP solutions dramatically reduce lifecycle energy
+              costs, carbon emissions, and reliance on grid electricity. With
+              the same lithium bromide absorption core used in our chillers,
+              BROAD CCHP units eliminate CFC/HFC refrigerants while enhancing
+              part-load performance through industry-standard vacuum system
+              control and heat exchanger integrity.
             </p>
 
             <p className="text-lg leading-relaxed mb-6">
               Proven in large-scale applications such as university medical
               campuses (e.g., University of Maryland), district heating
-              networks, and industrial facilities, BROAD's CCHP systems provide
-              plug-and-play distributed energy, even in locations with
+              networks, and industrial facilities, BROAD&apos;s CCHP systems
+              provide plug-and-play distributed energy, even in locations with
               constrained grid eligibility, supporting decarbonization,
               resilience, and ROI across commercial, industrial, and
               institutional sites.
