@@ -27,7 +27,7 @@ export const articles: Article[] = [
 As cities grow smarter and sustainability becomes non-negotiable, traditional HVAC systems are falling behind. Energy-intensive and often reactive, they struggle to meet the demands of dynamic, multi-use buildings. In contrast, AI-driven HVAC management systems represent a major leap forward—making heating and cooling more intelligent, responsive, and predictive. BROAD has emerged as a global leader in this transformation, offering innovative HVAC solutions that combine artificial intelligence, IoT, and data analytics to build the next generation of energy-efficient infrastructure.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/chiller">Chiller Solutions</a> | <a href="/cchp-system">CCHP Systems</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/vapour-absorption-chiller">Chiller Solutions</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 One of the most powerful tools in AI-driven HVAC is the real-time energy dashboard. BROAD’s smart HVAC platforms offer facility managers and operators full visibility into system performance, energy usage, thermal loads, and zone-specific climate conditions—all in a single, intuitive interface. These dashboards are not just displays; they are decision-making tools. By analyzing real-time data, operators can make informed choices about adjusting temperatures, redirecting airflow, or scheduling maintenance—all of which significantly improve operational efficiency and occupant comfort. In a recent deployment at a technology campus in Hyderabad, BROAD’s dashboard helped reduce HVAC-related energy consumption by 38% within six months.
@@ -69,7 +69,7 @@ As India races to modernize its infrastructure and embrace net-zero goals, HVAC 
 Facility managers are constantly under pressure to deliver energy efficiency, reduce downtime, and lower lifecycle costs—all while keeping HVAC systems running reliably. At the core of this challenge lies a crucial component: the compressor. Traditionally, compressors use oil-lubricated bearings and mechanical components that degrade over time. Enter magnetic bearing technology—a game-changing alternative that eliminates friction, cuts energy consumption, and slashes maintenance needs. This article breaks down how magnetic bearing compressors stack up against traditional systems and why the switch is worth considering for modern facilities.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/magnetic-bearing-chillers">Magnetic Bearing Chillers</a> | <a href="/chiller">Chiller Solutions</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/power-efficient-chiller">Magnetic Bearing Chillers</a> | <a href="/cchp-systems">Chiller Solutions</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 🔹 Technology Comparison: How They Work
@@ -225,7 +225,7 @@ Decarbonizing industries is no longer a distant vision—it is a present-day imp
 In every big building you visit—like a school, hospital, or shopping mall—there is one important system working silently to keep the space comfortable: the HVAC system. HVAC stands for Heating, Ventilation, and Air Conditioning. It helps control the temperature and keeps the air clean so people can breathe easily and feel good inside.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/hvac-systems">HVAC Systems Overview</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/vapour-absorption-chiller">HVAC Systems Overview</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 How Heating and Cooling Help:
@@ -373,7 +373,7 @@ Introduction:
 India’s scorching summers are a challenge for many, with temperatures often climbing above 40°C in several regions. For years, air coolers and window air conditioners have been used to keep homes and businesses comfortable, but the rise of central air conditioners in India is changing the way we think about cooling systems. Central ACs not only provide a cool environment, but they also offer efficiency, quiet operation, and convenience for larger homes and commercial spaces. This article delves into what makes central air conditioners popular in India and why they might be the perfect cooling solution for the future.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/central-ac-india">Central AC Solutions</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/about">Central AC Solutions</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 What is a Central Air Conditioner?
@@ -450,7 +450,7 @@ Introduction:
 In today’s fast-paced world, the construction industry faces many challenges—long project timelines, high costs, and environmental concerns, to name a few. However, Broad Group Construction has emerged as a leader in overcoming these challenges by bringing innovation and sustainability to the forefront. The company has developed groundbreaking techniques that are transforming how large-scale buildings are created, making construction faster, more efficient, and more eco-friendly.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/broad-group-construction">Broad Group Construction</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/broad-group">Broad Group Construction</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 The Power of Modular Construction:
@@ -723,7 +723,7 @@ Introduction to Vapour Absorption Machines:
 As the demand for energy-efficient cooling solutions rises, the vapour absorption machine has emerged as a viable alternative to traditional air conditioning systems. Unlike conventional cooling methods that rely on electricity-driven compressors, VAMs use heat energy to drive the refrigeration process, making them an eco-friendly and cost-effective solution.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/vam-technology">VAM Technology</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/vapour-absorption-chiller">VAM Technology</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 Understanding Vapour Absorption Machines:
@@ -799,7 +799,7 @@ Introduction:
 The HVAC industry is undergoing a transformative shift towards sustainability, driven by global demands for energy efficiency and reduced environmental impact. Recent technological advancements have introduced innovative solutions that not only enhance system performance but also contribute to a more sustainable future. This article explores the cutting-edge innovations in sustainable HVAC technology.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/sustainable-hvac-innovations">Sustainable HVAC Innovations</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/vapour-absorption-chiller">Sustainable HVAC Innovations</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 Geothermal Heat Pumps:
@@ -876,7 +876,7 @@ Introduction:
 As energy efficiency becomes a top priority for industries and businesses, the need for sustainable cooling solutions has grown significantly. Traditional cooling systems that rely on electricity-driven compressors are not only expensive but also contribute to high energy consumption. In contrast, hot water absorption chillers offer an innovative and environmentally friendly alternative. These systems use waste hot water to power the cooling process, making them an ideal choice for industries looking to reduce costs and minimize their carbon footprint. As businesses and commercial facilities strive for smarter and more efficient cooling strategies, hot water chillers are becoming the go-to solution for long-term energy optimization.
 </p>
 <p>
-<strong>Related Links:</strong> <a href="/vapor-absorption-machines">Vapor Absorption Machines</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
+<strong>Related Links:</strong> <a href="/vapour-absorption-chiller">Vapor Absorption Machines</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
 </p>
 <p>
 How Hot Water Absorption Chillers Work:
@@ -925,83 +925,6 @@ Conclusion:
 The transition toward energy-efficient cooling is no longer a choice but a necessity for businesses seeking cost-effective and sustainable solutions. Hot water absorption chillers offer a groundbreaking alternative to traditional cooling methods by repurposing waste heat, significantly reducing energy consumption, and lowering operational costs. With their ability to provide quiet, reliable, and environmentally friendly cooling, they are rapidly becoming the preferred choice for industries and commercial establishments. If your business generates surplus hot water, now is the perfect time to integrate hot water chillers into your cooling strategy. Investing in this advanced technology can lead to significant cost savings, enhanced energy efficiency, and a reduced environmental impact. Contact us today to learn more about how hot water absorption chillers can revolutionize your cooling system and help you achieve long-term sustainability goals.
     `,
     image: "/images/26-Feb article.jpeg",
-  },
-  {
-    id: "why-hot-water-absorption-chillers-are-the-future-of-cooling",
-    title: "Why Hot Water Absorption Chillers Are the Future of Cooling",
-    description:
-      "Reduce energy costs with steam absorption chillers for efficient cooling.",
-    date: "Feb 25, 2025",
-    readTime: "3-4 min read",
-    category: "chillers",
-    meta: {
-      description:
-        "Understand the advantages of steam absorption chillers in providing energy-efficient and cost-effective cooling solutions.",
-      keywords: [
-        "steam absorption chillers",
-        "energy-efficient cooling",
-        "HVAC cost savings",
-        "BROAD steam technology",
-      ],
-    },
-    content: `
-<h1>Why Hot Water Absorption Chillers Are the Future of Cooling</h1>
-<p>
-Introduction:
-</p>
-<p>
-As energy efficiency becomes a top priority for industries and businesses, the need for sustainable cooling solutions has grown significantly. Traditional cooling systems that rely on electricity-driven compressors are not only expensive but also contribute to high energy consumption. In contrast, hot water absorption chillers offer an innovative and environmentally friendly alternative. These systems use waste hot water to power the cooling process, making them an ideal choice for industries looking to reduce costs and minimize their carbon footprint. As businesses and commercial facilities strive for smarter and more efficient cooling strategies, hot water chillers are becoming the go-to solution for long-term energy optimization.
-</p>
-<p>
-<strong>Related Links:</strong> <a href="/steam-absorption-chillers">Steam Absorption Chillers</a> | <a href="/about">About BROAD India</a> | <a href="/contact-us">Contact Us</a> | <a href="https://www.broad.com/" target="_blank" rel="noopener">BROAD International</a>
-</p>
-<p>
-How Hot Water Absorption Chillers Work:
-</p>
-<ul>
-  <li>
-    Hot water absorption chillers function through a heat-driven refrigeration cycle that eliminates the need for mechanical compressors. The process begins with water acting as a refrigerant while lithium bromide serves as the absorbent. Hot water is introduced into the system, which helps separate the refrigerant from the absorbent, allowing the cooling process to continue efficiently. The refrigerant then evaporates at a low pressure, absorbing heat from the surroundings and creating a cooling effect. Once the cooling effect is achieved, the refrigerant vapor is absorbed back into the lithium bromide solution, where the cycle restarts. This continuous absorption and regeneration process ensures that cooling is maintained without requiring electricity-intensive mechanical components.
-  </li>
-</ul>
-<p>
-Advantages of Hot Water Absorption Chillers:
-</p>
-<ul>
-  <li>
-    One of the most significant advantages of hot water absorption chillers is their ability to repurpose waste heat, reducing dependency on electricity while maximizing energy efficiency. This makes them a cost-effective alternative for industries that generate large amounts of excess hot water. The use of waste heat eliminates the need for conventional power sources, leading to substantial savings on electricity bills. Since these chillers do not rely on mechanical compressors, they experience less wear and tear, resulting in lower maintenance costs and an extended operational lifespan. Their silent operation further enhances their appeal, making them an excellent choice for environments where noise reduction is a priority, such as hospitals, hotels, and commercial office buildings.
-  </li>
-</ul>
-<p>
-Industries That Benefit from Hot Water Absorption Chillers:
-</p>
-<ul>
-  <li>
-    A wide range of industries and businesses can take advantage of the energy-saving benefits of hot water absorption chillers. Power plants and industrial manufacturing facilities, where high-temperature processes generate large amounts of waste hot water, find these chillers particularly useful for improving overall efficiency. Hospitals and healthcare facilities require constant and reliable cooling for patient comfort and medical equipment, making hot water chillers a practical solution due to their silent and efficient operation. Hotels and resorts benefit from these chillers by maintaining optimal indoor temperatures while reducing overall operational expenses. Large commercial buildings, universities, and data centers that require extensive cooling systems also gain significant cost and energy savings by integrating hot water chillers into their existing infrastructure.
-  </li>
-</ul>
-<p>
-Hot Water Absorption Chillers vs. Traditional Cooling Systems:
-</p>
-<ul>
-  <li>
-    Traditional cooling systems rely on electricity-intensive compressors, which lead to high energy costs and frequent maintenance requirements. These systems contribute to increased carbon emissions and place a strain on power grids, making them less sustainable in the long run. In contrast, hot water absorption chillers operate without mechanical compression, significantly reducing electricity consumption while repurposing waste heat. Their ability to utilize hot water as an energy source makes them a more efficient and environmentally friendly choice. Businesses that switch to hot water chillers not only experience a reduction in operating costs but also contribute to global sustainability efforts by lowering their carbon footprint. Additionally, these chillers require minimal upkeep due to their simplified design, reducing the frequency of repairs and downtime compared to traditional cooling systems.
-  </li>
-</ul>
-<p>
-The Future of Hot Water Absorption Chillers:
-</p>
-<ul>
-  <li>
-    As industries continue to move toward energy-efficient solutions, the future of cooling lies in sustainable technologies like hot water absorption chillers. Many governments and regulatory bodies are enforcing stricter energy conservation policies, encouraging businesses to adopt greener alternatives for heating and cooling. With advancements in heat recovery systems and smart energy management, hot water chillers are becoming even more efficient and widely adopted across various sectors. The push for sustainability has driven research and development into enhancing these systems, making them more adaptable to different industrial and commercial needs. As energy prices continue to rise, businesses that invest in hot water absorption chillers today will be better positioned for long-term savings and improved efficiency.
-  </li>
-</ul>
-<p>
-Conclusion:
-</p>
-<p>
-The transition toward energy-efficient cooling is no longer a choice but a necessity for businesses seeking cost-effective and sustainable solutions. Hot water absorption chillers offer a groundbreaking alternative to traditional cooling methods by repurposing waste heat, significantly reducing energy consumption, and lowering operational costs. With their ability to provide quiet, reliable, and environmentally friendly cooling, they are rapidly becoming the preferred choice for industries and commercial establishments. If your business generates surplus hot water, now is the perfect time to integrate hot water chillers into your cooling strategy. Investing in this advanced technology can lead to significant cost savings, enhanced energy efficiency, and a reduced environmental impact. Contact us today to learn more about how hot water absorption chillers can revolutionize your cooling system and help you achieve long-term sustainability goals.
-    `,
-    image: "/images/25-Feb article.jpeg",
   },
   {
     id: "steam-absorption-chillers-the-smart-way-to-reduce-energy-costs",

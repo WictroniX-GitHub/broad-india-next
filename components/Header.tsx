@@ -72,25 +72,25 @@ export default function Header() {
               {isProductsOpen && (
                 <div className="absolute top-full mt-2 w-48 bg-white shadow-lg rounded-lg z-50">
                   <Link
-                    href="/vap-absorption-chiller"
+                    href="/vapour-absorption-chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     Vapour Absorption Chiller
                   </Link>
                   <Link
-                    href="/chiller"
+                    href="/cchp-systems"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     BROAD CCHP System
                   </Link>
                   <Link
-                    href="/magnetic-bearing-chillers"
+                    href="/power-efficient-chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     Magnetic Bearing Oil Free Chiller
                   </Link>
                   <Link
-                    href="/pump"
+                    href="/pumpsets"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
                     Pumpset
@@ -140,28 +140,28 @@ export default function Header() {
           {isProductsOpen && (
             <div className="w-full text-center">
               <Link
-                href="/vap-absorption-chiller"
+                href="/vapour-absorption-chiller"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
                 Vapour Absorption Chiller
               </Link>
               <Link
-                href="/chiller"
+                href="/cchp-systems"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
                 BROAD CCHP System
               </Link>
               <Link
-                href="/magnetic-bearing-chillers"
+                href="/power-efficient-chiller"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
                 Magnetic Bearing Oil Free Chiller
               </Link>
               <Link
-                href="/pump"
+                href="/pumpsets"
                 className="block py-2"
                 onClick={handleCloseMenu}
               >

@@ -44,7 +44,7 @@ export default function HomePageCarousel() {
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-black/60 text-white p-4 rounded-lg text-center">
-            <h2 className="text-2xl md:text-4xl uppercase">{slide.text}</h2>
+            <h1 className="text-2xl md:text-4xl uppercase">{slide.text}</h1>
             {slide.link && (
               <a
                 href={slide.link}

@@ -17,7 +17,7 @@ const articles = [
       "Traditional construction practices can be costly, inefficient, and detrimental on the environment. In this article, Zhang Yue, CEO, BROAD group reflects on how industry can change.",
     image:
       "https://m.economictimes.com/thumb/msid-69127844,width-1200,height-900,resizemode-4,imgsize-347903/construction-site-generators-types-features-of-generators-used-at-construction-sites.jpg",
-    link: "/blogs-and-articles",
+    link: "/blogs",
   },
   {
     title: "World's Top 25 Eco Innovators",
@@ -25,7 +25,7 @@ const articles = [
       "Fortune presents our inaugural list of the World's Top 25 Eco-Innovators. To identify them, we surveyed dozens of experts in the sustainability world. Here's the report article.",
     image:
       "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(68)(134).jpg",
-    link: "/blogs-and-articles",
+    link: "/articles",
   },
 ];
 

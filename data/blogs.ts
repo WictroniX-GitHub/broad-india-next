@@ -27,7 +27,7 @@ export const blogs: Blog[] = [
   <li><strong>What Are BROAD Absorption Chillers?</strong><br/>
     BROAD makes special chillers called Vapor Absorption Machines (VAM) or Vapor Absorption Chillers (VAC). These are non-electric chillers that don’t use electricity like normal air conditioners. Instead, they use steam, hot water, exhaust gases, or even natural gas or diesel to make cool air.<br/>
     This helps save electricity and reduce pollution. BROAD chillers are great for buildings, factories, hospitals, data centers, and more.<br/>
-    <a href="/magnetic-bearing-chillers">Learn about Magnetic Bearing Chillers</a> | <a href="/vap-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-system">CCHP Systems</a> | <a href="/pump">Pump Solutions</a>
+    <a href="/power-efficient-chiller">Learn about Magnetic Bearing Chillers</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
   </li>
   <li><strong>Types of BROAD Chillers</strong><br/>
     <ul>
