@@ -97,20 +97,20 @@ export default function Installations() {
         {installations.map((install) => (
           <div
             key={install.id}
-            className="bg-white shadow-lg rounded-lg overflow-hidden"
+            className="bg-white shadow-lg rounded-lg overflow-hidden flex flex-col h-full"
           >
             <Image
               src={install.image}
               alt={install.title}
               width={500}
               height={300}
-              className="w-full h-auto object-cover"
+              className="w-full h-48 object-cover"
             />
-            <div className="p-4">
+            <div className="p-4 flex flex-col flex-grow">
               <h2 className="text-lg font-semibold">{install.title}</h2>
-              <p className="text-gray-600">{install.description}</p>
+              <p className="text-gray-600 flex-grow">{install.description}</p>
               <button
-                className="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                className="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 self-start"
                 onClick={() => setSelectedInstallation(install)}
               >
                 Know More

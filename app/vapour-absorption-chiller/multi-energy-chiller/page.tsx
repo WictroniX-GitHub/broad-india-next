@@ -68,22 +68,23 @@ const MultiEnergy = () => {
             <h3 className="text-2xl font-bold mb-6 text-center">
               Multi Energy Chiller Models
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
               {/* BZE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg"
-                    alt="BZE Model"
-                    width={200}
-                    height={134}
-                    className="w-full rounded-md"
-                  />
+              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
+                <div className="mb-4 flex-shrink-0">
+                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
+                    <Image
+                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg"
+                      alt="BZE Model"
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">
+                <h4 className="text-lg font-semibold mb-2 text-center">
                   BZE Model, Exhaust and Direct Fired
                 </h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
                   <li>• Capacity: 30-300 ton</li>
                   <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
                   <li>• Dual Fuel Burner (Gas and Oil, Low NOx, &lt; 10ppm)</li>
@@ -94,20 +95,21 @@ const MultiEnergy = () => {
               </div>
 
               {/* BHE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/bhe-300x203-1-200x135.png"
-                    alt="BHE Model"
-                    width={200}
-                    height={135}
-                    className="w-full rounded-md"
-                  />
+              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
+                <div className="mb-4 flex-shrink-0">
+                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
+                    <Image
+                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bhe-300x203-1-200x135.png"
+                      alt="BHE Model"
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">
+                <h4 className="text-lg font-semibold mb-2 text-center">
                   BHE Model, Hot (Jacket) Water and Exhaust
                 </h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
                   <li>• Capacity: 30-3300 ton</li>
                   <li>• Hot Water Temperature: 71-105°C (Standard)</li>
                   <li>• Exhaust Pressure Drop: 3 - 8 Inch W.C.</li>
@@ -116,20 +118,21 @@ const MultiEnergy = () => {
               </div>
 
               {/* BZHE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/bzhe1_s-300x204-1-200x136.jpg"
-                    alt="BZHE Model"
-                    width={200}
-                    height={136}
-                    className="w-full rounded-md"
-                  />
+              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
+                <div className="mb-4 flex-shrink-0">
+                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
+                    <Image
+                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bzhe1_s-300x204-1-200x136.jpg"
+                      alt="BZHE Model"
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">
+                <h4 className="text-lg font-semibold mb-2 text-center">
                   BZHE Model, Hot (Jacket) Water and Exhaust + Direct Gas Fire
                 </h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
                   <li>• Capacity: 30-3300 ton</li>
                   <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
                   <li>• Dual Fuel Burner (Gas and Oil, Low NOx, &lt; 10ppm)</li>

@@ -186,47 +186,47 @@ const CCHPSystems = () => {
         {/* Applications */}
         <div className="mb-12">
           <h3 className="text-2xl font-bold mb-6">Proven Applications</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <div className="text-blue-600 text-3xl mb-4">🏥</div>
-              <h4 className="text-lg font-semibold mb-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 h-full flex flex-col">
+              <div className="text-blue-600 text-3xl mb-4 text-center">🏥</div>
+              <h4 className="text-lg font-semibold mb-3 text-center">
                 University Medical Campuses
               </h4>
-              <p className="text-gray-600 text-sm mb-3">
+              <p className="text-gray-600 text-sm mb-3 flex-grow">
                 Large-scale installations providing comprehensive energy
                 solutions for educational and healthcare facilities.
               </p>
-              <div className="bg-blue-50 p-3 rounded text-sm">
+              <div className="bg-blue-50 p-3 rounded text-sm mt-auto">
                 <strong>Example:</strong> University of Maryland medical campus
                 deployment
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <div className="text-green-600 text-3xl mb-4">🌆</div>
-              <h4 className="text-lg font-semibold mb-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 h-full flex flex-col">
+              <div className="text-green-600 text-3xl mb-4 text-center">🌆</div>
+              <h4 className="text-lg font-semibold mb-3 text-center">
                 District Heating Networks
               </h4>
-              <p className="text-gray-600 text-sm mb-3">
+              <p className="text-gray-600 text-sm mb-3 flex-grow">
                 Municipal and community-scale systems providing distributed
                 energy for multiple buildings and facilities.
               </p>
-              <div className="bg-green-50 p-3 rounded text-sm">
+              <div className="bg-green-50 p-3 rounded text-sm mt-auto">
                 <strong>Benefit:</strong> Centralized efficiency with
                 distributed benefits
               </div>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <div className="text-orange-600 text-3xl mb-4">🏭</div>
-              <h4 className="text-lg font-semibold mb-3">
+            <div className="bg-white border border-gray-200 rounded-lg p-6 h-full flex flex-col">
+              <div className="text-orange-600 text-3xl mb-4 text-center">🏭</div>
+              <h4 className="text-lg font-semibold mb-3 text-center">
                 Industrial Facilities
               </h4>
-              <p className="text-gray-600 text-sm mb-3">
+              <p className="text-gray-600 text-sm mb-3 flex-grow">
                 Manufacturing and industrial sites requiring reliable,
                 cost-effective energy solutions with high uptime requirements.
               </p>
-              <div className="bg-orange-50 p-3 rounded text-sm">
+              <div className="bg-orange-50 p-3 rounded text-sm mt-auto">
                 <strong>Advantage:</strong> Energy independence and cost control
               </div>
             </div>

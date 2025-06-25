@@ -70,9 +70,8 @@ const TwoStageChiller = () => {
                   <Image
                     src="https://broadusa.com/broad/wp-content/uploads/2020/03/bzmodel-300x222-1-200x148.jpg"
                     alt="BZ Model"
-                    width={200}
-                    height={148}
-                    className="w-full rounded-md"
+                    fill
+                    className="object-contain hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <h4 className="text-lg font-semibold mb-2">

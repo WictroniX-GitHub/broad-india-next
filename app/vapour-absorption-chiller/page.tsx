@@ -106,23 +106,23 @@ const VapourAbsorptionChiller = () => {
         </div>
 
         {/* Sub-categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {subCategories.map((category, index) => (
             <Link key={index} href={category.href}>
-              <Card className="h-full hover:shadow-lg transition-shadow duration-300 cursor-pointer">
-                <div className="relative h-48 overflow-hidden rounded-t-lg">
+              <Card className="h-full hover:shadow-lg transition-shadow duration-300 cursor-pointer group">
+                <div className="relative h-56 overflow-hidden rounded-t-lg bg-gray-100">
                   <Image
                     src={category.image}
                     alt={category.title}
                     fill
-                    className="object-cover hover:scale-105 transition-transform duration-300"
+                    className="object-contain hover:scale-105 transition-transform duration-300 p-4"
                   />
                 </div>
-                <CardHeader>
-                  <CardTitle className="text-xl">{category.title}</CardTitle>
+                <CardHeader className="pb-3">
+                  <CardTitle className="text-lg font-semibold line-clamp-2">{category.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-gray-600">
+                <CardContent className="pt-0">
+                  <CardDescription className="text-gray-600 text-sm line-clamp-3">
                     {category.description}
                   </CardDescription>
                 </CardContent>

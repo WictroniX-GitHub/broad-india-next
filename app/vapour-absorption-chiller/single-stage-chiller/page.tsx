@@ -69,22 +69,23 @@ const SingleStage = () => {
             <h3 className="text-2xl font-bold mb-6 text-center">
               Single Stage Chiller Models
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
               {/* BDH Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/single-stage-300x157-1-200x105.png"
-                    alt="BDH Model"
-                    width={200}
-                    height={105}
-                    className="w-full rounded-md"
-                  />
+              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
+                <div className="mb-4 flex-shrink-0">
+                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
+                    <Image
+                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/single-stage-300x157-1-200x105.png"
+                      alt="BDH Model"
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">
+                <h4 className="text-lg font-semibold mb-2 text-center">
                   BDH Model, Single Stage Hot Water Driven
                 </h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
                   <li>• Capacity: 30-1800 ton</li>
                   <li>• Hot Water Temperature: 71-105°C (Standard)</li>
                   <li>• Hot water Valve</li>
@@ -93,20 +94,21 @@ const SingleStage = () => {
               </div>
 
               {/* BDE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/bde_s-300x252-1-200x168.jpg"
-                    alt="BDE Model"
-                    width={200}
-                    height={168}
-                    className="w-full rounded-md"
-                  />
+              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
+                <div className="mb-4 flex-shrink-0">
+                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
+                    <Image
+                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bde_s-300x252-1-200x168.jpg"
+                      alt="BDE Model"
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">
+                <h4 className="text-lg font-semibold mb-2 text-center">
                   BDE Model, Single Stage Exhaust Driven
                 </h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
                   <li>• Capacity: 30-1163 ton</li>
                   <li>• Exhaust Temperature: 232 - 315°C</li>
                   <li>• Cooling Only</li>
@@ -114,20 +116,21 @@ const SingleStage = () => {
               </div>
 
               {/* BDS Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/BDS-model.jpg"
-                    alt="BDS Model"
-                    width={200}
-                    height={148}
-                    className="w-full rounded-md"
-                  />
+              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
+                <div className="mb-4 flex-shrink-0">
+                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
+                    <Image
+                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/BDS-model.jpg"
+                      alt="BDS Model"
+                      fill
+                      className="object-contain p-2"
+                    />
+                  </div>
                 </div>
-                <h4 className="text-lg font-semibold mb-2">
+                <h4 className="text-lg font-semibold mb-2 text-center">
                   BDS Model, Single Stage Steam Driven
                 </h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
                   <li>• Capacity: 30-2000 ton</li>
                   <li>• Steam Pressure: 0.42-4.2 kg/cm² (Standard)</li>
                   <li>• Offer Steam Valve</li>

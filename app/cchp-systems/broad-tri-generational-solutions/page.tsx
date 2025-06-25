@@ -442,12 +442,6 @@ const BroadTriGenerationalSolutions = () => {
               >
                 Request System Design
               </Link>
-              <Link
-                href="#"
-                className="border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors"
-              >
-                Download Case Study
-              </Link>
             </div>
           </div>
         </div>

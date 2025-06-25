@@ -76,16 +76,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6 mt-10 grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Tab List Box */}
           <Tab.List className="bg-gray-100 p-4 rounded-lg shadow-lg md:col-span-1 flex md:flex-col overflow-auto md:overflow-visible">
-            {[
-              "About",
-              "Awards",
-              "History",
-              "Culture",
-              "Declaration",
-              "Values",
-              "BROAD Town HQ",
-              "FAQ",
-            ].map((tab, index) => (
+            {["About", "Awards", "BROAD Town HQ"].map((tab, index) => (
               <Tab
                 key={index}
                 className={({ selected }) =>

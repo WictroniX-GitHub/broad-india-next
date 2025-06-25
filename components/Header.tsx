@@ -87,7 +87,7 @@ export default function Header() {
                     href="/power-efficient-chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
-                    Magnetic Bearing Oil Free Chiller
+                    Power Efficient Chiller
                   </Link>
                   <Link
                     href="/pumpsets"
@@ -158,7 +158,7 @@ export default function Header() {
                 className="block py-2"
                 onClick={handleCloseMenu}
               >
-                Magnetic Bearing Oil Free Chiller
+                Power Efficient Chiller
               </Link>
               <Link
                 href="/pumpsets"
