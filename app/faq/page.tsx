@@ -98,7 +98,7 @@ export default function FAQ() {
   return (
     <div className="w-full overflow-hidden">
       {/* Hero Section */}
-      <div className="w-full h-[40vh] bg-gradient-to-r from-purple-900 to-purple-700 flex justify-center items-center">
+      <div className="w-full h-[40vh] bg-gradient-to-r from-blue-900 to-blue-700 flex justify-center items-center">
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Frequently Asked Questions
@@ -122,7 +122,7 @@ export default function FAQ() {
                 onClick={() => setSelectedCategory("All")}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${
                   selectedCategory === "All"
-                    ? "bg-purple-600 text-white shadow-lg"
+                    ? "bg-blue-600 text-white shadow-lg"
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 }`}
               >
@@ -134,7 +134,7 @@ export default function FAQ() {
                   onClick={() => setSelectedCategory(category)}
                   className={`px-6 py-3 rounded-full font-medium transition-all duration-200 ${
                     selectedCategory === category
-                      ? "bg-purple-600 text-white shadow-lg"
+                      ? "bg-blue-600 text-white shadow-lg"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                   }`}
                 >
@@ -162,7 +162,7 @@ export default function FAQ() {
                     >
                       <div className="flex justify-between items-center">
                         <div>
-                          <span className="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-800 rounded-full mb-2">
+                          <span className="inline-block px-3 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full mb-2">
                             {faq.category}
                           </span>
                           <h3 className="text-lg font-semibold text-gray-900 pr-8">
@@ -208,7 +208,7 @@ export default function FAQ() {
 
           {/* Contact Section */}
           <div className="mt-16 text-center">
-            <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-lg">
+            <div className="bg-gradient-to-r from-blue-50 to-blue-50 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Still have questions?
               </h3>
@@ -219,15 +219,9 @@ export default function FAQ() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="/contact-us"
-                  className="bg-purple-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-purple-700 transition-colors duration-200"
+                  className="bg-blue-600 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
                 >
                   Contact Us
-                </a>
-                <a
-                  href="mailto:info@broadindia.com"
-                  className="bg-white text-purple-600 border-2 border-purple-600 px-8 py-3 rounded-lg font-medium hover:bg-purple-50 transition-colors duration-200"
-                >
-                  Email Support
                 </a>
               </div>
             </div>

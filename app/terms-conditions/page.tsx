@@ -11,7 +11,7 @@ export default function TermsConditions() {
   return (
     <div className="w-full overflow-hidden">
       {/* Hero Section */}
-      <div className="w-full h-[40vh] bg-gradient-to-r from-green-900 to-green-700 flex justify-center items-center">
+      <div className="w-full h-[40vh] bg-gradient-to-r from-blue-900 to-blue-700 flex justify-center items-center">
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Terms & Conditions
@@ -42,7 +42,7 @@ export default function TermsConditions() {
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
                 <div className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">✓</span>
+                  <span className="text-blue-600 mr-3 mt-1">✓</span>
                   <p className="text-gray-700">
                     You may view and download content for personal or internal
                     business use only.
@@ -64,15 +64,15 @@ export default function TermsConditions() {
               </h2>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
+                  <span className="text-blue-600 mr-2">•</span>
                   Provide accurate information in forms.
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
+                  <span className="text-blue-600 mr-2">•</span>
                   Keep login/access credentials secure if provided.
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-600 mr-2">•</span>
+                  <span className="text-blue-600 mr-2">•</span>
                   No misuse of the site or intent to disrupt services.
                 </li>
               </ul>
