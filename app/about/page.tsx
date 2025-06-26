@@ -2,14 +2,9 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import { Tab } from "@headlessui/react";
 
 import bg from "@/public/images/broadIndGrp.jpeg";
 import logo from "@/public/images/logo.png";
-import bti from "@/public/images/broad_town_intro3.jpg";
-import awards1 from "@/public/images/awards1.jpeg";
-import awards2 from "@/public/images/awards2.jpeg";
-import awards3 from "@/public/images/awards3.jpeg";
 
 export default function About() {
   useEffect(() => {
@@ -31,32 +26,43 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="md:col-span-2">
             <h2 className="text-2xl md:text-3xl font-semibold">
-              BROAD Air Conditioning India Pvt. Ltd.
+              About BROAD Air Conditioning India Pvt. Ltd.
             </h2>
             <p className="mt-4 text-base md:text-lg text-gray-700">
-              A subsidiary of BROAD Group, China, BROAD has been serving the
-              Indian market since 2001, offering innovative and sustainable HVAC
-              solutions. With over 200 VAM installations, we provide
-              comprehensive service, operations, and maintenance (O&M) across
-              India.
+              BROAD India, a proud subsidiary of China's BROAD Group, has been
+              serving India since 2001 with cutting-edge, sustainable HVAC
+              solutions. For over two decades, we've delivered 200+ Vapor
+              Absorption Machine (VAM) installations across critical industrial
+              sectors.
             </p>
+
+            <h3 className="text-xl md:text-2xl font-semibold mt-6 text-blue-600">
+              Our Mission
+            </h3>
+            <p className="mt-2 text-gray-700 text-sm md:text-base">
+              To decarbonize industrial cooling across India, we engineer
+              non-electric absorption chillers, CCHP (Combined Cooling, Heating
+              & Power) systems, waste-heat-powered HVAC, and absorption heat
+              pumps—helping industries slash energy usage, reduce carbon
+              emissions, and meet regulatory goals for a greener tomorrow.
+            </p>
+
             <h3 className="text-xl md:text-2xl font-semibold mt-6">
-              Key Achievements
+              🔹 Key Achievements & Impact
             </h3>
             <ul className="list-disc ml-5 mt-2 text-gray-700 text-sm md:text-base">
               <li>
-                Asia&apos;s Largest CHP Project: Managing the largest combined
-                heat and power (CHP) project in DLF, Gurugram.
+                Executed and managing the Asia's largest CHP project in DLF,
+                Gurgaon
               </li>
               <li>
-                Industry Applications: BROAD chillers are utilized in
-                petrochemical, food processing, textile, healthcare, and office
-                sectors.
+                Delivered energy-efficient HVAC systems to sectors like
+                petrochemicals, food processing, textiles, healthcare, and
+                offices
               </li>
               <li>
-                Commitment to Sustainability: Our dedication to delivering
-                energy-efficient air conditioning systems that reduce
-                environmental impact supports our vision for a greener planet.
+                Built over 200 absorption chiller installations, enabling our
+                clients to significantly reduce their carbon footprint
               </li>
             </ul>
           </div>
@@ -70,70 +76,114 @@ export default function About() {
             />
           </div>
         </div>
-      </div>
 
-      <Tab.Group>
-        <div className="max-w-6xl mx-auto px-6 mt-10 grid grid-cols-1 md:grid-cols-4 gap-6">
-          {/* Tab List Box */}
-          <Tab.List className="bg-gray-100 p-4 rounded-lg shadow-lg md:col-span-1 flex md:flex-col overflow-auto md:overflow-visible">
-            {["About", "Awards", "BROAD Town HQ"].map((tab, index) => (
-              <Tab
-                key={index}
-                className={({ selected }) =>
-                  `w-full md:w-auto px-4 py-2 rounded-lg text-left ${
-                    selected ? "bg-blue-600 text-white" : "text-gray-700"
-                  }`
-                }
-              >
-                {tab}
-              </Tab>
-            ))}
-          </Tab.List>
-
-          {/* Tab Panels (Content) */}
-          <Tab.Panels className="md:col-span-3 bg-white p-6 rounded-lg shadow-lg">
-            {/* About Section - Default */}
-            <Tab.Panel>
-              <h2 className="text-3xl font-semibold">About BROAD India</h2>
-              <p className="mt-4 text-lg text-gray-700">
-                BROAD India has been at the forefront of the absorption chiller
-                market since 2001, delivering innovative and thermally driven
-                absorption technology for modern industries.
+        {/* What Sets Us Apart Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">
+            What Sets Us Apart
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-3xl mb-4">🔬</div>
+              <h4 className="font-semibold mb-2">Innovative Technology</h4>
+              <p className="text-sm text-gray-600">
+                Pioneers in thermal-driven HVAC applying waste heat, steam,
+                diesel, or natural gas
               </p>
-            </Tab.Panel>
-
-            {/* Awards Section */}
-            <Tab.Panel>
-              <h2 className="text-3xl font-semibold">
-                Awards and Recognitions
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-                <Image src={awards1} alt="Award 1" className="rounded-lg" />
-                <Image src={awards2} alt="Award 2" className="rounded-lg" />
-                <Image src={awards3} alt="Award 3" className="rounded-lg" />
-              </div>
-            </Tab.Panel>
-
-            {/* BROAD Town HQ */}
-            <Tab.Panel>
-              <h2 className="text-3xl font-semibold">
-                BROAD Town Headquarters
-              </h2>
-              <p className="mt-4 text-lg text-gray-700">
-                BROAD Town is the headquarters of BROAD Group, located in the
-                eastern suburbs of Changsha City, covering an area of 1km².
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-3xl mb-4">🔧</div>
+              <h4 className="font-semibold mb-2">Comprehensive Services</h4>
+              <p className="text-sm text-gray-600">
+                End-to-end support including manufacturing, installation, and
+                after-sales O&M
               </p>
-              <Image
-                src={bti}
-                alt="BROAD Town"
-                className="w-full mt-6 rounded-lg"
-              />
-            </Tab.Panel>
-
-            {/* Add similar <Tab.Panel> blocks for History, Culture, etc. */}
-          </Tab.Panels>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-3xl mb-4">🌱</div>
+              <h4 className="font-semibold mb-2">Green Engineering Focus</h4>
+              <p className="text-sm text-gray-600">
+                Aligned with India's 2070 net-zero goals through clean cooling
+                systems
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <div className="text-3xl mb-4">🏆</div>
+              <h4 className="font-semibold mb-2">Global Heritage</h4>
+              <p className="text-sm text-gray-600">
+                Part of BROAD Group—established in 1988, headquartered in
+                Changsha
+              </p>
+            </div>
+          </div>
         </div>
-      </Tab.Group>
+
+        {/* Why Choose BROAD India Section */}
+        <div className="mt-16">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">
+            Why Choose BROAD India?
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg">
+              <ul className="space-y-3">
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Rank #1 for BROAD Vapor Absorption Chiller and Non-Electric
+                  Chiller
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Trusted by top brands like NTPC, IOCL, JSW, DLF, ITC, and
+                  Bhilosa
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 p-6 rounded-lg">
+              <ul className="space-y-3">
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Proven expertise in waste heat recovery systems
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Pioneering cooling solutions for industrial decarbonisation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact Information */}
+        <div className="mt-16 bg-gradient-to-r from-blue-600 to-green-600 text-white p-8 rounded-lg text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+            Get in Touch
+          </h2>
+          <p className="text-lg mb-6">
+            Looking for eco-friendly HVAC solutions that reduce costs and
+            emissions?
+          </p>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+            <a
+              href="mailto:info@broadindia.com"
+              className="flex items-center text-white hover:text-blue-200"
+            >
+              📩 info@broadindia.com
+            </a>
+            <a
+              href="tel:01244012824"
+              className="flex items-center text-white hover:text-blue-200"
+            >
+              📞 0124‑4012824
+            </a>
+            <a
+              href="tel:9427851584"
+              className="flex items-center text-white hover:text-blue-200"
+            >
+              📞 94278 51584
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

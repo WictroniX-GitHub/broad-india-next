@@ -90,6 +90,12 @@ export default function Header() {
                     Power Efficient Chiller
                   </Link>
                   <Link
+                    href="/absorption-heat-pump"
+                    className="block px-4 py-2 hover:bg-gray-200"
+                  >
+                    Absorption Heat Pump
+                  </Link>
+                  <Link
                     href="/pumpsets"
                     className="block px-4 py-2 hover:bg-gray-200"
                   >
@@ -159,6 +165,13 @@ export default function Header() {
                 onClick={handleCloseMenu}
               >
                 Power Efficient Chiller
+              </Link>
+              <Link
+                href="/absorption-heat-pump"
+                className="block py-2"
+                onClick={handleCloseMenu}
+              >
+                Absorption Heat Pump
               </Link>
               <Link
                 href="/pumpsets"

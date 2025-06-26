@@ -8,36 +8,44 @@ import pumpImg from "@/public/images/broadPump.webp";
 const products = [
   {
     id: 1,
-    title: "Vapour Absorption Chiller",
+    title: "Vapor Absorption Chiller",
     image: "https://broadusa.com/broad/wp-content/uploads/2020/04/home_DFA.jpg",
     description:
-      "Building Central A/C System & Domestic Hot Water. Providing cooling with fuel saving caused by 4 times less energy conversions.",
+      "Ideal for industries looking to eliminate electricity-driven cooling. Choose from gas, steam, solar, or multi-energy powered chillers that run efficiently on available heat sources.",
     link: "/vapour-absorption-chiller",
   },
   {
     id: 2,
-    title: "BROAD CCHP System",
-    image:
-      "https://broadusa.com/broad/wp-content/uploads/2020/04/home_CCHP-300x195.jpg",
-    description:
-      "Achieves Zero Emission with Exhaust Heat as Power Source - The CCHP System powered by exhaust heat from generator.",
-    link: "/cchp-systems",
-  },
-  {
-    id: 3,
-    title: "Magnetic Bearing Oil Free Chillers",
+    title: "Power Efficient Chiller",
     image:
       "https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg",
     description:
-      "Cooling capacity ranging from 150 ton to 2000 ton, High COP (6.5) and excellent IPLV (maximum 13.26).",
+      "Designed for high-performance applications where energy savings, quiet operation, and zero oil contamination matter — featuring magnetic bearing, oil-free technology.",
     link: "/power-efficient-chiller",
   },
   {
+    id: 3,
+    title: "CCHP Systems",
+    image:
+      "https://broadusa.com/broad/wp-content/uploads/2020/04/home_CCHP-300x195.jpg",
+    description:
+      "For facilities seeking to generate cooling, heating, and power from a single fuel source — reducing energy costs and carbon footprint with trigeneration.",
+    link: "/cchp-systems",
+  },
+  {
     id: 4,
-    title: "Pump Set",
+    title: "Absorption Heat Pumps",
+    image: "/images/absorption heat pumps.jpg",
+    description:
+      "Perfect for process industries and buildings aiming to recover and upgrade low-grade heat for heating applications without adding new energy sources.",
+    link: "/absorption-heat-pump",
+  },
+  {
+    id: 5,
+    title: "Pumpsets",
     image: pumpImg,
     description:
-      "Zero water resistance design enables 60%+ electricity saving compared with conventional water distribution systems.",
+      "Best suited for industrial HVAC circulation, cooling water transfer, and thermal systems requiring robust, long-lasting pump performance.",
     link: "/pumpsets",
   },
 ];
@@ -48,15 +56,12 @@ export default function SpecialistsProduct() {
 
   return (
     <div className="container mx-auto px-4 mt-10">
-      <h2 className="text-3xl font-semibold text-center mb-5">
-        Our Best Quality Products
-      </h2>
-      <p className="text-center text-gray-600">
-        Discover cost-effective cooling and heating solutions with BROAD
-        India&apos;s energy-efficient HVAC systems and power-efficient
-        absorption chillers.
+      <h2 className="text-3xl font-semibold text-center mb-5">Our Products</h2>
+      <p className="text-center text-gray-600 mb-8">
+        Precision-engineered High-Efficiency Chillers and Systems that power
+        sustainable industries across India.
       </p>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
           <div
             key={product.id}
