@@ -1,8 +1,7 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import {
   Card,
   CardContent,
@@ -11,11 +10,37 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-const AbsorptionHeatPump = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export const metadata: Metadata = {
+  title: "Absorption Heat Pumps - Waste Heat Recovery Systems | BROAD India",
+  description:
+    "BROAD India's absorption heat pumps recover waste heat from industrial processes, achieving 15-20% energy savings. Ideal for thermal power plants, industrial heating, and district heating applications.",
+  keywords: [
+    "absorption heat pump",
+    "waste heat recovery",
+    "industrial heat pump",
+    "thermal power plant",
+    "energy saving",
+    "process heating",
+    "district heating",
+    "BROAD heat pump",
+    "waste heat utilization",
+  ],
+  openGraph: {
+    title: "Absorption Heat Pumps - Waste Heat Recovery Systems | BROAD India",
+    description:
+      "BROAD India's absorption heat pumps recover waste heat from industrial processes, achieving 15-20% energy savings.",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Absorption Heat Pumps - Waste Heat Recovery Systems | BROAD India",
+    description:
+      "BROAD India's absorption heat pumps recover waste heat from industrial processes, achieving 15-20% energy savings.",
+  },
+};
 
+const AbsorptionHeatPump = () => {
   const applications = [
     {
       title: "Thermal Power Plant Systems",

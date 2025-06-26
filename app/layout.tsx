@@ -7,11 +7,11 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "BROAD India HVAC/Cooling Solutions",
-  description:
-    "Explore BROAD non-electric Vapor Absorption Chillers VAC/VAM using steam, hot water, exhaust, or gas ideal for CCHP, decarbonisation, and waste heat recovery.",
-};
+// export const metadata: Metadata = {
+//   title: "BROAD India HVAC/Cooling Solutions",
+//   description:
+//     "Explore BROAD non-electric Vapor Absorption Chillers VAC/VAM using steam, hot water, exhaust, or gas ideal for CCHP, decarbonisation, and waste heat recovery.",
+// };
 
 export default function RootLayout({
   children,

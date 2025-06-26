@@ -1,13 +1,38 @@
-"use client";
-
-import { useEffect } from "react";
+import { Metadata } from "next";
 import bg from "@/public/images/bgbg.jpg";
 
-export default function BroadGroup() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export const metadata: Metadata = {
+  title: "BROAD Group - Global Leader in Sustainable Technology | BROAD India",
+  description:
+    "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions. Discover our commitment to original innovation and low-carbon technology for humanity's future.",
+  keywords: [
+    "BROAD Group",
+    "sustainable technology",
+    "low carbon technology",
+    "energy efficient solutions",
+    "original innovation",
+    "green technology",
+    "environmental solutions",
+    "BROAD global",
+  ],
+  openGraph: {
+    title:
+      "BROAD Group - Global Leader in Sustainable Technology | BROAD India",
+    description:
+      "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions.",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "BROAD Group - Global Leader in Sustainable Technology | BROAD India",
+    description:
+      "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions.",
+  },
+};
 
+export default function BroadGroup() {
   return (
     <div>
       <div

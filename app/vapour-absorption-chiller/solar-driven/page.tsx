@@ -1,14 +1,42 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Solar Driven Vapor Absorption Chiller - Renewable Energy Cooling | BROAD India",
+  description:
+    "BROAD Solar Driven Vapor Absorption Chillers harness solar energy for sustainable cooling solutions. Eco-friendly, renewable energy-powered air conditioning systems.",
+  keywords: [
+    "solar chiller",
+    "solar driven cooling",
+    "solar absorption chiller",
+    "renewable energy cooling",
+    "solar powered AC",
+    "sustainable cooling",
+    "green cooling technology",
+    "BROAD solar chiller",
+    "solar thermal cooling",
+  ],
+  openGraph: {
+    title:
+      "Solar Driven Vapor Absorption Chiller - Renewable Energy Cooling | BROAD India",
+    description:
+      "BROAD Solar Driven Vapor Absorption Chillers harness solar energy for sustainable cooling solutions. Eco-friendly renewable energy cooling.",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Solar Driven Vapor Absorption Chiller - Renewable Energy Cooling | BROAD India",
+    description:
+      "BROAD Solar Driven Vapor Absorption Chillers harness solar energy for sustainable cooling solutions.",
+  },
+};
 
 const SolarDriven = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div>
       <div

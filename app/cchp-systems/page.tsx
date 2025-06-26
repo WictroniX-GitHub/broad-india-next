@@ -218,7 +218,9 @@ const CCHPSystems = () => {
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 h-full flex flex-col">
-              <div className="text-orange-600 text-3xl mb-4 text-center">🏭</div>
+              <div className="text-orange-600 text-3xl mb-4 text-center">
+                🏭
+              </div>
               <h4 className="text-lg font-semibold mb-3 text-center">
                 Industrial Facilities
               </h4>

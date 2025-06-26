@@ -1,8 +1,7 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import {
   Card,
   CardContent,
@@ -11,11 +10,40 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-const VapourAbsorptionChiller = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export const metadata: Metadata = {
+  title:
+    "Vapor Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
+  description:
+    "Explore BROAD India's range of vapor absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers. Energy-efficient, non-electric cooling solutions for industrial applications.",
+  keywords: [
+    "vapor absorption chiller",
+    "non-electric chiller",
+    "absorption chiller",
+    "direct fired chiller",
+    "waste heat chiller",
+    "solar chiller",
+    "multi-energy chiller",
+    "BROAD chiller",
+    "industrial cooling",
+  ],
+  openGraph: {
+    title:
+      "Vapor Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
+    description:
+      "Explore BROAD India's range of vapor absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers.",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Vapor Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
+    description:
+      "Explore BROAD India's range of vapor absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers.",
+  },
+};
 
+const VapourAbsorptionChiller = () => {
   const subCategories = [
     {
       title: "Direct Fired Chiller",
@@ -119,7 +147,9 @@ const VapourAbsorptionChiller = () => {
                   />
                 </div>
                 <CardHeader className="pb-3">
-                  <CardTitle className="text-lg font-semibold line-clamp-2">{category.title}</CardTitle>
+                  <CardTitle className="text-lg font-semibold line-clamp-2">
+                    {category.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
                   <CardDescription className="text-gray-600 text-sm line-clamp-3">

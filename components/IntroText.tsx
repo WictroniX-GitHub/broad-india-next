@@ -9,8 +9,8 @@ export default function IntroText() {
           Sustainable HVAC Solutions
         </h1>
         <p className="text-xl text-blue-600 font-semibold">
-          India's Trusted Leader in Non-Electric Chillers and CCHP Systems;
-          Decarbonizing India's Cooling: Waste-Heat HVAC & Energy-Efficient
+          India&apos;s Trusted Leader in Non-Electric Chillers and CCHP Systems;
+          Decarbonizing India&apos;s Cooling: Waste-Heat HVAC & Energy-Efficient
           Industrial Chillers
         </p>
       </div>
@@ -65,8 +65,8 @@ export default function IntroText() {
           eco-friendly alternatives to conventional chillers.
         </p>
         <p className="mt-4">
-          With over two decades of experience, we are India's top supplier of
-          absorption chillers, CCHP systems, and flue gas recovery chillers,
+          With over two decades of experience, we are India&apos;s top supplier
+          of absorption chillers, CCHP systems, and flue gas recovery chillers,
           tailored for industrial and commercial applications.
         </p>
       </div>

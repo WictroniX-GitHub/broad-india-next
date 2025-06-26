@@ -1,8 +1,7 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import {
   Card,
   CardContent,
@@ -11,11 +10,38 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-const PowerEfficientChiller = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export const metadata: Metadata = {
+  title: "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
+  description:
+    "BROAD India's power efficient chillers with magnetic bearing technology deliver superior performance and energy savings. Advanced electric chillers for commercial and industrial applications.",
+  keywords: [
+    "power efficient chiller",
+    "magnetic bearing chiller",
+    "electric chiller",
+    "energy efficient cooling",
+    "commercial chiller",
+    "industrial chiller",
+    "BROAD electric chiller",
+    "high efficiency chiller",
+  ],
+  openGraph: {
+    title:
+      "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
+    description:
+      "BROAD India's power efficient chillers with magnetic bearing technology deliver superior performance and energy savings.",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
+    description:
+      "BROAD India's power efficient chillers with magnetic bearing technology deliver superior performance and energy savings.",
+  },
+};
 
+const PowerEfficientChiller = () => {
   return (
     <div>
       {/* Hero Section */}

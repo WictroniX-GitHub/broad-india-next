@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Typewriter from "typewriter-effect";
 
 export default function CTA() {
   return (

@@ -1,14 +1,42 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Direct Fired Vapor Absorption Chiller - Natural Gas & Diesel Powered | BROAD India",
+  description:
+    "BROAD Direct Fired Vapor Absorption Chillers use natural gas, diesel, or biogas for efficient cooling. Ideal for areas without steam supply. Energy-efficient, non-electric cooling solution.",
+  keywords: [
+    "direct fired chiller",
+    "gas fired chiller",
+    "diesel chiller",
+    "biogas chiller",
+    "natural gas chiller",
+    "vapor absorption chiller",
+    "non-electric cooling",
+    "BROAD direct fired",
+    "gas powered cooling",
+  ],
+  openGraph: {
+    title:
+      "Direct Fired Vapor Absorption Chiller - Natural Gas & Diesel Powered | BROAD India",
+    description:
+      "BROAD Direct Fired Vapor Absorption Chillers use natural gas, diesel, or biogas for efficient cooling. Ideal for areas without steam supply.",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Direct Fired Vapor Absorption Chiller - Natural Gas & Diesel Powered | BROAD India",
+    description:
+      "BROAD Direct Fired Vapor Absorption Chillers use natural gas, diesel, or biogas for efficient cooling.",
+  },
+};
 
 const DirectFiredChiller = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div>
       {/* Hero Section */}

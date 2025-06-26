@@ -1,13 +1,33 @@
-"use client";
-
-import { useEffect } from "react";
+import { Metadata } from "next";
 import Container from "@/components/Container";
 
-export default function PrivacyPolicy() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export const metadata: Metadata = {
+  title: "Privacy Policy - BROAD India | Data Protection & Privacy",
+  description:
+    "Read BROAD India's privacy policy to understand how we collect, use, and protect your personal information. Our commitment to data privacy and security.",
+  keywords: [
+    "privacy policy",
+    "data protection",
+    "privacy rights",
+    "BROAD India privacy",
+    "data security",
+    "personal information",
+    "privacy statement",
+  ],
+  openGraph: {
+    title: "Privacy Policy - BROAD India | Data Protection & Privacy",
+    description:
+      "Read BROAD India's privacy policy to understand how we collect, use, and protect your personal information.",
+    type: "website",
+    locale: "en_IN",
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
 
+export default function PrivacyPolicy() {
   return (
     <div className="w-full overflow-hidden">
       {/* Hero Section */}

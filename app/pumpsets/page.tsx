@@ -1,14 +1,46 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "BROAD Factory-Assembled Pumpsets - Industrial Pumping Solutions",
+  description:
+    "BROAD India's factory-assembled pumpsets provide reliable, efficient pumping solutions for industrial applications. Pre-assembled, tested systems ready for immediate installation.",
+  keywords: [
+    "factory assembled pumpsets",
+    "industrial pumps",
+    "pumping systems",
+    "BROAD pumpsets",
+    "pre-assembled pumps",
+    "industrial pumping solutions",
+    "factory tested pumps",
+  ],
+  openGraph: {
+    title: "BROAD Factory-Assembled Pumpsets - Industrial Pumping Solutions",
+    description:
+      "BROAD India's factory-assembled pumpsets provide reliable, efficient pumping solutions for industrial applications.",
+    type: "website",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/images/broadPump.webp",
+        width: 1200,
+        height: 630,
+        alt: "BROAD Factory-Assembled Pumpsets",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BROAD Factory-Assembled Pumpsets - Industrial Pumping Solutions",
+    description:
+      "BROAD India's factory-assembled pumpsets provide reliable, efficient pumping solutions for industrial applications.",
+    images: ["/images/broadPump.webp"],
+  },
+};
 
 const Pumpsets = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div>
       {/* Hero Section */}

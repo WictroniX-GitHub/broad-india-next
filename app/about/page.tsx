@@ -1,16 +1,46 @@
-"use client";
-
 import Image from "next/image";
-import { useEffect } from "react";
+import type { Metadata } from "next";
 
 import bg from "@/public/images/broadIndGrp.jpeg";
 import logo from "@/public/images/logo.png";
 
-export default function About() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+export const metadata: Metadata = {
+  title: "About BROAD India - Leading HVAC Solutions Provider",
+  description:
+    "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric vapor absorption chillers and sustainable HVAC solutions. Discover our mission, values, and commitment to energy-efficient cooling systems.",
+  keywords: [
+    "BROAD India",
+    "HVAC solutions",
+    "vapor absorption chillers",
+    "non-electric cooling",
+    "sustainable HVAC",
+    "energy efficient cooling",
+  ],
+  openGraph: {
+    title: "About BROAD India - Leading HVAC Solutions Provider",
+    description:
+      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric vapor absorption chillers and sustainable HVAC solutions.",
+    type: "website",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 160,
+        height: 80,
+        alt: "BROAD India Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About BROAD India - Leading HVAC Solutions Provider",
+    description:
+      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric vapor absorption chillers and sustainable HVAC solutions.",
+    images: ["/images/logo.png"],
+  },
+};
 
+export default function About() {
   return (
     <div className="w-full overflow-hidden">
       <div
@@ -29,9 +59,9 @@ export default function About() {
               About BROAD Air Conditioning India Pvt. Ltd.
             </h2>
             <p className="mt-4 text-base md:text-lg text-gray-700">
-              BROAD India, a proud subsidiary of China's BROAD Group, has been
-              serving India since 2001 with cutting-edge, sustainable HVAC
-              solutions. For over two decades, we've delivered 200+ Vapor
+              BROAD India, a proud subsidiary of China&apos;s BROAD Group, has
+              been serving India since 2001 with cutting-edge, sustainable HVAC
+              solutions. For over two decades, we&apos;ve delivered 200+ Vapor
               Absorption Machine (VAM) installations across critical industrial
               sectors.
             </p>
@@ -52,8 +82,8 @@ export default function About() {
             </h3>
             <ul className="list-disc ml-5 mt-2 text-gray-700 text-sm md:text-base">
               <li>
-                Executed and managing the Asia's largest CHP project in DLF,
-                Gurgaon
+                Executed and managing the Asia&apos;s largest CHP project in
+                DLF, Gurgaon
               </li>
               <li>
                 Delivered energy-efficient HVAC systems to sectors like
@@ -103,8 +133,8 @@ export default function About() {
               <div className="text-3xl mb-4">🌱</div>
               <h4 className="font-semibold mb-2">Green Engineering Focus</h4>
               <p className="text-sm text-gray-600">
-                Aligned with India's 2070 net-zero goals through clean cooling
-                systems
+                Aligned with India&apos;s 2070 net-zero goals through clean
+                cooling systems
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">

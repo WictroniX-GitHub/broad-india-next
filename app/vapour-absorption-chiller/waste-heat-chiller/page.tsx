@@ -1,14 +1,51 @@
-"use client";
-
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Waste Heat Driven Vapor Absorption Chiller - Energy Recovery Solutions | BROAD India",
+  description:
+    "BROAD Waste Heat Driven Vapor Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce operating costs with our waste heat recovery chillers.",
+  keywords: [
+    "waste heat chiller",
+    "waste heat recovery",
+    "heat recovery chiller",
+    "waste heat driven cooling",
+    "industrial waste heat",
+    "energy recovery",
+    "vapor absorption chiller",
+    "BROAD waste heat",
+    "thermal energy recovery",
+  ],
+  openGraph: {
+    title:
+      "Waste Heat Driven Vapor Absorption Chiller - Energy Recovery Solutions | BROAD India",
+    description:
+      "BROAD Waste Heat Driven Vapor Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce costs.",
+    type: "website",
+    locale: "en_IN",
+    images: [
+      {
+        url: "/images/wasteHeat.jpg",
+        width: 1200,
+        height: 630,
+        alt: "BROAD Waste Heat Driven Vapor Absorption Chiller",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Waste Heat Driven Vapor Absorption Chiller - Energy Recovery Solutions | BROAD India",
+    description:
+      "BROAD Waste Heat Driven Vapor Absorption Chillers convert industrial waste heat into cooling energy.",
+    images: ["/images/wasteHeat.jpg"],
+  },
+};
 
 const WasteHeatChiller = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div>
       {/* Hero Section */}
