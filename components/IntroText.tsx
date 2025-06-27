@@ -2,7 +2,7 @@
 
 export default function IntroText() {
   return (
-    <div className="container mx-auto mt-10 px-4 md:px-8">
+    <div className="container mx-auto mt-10 px-4 md:px-8 mb-10">
       <div className="text-lg text-gray-700 leading-relaxed">
         <p>
           <strong>BROAD India</strong>, a subsidiary of the{" "}
