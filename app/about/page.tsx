@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 
-import bg from "@/public/images/Team.jpg";
+import bg from "@/public/images/OurTeam.jpg";
 import logo from "@/public/images/logo.png";
 
 export const metadata: Metadata = {
