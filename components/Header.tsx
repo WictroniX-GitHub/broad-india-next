@@ -74,30 +74,35 @@ export default function Header() {
                   <Link
                     href="/vapour-absorption-chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsProductsOpen(false)}
                   >
                     Vapour Absorption Chiller
                   </Link>
                   <Link
                     href="/cchp-systems"
                     className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsProductsOpen(false)}
                   >
                     BROAD CCHP System
                   </Link>
                   <Link
                     href="/power-efficient-chiller"
                     className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsProductsOpen(false)}
                   >
                     Power Efficient Chiller
                   </Link>
                   <Link
                     href="/absorption-heat-pump"
                     className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsProductsOpen(false)}
                   >
                     Absorption Heat Pump
                   </Link>
                   <Link
                     href="/pumpsets"
                     className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsProductsOpen(false)}
                   >
                     Pumpset
                   </Link>

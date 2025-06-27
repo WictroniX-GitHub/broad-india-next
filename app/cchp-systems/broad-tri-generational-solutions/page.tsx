@@ -15,7 +15,7 @@ const BroadTriGenerationalSolutions = () => {
       <div
         className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
         style={{
-          backgroundImage: `url('/images/CCHP.jpg')`,
+          backgroundImage: `url('/images/CCHP_1.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
@@ -61,7 +61,7 @@ const BroadTriGenerationalSolutions = () => {
           {/* Product Image */}
           <div className="mb-12">
             <Image
-              src="/images/CCHP.jpg"
+              src="/images/CCHP_2.jpg"
               alt="BROAD CCHP Tri-Generational System"
               width={800}
               height={500}

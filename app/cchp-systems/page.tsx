@@ -22,7 +22,7 @@ const CCHPSystems = () => {
       <div
         className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
         style={{
-          backgroundImage: `url('/images/CCHP.jpg')`,
+          backgroundImage: `url('/images/CCHP_1.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
@@ -57,10 +57,10 @@ const CCHPSystems = () => {
             <Card className="h-full hover:shadow-lg transition-shadow duration-300 cursor-pointer">
               <div className="relative h-64 overflow-hidden rounded-t-lg">
                 <Image
-                  src="/images/CCHP.jpg"
+                  src="/images/CCHP_2.jpg"
                   alt="BROAD Tri-Generational Solutions"
                   fill
-                  className="object-cover hover:scale-105 transition-transform duration-300"
+                  className="object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <CardHeader>

@@ -8,13 +8,16 @@ import broadBG3 from "@/public/images/13Podium.webp";
 import broadBG4 from "@/public/images/FTower.webp";
 
 const slides = [
-  { src: broadBG1, text: "For Humanity's Future" },
-  { src: broadBG2, text: "A new world of cooling" },
-  { src: broadBG3, text: "Serving India since 2001" },
+  { src: broadBG1, text: "BROAD India" },
+  { src: broadBG2, text: "Serving India Since 2001" },
+  {
+    src: broadBG3,
+    text: "Vapor Absorption Machines and Sustainable HVAC Solutions",
+  },
   {
     src: broadBG4,
-    text: "F Tower - The Most Unique Building In the World",
-    link: "https://www.youtube.com/watch?v=UldIK4Qb-J0&t=72s",
+    text: "Want to know more?",
+    link: "/contact-us",
   },
 ];
 
@@ -52,7 +55,7 @@ export default function HomePageCarousel() {
                 rel="noreferrer"
                 className="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded-md text-lg"
               >
-                Know More
+                Contact Us
               </a>
             )}
           </div>

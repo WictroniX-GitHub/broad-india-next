@@ -1,7 +1,7 @@
 import Image from "next/image";
 import type { Metadata } from "next";
 
-import bg from "@/public/images/broadIndGrp.jpeg";
+import bg from "@/public/images/Team.jpg";
 import logo from "@/public/images/logo.png";
 
 export const metadata: Metadata = {
@@ -77,8 +77,8 @@ export default function About() {
               emissions, and meet regulatory goals for a greener tomorrow.
             </p>
 
-            <h3 className="text-xl md:text-2xl font-semibold mt-6">
-              🔹 Key Achievements & Impact
+            <h3 className="text-xl md:text-2xl font-semibold mt-6 text-blue-600">
+              Key Achievements & Impact
             </h3>
             <ul className="list-disc ml-5 mt-2 text-gray-700 text-sm md:text-base">
               <li>
@@ -109,7 +109,7 @@ export default function About() {
 
         {/* What Sets Us Apart Section */}
         <div className="mt-16">
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-blue-600">
             What Sets Us Apart
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -150,7 +150,7 @@ export default function About() {
 
         {/* Why Choose BROAD India Section */}
         <div className="mt-16">
-          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-blue-600">
             Why Choose BROAD India?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

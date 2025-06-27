@@ -35,7 +35,7 @@ const products = [
   {
     id: 4,
     title: "Absorption Heat Pumps",
-    image: "/images/absorption heat pumps.jpg",
+    image: "/images/Absorption Heat Pump.jpg",
     description:
       "Perfect for process industries and buildings aiming to recover and upgrade low-grade heat for heating applications without adding new energy sources.",
     link: "/absorption-heat-pump",

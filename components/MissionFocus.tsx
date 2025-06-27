@@ -26,7 +26,7 @@ export default function MissionFocus() {
     <div className="container mx-auto mt-16 px-4 md:px-8">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          Our Mission & Focus Areas
+          Our Core Values
         </h2>
         <p className="text-lg text-gray-600">
           At BROAD India, we are driven by purpose and innovation in industrial

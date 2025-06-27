@@ -107,7 +107,7 @@ const AbsorptionHeatPump = () => {
       <div
         className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
         style={{
-          backgroundImage: `url('/images/absorption heat pumps.jpg')`,
+          backgroundImage: `url('/images/Absorption Heat Pump.jpg')`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
@@ -145,7 +145,7 @@ const AbsorptionHeatPump = () => {
           <Card className="h-full">
             <div className="relative h-64 overflow-hidden rounded-t-lg">
               <Image
-                src="/images/absorption heat pumps.jpg"
+                src="/images/Absorption Heat Pump.jpg"
                 alt="BROAD Absorption Heat Pump"
                 fill
                 className="object-contain"
