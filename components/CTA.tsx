@@ -36,7 +36,7 @@ export default function CTA() {
               📧 info@broadindia.com
             </a>
             <a href="tel:9427851584" className="flex items-center text-black">
-              📞 9427851584
+              📞 +91 94278 51584
             </a>
             <a href="tel:01244012824" className="flex items-center text-black">
               📞 01244012824
