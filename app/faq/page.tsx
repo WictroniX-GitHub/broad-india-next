@@ -37,7 +37,7 @@ const faqData: FAQItem[] = [
   {
     question: "What are the benefits of mag‑lev oil-free chillers?",
     answer:
-      "These chillers use magnetic bearings to eliminate friction, reduce maintenance, ensure whisper-quiet operation, and deliver superior part-load efficiency (IPLVs up to 13+).",
+      "These chillers use magnetic bearings to eliminate friction, reduce maintenance, ensure whisper-quiet operation, and deliver superior part-load efficiency (IPLVs up to 11.5).",
     category: "Technology",
   },
   {
