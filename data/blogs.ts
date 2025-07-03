@@ -118,6 +118,67 @@ The Vapor Absorption Chiller (VAC) is transforming the cooling industry by offer
 `,
     image: "/images/absorption-chillers.jpg",
   },
+{
+  id: "what-is-vapour-absorption-chillers-smart-cooling-explained",
+  title: "What is Vapour Absorption Chiller and How Does It Cool the Smart Way?",
+  description: "Discover how BROAD India’s absorption chillers use heat, not electricity, for eco-friendly, efficient cooling in large buildings.",
+  meta: {
+    description: "Learn how BROAD India’s vapour absorption chillers deliver smart, sustainable cooling using heat instead of high power—ideal for hotels, hospitals, and offices.",
+    keywords: [
+      "vapour absorption chiller",
+      "BROAD India",
+      "eco-friendly cooling",
+      "non-electric chiller",
+      "energy efficient cooling",
+      "lithium bromide chiller",
+      "direct fired chiller",
+      "waste heat chiller",
+      "solar driven chiller",
+    ],
+  },
+  date: "July 3, 2025",
+  readTime: "3-4 min read",
+  category: "Chillers",
+  content: `
+<h1>What is Vapour Absorption Chiller and How Does It Cool the Smart Way?</h1>
+<p>
+Looking for an eco-friendly and efficient way to cool large buildings like hotels, hospitals, or offices? At BROAD India, we use smart technology, not just electricity to keep your offices cool, comfortable, and cost-effective. Our absorption chillers are a modern solution that uses heat instead of high power, and here’s how they work in simple terms:
+</p>
+<ul>
+  <li><strong>The Magic Behind BROAD Absorption Chillers</strong>
+    <ul>
+      <li><strong>Absorption: Cooling Starts Here</strong><br/>
+        Water turns into a cold vapor at a very low pressure and temperature. While doing this, it absorbs heat from your room or space, making the area feel cooler. This vapor is then soaked up by a special liquid—lithium bromide.<br/>
+        Think of lithium bromide like a sponge that pulls in the water vapor so it can be used again.
+        <a href="/power-efficient-chiller">Learn about Magnetic Bearing Chillers</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+      </li>
+      <li><strong>Generation: Heating to Cool</strong><br/>
+        Next, we heat this lithium bromide + water mixture. This separates the water vapor from the lithium bromide, so it’s ready to start the cooling cycle again.<br/>
+        <em>What's amazing?</em> This heat can come from natural gas, biogas, diesel, or even waste heat—making the system super flexible and energy-smart.
+      </li>
+      <li><strong>Condensation: The Final Step</strong><br/>
+        Now that the water vapor is separated, it gets cooled down and condenses back into liquid water, releasing the heat it had collected earlier.<br/>
+        This cool water goes back into the system to keep your building chilled and the cycle repeats!
+      </li>
+    </ul>
+  </li>
+  <li><strong>Why Choose BROAD India?</strong>
+    <ul>
+      <li>No Heavy Electricity Use: Runs on heat, not high-power motors</li>
+      <li>Eco-Friendly Cooling: Great for the environment</li>
+      <li>Fuel Flexible: Runs on gas, biogas, diesel & more</li>
+      <li>Low Maintenance: Few moving parts = fewer repairs</li>
+      <li>Perfect for India’s Energy Needs: Reliable even where power isn’t</li>
+    </ul>
+  </li>
+</ul>
+<p>
+<strong>Let’s Build a Cooler, Greener Future</strong><br/>
+At BROAD India, we combine smart engineering with sustainable solutions. Whether you’re planning a new project or want to reduce your energy bills, our absorption chillers offer the perfect mix of comfort, savings, and sustainability.
+</p>
+`,
+  image: "/images/vapour absorption chiller.jpg",
+},
   {
     id: "can-global-partnerships-accelerate-renewable-energy-in-india",
     title: "Can Global Partnerships Accelerate Renewable Energy in India?",
@@ -129,7 +190,10 @@ The Vapor Absorption Chiller (VAC) is transforming the cooling industry by offer
       keywords: [
         "renewable energy",
         "global partnerships",
-        "India",
+        "Broad India",
+        "China",
+        "Adani",
+        "Broad Group",
         "clean energy future",
       ],
     },
@@ -313,6 +377,74 @@ This visit marks a moment of renewed international engagement and raises broader
     image: "/images/19-Feb blog.jpeg",
   },
   {
+  id: "cool-smarter-with-direct-fired-chillers-explained",
+  title: "Cool Smarter with BROAD India: How Direct-Fired Chillers Work",
+  description: "Discover how BROAD India’s direct-fired chillers use heat—not electricity—for efficient, eco-friendly cooling in large buildings and industries.",
+  meta: {
+    description: "Learn how BROAD India’s direct-fired chillers deliver smart, sustainable cooling using fuel heat instead of electricity—ideal for hotels, hospitals, and factories.",
+    keywords: [
+      "direct fired chiller",
+      "BROAD India",
+      "eco-friendly cooling",
+      "fuel flexible chiller",
+      "energy efficient cooling",
+      "non-electric chiller",
+      "industrial chiller",
+      "vac chillers",
+    ],
+  },
+  date: "July 3, 2025",
+  readTime: "2-3 min read",
+  category: "Chillers",
+  content: `
+<h1>Cool Smarter with BROAD India: How Direct-Fired Chillers Work</h1>
+<p>
+When it comes to cooling big buildings, hotels, hospitals, and industries, most people think of electric chillers. But did you know there’s a smarter, more efficient way to stay cool? Meet <strong>Direct-Fired Chillers</strong> by <strong>BROAD India</strong> – an advanced cooling solution that’s saving energy, reducing costs, and helping the planet.
+</p>
+<h3>How Do They Work?</h3>
+<p>
+BROAD’s chillers don’t work like your home AC. Instead of using electricity to compress gas, they use <strong>heat</strong> to power the cooling process. Sounds strange? Here’s a simple breakdown:
+</p>
+<ol>
+  <li><strong>Water turns into vapor</strong> inside the system at a very low temperature. This absorbs heat and cools the air.</li>
+  <li>That vapor is then <strong>absorbed by a liquid</strong> – lithium bromide (a safe, salt-like chemical).</li>
+  <li>The mixture is <strong>heated using fuel</strong> to release the vapor.</li>
+  <li>The water starts the cooling process again – and the cycle keeps repeating.</li>
+</ol>
+<p>
+No fancy motors, no compressors – just smart science.
+</p>
+<h3>Fuel Flexibility = More Freedom</h3>
+<p>
+One of the best things about BROAD’s chillers is that they can run on almost any fuel, including:
+</p>
+<ul>
+  <li>- Natural Gas</li>
+  <li>- LPG/CNG</li>
+  <li>- Biogas</li>
+  <li>- Diesel</li>
+  <li>- Kerosene</li>
+  <li>- Even propane!</li>
+</ul>
+<p>
+That means no matter where your project is located, BROAD has a solution that works.
+</p>
+<h3>Why Choose BROAD Chillers?</h3>
+<ul>
+  <li><strong>Energy Efficient:</strong> Uses fuel heat, not electricity</li>
+  <li><strong>Low Maintenance:</strong> Fewer moving parts = fewer breakdowns</li>
+  <li><strong>Eco-Friendly:</strong> Great for places where power is limited or costly</li>
+  <li><strong>Longer Lifespan:</strong> Designed for durability and reliability</li>
+</ul>
+<h3>Powering India's Future, Sustainably</h3>
+<p>
+At <strong>BROAD India</strong>, we believe in combining cutting-edge technology with green thinking. Our direct-fired chillers are already helping businesses across India save money and reduce their carbon footprint – without compromising on comfort.<br/>
+Whether you're planning a new project or looking to upgrade your current system, BROAD's smart cooling solutions are ready to deliver.
+</p>
+`,
+  image: "/images/chiller.jpg",
+},
+  {
     id: "achieving-sustainable-hvac-with-non-electric-and-vapour-absorption-chillers-in-india",
     title:
       "How Can We Achieve Energy-Efficient and Sustainable HVAC with Non-Electric Chillers in India?",
@@ -391,6 +523,69 @@ This visit marks a moment of renewed international engagement and raises broader
 `,
     image: "/images/14-Feb article.jpeg",
   },
+{
+  id: "cooling-with-heat-meet-absorption-chillers-india",
+  title: "Cooling with Heat? Meet Absorption Chillers!",
+  description: "Discover how absorption chillers use heat—not electricity—to provide eco-friendly cooling for buildings and industries in India.",
+  meta: {
+    description: "Learn how absorption chillers use waste heat for cooling, making them a smart, sustainable choice for Indian industries and smart cities.",
+    keywords: [
+      "absorption chiller",
+      "cooling with heat",
+      "waste heat absorption chiller",
+      "eco-friendly cooling",
+      "natural refrigerants",
+      "India",
+      "sustainable HVAC"
+    ],
+  },
+  date: "July 3, 2025",
+  readTime: "2-3 min read",
+  category: "Chillers",
+  content: `
+<h1>Cooling with Heat? Meet Absorption Chillers!</h1>
+<p>
+Did you know that it's possible to cool a building using heat instead of electricity? Sounds strange, right? But that’s exactly what Absorption Chillers do!
+</p>
+<ul>
+  <li><strong>What is an Absorption Chiller?</strong><br/>
+    An absorption chiller is a type of cooling system that uses heat (yes, heat!) to create cooling. Unlike traditional ACs or chillers that use electric compressors, these machines rely on a chemical process to chill the air.<br/>
+    It’s like using waste heat to keep things cool and that’s pretty smart technology to promote sustainability in your premises.
+    <a href="/power-efficient-chiller">Learn about Magnetic Bearing Chillers</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+  </li>
+  <li><strong>Natural Refrigerants – Good for the Planet</strong><br/>
+    Most absorption chillers use natural refrigerants like water or ammonia, which are much better for the environment than the synthetic coolants found in many regular air conditioners. This makes absorption chillers a more eco-friendly option for industries, commercial buildings, and even some large residential projects.
+  </li>
+  <li><strong>Where Does the Heat Come From?</strong><br/>
+    Absorption chillers don't need electricity for compression, they need heat to work. And the best part? That heat can come from waste sources such as:
+    <ul>
+      <li>- Industrial exhaust gases</li>
+      <li>- Steam from boilers</li>
+      <li>- Heat from engine cooling systems</li>
+      <li>- Solar thermal energy</li>
+    </ul>
+    Instead of letting all that energy go to waste, why not reuse it for cooling?
+  </li>
+  <li><strong>A Big Opportunity for India</strong><br/>
+    In India, where many industries and power plants produce waste heat, waste heat absorption chillers are a great way to save energy and reduce pollution. They’re especially useful in:
+    <ul>
+      <li>- Manufacturing plants</li>
+      <li>- Commercial buildings</li>
+      <li>- Hospitals</li>
+      <li>- Data centers</li>
+      <li>- District cooling systems in smart cities</li>
+    </ul>
+    With rising energy costs and increasing environmental concerns, switching to smart, sustainable technologies like this can make a big difference.
+  </li>
+</ul>
+<p>
+<strong>Final Thought</strong><br/>
+Cooling with heat may sound like magic, but it’s ground-breaking technology and it’s already helping India, eventually the whole world move toward a greener, cleaner future.<br/>
+Next time you step into a cool building, remember: it might just be running on heat!
+</p>
+`,
+  image: "/images/17-Feb blog.jpeg",
+},
   {
     id: "how-smart-hvac-systems-are-helping-indian-buildings-beat-the-heat",
     title: "How Smart HVAC Systems Are Helping Indian Buildings Beat the Heat",
