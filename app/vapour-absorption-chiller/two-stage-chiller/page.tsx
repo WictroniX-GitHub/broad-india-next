@@ -70,8 +70,9 @@ const TwoStageChiller = () => {
                   <Image
                     src="https://broadusa.com/broad/wp-content/uploads/2020/03/bzmodel-300x222-1-200x148.jpg"
                     alt="BZ Model"
-                    fill
-                    className="object-contain hover:scale-105 transition-transform duration-300"
+                    width={200}
+                    height={142}
+                    className="w-full rounded-md"
                   />
                 </div>
                 <h4 className="text-lg font-semibold mb-2">
@@ -92,7 +93,7 @@ const TwoStageChiller = () => {
                     src="https://broadusa.com/broad/wp-content/uploads/2020/03/bsmodel-300x189-1-200x126.jpg"
                     alt="BS Model"
                     width={200}
-                    height={126}
+                    height={142}
                     className="w-full rounded-md"
                   />
                 </div>
@@ -114,7 +115,7 @@ const TwoStageChiller = () => {
                     src="https://broadusa.com/broad/wp-content/uploads/2020/03/bemodel-300x202-1-200x135.png"
                     alt="BE Model"
                     width={200}
-                    height={135}
+                    height={142}
                     className="w-full rounded-md"
                   />
                 </div>
@@ -136,7 +137,7 @@ const TwoStageChiller = () => {
                     src="https://broadusa.com/broad/wp-content/uploads/2020/03/BH-Model.jpg"
                     alt="BH Model"
                     width={200}
-                    height={148}
+                    height={142}
                     className="w-full rounded-md"
                   />
                 </div>
