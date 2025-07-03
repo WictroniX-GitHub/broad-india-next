@@ -125,11 +125,24 @@ const VapourAbsorptionChiller = () => {
             BROAD Vapour Absorption Chiller Solutions
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            BROAD&apos;s comprehensive range of vapour absorption chillers
-            provides non-electric cooling and heating solutions for industrial
-            and commercial applications. Our advanced lithium bromide-water
-            absorption technology delivers reliable, efficient, and
-            environmentally friendly HVAC solutions.
+            <strong>BROAD India</strong> delivers advanced{" "}
+            <strong>Vapor Absorption Chillers (VAC)</strong> that provide
+            powerful cooling without electricity. Designed to use waste heat,
+            steam, hot water, natural gas, or diesel, our chillers are ideal for
+            industries seeking energy efficiency, carbon reduction, and{" "}
+            <strong>sustainable HVAC solutions.</strong>
+            <br />
+            Backed by BROAD Group&apos;s global engineering expertise, these
+            systems support India&apos;s net-zero mission by{" "}
+            <strong>reducing power consumption by up to 50%,</strong>{" "}
+            eliminating harmful refrigerants, and integrating seamlessly with
+            industrial operations,{" "}
+            <strong>CCHP systems, and smart buildings.</strong>
+            <br />
+            Choose from a wide range of VAC types including steam-fired,
+            direct-fired, hot water, exhaust gas, and solar-driven chillers,
+            customized to your facility’s heat source, capacity, and
+            sustainability goals.
           </p>
         </div>
 

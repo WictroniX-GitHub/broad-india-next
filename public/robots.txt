@@ -1,4 +1,29 @@
-User-agent: *
-Disallow:
+# Robots.txt for BROAD India website
+# This file tells search engines which pages they can crawl
 
+# Allow all web crawlers to access all content
+User-agent: *
+Allow: /
+
+# Disallow crawling of private or unnecessary files
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /tmp/
+
+# Allow specific important crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl-delay to be respectful to server resources
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://www.broadindia.com/sitemap.xml
