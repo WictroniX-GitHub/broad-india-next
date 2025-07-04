@@ -115,10 +115,10 @@ export default function Header() {
             <Link href="/blogs">Blogs</Link>
             <Link href="/articles">Articles</Link>
             <Link href="/careers">Careers</Link>
-            <Link href="/contact-us">
-              <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer">
+            <Link href="/contact-us" className="ml-2">
+              <span className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer whitespace-nowrap">
                 Contact Us
-              </div>
+              </span>
             </Link>
           </nav>
         )}
