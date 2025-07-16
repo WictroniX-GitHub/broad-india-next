@@ -234,7 +234,7 @@ As India accelerates toward smart cities and sustainable infrastructure, AI and 
   date: "July 6, 2025",
   readTime: "4-5 min read",
   category: "Chillers",
-  image: "/images/vac.png",
+  image: "/images/VAC.png",
   content: `
 <h1>Vapour Absorption Chillers (VAC): Working, Benefits & Applications in Modern Industry</h1>
 <p>
