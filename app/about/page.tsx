@@ -194,10 +194,10 @@ export default function About() {
           </p>
           <div className="flex flex-col md:flex-row justify-center items-center gap-6">
             <a
-              href="mailto:info@broadindia.com"
+              href="mailto:akshay@broad.net"
               className="flex items-center text-white hover:text-blue-200"
             >
-              📩 info@broadindia.com
+              📩 akshay@broad.net
             </a>
             <a
               href="tel:01244012824"

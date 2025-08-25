@@ -173,10 +173,10 @@ export default function PrivacyPolicy() {
                 You may request access, correction, deletion, or restrict
                 processing at any time. Contact us via{" "}
                 <a
-                  href="mailto:info@broadindia.com"
+                  href="mailto:akshay@broad.net"
                   className="text-blue-600 hover:text-blue-800"
                 >
-                  info@broadindia.com
+                  akshay@broad.net
                 </a>{" "}
                 to exercise your rights.
               </p>
