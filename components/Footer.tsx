@@ -96,10 +96,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:info@broadindia.com"
+                  href="mailto:akshay@broad.net"
                   className="flex items-center space-x-2"
                 >
-                  ✉️ info@broadindia.com
+                  ✉️ akshay@broad.net
                 </a>
               </li>
               <li>

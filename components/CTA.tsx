@@ -30,10 +30,10 @@ export default function CTA() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col md:flex-row gap-4">
             <a
-              href="mailto:info@broadindia.com"
+              href="mailto:akshay@broad.net"
               className="flex items-center text-black"
             >
-              📧 info@broadindia.com
+              📧 akshay@broad.net
             </a>
             <a href="tel:9427851584" className="flex items-center text-black">
               📞 +91 94278 51584

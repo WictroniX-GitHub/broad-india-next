@@ -34,8 +34,8 @@ export default function ContactUs() {
             <div className="mt-4 space-y-3">
               <div className="flex items-center">
                 <span className="mr-3 text-blue-500">📧</span>
-                <a href="mailto:info@broadindia.com" className="text-blue-600">
-                  info@broadindia.com
+                <a href="mailto:akshay@broad.net" className="text-blue-600">
+                  akshay@broad.net
                 </a>
               </div>
               <div className="flex items-center">
