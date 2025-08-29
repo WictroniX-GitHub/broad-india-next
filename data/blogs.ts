@@ -3,6 +3,203 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
+  id: "environmental-hazards-extreme-climate",
+  title: "The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions",
+  description: "Understanding the environmental hazards driving climate change and extreme weather conditions.",
+  meta: {
+    description: "Learn how greenhouse gases, deforestation, pollution, and poor waste management fuel extreme climatic conditions, and why collective action is vital.",
+    keywords: [
+      "environmental hazards",
+      "extreme climate conditions",
+      "greenhouse gas emissions",
+      "deforestation impact",
+      "pollution and climate change",
+      "waste management issues",
+      "climate change causes",
+      "sustainability challenges"
+    ]
+  },
+  date: "Aug 30, 2025",
+  readTime: "3-4 min read",
+  category: "Environment",
+  image: "/images/30-Aug Blog.png",
+  content: `
+<h1>The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions</h1>
+</br>
+<a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+</br>
+
+<ul>
+  <li><strong>Greenhouse Gas Emissions:</strong> The burning of fossil fuels for energy, industrial processes, and transportation releases massive amounts of greenhouse gases like carbon dioxide and methane into the atmosphere. These gases trap heat, leading to a rise in global temperatures.</li>
+  <li><strong>Deforestation:</strong> Forests act as crucial carbon sinks, absorbing carbon dioxide from the atmosphere. When forests are cleared for agriculture, urbanization, or logging, this stored carbon is released back into the atmosphere, further contributing to the greenhouse effect.</li>
+  <li><strong>Pollution (Air and Water):</strong> Air pollutants, beyond greenhouse gases, can also influence climate. Black carbon, a component of soot from incomplete combustion, absorbs sunlight and contributes to warming, especially when deposited on snow and ice, accelerating melting.</li>
+  <li><strong>Waste Management:</strong> Improper disposal of waste, especially organic waste in landfills, leads to the release of methane, a potent greenhouse gas. Growing urban centers like Lucknow face challenges in managing increasing waste, which can contribute to local environmental degradation and greenhouse gas emissions.</li>
+</ul>
+
+<p>
+Hence, addressing these challenges requires concerted efforts from individuals, communities, and policymakers. Investing in cleaner technologies, promoting sustainable land use practices, and raising awareness about the interconnectedness of environmental hazards and extreme climate are vital steps towards building a more resilient and sustainable future.
+</p>
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`
+},
+  {
+  id: "turning-waste-into-cool-air",
+  title: "Turning Waste into Cool Air: How VAM Systems Help Businesses Achieve Sustainability Goals",
+  description: "How businesses use VAM systems to turn waste heat into cooling, reducing costs and emissions.",
+  meta: {
+    description: "Discover how VAM systems utilize waste heat from generators, industrial processes, and solar energy to cut emissions, save energy, and support sustainability goals.",
+    keywords: [
+      "waste heat cooling",
+      "VAM sustainability",
+      "solar powered chillers",
+      "absorption chillers eco-friendly",
+      "solar thermal cooling",
+      "waste heat recovery",
+      "VAM business benefits",
+      "sustainability HVAC"
+    ]
+  },
+  date: "Aug 28, 2025",
+  readTime: "3-4 min read",
+  category: "VAM",
+  image: "/images/28-Aug Blog.png",
+  content: `
+<h1>Turning Waste into Cool Air: How VAM Systems Help Businesses Achieve Sustainability Goals</h1>
+</br>
+<a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+</br>
+
+<ul>
+  <li><strong>Exhaust heat from generators or turbines:</strong> Industries relying on on-site power generation often release significant amounts of heat.</li>
+  <li><strong>Waste heat from industrial processes:</strong> Many manufacturing processes generate excess heat that is typically vented into the atmosphere.</li>
+  <li><strong>Solar thermal energy:</strong> Harnessing the sun's energy provides a completely renewable heat source for VAMs.</li>
+  <li><strong>Boiler exhaust:</strong> Facilities with boilers can utilize the flue gas heat to drive absorption chillers.</li>
+</ul>
+
+<h2><strong>Benefits</strong></h2>
+<ul>
+  <li><strong>Reduced Electricity Consumption:</strong> By utilizing waste heat, VAMs drastically lower the demand for electricity, leading to lower energy bills and a smaller carbon footprint associated with power generation.</li>
+  <li><strong>Lower Greenhouse Gas Emissions:</strong> Utilizing waste heat further reduces indirect emissions.</li>
+  <li><strong>Enhanced Energy Independence:</strong> For businesses generating their own waste heat, VAMs offer a degree of energy independence from the grid, making them more resilient to power outages and price fluctuations.</li>
+</ul>
+
+<p>
+By harnessing the potential of waste heat, businesses across the globe can significantly reduce their environmental impact, lower operating costs, and contribute to a more sustainable future. As the focus on environmental responsibility grows, VAM systems are poised to play an increasingly crucial role in achieving global sustainability goals.
+</p>
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`
+},
+  {
+  id: "vam-systems-green-alternative",
+  title: "VAM Systems: The Green Alternative to Traditional Air Conditioning",
+  description: "Why Vapor Absorption Machines (VAMs) are a sustainable alternative to traditional AC systems.",
+  meta: {
+    description: "Learn how Vapor Absorption Machines (VAMs) work as an eco-friendly alternative to conventional air conditioning, reducing energy use and greenhouse emissions.",
+    keywords: [
+      "VAM systems",
+      "green alternative AC",
+      "absorption cooling",
+      "eco-friendly air conditioning",
+      "VAM working principle",
+      "HVAC sustainable cooling",
+      "energy efficient cooling",
+      "VAM solutions"
+    ]
+  },
+  date: "Aug 26, 2025",
+  readTime: "3-4 min read",
+  category: "VAM",
+  image: "/images/26-Aug Blog.png",
+  content: `
+<h1>VAM Systems: The Green Alternative to Traditional Air Conditioning</h1>
+<p>
+In our ever-warming world, the demand for air conditioning is skyrocketing. However, traditional vapor compression systems, while effective at cooling, come with significant environmental drawbacks such as high electricity consumption and the use of potent greenhouse gases as refrigerants. Thankfully, a greener alternative exists — <strong>Vapor Absorption Machines (VAMs)</strong>.
+</br>
+<a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+</br>
+</p>
+
+<h2><strong>Working</strong></h2>
+<ul>
+  <li><strong>Heat Input:</strong> A heat source heats a refrigerant-absorbent solution in the generator.</li>
+  <li><strong>Refrigerant Vaporization:</strong> The heat causes the refrigerant to vaporize and separate from the absorbent.</li>
+  <li><strong>Condensation:</strong> The pure refrigerant vapor then flows to a condenser, where it releases heat and turns back into liquid.</li>
+  <li><strong>Evaporation:</strong> This liquid refrigerant then enters the evaporator at a low pressure.</li>
+  <li><strong>Absorption:</strong> The refrigerant vapor is then drawn into the absorber, where it is absorbed by the concentrated absorbent solution.</li>
+</ul>
+
+<p>
+Vapor Absorption Machines (VAMs) offer a compelling and environmentally responsible alternative to traditional air conditioning. By leveraging thermal energy and natural refrigerants, VAM systems can significantly reduce energy consumption and greenhouse gas emissions.
+</p>
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`
+},
+  {
+  id: "eco-friendly-buildings-hvac-vam-integration",
+  title: "The Future of Eco-Friendly Buildings: Integrating HVAC and VAM for Maximum Impact",
+  description: "Integrating HVAC and VAM systems for sustainable, energy-efficient, and eco-friendly building designs.",
+  meta: {
+    description: "Discover how integrating HVAC and VAM systems optimizes cooling, reduces carbon footprints, and enhances building sustainability for a greener future.",
+    keywords: [
+      "eco-friendly buildings",
+      "HVAC VAM integration",
+      "sustainable building design",
+      "energy efficient HVAC",
+      "waste heat chillers",
+      "carbon footprint reduction",
+      "vapor absorption machines",
+      "renewable HVAC systems"
+    ]
+  },
+  date: "Aug 24, 2025",
+  readTime: "3-4 min read",
+  category: "Sustainability",
+  image: "/images/24-Aug Blog.png",
+  content: `
+<h1>The Future of Eco-Friendly Buildings: Integrating HVAC and VAM for Maximum Impact</h1>
+<p>
+The construction and operation of buildings contribute significantly to global energy consumption and greenhouse gas emissions. As environmental awareness grows, the demand for eco-friendly building designs is escalating.
+</br>
+<a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+</br>
+</p>
+
+<ul>
+  <li>
+    <h2><strong>Optimized Dehumidification and Cooling</strong></h2>
+    <p>
+      Traditional HVAC systems excel at dehumidification by handling the latent heat load so as to create a comfortable indoor environment with less energy expenditure on sensible cooling.
+    </p>
+  </li>
+  <li>
+    <h2><strong>Waste Heat Utilization</strong></h2>
+    <p>
+      This circular approach not only reduces energy costs but also minimizes thermal pollution.
+    </p>
+  </li>
+  <li>
+    <h2><strong>Lower Carbon Footprint</strong></h2>
+    <p>
+      By utilizing waste heat or renewable energy, the overall carbon footprint associated with building climate control is substantially decreased.
+    </p>
+  </li>
+</ul>
+
+<p>
+While the integrated approach is gaining traction, wider adoption requires greater awareness, supportive policies, and advancements in system design and control. In conclusion, the strategic integration of HVAC and VAM systems represents a significant step towards creating truly eco-friendly buildings.
+</p>
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`
+},
+  {
   id: "two-stage-vam-system-efficiency",
   title: "Unlocking Efficiency: Understanding the Two-Stage VAM System",
   description: "Explore how two-stage VAM systems enhance efficiency, utilize heat sources better, and cut cooling costs.",
