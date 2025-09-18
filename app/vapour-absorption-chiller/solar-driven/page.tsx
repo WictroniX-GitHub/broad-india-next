@@ -146,7 +146,7 @@ const SolarDriven = () => {
                   sunlight or peak demand
                 </li>
                 <li>
-                  Supports India's green energy and carbon reduction goals
+                  Supports India&apos;s green energy and carbon reduction goals
                   through renewable energy adoption
                 </li>
               </ul>
