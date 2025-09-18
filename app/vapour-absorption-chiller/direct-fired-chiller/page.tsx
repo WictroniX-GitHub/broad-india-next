@@ -100,44 +100,26 @@ const DirectFiredChiller = () => {
           {/* Description */}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed mb-6">
-              The BROAD Direct-Fired Vapour Absorption Chiller is a
-              high-efficiency, thermally-driven cooling system that operates
-              without the need for electricity. Powered by natural gas or light
-              fuel oil, the system offers dependable air conditioning and hot
-              water generation for large buildings, industrial plants, district
-              energy systems, and facilities with limited grid access.
+              The BROAD Direct-Fired Vapour Absorption Chiller is a premium,
+              thermally-driven HVAC solution engineered for industrial and
+              commercial environments seeking reliable, energy-efficient, and
+              non-electric cooling and heating. This advanced system leverages
+              natural gas or light fuel oil to deliver high-capacity cooling and
+              hot water with minimal electricity demand and ultra-low
+              emissions—making it ideal for large facilities, data centers,
+              manufacturing plants, hospitals, and sites with unstable power
+              supply.
             </p>
-
+            <h3 className="text-2xl font-bold mb-4">
+              What Is BROAD Direct-Fired Vapour Absorption Chiller?
+            </h3>
             <p className="text-lg leading-relaxed mb-6">
-              Engineered with advanced lithium bromide-water absorption
-              technology, this chiller delivers cooling capacities ranging from
-              233 kW to 11,630 kW (66–3,300 RT), with hot water output of up to
-              65 °C. Its dual-fuel burner supports both gas and oil operation,
-              offering flexibility in fuel choice while maintaining low
-              emissions with NOx levels below 10 ppm. The unit&apos;s modular
-              design enables it to serve multiple functions, including space
-              cooling, process cooling, domestic hot water supply, and
-              supplementary heating.
-            </p>
-
-            <p className="text-lg leading-relaxed mb-6">
-              BROAD&apos;s direct-fired model incorporates corrosion-resistant
-              heat exchangers, automatic non-condensable gas purging, and vacuum
-              maintenance systems to extend service life and maintain stable
-              long-term performance. Crystallization prevention, intelligent
-              control logic, and automated capacity modulation ensure optimal
-              operation under partial load conditions, reducing operational
-              costs and improving energy efficiency.
-            </p>
-
-            <p className="text-lg leading-relaxed mb-6">
-              The system requires minimal electrical input making it especially
-              suitable for regions with high electricity tariffs or frequent
-              power instability. With proven deployments across Asia, Europe,
-              and North America, BROAD Direct-Fired Absorption Chillers are
-              widely used in hospitals, hotels, shopping malls, data centers,
-              and manufacturing facilities seeking reliable, non-electric HVAC
-              solutions with reduced carbon footprint.
+              This chiller utilizes state-of-the-art lithium bromide-water
+              absorption technology for sustainable, high-performance cooling
+              ranging from 233 kW to 11,630 kW (66–3,300 RT), and can provide
+              hot water up to 65°C. It is powered by a dual-fuel burner (natural
+              gas or light oil) and designed for environments where eliminating
+              electric-driven cooling is crucial.
             </p>
           </div>{" "}
           {/* Download Catalogue Section */}
@@ -188,8 +170,8 @@ const DirectFiredChiller = () => {
                   <strong>Technology:</strong> Lithium bromide-water absorption
                 </li>
                 <li>
-                  <strong>Operation:</strong> Non-electric, minimal electrical
-                  input required
+                  <strong>Operation:</strong> Minimal electric input, suitable
+                  for high-tariff and unstable grids
                 </li>
               </ul>
             </div>
@@ -197,14 +179,20 @@ const DirectFiredChiller = () => {
             <div className="bg-blue-50 rounded-lg p-6">
               <h3 className="text-2xl font-bold mb-4">Key Features</h3>
               <ul className="space-y-3">
-                <li>• Dual-fuel burner capability</li>
+                <li>• Dual-fuel burner for gas or oil operation</li>
                 <li>• Corrosion-resistant heat exchangers</li>
-                <li>• Automatic non-condensable gas purging</li>
-                <li>• Vacuum maintenance systems</li>
-                <li>• Crystallization prevention</li>
-                <li>• Intelligent control logic</li>
-                <li>• Automated capacity modulation</li>
-                <li>• Modular design for multiple functions</li>
+                <li>
+                  • Automatic non-condensable gas purging and vacuum maintenance
+                  for stable long-term performance
+                </li>
+                <li>
+                  • Intelligent control logic, automated capacity modulation,
+                  and crystallization prevention
+                </li>
+                <li>
+                  • Modular design—adaptable for space cooling, process cooling,
+                  hot water supply, and supplementary heating
+                </li>
               </ul>
             </div>
           </div>
@@ -230,19 +218,17 @@ const DirectFiredChiller = () => {
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
                 <div className="text-blue-600 text-3xl mb-2">🏭</div>
-                <h4 className="font-semibold">Manufacturing</h4>
+                <h4 className="font-semibold">Manufacturing Plants</h4>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
                 <div className="text-blue-600 text-3xl mb-2">🌆</div>
-                <h4 className="font-semibold">District Energy</h4>
+                <h4 className="font-semibold">District Energy Systems</h4>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
                 <div className="text-blue-600 text-3xl mb-2">🏗️</div>
-                <h4 className="font-semibold">Industrial Plants</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🏢</div>
-                <h4 className="font-semibold">Large Buildings</h4>
+                <h4 className="font-semibold">
+                  Large Buildings & Industrial Plants
+                </h4>
               </div>
             </div>
           </div>
@@ -256,26 +242,41 @@ const DirectFiredChiller = () => {
                 </div>
                 <h4 className="font-semibold mb-2">Energy Efficient</h4>
                 <p className="text-gray-600 text-sm">
-                  Optimal operation under partial load conditions with automated
-                  capacity modulation
+                  Operates at optimal efficiency even under partial loads,
+                  saving costs and power
                 </p>
               </div>
               <div className="text-center">
                 <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-green-600 text-2xl">🌱</span>
                 </div>
-                <h4 className="font-semibold mb-2">Low Emissions</h4>
+                <h4 className="font-semibold mb-2">Low Carbon Footprint</h4>
                 <p className="text-gray-600 text-sm">
-                  NOx levels below 10 ppm for environmental compliance
+                  Ultra-low NOx emissions and ability to run on waste heat
+                  sources, supporting sustainability targets
                 </p>
               </div>
               <div className="text-center">
                 <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <span className="text-orange-600 text-2xl">🔧</span>
                 </div>
-                <h4 className="font-semibold mb-2">Reliable Operation</h4>
+                <h4 className="font-semibold mb-2">Reliable Performance</h4>
                 <p className="text-gray-600 text-sm">
-                  Proven deployments across Asia, Europe, and North America
+                  Proven deployments across Asia, Europe, North America, and
+                  India
+                </p>
+              </div>
+              <div className="hidden md:block"></div>
+              <div className="text-center">
+                <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <span className="text-green-600 text-2xl">💰</span>
+                </div>
+                <h4 className="font-semibold mb-2">
+                  Reduced Operational Costs
+                </h4>
+                <p className="text-gray-600 text-sm">
+                  Flexible fuel choices, low energy demand, and advanced
+                  capacity modulation{" "}
                 </p>
               </div>
             </div>

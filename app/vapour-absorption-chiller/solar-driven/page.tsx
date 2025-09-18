@@ -84,11 +84,10 @@ const SolarDriven = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD&apos;s Solar Driven Absorption Chillers harness renewable
-              solar energy to provide sustainable cooling solutions. These
-              systems integrate seamlessly with solar thermal collectors to
-              convert solar heat into cooling energy, offering zero-emission
-              operation and reduced operational costs.
+              BROAD India&apos;s Solar Driven Absorption Chiller is an
+              environmentally friendly cooling solution that harnesses renewable
+              solar energy to provide sustainable and zero-emission cooling for
+              commercial and industrial applications.
             </p>
           </div>
           {/* Solar Driven Chiller Model Section */}
@@ -114,10 +113,85 @@ const SolarDriven = () => {
                   <li>• Capacity: 40-1000 ton</li>
                   <li>• Hot Water: 71-176°C</li>
                   <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
-                  <li>• Dual Fuel Burner</li>
-                  <li>• Cooling Only</li>
+                  <li>
+                    • Fuel Backup: Dual Fuel Burner (gas and oil) for reliable
+                    operation during low solar availability
+                  </li>
+                  <li>• Cooling Only system</li>
                 </ul>
               </div>
+            </div>
+          </div>
+          {/* Features, Applications, and Benefits Section */}
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            {/* Features */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow">
+              <h4 className="text-xl font-semibold text-blue-700 mb-4">
+                Key Features
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Integrates seamlessly with solar thermal collectors to convert
+                  solar heat into cooling energy
+                </li>
+                <li>
+                  Offers significant operational cost savings by reducing
+                  reliance on electricity or fossil fuels
+                </li>
+                <li>
+                  Zero-emission operation due to solar-driven thermal energy use
+                </li>
+                <li>
+                  Dual fuel burner backup ensures continuous cooling during low
+                  sunlight or peak demand
+                </li>
+                <li>
+                  Supports India's green energy and carbon reduction goals
+                  through renewable energy adoption
+                </li>
+              </ul>
+            </div>
+            {/* Applications */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow">
+              <h4 className="text-xl font-semibold text-blue-700 mb-4">
+                Applications
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Industrial facilities with solar thermal energy integration
+                </li>
+                <li>Large commercial buildings seeking green HVAC systems</li>
+                <li>
+                  Hotels, hospitals, campuses aiming for renewable energy
+                  cooling
+                </li>
+                <li>
+                  Facilities looking to reduce electricity consumption and
+                  emissions
+                </li>
+              </ul>
+            </div>
+            {/* Benefits */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow">
+              <h4 className="text-xl font-semibold text-blue-700 mb-4">
+                Benefits
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Reduces electricity usage by leveraging abundant solar energy
+                </li>
+                <li>
+                  Lowers carbon footprint with clean, renewable cooling
+                  technology
+                </li>
+                <li>
+                  Cost-effective cooling solution with reliable fuel backup
+                </li>
+                <li>
+                  Supports sustainability and energy transition initiatives in
+                  India
+                </li>
+              </ul>
             </div>
           </div>
           <div className="bg-blue-600 text-white rounded-lg p-8 text-center">

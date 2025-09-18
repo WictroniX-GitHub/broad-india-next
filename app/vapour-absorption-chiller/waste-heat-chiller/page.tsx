@@ -111,40 +111,28 @@ const WasteHeatChiller = () => {
           {/* Description */}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed mb-6">
-              BROAD&apos;s Waste‑Heat‑Driven Vapour Absorption Chiller converts
-              low‑grade thermal energy into high-quality chilled water (above 5
-              °C) and heating water (below 95 °C) with capacity ranges from 233
-              kW to 11,630 kW (66–3,307 RT), enabling large-scale HVAC and
-              process cooling applications. Designed for thermal integration
-              with industrial waste heat systems such as hot exhaust gases,
-              boiler flue gases, or process steam, the chiller achieves
-              outstanding Coefficient of Performance (COP) by utilizing heat
-              that would otherwise be wasted, driving both energy savings and
-              carbon reduction.
+              BROAD&apos;s Waste-Heat-Driven Vapour Absorption Chiller is a
+              high-performance, energy recovery solution that leverages
+              low-grade thermal energy from industrial processes to deliver
+              powerful cooling and heating in large-scale commercial and
+              industrial settings. This system enables facilities to convert
+              waste heat—from exhaust gases, boiler flue gases, or process
+              steam—into useful chilled water (above 5°C) and heating water
+              (below 95°C), with capacity ranges from 233 kW to 11,630 kW
+              (66-3,307 RT).
             </p>
+            <h3 className="text-2xl font-bold mb-4">
+              What Is BROAD Waste-Heat-Driven Absorption Chiller?
+            </h3>
             <p className="text-lg leading-relaxed mb-6">
-              Equipped with robust lithium bromide-water absorption technology
-              and tailor-engineered shell-and-tube heat exchangers, the unit
-              ensures durable performance under variable load conditions. Waste
-              heat input ranges are flexible, accommodating exhaust fluid
-              temperatures from 150 °C upwards, with effective condenser control
-              and vacuum maintenance for optimal efficiency. Central to the
-              design are automatic non-condensable gas purge systems,
-              crystallisation prevention circuits, and smart controllers that
-              continuously adjust operation to maintain high COP and protect
-              long-term integrity.
+              The chiller utilizes robust lithium bromide-water absorption
+              technology and tailor-engineered shell-and-tube heat exchangers,
+              ensuring durable operation under variable load conditions. It is
+              designed to integrate seamlessly with combined heat and power
+              (CHP) plants, industrial boilers, and flue-gas stacks, making it
+              ideal for process cooling, CCHP systems, district energy, and
+              energy-positive building envelopes.
             </p>
-            <p className="text-lg leading-relaxed mb-6">
-              Ideal for integration with CHP plants, industrial boilers, and
-              flue‑gas stacks, this waste‑heat-driven chiller supports both
-              chilled water and hot water outputs making it perfect for combined
-              cooling, heating, and domestic hot water (CCHP) systems or
-              energy-positive building envelopes. Its modular configuration, low
-              mechanical complexity, and minimal electric power requirement—only
-              for pumps and controls—ensure it operates reliably in industrial
-              parks, campuses, hospitals, and hotels, especially where grid
-              electricity is costly or limited.
-            </p>{" "}
           </div>
 
           {/* Download Catalogue Section */}
@@ -181,7 +169,7 @@ const WasteHeatChiller = () => {
               <ul className="space-y-3">
                 <li>
                   <strong>Cooling Capacity:</strong> 233 kW to 11,630 kW
-                  (66–3,307 RT)
+                  (66-3,307 RT)
                 </li>
                 <li>
                   <strong>Chilled Water:</strong> Above 5°C
@@ -198,6 +186,10 @@ const WasteHeatChiller = () => {
                 <li>
                   <strong>Heat Exchangers:</strong> Shell-and-tube design
                 </li>
+                <li>
+                  <strong>Operational Electricity Demand:</strong> Minimal, only
+                  for pumps and controls
+                </li>
               </ul>
             </div>
 
@@ -210,8 +202,7 @@ const WasteHeatChiller = () => {
                 <li>• Smart controllers with continuous adjustment</li>
                 <li>• Effective condenser control</li>
                 <li>• Vacuum maintenance systems</li>
-                <li>• Modular configuration</li>
-                <li>• Low mechanical complexity</li>
+                <li>• Modular design and low mechanical complexity</li>
               </ul>
             </div>
           </div>
@@ -280,16 +271,12 @@ const WasteHeatChiller = () => {
                 <h4 className="font-semibold">Hotels</h4>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🏢</div>
-                <h4 className="font-semibold">CCHP Systems</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
                 <div className="text-blue-600 text-3xl mb-2">🌆</div>
-                <h4 className="font-semibold">District Energy</h4>
+                <h4 className="font-semibold">District Energy Systems</h4>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
                 <div className="text-blue-600 text-3xl mb-2">🏗️</div>
-                <h4 className="font-semibold">Manufacturing</h4>
+                <h4 className="font-semibold">Manufacturing Plants</h4>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
                 <div className="text-blue-600 text-3xl mb-2">💻</div>
@@ -310,7 +297,8 @@ const WasteHeatChiller = () => {
                 </div>
                 <h4 className="font-semibold mb-2">Waste Heat Recovery</h4>
                 <p className="text-gray-600 text-sm">
-                  Converts waste heat into useful cooling and heating energy
+                  Captures and converts heat that would otherwise be lost,
+                  maximizing energy use
                 </p>
               </div>
               <div className="text-center">
@@ -319,8 +307,7 @@ const WasteHeatChiller = () => {
                 </div>
                 <h4 className="font-semibold mb-2">Energy Savings</h4>
                 <p className="text-gray-600 text-sm">
-                  Significant reduction in operational costs and energy
-                  consumption
+                  Significantly reduces operational costs and electricity demand
                 </p>
               </div>
               <div className="text-center">
@@ -329,8 +316,8 @@ const WasteHeatChiller = () => {
                 </div>
                 <h4 className="font-semibold mb-2">Carbon Reduction</h4>
                 <p className="text-gray-600 text-sm">
-                  Lower carbon footprint through efficient waste heat
-                  utilization
+                  Lowers facility carbon footprint by efficiently utilizing
+                  waste heat and avoiding harmful refrigerant
                 </p>
               </div>
             </div>

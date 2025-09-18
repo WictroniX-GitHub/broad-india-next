@@ -56,11 +56,11 @@ const MultiEnergy = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD&apos;s Multi-Energy Absorption Chillers are designed to
-              utilize multiple heat sources including steam, hot water, exhaust
-              gas, and natural gas, providing ultimate flexibility in energy
-              supply. This versatile system can switch between different energy
-              sources based on availability and cost optimization.
+              BROAD India&apos;s Multi-Energy Absorption Chiller offers a
+              flexible and versatile solution capable of running on multiple
+              heat sources such as steam, hot water, exhaust gas, and natural
+              gas, enabling efficient switching between energy inputs based on
+              availability and cost optimization.
             </p>
           </div>
           {/* Multi Energy Chiller Models Section */}
@@ -141,6 +141,75 @@ const MultiEnergy = () => {
                   <li>• Hot Water Temperature: 88-105°C (Standard)</li>
                 </ul>
               </div>
+            </div>
+          </div>
+          {/* Key Features, Applications, and Benefits Section */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Key Features */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h4 className="text-xl font-semibold mb-4 text-blue-700">
+                Key Features
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Operates on multiple energy sources for maximum fuel
+                  flexibility
+                </li>
+                <li>
+                  Dual fuel burner options included for gas and oil, with low
+                  NOx emissions (&lt;10 ppm)
+                </li>
+                <li>
+                  Designed for cooling, heating, and domestic hot water
+                  production with one unit
+                </li>
+                <li>
+                  Supports dynamic fuel switching to optimize operational costs
+                </li>
+                <li>
+                  Robust design suitable for large-scale industrial and
+                  commercial HVAC systems
+                </li>
+              </ul>
+            </div>
+            {/* Applications */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h4 className="text-xl font-semibold mb-4 text-blue-700">
+                Applications
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Industrial facilities with varying waste heat and fuel sources
+                </li>
+                <li>
+                  Large commercial buildings requiring central cooling and
+                  heating
+                </li>
+                <li>Combined Cooling, Heating &amp; Power (CCHP) systems</li>
+                <li>
+                  Hospitals, hotels, district energy systems, and campuses
+                </li>
+              </ul>
+            </div>
+            {/* Benefits */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
+              <h4 className="text-xl font-semibold mb-4 text-blue-700">
+                Benefits
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Reduces dependence on single fuel source, enhancing energy
+                  security and cost savings
+                </li>
+                <li>
+                  Helps meet environmental regulations with clean combustion and
+                  low emissions
+                </li>
+                <li>
+                  Supports India’s net-zero carbon goals through efficient,
+                  multi-source thermal energy use
+                </li>
+              </ul>
             </div>
           </div>
           <div className="bg-blue-600 text-white rounded-lg p-8 text-center">

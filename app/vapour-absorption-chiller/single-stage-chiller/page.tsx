@@ -56,12 +56,11 @@ const SingleStage = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD&apos;s Single-Stage Absorption Chiller provides proven,
-              cost-effective cooling solutions using reliable single-stage
-              lithium bromide absorption technology. These systems offer
-              excellent performance for standard commercial and industrial
-              cooling applications where simplicity and reliability are
-              paramount.
+              BROAD&apos;s Single-Stage Absorption Chiller offers a proven,
+              reliable, and cost-effective cooling solution based on
+              single-stage lithium bromide absorption technology, designed for
+              standard industrial and commercial applications where simplicity
+              and durability are prioritized.
             </p>
           </div>
           {/* Single Stage Chiller Models Section */}
@@ -138,6 +137,71 @@ const SingleStage = () => {
                 </ul>
               </div>
             </div>
+          </div>
+          {/* Key Features Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-4">Key Features</h3>
+            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
+              <li>
+                Utilizes single-stage LiBr absorption technology for dependable
+                cooling
+              </li>
+              <li>
+                Suitable for various heat sources including steam, hot water,
+                and exhaust gases
+              </li>
+              <li>
+                Designed for simple operation with a strong focus on reliability
+                and ease of maintenance
+              </li>
+              <li>
+                Efficient performance especially when waste heat exceeds 70°C
+                and low-pressure steam is available
+              </li>
+              <li>
+                Effective for standard commercial and industrial process cooling
+                needs
+              </li>
+            </ul>
+          </div>
+          {/* Typical Applications Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-4">Typical Applications</h3>
+            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
+              <li>Industrial process cooling</li>
+              <li>Commercial buildings</li>
+              <li>
+                Facilities with accessible medium temperature waste heat such as
+                hot water or low-pressure steam
+              </li>
+            </ul>
+          </div>
+          {/* Performance Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-4">Performance</h3>
+            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
+              <li>
+                Operating effectively with waste heat sources typically above
+                70°C
+              </li>
+              <li>
+                Achieves Coefficient of Performance (COP) values ranging roughly
+                0.5 to 0.8, converting waste heat efficiently into cooling
+                capacity
+              </li>
+            </ul>
+          </div>
+          {/* Summary Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-4">Summary</h3>
+            <p className="text-lg text-gray-700">
+              BROAD&apos;s Single-Stage Absorption Chiller is an excellent
+              choice for industries and commercial facilities requiring robust,
+              reliable cooling using waste heat from common temperature ranges.
+              Its simplicity in design ensures low maintenance and operational
+              costs, supporting sustainability goals by cutting down electricity
+              use and leveraging available thermal energy.
+            </p>
           </div>
           <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
             <h3 className="text-2xl font-bold mb-4">

@@ -58,6 +58,17 @@ const TwoStageChiller = () => {
               and superior performance
             </p>
           </div>
+          <div className="prose max-w-none mb-12">
+            <p className="text-lg leading-relaxed mb-6">
+              The BROAD Two-Stage Absorption Chiller is an advanced, dual-cycle
+              system designed for high efficiency, reliability, and superior
+              energy savings in industrial and commercial HVAC applications.
+              Using innovative lithium bromide-water absorption technology and a
+              two-stage process, it achieves outstanding Coefficient of
+              Performance (COP) while maintaining precise temperature control
+              and robust part-load operation.
+            </p>
+          </div>{" "}
           {/* Chiller Models Section */}
           <div className="mb-12">
             <h3 className="text-2xl font-bold mb-6 text-center">
@@ -153,36 +164,34 @@ const TwoStageChiller = () => {
               </div>
             </div>
           </div>
-          <div className="prose max-w-none mb-12">
-            <p className="text-lg leading-relaxed mb-6">
-              BROAD&apos;s Two-Stage Absorption Chiller represents the pinnacle
-              of absorption cooling technology, utilizing a sophisticated
-              dual-stage process that delivers exceptional coefficient of
-              performance (COP) and energy efficiency. This advanced system
-              employs two separate absorption cycles working in tandem to
-              achieve superior cooling performance while consuming minimal
-              high-grade energy input.
-            </p>
-            <p className="text-lg leading-relaxed mb-6">
-              The two-stage design allows for more effective heat transfer and
-              better utilization of available thermal energy, making it ideal
-              for applications requiring high efficiency and consistent
-              performance across varying load conditions. With enhanced
-              crystallization resistance and improved part-load operation, this
-              chiller delivers reliable cooling for demanding industrial and
-              commercial applications.
-            </p>
-          </div>{" "}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-2xl font-bold mb-4">Key Features</h3>
               <ul className="space-y-3">
-                <li>• Advanced two-stage absorption cycle</li>
-                <li>• Enhanced coefficient of performance</li>
-                <li>• Superior part-load efficiency</li>
-                <li>• Improved crystallization resistance</li>
-                <li>• Precise temperature control</li>
-                <li>• Reduced thermal energy consumption</li>
+                <li>
+                  <strong>Two-stage absorption cycle:</strong> Delivers enhanced
+                  efficiency and consistent performance, especially under
+                  varying loads.
+                </li>
+                <li>
+                  <strong>Exceptional COP and part-load efficiency:</strong>{" "}
+                  Achieves more cooling per unit of input energy, maximizing
+                  operational savings.
+                </li>
+                <li>
+                  <strong>Broad application range:</strong> Serves cooling,
+                  heating, and domestic hot water needs in large buildings,
+                  process industries, and district cooling systems.
+                </li>
+                <li>
+                  <strong>Crystallization resistance:</strong> Advanced system
+                  design reduces risk of lithium bromide crystallization,
+                  improving uptime.
+                </li>
+                <li>
+                  Precise temperature control and low thermal input requirements
+                  for further energy optimization.
+                </li>
               </ul>
             </div>
             <div className="bg-blue-50 rounded-lg p-6">
@@ -190,12 +199,42 @@ const TwoStageChiller = () => {
               <ul className="space-y-3">
                 <li>• Large commercial buildings</li>
                 <li>• Industrial process cooling</li>
-                <li>• District cooling systems</li>
-                <li>• High-efficiency HVAC applications</li>
-                <li>• Energy-critical facilities</li>
-                <li>• Continuous operation environments</li>
+                <li>• District energy</li>
+                <li>• Hospitals, campuses, hotels</li>
+                <li>
+                  • Facilities with demanding, continuous cooling or heating
+                  needs
+                </li>
               </ul>
             </div>
+          </div>
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-4 text-center">
+              How the Two-Stage Process Works
+            </h3>
+            <div className="prose max-w-none mx-auto mb-6 text-lg text-gray-700">
+              <p>
+                The chiller uses two absorption stages in series, improving
+                energy extraction from the driving heat source and yielding a
+                higher overall COP. This design reduces energy consumption and
+                delivers reliable, eco-friendly cooling across fluctuating
+                demand profiles.
+              </p>
+            </div>
+            <h4 className="text-xl font-semibold mb-2">Benefits</h4>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>
+                Superior efficiency and reduced high-grade energy consumption.
+              </li>
+              <li>
+                Reliable performance for demanding, energy-critical
+                environments.
+              </li>
+              <li>
+                Enhanced environmental compliance and contribution to
+                sustainability goals.
+              </li>
+            </ul>
           </div>
           <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
             <h3 className="text-2xl font-bold mb-4">

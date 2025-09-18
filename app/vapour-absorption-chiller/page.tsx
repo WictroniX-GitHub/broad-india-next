@@ -46,53 +46,55 @@ export const metadata: Metadata = {
 const VapourAbsorptionChiller = () => {
   const subCategories = [
     {
-      title: "Direct Fired Chiller",
+      title: "Direct-Fired Vapour Absorption Chiller",
       description:
-        "High-efficiency, thermally-driven cooling system powered by natural gas or light fuel oil",
+        "Premium, thermally-driven HVAC solution for industrial and commercial environments. Dual-fuel burner (natural gas or light oil), high-capacity cooling and hot water, ultra-low emissions.",
       href: "/vapour-absorption-chiller/direct-fired-chiller",
       image: "/images/nonElec.jpg",
     },
     {
-      title: "Waste Heat Chiller",
+      title: "Waste‑Heat‑Driven Vapour Absorption Chiller",
       description:
-        "Converts low-grade thermal energy into high-quality chilled water using industrial waste heat",
+        "Energy recovery solution leveraging low-grade thermal energy from industrial processes. Converts waste heat into chilled and heating water, robust and efficient.",
       href: "/vapour-absorption-chiller/waste-heat-chiller",
       image: "/images/wasteHeat.jpg",
     },
     {
-      title: "Two-Stage Chiller",
+      title: "Two-Stage Absorption Chiller",
       description:
-        "Advanced two-stage absorption technology for enhanced efficiency",
+        "Advanced dual-cycle system for high efficiency, reliability, and superior energy savings. Two-stage lithium bromide-water absorption technology.",
       href: "/vapour-absorption-chiller/two-stage-chiller",
       image:
         "https://broadusa.com/broad/wp-content/uploads/2020/03/BH-Model.jpg",
     },
     {
-      title: "Single-Stage Chiller",
+      title: "Single-Stage Absorption Chiller",
       description:
-        "Reliable single-stage absorption chiller for standard applications",
+        "Proven, reliable, and cost-effective cooling using single-stage lithium bromide absorption technology. Ideal for standard industrial and commercial applications.",
       href: "/vapour-absorption-chiller/single-stage-chiller",
       image:
         "https://broadusa.com/broad/wp-content/uploads/2020/03/BDS-model.jpg",
     },
     {
-      title: "Multi-Energy Chiller",
-      description: "Flexible multi-energy source absorption chiller systems",
+      title: "Multi-Energy Absorption Chiller",
+      description:
+        "Flexible solution capable of running on steam, hot water, exhaust gas, and natural gas. Efficient switching between energy inputs for cost optimization.",
       href: "/vapour-absorption-chiller/multi-energy-chiller",
       image:
         "https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg",
     },
     {
-      title: "Solar Driven",
+      title: "Solar Driven Absorption Chiller",
       description:
-        "Environmentally friendly solar-powered absorption cooling systems",
+        "Environmentally friendly cooling harnessing renewable solar energy. Zero-emission, sustainable solution for commercial and industrial applications.",
       href: "/vapour-absorption-chiller/solar-driven",
       image:
         "https://broadusa.com/broad/wp-content/uploads/2020/03/solar-driven-200x161.png",
     },
     {
-      title: "Packaged Chiller",
-      description: "Factory-assembled packaged absorption chiller solutions",
+      title: "Packaged Absorption Chiller",
+      description:
+        "Complete, factory-assembled solution for easy installation and reliable performance. Versatile for industrial and commercial cooling and heating needs.",
       href: "/vapour-absorption-chiller/packaged-chiller",
       image:
         "https://broadusa.com/broad/wp-content/uploads/2020/03/package_chiller-300x279-1-200x186.jpg",
@@ -122,27 +124,27 @@ const VapourAbsorptionChiller = () => {
       <div className="container mx-auto py-12 px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold mb-6">
-            BROAD Vapour Absorption Chiller Solutions
+            BROAD Vapour Absorption Chiller Product Range
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed">
-            <strong>BROAD India</strong> delivers advanced{" "}
-            <strong>Vapor Absorption Chillers (VAC)</strong> that provide
-            powerful cooling without electricity. Designed to use waste heat,
-            steam, hot water, natural gas, or diesel, our chillers are ideal for
-            industries seeking energy efficiency, carbon reduction, and{" "}
-            <strong>sustainable HVAC solutions.</strong>
+            <strong>BROAD India</strong> offers a comprehensive portfolio of{" "}
+            <strong>Vapour Absorption Chillers (VAC)</strong> engineered for
+            energy efficiency, reliability, and sustainability. Our solutions
+            cover direct-fired, waste-heat-driven, two-stage, single-stage,
+            multi-energy, solar-driven, and packaged absorption chillers—each
+            designed to meet diverse industrial and commercial cooling and
+            heating needs.
             <br />
-            Backed by BROAD Group&apos;s global engineering expertise, these
-            systems support India&apos;s net-zero mission by{" "}
-            <strong>reducing power consumption by up to 50%,</strong>{" "}
-            eliminating harmful refrigerants, and integrating seamlessly with
-            industrial operations,{" "}
-            <strong>CCHP systems, and smart buildings.</strong>
+            Leveraging advanced lithium bromide-water absorption technology,
+            BROAD chillers deliver powerful cooling and heating with minimal
+            electricity demand, ultra-low emissions, and robust performance. Our
+            systems support India&apos;s net-zero and sustainability goals by
+            reducing power consumption, eliminating harmful refrigerants, and
+            maximizing the use of renewable and waste heat sources.
             <br />
-            Choose from a wide range of VAC types including steam-fired,
-            direct-fired, hot water, exhaust gas, and solar-driven chillers,
-            customized to your facility’s heat source, capacity, and
-            sustainability goals.
+            Explore our product range below to find the ideal solution for your
+            facility&apos;s requirements, heat source, and operational
+            priorities.
           </p>
         </div>
 

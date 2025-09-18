@@ -56,11 +56,10 @@ const Packaged = () => {
           </div>{" "}
           <div className="prose max-w-none mb-12">
             <p className="text-lg leading-relaxed">
-              BROAD&apos;s Packaged Absorption Chillers offer complete
-              factory-assembled solutions that are fully tested and optimized
-              before delivery. These compact, self-contained units simplify
-              installation and commissioning while ensuring consistent
-              performance and reliability.
+              BROAD India&apos;s Packaged Absorption Chiller offers a complete,
+              factory-assembled solution designed for easy installation,
+              reliable performance, and versatility across industrial and
+              commercial cooling and heating needs.
             </p>
           </div>
           {/* Package Chiller Model Section */}
@@ -88,9 +87,84 @@ const Packaged = () => {
                   <li>• Capacity: 40-2200 ton</li>
                   <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
                   <li>• Dual Fuel Burner (Gas and Oil, Low NOx, &lt; 10ppm)</li>
-                  <li>• Cooling / Heating / Domestic Hot Water</li>
+                  <li>• Functionality: Cooling, Heating, Domestic Hot Water</li>
+                  <li>
+                    • Package Includes: Enclosure, Pump System, Cooling Tower
+                  </li>
                 </ul>
               </div>
+            </div>
+          </div>
+          {/* Features, Applications, Benefits Section */}
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            {/* Features */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow">
+              <h4 className="text-xl font-semibold text-blue-700 mb-4">
+                Key Features
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Fully factory tested and optimized for consistent quality and
+                  simplified commissioning
+                </li>
+                <li>
+                  Compact, self-contained units that reduce onsite installation
+                  time and complexity
+                </li>
+                <li>
+                  Magnetic bearing, oil-free technology available for
+                  high-performance applications
+                </li>
+                <li>
+                  Capable of generating cooling, heating, and domestic hot water
+                  from multiple heat sources
+                </li>
+                <li>
+                  Designed to significantly reduce electricity consumption and
+                  carbon emissions
+                </li>
+              </ul>
+            </div>
+            {/* Applications */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow">
+              <h4 className="text-xl font-semibold text-blue-700 mb-4">
+                Applications
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>Large commercial buildings</li>
+                <li>Industrial process cooling and heating</li>
+                <li>
+                  District cooling and Combined Cooling, Heating & Power (CCHP)
+                  systems
+                </li>
+                <li>
+                  Hotels, hospitals, campuses requiring integrated HVAC
+                  solutions
+                </li>
+              </ul>
+            </div>
+            {/* Benefits */}
+            <div className="bg-gray-50 rounded-lg p-6 shadow">
+              <h4 className="text-xl font-semibold text-blue-700 mb-4">
+                Benefits
+              </h4>
+              <ul className="list-disc list-inside text-gray-700 space-y-2">
+                <li>
+                  Reduced installation and commissioning costs with
+                  factory-assembled units
+                </li>
+                <li>
+                  Flexible fuel options and multi-function HVAC capabilities
+                </li>
+                <li>
+                  Supports sustainability goals by leveraging waste heat, steam,
+                  and renewable energy sources
+                </li>
+                <li>
+                  Proven reliability with over two decades of deployments in
+                  critical industries and large-scale facilities
+                </li>
+              </ul>
             </div>
           </div>
           <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
