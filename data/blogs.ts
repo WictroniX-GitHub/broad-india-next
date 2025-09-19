@@ -2,6 +2,7 @@
 import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
+  
   {
   id: "environmental-hazards-extreme-climate",
   title: "The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions",
