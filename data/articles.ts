@@ -17,7 +17,7 @@ export const articles: Article[] = [
       "waste heat absorption cooling"
     ]
   },
-  date: "Feb 25, 2025",
+  date: "Sept 15, 2025",
   readTime: "7 min read",
   category: "VAM",
   image: "/images/15-September Article.png",
@@ -290,7 +290,7 @@ Choosing the right cooling system for industrial applications requires careful e
       "sustainable cooling systems"
     ]
   },
-  date: "Feb 25, 2025",
+  date: "Sept 10, 2025",
   readTime: "6 min read",
   category: "VAM",
   image: "/images/10-September Article.png",

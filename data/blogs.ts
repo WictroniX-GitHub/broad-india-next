@@ -2,7 +2,96 @@
 import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
-  
+  {
+  id: "catalysts-destroy-low-concentration-vam",
+  title: "The Invisible Architects: How Catalysts Efficiently Destroy Low-Concentration VAM",
+  description: "Understanding the role of catalysts in oxidizing methane from Ventilation Air Methane (VAM) at low concentrations.",
+  meta: {
+    description: "Catalysts accelerate methane oxidation in VAM, making it possible to destroy low-concentration methane emissions economically and sustainably.",
+    keywords: [
+      "VAM oxidation",
+      "catalysts for methane",
+      "low-concentration VAM destruction",
+      "methane to CO2 conversion",
+      "sustainable methane abatement"
+    ]
+  },
+  date: "Sept 23, 2025",
+  readTime: "5 min read",
+  category: "VAM",
+  image: "/images/23-September Blog.jpg",
+  content: `
+<h1>The Invisible Architects: How Catalysts Efficiently Destroy Low-Concentration VAM</h1>
+</br>
+<a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+</br>
+<p>
+In the case of VAM, the goal is to oxidize methane into less harmful carbon dioxide and water. This reaction occurs naturally, but at typical mine ventilation temperatures and low methane concentrations, it's incredibly slow. Without a catalyst, you'd need extremely high temperatures to achieve significant methane destruction, which is economically and practically unfeasible for large volumes of VAM.
+</p>
+
+<ul>
+  <li><strong>Adsorption</strong> is crucial because it brings the reactants into close proximity and often weakens the bonds within the methane molecule, making it more reactive.</li>
+
+  <li><strong>Reaction</strong> is the catalyst's unique electronic and structural properties facilitate the transfer of electrons and the breaking and forming of chemical bonds, leading to the oxidation of methane.</li>
+
+  <li><strong>Desorption</strong> refers to the reaction products which then gets detach from the catalyst surface, freeing up active sites for new methane and oxygen molecules to adsorb and react.</li>
+</ul>
+
+<p>
+As we strive for a more sustainable future, catalysts will continue to be the unsung heroes in the fight against climate change, proving that even the most dilute environmental challenges can be tackled with ingenuity and the right chemical "architects."
+</p>
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`
+},
+  {
+  id: "global-methane-pledge-vam-mitigation-in-climate-goals",
+  title: "The Global Methane Pledge: How VAM Mitigation Fits into International Climate Goals",
+  description: "Exploring how Ventilation Air Methane (VAM) mitigation aligns with the Global Methane Pledge and international climate objectives.",
+  meta: {
+    description: "Learn how VAM mitigation directly reduces methane emissions, accelerates climate impact, and fosters technological innovation under the Global Methane Pledge.",
+    keywords: [
+      "Global Methane Pledge",
+      "VAM mitigation",
+      "methane reduction",
+      "climate goals",
+      "coal mining methane emissions",
+      "methane abatement technologies"
+    ]
+  },
+  date: "Sept 20, 2025",
+  readTime: "5 min read",
+  category: "VAM",
+  image: "/images/20-September Blog.jpg",
+  content: `
+<h1>The Global Methane Pledge: How VAM Mitigation Fits into International Climate Goals</h1>
+</br>
+<a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
+</br>
+<p>
+Methane, though less abundant than carbon dioxide, is a far more potent greenhouse gas, trapping significantly more heat in our atmosphere over a shorter period. Recognizing this urgent threat, over 150 countries have joined the Global Methane Pledge (GMP). One significant source of anthropogenic methane emissions, particularly in countries with active mining operations, is Ventilation Air Methane (VAM).
+</p>
+
+<ul>
+  <li><strong>Direct Emission Reduction</strong><br>
+  VAM mitigation contributes is by directly reducing methane emissions into the atmosphere.</li>
+
+  <li><strong>Rapid Climate Impact</strong><br>
+  VAM mitigation now can lead to a more immediate cooling effect, buying critical time for the transition to a low-carbon economy.</li>
+
+  <li><strong>Technological Innovation and Deployment</strong><br>
+  Cost-effective VAM abatement technologies are making them accessible to a wider range of mining operations globally.</li>
+</ul>
+
+<p>
+For sectors like coal mining, this translates into a renewed focus on understanding and mitigating VAM emissions. As countries work towards their 2030 targets, we can expect to see increased investment in research and development, policy incentives for VAM abatement, and broader adoption of existing and emerging technologies.
+</p>
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`
+},
   {
   id: "environmental-hazards-extreme-climate",
   title: "The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions",
