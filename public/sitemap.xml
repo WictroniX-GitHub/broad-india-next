@@ -134,6 +134,86 @@
 
 <!-- Current Blog Posts -->
 <url>
+ <loc>https://www.broadindia.com/blogs/future-of-hvac-steam-hot-water-chp-vam-chillers</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/exhaust-to-efficiency-how-vam-chillers-cut-carbon</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/from-heat-to-cool-hot-water-and-chp-vam-chillers-in-india</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/why-industries-are-switching-to-non-electric-cooling</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/chp-vam-chillers-cooling-heating-power</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/exhaust-fired-vam-chillers-climate-solutions</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/hot-water-vam-chillers-smart-cooling</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/steam-vam-chillers-cleaner-industrial-future</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/environmental-and-economic-impact-of-broads-hvac-systems-in-manufacturing</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/why-businesses-should-invest-in-sustainable-hvac-solutions-today</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/catalysts-destroy-low-concentration-vam</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/global-methane-pledge-vam-mitigation-in-climate-goals</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/environmental-hazards-extreme-climate</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/turning-waste-into-cool-air</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/vam-systems-green-alternative</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+ <url>
+ <loc>https://www.broadindia.com/blogs/eco-friendly-buildings-hvac-vam-integration</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+<priority>0.70</priority>
+</url>
+<url>
   <loc>https://www.broadindia.com/blogs/two-stage-vam-system-efficiency</loc>
   <lastmod>2025-08-23T00:00:00+00:00</lastmod>
   <priority>0.70</priority>
@@ -458,6 +538,16 @@
 
 <!-- Current Articles -->
 <url>
+ <loc>https://www.broadindia.com/articles/vam-vs-electric-chillers-the-ultimate-comparison-for-industrial-cooling-solutions</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/articles/the-future-of-industrial-cooling-why-vam-chillers-are-revolutionizing-energy-efficiency</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
   <loc>https://www.broadindia.com/articles/cooling-smarter-absorption-chillers</loc>
   <lastmod>2025-08-20T00:00:00+00:00</lastmod>
   <priority>0.70</priority>
@@ -646,6 +736,28 @@
   <loc>https://www.broadindia.com/articles/harnessing-ai-for-enhanced-hvac-efficiency</loc>
   <lastmod>2025-08-20T00:00:00+00:00</lastmod>
   <priority>0.70</priority>
+</url>
+
+<!-- PDF Section -->
+<url>
+ <loc>https://www.broadindia.com/files/pumpSet.pdf</loc>
+ <lastmod>2025-10-17T07:39:10+00:00</lastmod>
+ <priority>0.41</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/power-efficient-chiller/magnetic-bearing-oil-free</loc>
+ <lastmod>2025-10-17T07:39:12+00:00</lastmod>
+ <priority>0.41</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/files/CCHP.pdf</loc>
+ <lastmod>2025-10-17T07:39:11+00:00</lastmod>
+ <priority>0.41</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/files/broadElectricChiller.pdf</loc>
+ <lastmod>2025-10-17T07:39:11+00:00</lastmod>
+ <priority>0.41</priority>
 </url>
 
 </urlset>
