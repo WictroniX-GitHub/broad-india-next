@@ -3,26 +3,190 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
-  id: "future-of-hvac-steam-hot-water-chp-vam-chillers",
-  title: "Future of HVAC: Steam, Hot Water & CHP VAM Chillers",
-  description: "Explore how Steam, Hot Water, and CHP VAM chillers are driving sustainable HVAC solutions for smart cities and industrial applications.",
-  meta: {
-    description: "Learn how Steam, Hot Water, and CHP VAM chillers reduce energy use and emissions, shaping the future of sustainable HVAC systems.",
-    keywords: [
-      "Steam VAM chillers",
-      "Hot Water VAM chillers",
-      "CHP systems",
-      "sustainable HVAC",
-      "smart city cooling",
-      "energy efficiency",
-      "BROAD India"
-    ]
+    id: "harnessing-waste-heat-vam-industrial-cooling",
+    title:
+      "Harnessing Waste Heat: The Future of Vapor Absorption Machines in Industrial Cooling",
+    description:
+      "How Vapor Absorption Machines (VAMs) use waste heat to deliver sustainable, energy-efficient industrial cooling.",
+    meta: {
+      description:
+        "Vapor Absorption Machines (VAMs) convert waste heat into chilled water for industrial cooling—learn how this reduces electricity use and emissions.",
+      keywords: [
+        "vapour absorption machines",
+        "waste heat recovery",
+        "industrial cooling",
+        "energy efficiency",
+        "green HVAC",
+        "BROAD India",
+      ],
+    },
+    date: "Oct 29, 2025",
+    readTime: "3 min read",
+    category: "VAM",
+    image: "/images/29-Oct Blog.jpg",
+    content: `
+<h1>Harnessing Waste Heat: The Future of Vapor Absorption Machines in Industrial Cooling</h1>
+</br>
+<p><strong>Introduction:</strong><br>
+Vapor Absorption Machines (VAMs) are transforming industrial cooling by using waste heat or low-grade thermal energy sources like steam and hot water to produce chilled water. Unlike traditional electric compressors, VAMs operate on an absorption refrigeration cycle using an absorbent-refrigerant pair, resulting in energy-efficient and sustainable cooling solutions.
+</p>
+
+<h2>Working Principle:</h2>
+<p>
+VAMs replace mechanical compressors with an absorber and generator. The refrigerant evaporates under low pressure, absorbing heat and providing cooling. The absorber captures the refrigerant vapor in a concentrated absorbent. Heat supplied through waste steam or hot water in the generator releases the refrigerant vapor to be condensed and recycled, creating a continuous refrigeration cycle driven by heat instead of electricity.
+</p>
+
+<h2>Industrial Applications:</h2>
+<p>
+VAMs effectively utilize waste heat from industrial processes, cogeneration plants, or exhaust gases to reduce electric power consumption. They are ideal for large-scale cooling demands in manufacturing, chemical industries, and power generation while contributing to lower carbon emissions and operating costs.
+</p>
+
+<h2>Benefits:</h2>
+<ul>
+  <li>Significant energy savings by harnessing low-grade heat</li>
+  <li>Reduced carbon footprint and greenhouse gas emissions</li>
+  <li>Use of environmentally friendly refrigerants like water and ammonia</li>
+  <li>Lower electrical peak demand and operational cost</li>
+  <li>Flexible integration with waste heat recovery and renewable sources</li>
+</ul>
+
+<p><strong>Conclusion:</strong><br>
+Harnessing waste heat with vapor absorption machines represents a critical shift towards sustainable and energy-efficient industrial cooling. VAM technology leverages thermal energy that would otherwise be wasted, reducing environmental impact while maintaining optimal cooling performance.</p>
+
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`,
   },
-  date: "Oct 16, 2025",
-  readTime: "3 min read",
-  category: "VAM",
-  image: "/images/16-Oct Blog.png",
-  content: `
+
+  {
+    id: "smart-hvac-systems-iot-2025",
+    title:
+      "Smart HVAC Systems and IoT: Revolutionizing Energy Efficiency and Sustainability in 2025",
+    description:
+      "How IoT-enabled smart HVAC systems deliver real-time control, predictive maintenance, and major energy savings in 2025.",
+    meta: {
+      description:
+        "Smart HVAC systems integrated with IoT enable real-time monitoring, predictive maintenance, and automation—driving energy savings and sustainability.",
+      keywords: [
+        "smart HVAC",
+        "IoT",
+        "energy efficiency",
+        "predictive maintenance",
+        "smart buildings",
+        "BROAD India",
+      ],
+    },
+    date: "Oct 26, 2025",
+    readTime: "3 min read",
+    category: "Smart HVAC",
+    image: "/images/26-Oct Blog.png",
+    content: `
+<h1>Smart HVAC Systems and IoT: Revolutionizing Energy Efficiency and Sustainability in 2025</h1>
+</br>
+<p><strong>Introduction:</strong><br>
+Smart HVAC systems integrated with Internet of Things (IoT) technology are revolutionizing the way heating, ventilation, and air conditioning operate in homes and industries. These systems enable real-time monitoring, intelligent control, and predictive maintenance, driving significant energy savings and sustainability goals.
+</p>
+
+<h2>How IoT Enhances Energy Efficiency:</h2>
+<p>
+IoT sensors continuously track variables such as temperature, humidity, occupancy, and energy use. This data allows HVAC systems to dynamically adjust operation based on real-time conditions, occupancy patterns, and even weather forecasts, thus reducing energy waste by up to 20–30% and lowering utility costs.
+</p>
+
+<h2>Predictive Maintenance and Reliability:</h2>
+<p>
+By analyzing sensor data, IoT-based HVAC systems can predict equipment failures before they happen, enabling timely maintenance and reducing downtime and repair costs. This proactive approach ensures longer equipment life and consistent performance.
+</p>
+
+<h2>Smart Controls and Remote Management:</h2>
+<p>
+IoT enables remote control and automation of HVAC systems through mobile or web applications. Facility managers and homeowners can monitor system status anywhere, optimize settings remotely, and receive instant alerts for anomalies, enhancing operational efficiency and occupant comfort.
+</p>
+
+<p><strong>Conclusion:</strong><br>
+In 2025, IoT integration in HVAC represents a pivotal step toward sustainable, energy-efficient buildings. By combining real-time data, automation, and predictive analytics, smart HVAC systems deliver optimized performance, cost savings, and improved indoor environments, making them essential for future-ready homes and industries.</p>
+
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`,
+  },
+
+  {
+    id: "transitioning-to-low-gwp-refrigerants-benefits-challenges-industry-impacts",
+    title:
+      "Transitioning to Low-GWP Refrigerants: Benefits, Challenges, and Industry Impacts",
+    description:
+      "An overview of the 2025 shift to low-GWP refrigerants—benefits, implementation challenges, and industry effects.",
+    meta: {
+      description:
+        "The HVAC industry is transitioning to low Global Warming Potential (GWP) refrigerants as part of 2025 regulatory efforts—this article covers benefits, challenges, and industry impacts.",
+      keywords: [
+        "low-GWP refrigerants",
+        "R-454B",
+        "R-32",
+        "HVAC transition",
+        "sustainability",
+        "BROAD India",
+      ],
+    },
+    date: "Oct 24, 2025",
+    readTime: "3 min read",
+    category: "Refrigerants",
+    image: "/images/24-Oct Blog.jpg",
+    content: `
+<h1>Transitioning to Low-GWP Refrigerants: Benefits, Challenges, and Industry Impacts</h1>
+</br>
+<p><strong>Introduction:</strong><br>
+The HVAC industry is undergoing a pivotal transition toward low Global Warming Potential (GWP) refrigerants as part of the 2025 regulatory mandate to reduce environmental impact. Traditional refrigerants like R-410A and R-22, with high GWP, are being phased out in favor of eco-friendly alternatives such as R-454B and R-32, which offer strong climate benefits without compromising performance.
+</p>
+
+<h2>Benefits of Low-GWP Refrigerants:</h2>
+<p>
+Low-GWP refrigerants substantially reduce greenhouse gas emissions, helping mitigate climate change. They offer zero ozone depletion potential, improved energy efficiency, and comply with global environmental standards. Systems using these refrigerants also tend to be more efficient, which lowers energy consumption and operational costs over time.
+</p>
+
+<h2>Challenges in Transition:</h2>
+<p>
+The adoption of low-GWP refrigerants involves handling mildly flammable substances (A2L class) requiring updated safety protocols, installation practices, and technician training. Compatibility issues with older HVAC systems necessitate retrofits or replacements. Industry players must balance regulatory compliance, safety, and reliability during this transition.
+</p>
+
+<h2>Industry Impacts:</h2>
+<p>
+This shift stimulates innovation in HVAC system design, material selection, and manufacturing processes to accommodate new refrigerants. The market is seeing a surge in research on refrigerant blends and advanced equipment optimized for low-GWP use. Ultimately, this transition supports global greenhouse gas reduction targets and accelerates sustainable cooling technologies.
+</p>
+
+<p><strong>Conclusion:</strong><br>
+Transitioning to low-GWP refrigerants is critical for shaping the future of HVAC technology, aligning industry practices with global climate goals. While challenges exist, the environmental and operational benefits of these refrigerants make them the cornerstone of sustainable and efficient cooling solutions in 2025 and beyond.</p>
+
+<p>
+<a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
+</p>
+`,
+  },
+  {
+    id: "future-of-hvac-steam-hot-water-chp-vam-chillers",
+    title: "Future of HVAC: Steam, Hot Water & CHP VAM Chillers",
+    description:
+      "Explore how Steam, Hot Water, and CHP VAM chillers are driving sustainable HVAC solutions for smart cities and industrial applications.",
+    meta: {
+      description:
+        "Learn how Steam, Hot Water, and CHP VAM chillers reduce energy use and emissions, shaping the future of sustainable HVAC systems.",
+      keywords: [
+        "Steam VAM chillers",
+        "Hot Water VAM chillers",
+        "CHP systems",
+        "sustainable HVAC",
+        "smart city cooling",
+        "energy efficiency",
+        "BROAD India",
+      ],
+    },
+    date: "Oct 16, 2025",
+    readTime: "3 min read",
+    category: "VAM",
+    image: "/images/16-Oct Blog.png",
+    content: `
 <h1>Future of HVAC: Steam, Hot Water & CHP VAM Chillers</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -50,29 +214,31 @@ solutions, balancing comfort, cost, and climate responsibility.
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "exhaust-to-efficiency-how-vam-chillers-cut-carbon",
-  title: "Exhaust to Efficiency: How VAM Chillers Cut Carbon",
-  description: "Exhaust Fired VAM chillers transform waste exhaust energy into efficient cooling, helping industries cut emissions and energy use.",
-  meta: {
-    description: "Discover how Exhaust Fired VAM chillers convert waste exhaust into sustainable cooling, reducing electricity consumption and industrial carbon emissions.",
-    keywords: [
-      "Exhaust Fired VAM",
-      "waste heat recovery",
-      "industrial cooling efficiency",
-      "carbon reduction",
-      "sustainable HVAC",
-      "BROAD India",
-      "energy saving chillers"
-    ]
+`,
   },
-  date: "Oct 14, 2025",
-  readTime: "2-3 min read",
-  category: "VAM",
-  image: "/images/14-Oct Blog.png",
-  content: `
+  {
+    id: "exhaust-to-efficiency-how-vam-chillers-cut-carbon",
+    title: "Exhaust to Efficiency: How VAM Chillers Cut Carbon",
+    description:
+      "Exhaust Fired VAM chillers transform waste exhaust energy into efficient cooling, helping industries cut emissions and energy use.",
+    meta: {
+      description:
+        "Discover how Exhaust Fired VAM chillers convert waste exhaust into sustainable cooling, reducing electricity consumption and industrial carbon emissions.",
+      keywords: [
+        "Exhaust Fired VAM",
+        "waste heat recovery",
+        "industrial cooling efficiency",
+        "carbon reduction",
+        "sustainable HVAC",
+        "BROAD India",
+        "energy saving chillers",
+      ],
+    },
+    date: "Oct 14, 2025",
+    readTime: "2-3 min read",
+    category: "VAM",
+    image: "/images/14-Oct Blog.png",
+    content: `
 <h1>Exhaust to Efficiency: How VAM Chillers Cut Carbon</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -97,29 +263,31 @@ and sustainability goals simultaneously, supporting a greener future.
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "from-heat-to-cool-hot-water-and-chp-vam-chillers-in-india",
-  title: "From Heat to Cool: Hot Water & CHP VAM Chillers in India",
-  description: "Hot Water and CHP VAM chillers are helping Indian industries turn waste heat into efficient, eco-friendly cooling and power solutions.",
-  meta: {
-    description: "Discover how Hot Water and Combined Heat & Power (CHP) VAM chillers are transforming Indian industries by converting waste heat into sustainable cooling, heating, and power.",
-    keywords: [
-      "Hot Water VAM chillers",
-      "CHP VAM chillers",
-      "waste heat recovery",
-      "industrial cooling India",
-      "energy-efficient HVAC",
-      "sustainable cooling",
-      "BROAD India"
-    ]
+`,
   },
-  date: "Oct 12, 2025",
-  readTime: "2-3 min read",
-  category: "LiBr Vapour Absorption Chillers",
-  image: "/images/12-Oct Blog.png",
-  content: `
+  {
+    id: "from-heat-to-cool-hot-water-and-chp-vam-chillers-in-india",
+    title: "From Heat to Cool: Hot Water & CHP VAM Chillers in India",
+    description:
+      "Hot Water and CHP VAM chillers are helping Indian industries turn waste heat into efficient, eco-friendly cooling and power solutions.",
+    meta: {
+      description:
+        "Discover how Hot Water and Combined Heat & Power (CHP) VAM chillers are transforming Indian industries by converting waste heat into sustainable cooling, heating, and power.",
+      keywords: [
+        "Hot Water VAM chillers",
+        "CHP VAM chillers",
+        "waste heat recovery",
+        "industrial cooling India",
+        "energy-efficient HVAC",
+        "sustainable cooling",
+        "BROAD India",
+      ],
+    },
+    date: "Oct 12, 2025",
+    readTime: "2-3 min read",
+    category: "LiBr Vapour Absorption Chillers",
+    image: "/images/12-Oct Blog.png",
+    content: `
 <h1>From Heat to Cool: Hot Water & CHP VAM Chillers in India</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -145,29 +313,31 @@ By converting heat into useful energy, these systems are helping Indian industri
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "why-industries-are-switching-to-non-electric-cooling",
-  title: "Why Industries Are Switching to Non-Electric Cooling",
-  description: "Industries are adopting non-electric cooling systems like Steam and Exhaust Fired VAM chillers to cut energy costs, reduce emissions, and enhance sustainability.",
-  meta: {
-    description: "Learn why industries are switching to non-electric cooling with Steam and Exhaust Fired VAM chillers that utilize waste heat for efficient, eco-friendly operations.",
-    keywords: [
-      "non-electric cooling",
-      "VAM chillers",
-      "steam VAM",
-      "exhaust fired VAM",
-      "industrial energy efficiency",
-      "sustainable cooling",
-      "BROAD India HVAC"
-    ]
+`,
   },
-  date: "Oct 10, 2025",
-  readTime: "2-3 min read",
-  category: "Vapour Absorption Chillers",
-  image: "/images/10-Oct Blog.png",
-  content: `
+  {
+    id: "why-industries-are-switching-to-non-electric-cooling",
+    title: "Why Industries Are Switching to Non-Electric Cooling",
+    description:
+      "Industries are adopting non-electric cooling systems like Steam and Exhaust Fired VAM chillers to cut energy costs, reduce emissions, and enhance sustainability.",
+    meta: {
+      description:
+        "Learn why industries are switching to non-electric cooling with Steam and Exhaust Fired VAM chillers that utilize waste heat for efficient, eco-friendly operations.",
+      keywords: [
+        "non-electric cooling",
+        "VAM chillers",
+        "steam VAM",
+        "exhaust fired VAM",
+        "industrial energy efficiency",
+        "sustainable cooling",
+        "BROAD India HVAC",
+      ],
+    },
+    date: "Oct 10, 2025",
+    readTime: "2-3 min read",
+    category: "Vapour Absorption Chillers",
+    image: "/images/10-Oct Blog.png",
+    content: `
 <h1>Why Industries Are Switching to Non-Electric Cooling</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -195,28 +365,30 @@ Switching to non-electric VAM cooling helps industries achieve efficient, sustai
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "chp-vam-chillers-cooling-heating-power",
-  title: "CHP VAM Chillers: Cooling, Heating & Power in One",
-  description: "CHP (Combined Heat and Power) VAM chillers provide integrated cooling, heating, and electricity generation for efficient, sustainable industrial energy solutions.",
-  meta: {
-    description: "Explore how CHP VAM chillers combine cooling, heating, and power generation in a single sustainable system, improving energy efficiency and reducing emissions.",
-    keywords: [
-      "CHP VAM chillers",
-      "combined heat and power",
-      "cogeneration systems",
-      "industrial energy efficiency",
-      "sustainable HVAC",
-      "BROAD India VAM"
-    ]
+`,
   },
-  date: "Oct 06, 2025",
-  readTime: "2-3 min read",
-  category: "CCHP",
-  image: "/images/06-Oct Blog.png",
-  content: `
+  {
+    id: "chp-vam-chillers-cooling-heating-power",
+    title: "CHP VAM Chillers: Cooling, Heating & Power in One",
+    description:
+      "CHP (Combined Heat and Power) VAM chillers provide integrated cooling, heating, and electricity generation for efficient, sustainable industrial energy solutions.",
+    meta: {
+      description:
+        "Explore how CHP VAM chillers combine cooling, heating, and power generation in a single sustainable system, improving energy efficiency and reducing emissions.",
+      keywords: [
+        "CHP VAM chillers",
+        "combined heat and power",
+        "cogeneration systems",
+        "industrial energy efficiency",
+        "sustainable HVAC",
+        "BROAD India VAM",
+      ],
+    },
+    date: "Oct 06, 2025",
+    readTime: "2-3 min read",
+    category: "CCHP",
+    image: "/images/06-Oct Blog.png",
+    content: `
 <h1>CHP VAM Chillers: Cooling, Heating & Power in One</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -244,28 +416,31 @@ By combining power, heating, and cooling, CHP VAM chillers provide a holistic, s
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "exhaust-fired-vam-chillers-climate-solutions",
-  title: "Exhaust Fired VAM Chillers: Transforming Waste Energy into Climate Solutions",
-  description: "Exhaust Fired Vapor Absorption Machine (VAM) chillers use waste exhaust heat to provide efficient and sustainable cooling for industrial applications.",
-  meta: {
-    description: "Discover how Exhaust Fired VAM chillers convert waste exhaust energy into cooling, reducing electricity use, emissions, and operational costs in industries.",
-    keywords: [
-      "Exhaust Fired VAM chillers",
-      "waste heat recovery",
-      "industrial cooling",
-      "energy-efficient HVAC",
-      "sustainable cooling systems",
-      "BROAD India VAM"
-    ]
+`,
   },
-  date: "Oct 04, 2025",
-  readTime: "3 min read",
-  category: "VAM",
-  image: "/images/04-Oct Blog.png",
-  content: `
+  {
+    id: "exhaust-fired-vam-chillers-climate-solutions",
+    title:
+      "Exhaust Fired VAM Chillers: Transforming Waste Energy into Climate Solutions",
+    description:
+      "Exhaust Fired Vapor Absorption Machine (VAM) chillers use waste exhaust heat to provide efficient and sustainable cooling for industrial applications.",
+    meta: {
+      description:
+        "Discover how Exhaust Fired VAM chillers convert waste exhaust energy into cooling, reducing electricity use, emissions, and operational costs in industries.",
+      keywords: [
+        "Exhaust Fired VAM chillers",
+        "waste heat recovery",
+        "industrial cooling",
+        "energy-efficient HVAC",
+        "sustainable cooling systems",
+        "BROAD India VAM",
+      ],
+    },
+    date: "Oct 04, 2025",
+    readTime: "3 min read",
+    category: "VAM",
+    image: "/images/04-Oct Blog.png",
+    content: `
 <h1>Exhaust Fired VAM Chillers: Transforming Waste Energy into Climate Solutions</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -298,28 +473,30 @@ By harnessing waste heat, these chillers provide smart, sustainable, and climate
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "hot-water-vam-chillers-smart-cooling",
-  title: "Hot Water VAM Chillers: Turning Waste Heat into Smart Cooling",
-  description: "Hot Water Vapor Absorption Machine (VAM) chillers transform waste heat into efficient, eco-friendly cooling for industrial applications.",
-  meta: {
-    description: "Learn how Hot Water VAM chillers use waste heat to generate cooling, cutting electricity costs and reducing emissions for a greener industrial future.",
-    keywords: [
-      "Hot Water VAM chillers",
-      "waste heat recovery",
-      "industrial cooling",
-      "energy-efficient HVAC",
-      "sustainable cooling systems",
-      "BROAD India VAM"
-    ]
+`,
   },
-  date: "Oct 02, 2025",
-  readTime: "3-4 min read",
-  category: "Lithium Bromide Absorption Chiller",
-  image: "/images/02-Oct Blog.png",
-  content: `
+  {
+    id: "hot-water-vam-chillers-smart-cooling",
+    title: "Hot Water VAM Chillers: Turning Waste Heat into Smart Cooling",
+    description:
+      "Hot Water Vapor Absorption Machine (VAM) chillers transform waste heat into efficient, eco-friendly cooling for industrial applications.",
+    meta: {
+      description:
+        "Learn how Hot Water VAM chillers use waste heat to generate cooling, cutting electricity costs and reducing emissions for a greener industrial future.",
+      keywords: [
+        "Hot Water VAM chillers",
+        "waste heat recovery",
+        "industrial cooling",
+        "energy-efficient HVAC",
+        "sustainable cooling systems",
+        "BROAD India VAM",
+      ],
+    },
+    date: "Oct 02, 2025",
+    readTime: "3-4 min read",
+    category: "Lithium Bromide Absorption Chiller",
+    image: "/images/02-Oct Blog.png",
+    content: `
 <h1>Hot Water VAM Chillers: Turning Waste Heat into Smart Cooling</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -357,28 +534,30 @@ By turning waste heat into a resource, Hot Water VAM chillers help industries co
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "steam-vam-chillers-cleaner-industrial-future",
-  title: "How Steam VAM Chillers are Powering a Cleaner Industrial Future",
-  description: "Steam VAM chillers are transforming industrial cooling by turning waste heat into energy savings for a sustainable future.",
-  meta: {
-    description: "Discover how steam-driven Vapor Absorption Machines (VAM) chillers reduce emissions, cut energy use, and support net-zero industrial operations.",
-    keywords: [
-      "Steam VAM chillers",
-      "industrial cooling",
-      "waste heat recovery",
-      "sustainable HVAC",
-      "energy-efficient chillers",
-      "BROAD India VAM"
-    ]
+`,
   },
-  date: "Sept 29, 2025",
-  readTime: "2 min read",
-  category: "Lithium Bromide VAM",
-  image: "/images/29-Sept Blog.png",
-  content: `
+  {
+    id: "steam-vam-chillers-cleaner-industrial-future",
+    title: "How Steam VAM Chillers are Powering a Cleaner Industrial Future",
+    description:
+      "Steam VAM chillers are transforming industrial cooling by turning waste heat into energy savings for a sustainable future.",
+    meta: {
+      description:
+        "Discover how steam-driven Vapor Absorption Machines (VAM) chillers reduce emissions, cut energy use, and support net-zero industrial operations.",
+      keywords: [
+        "Steam VAM chillers",
+        "industrial cooling",
+        "waste heat recovery",
+        "sustainable HVAC",
+        "energy-efficient chillers",
+        "BROAD India VAM",
+      ],
+    },
+    date: "Sept 29, 2025",
+    readTime: "2 min read",
+    category: "Lithium Bromide VAM",
+    image: "/images/29-Sept Blog.png",
+    content: `
 <h1>How Steam VAM Chillers are Powering a Cleaner Industrial Future</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -427,28 +606,31 @@ They’re efficient, reliable, and sustainable — the future of green industria
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "environmental-and-economic-impact-of-broads-hvac-systems-in-manufacturing",
-  title: "The Environmental and Economic Impact of Using BROAD’s HVAC Systems in Manufacturing",
-  description: "How BROAD India’s sustainable HVAC systems transform manufacturing with lower emissions, higher efficiency, and cost savings.",
-  meta: {
-    description: "Discover how BROAD India’s eco-friendly HVAC systems for manufacturing reduce energy costs, emissions, and enhance workplace safety and efficiency.",
-    keywords: [
-      "BROAD India HVAC",
-      "industrial cooling systems",
-      "sustainable manufacturing",
-      "energy-efficient HVAC",
-      "CCHP systems",
-      "vapor absorption chillers"
-    ]
+`,
   },
-  date: "Sept 27, 2025",
-  readTime: "2 min read",
-  category: "HVAC",
-  image: "/images/27-Sept Blog.jpeg",
-  content: `
+  {
+    id: "environmental-and-economic-impact-of-broads-hvac-systems-in-manufacturing",
+    title:
+      "The Environmental and Economic Impact of Using BROAD’s HVAC Systems in Manufacturing",
+    description:
+      "How BROAD India’s sustainable HVAC systems transform manufacturing with lower emissions, higher efficiency, and cost savings.",
+    meta: {
+      description:
+        "Discover how BROAD India’s eco-friendly HVAC systems for manufacturing reduce energy costs, emissions, and enhance workplace safety and efficiency.",
+      keywords: [
+        "BROAD India HVAC",
+        "industrial cooling systems",
+        "sustainable manufacturing",
+        "energy-efficient HVAC",
+        "CCHP systems",
+        "vapor absorption chillers",
+      ],
+    },
+    date: "Sept 27, 2025",
+    readTime: "2 min read",
+    category: "HVAC",
+    image: "/images/27-Sept Blog.jpeg",
+    content: `
 <h1>The Environmental and Economic Impact of Using BROAD’s HVAC Systems in Manufacturing</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -493,28 +675,30 @@ In manufacturing, BROAD India’s eco-friendly HVAC solutions drive operational 
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "why-businesses-should-invest-in-sustainable-hvac-solutions-today",
-  title: "Why Businesses Should Invest in Sustainable HVAC Solutions Today",
-  description: "Exploring how sustainable HVAC solutions drive cost savings, energy efficiency, and a greener future for businesses.",
-  meta: {
-    description: "Learn why investing in sustainable HVAC systems like BROAD India’s VAM technology helps businesses cut energy costs, reduce emissions, and futureproof operations.",
-    keywords: [
-      "sustainable HVAC",
-      "BROAD India",
-      "energy-efficient cooling",
-      "industrial HVAC sustainability",
-      "VAM technology",
-      "green building solutions"
-    ]
+`,
   },
-  date: "Sept 25, 2025",
-  readTime: "2 min read",
-  category: "HVAC",
-  image: "/images/25-Sept Blog.png",
-  content: `
+  {
+    id: "why-businesses-should-invest-in-sustainable-hvac-solutions-today",
+    title: "Why Businesses Should Invest in Sustainable HVAC Solutions Today",
+    description:
+      "Exploring how sustainable HVAC solutions drive cost savings, energy efficiency, and a greener future for businesses.",
+    meta: {
+      description:
+        "Learn why investing in sustainable HVAC systems like BROAD India’s VAM technology helps businesses cut energy costs, reduce emissions, and futureproof operations.",
+      keywords: [
+        "sustainable HVAC",
+        "BROAD India",
+        "energy-efficient cooling",
+        "industrial HVAC sustainability",
+        "VAM technology",
+        "green building solutions",
+      ],
+    },
+    date: "Sept 25, 2025",
+    readTime: "2 min read",
+    category: "HVAC",
+    image: "/images/25-Sept Blog.png",
+    content: `
 <h1>Why Businesses Should Invest in Sustainable HVAC Solutions Today</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -559,27 +743,30 @@ Choosing BROAD India’s sustainable HVAC solutions empowers businesses to save 
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "catalysts-destroy-low-concentration-vam",
-  title: "The Invisible Architects: How Catalysts Efficiently Destroy Low-Concentration VAM",
-  description: "Understanding the role of catalysts in oxidizing methane from Ventilation Air Methane (VAM) at low concentrations.",
-  meta: {
-    description: "Catalysts accelerate methane oxidation in VAM, making it possible to destroy low-concentration methane emissions economically and sustainably.",
-    keywords: [
-      "VAM oxidation",
-      "catalysts for methane",
-      "low-concentration VAM destruction",
-      "methane to CO2 conversion",
-      "sustainable methane abatement"
-    ]
+`,
   },
-  date: "Sept 23, 2025",
-  readTime: "5 min read",
-  category: "VAM",
-  image: "/images/23-September Blog.jpg",
-  content: `
+  {
+    id: "catalysts-destroy-low-concentration-vam",
+    title:
+      "The Invisible Architects: How Catalysts Efficiently Destroy Low-Concentration VAM",
+    description:
+      "Understanding the role of catalysts in oxidizing methane from Ventilation Air Methane (VAM) at low concentrations.",
+    meta: {
+      description:
+        "Catalysts accelerate methane oxidation in VAM, making it possible to destroy low-concentration methane emissions economically and sustainably.",
+      keywords: [
+        "VAM oxidation",
+        "catalysts for methane",
+        "low-concentration VAM destruction",
+        "methane to CO2 conversion",
+        "sustainable methane abatement",
+      ],
+    },
+    date: "Sept 23, 2025",
+    readTime: "5 min read",
+    category: "VAM",
+    image: "/images/23-September Blog.jpg",
+    content: `
 <h1>The Invisible Architects: How Catalysts Efficiently Destroy Low-Concentration VAM</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -602,28 +789,31 @@ As we strive for a more sustainable future, catalysts will continue to be the un
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "global-methane-pledge-vam-mitigation-in-climate-goals",
-  title: "The Global Methane Pledge: How VAM Mitigation Fits into International Climate Goals",
-  description: "Exploring how Ventilation Air Methane (VAM) mitigation aligns with the Global Methane Pledge and international climate objectives.",
-  meta: {
-    description: "Learn how VAM mitigation directly reduces methane emissions, accelerates climate impact, and fosters technological innovation under the Global Methane Pledge.",
-    keywords: [
-      "Global Methane Pledge",
-      "VAM mitigation",
-      "methane reduction",
-      "climate goals",
-      "coal mining methane emissions",
-      "methane abatement technologies"
-    ]
+`,
   },
-  date: "Sept 20, 2025",
-  readTime: "5 min read",
-  category: "VAM",
-  image: "/images/20-September Blog.jpg",
-  content: `
+  {
+    id: "global-methane-pledge-vam-mitigation-in-climate-goals",
+    title:
+      "The Global Methane Pledge: How VAM Mitigation Fits into International Climate Goals",
+    description:
+      "Exploring how Ventilation Air Methane (VAM) mitigation aligns with the Global Methane Pledge and international climate objectives.",
+    meta: {
+      description:
+        "Learn how VAM mitigation directly reduces methane emissions, accelerates climate impact, and fosters technological innovation under the Global Methane Pledge.",
+      keywords: [
+        "Global Methane Pledge",
+        "VAM mitigation",
+        "methane reduction",
+        "climate goals",
+        "coal mining methane emissions",
+        "methane abatement technologies",
+      ],
+    },
+    date: "Sept 20, 2025",
+    readTime: "5 min read",
+    category: "VAM",
+    image: "/images/20-September Blog.jpg",
+    content: `
 <h1>The Global Methane Pledge: How VAM Mitigation Fits into International Climate Goals</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -649,30 +839,33 @@ For sectors like coal mining, this translates into a renewed focus on understand
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "environmental-hazards-extreme-climate",
-  title: "The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions",
-  description: "Understanding the environmental hazards driving climate change and extreme weather conditions.",
-  meta: {
-    description: "Learn how greenhouse gases, deforestation, pollution, and poor waste management fuel extreme climatic conditions, and why collective action is vital.",
-    keywords: [
-      "environmental hazards",
-      "extreme climate conditions",
-      "greenhouse gas emissions",
-      "deforestation impact",
-      "pollution and climate change",
-      "waste management issues",
-      "climate change causes",
-      "sustainability challenges"
-    ]
+`,
   },
-  date: "Aug 30, 2025",
-  readTime: "3-4 min read",
-  category: "Environment",
-  image: "/images/30-Aug Blog.png",
-  content: `
+  {
+    id: "environmental-hazards-extreme-climate",
+    title:
+      "The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions",
+    description:
+      "Understanding the environmental hazards driving climate change and extreme weather conditions.",
+    meta: {
+      description:
+        "Learn how greenhouse gases, deforestation, pollution, and poor waste management fuel extreme climatic conditions, and why collective action is vital.",
+      keywords: [
+        "environmental hazards",
+        "extreme climate conditions",
+        "greenhouse gas emissions",
+        "deforestation impact",
+        "pollution and climate change",
+        "waste management issues",
+        "climate change causes",
+        "sustainability challenges",
+      ],
+    },
+    date: "Aug 30, 2025",
+    readTime: "3-4 min read",
+    category: "Environment",
+    image: "/images/30-Aug Blog.png",
+    content: `
 <h1>The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -691,30 +884,33 @@ Hence, addressing these challenges requires concerted efforts from individuals, 
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "turning-waste-into-cool-air",
-  title: "Turning Waste into Cool Air: How VAM Systems Help Businesses Achieve Sustainability Goals",
-  description: "How businesses use VAM systems to turn waste heat into cooling, reducing costs and emissions.",
-  meta: {
-    description: "Discover how VAM systems utilize waste heat from generators, industrial processes, and solar energy to cut emissions, save energy, and support sustainability goals.",
-    keywords: [
-      "waste heat cooling",
-      "VAM sustainability",
-      "solar powered chillers",
-      "absorption chillers eco-friendly",
-      "solar thermal cooling",
-      "waste heat recovery",
-      "VAM business benefits",
-      "sustainability HVAC"
-    ]
+`,
   },
-  date: "Aug 28, 2025",
-  readTime: "3-4 min read",
-  category: "VAM",
-  image: "/images/28-Aug Blog.png",
-  content: `
+  {
+    id: "turning-waste-into-cool-air",
+    title:
+      "Turning Waste into Cool Air: How VAM Systems Help Businesses Achieve Sustainability Goals",
+    description:
+      "How businesses use VAM systems to turn waste heat into cooling, reducing costs and emissions.",
+    meta: {
+      description:
+        "Discover how VAM systems utilize waste heat from generators, industrial processes, and solar energy to cut emissions, save energy, and support sustainability goals.",
+      keywords: [
+        "waste heat cooling",
+        "VAM sustainability",
+        "solar powered chillers",
+        "absorption chillers eco-friendly",
+        "solar thermal cooling",
+        "waste heat recovery",
+        "VAM business benefits",
+        "sustainability HVAC",
+      ],
+    },
+    date: "Aug 28, 2025",
+    readTime: "3-4 min read",
+    category: "VAM",
+    image: "/images/28-Aug Blog.png",
+    content: `
 <h1>Turning Waste into Cool Air: How VAM Systems Help Businesses Achieve Sustainability Goals</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -740,30 +936,32 @@ By harnessing the potential of waste heat, businesses across the globe can signi
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "vam-systems-green-alternative",
-  title: "VAM Systems: The Green Alternative to Traditional Air Conditioning",
-  description: "Why Vapor Absorption Machines (VAMs) are a sustainable alternative to traditional AC systems.",
-  meta: {
-    description: "Learn how Vapor Absorption Machines (VAMs) work as an eco-friendly alternative to conventional air conditioning, reducing energy use and greenhouse emissions.",
-    keywords: [
-      "VAM systems",
-      "green alternative AC",
-      "absorption cooling",
-      "eco-friendly air conditioning",
-      "VAM working principle",
-      "HVAC sustainable cooling",
-      "energy efficient cooling",
-      "VAM solutions"
-    ]
+`,
   },
-  date: "Aug 26, 2025",
-  readTime: "3-4 min read",
-  category: "VAM",
-  image: "/images/26-Aug Blog.png",
-  content: `
+  {
+    id: "vam-systems-green-alternative",
+    title: "VAM Systems: The Green Alternative to Traditional Air Conditioning",
+    description:
+      "Why Vapor Absorption Machines (VAMs) are a sustainable alternative to traditional AC systems.",
+    meta: {
+      description:
+        "Learn how Vapor Absorption Machines (VAMs) work as an eco-friendly alternative to conventional air conditioning, reducing energy use and greenhouse emissions.",
+      keywords: [
+        "VAM systems",
+        "green alternative AC",
+        "absorption cooling",
+        "eco-friendly air conditioning",
+        "VAM working principle",
+        "HVAC sustainable cooling",
+        "energy efficient cooling",
+        "VAM solutions",
+      ],
+    },
+    date: "Aug 26, 2025",
+    readTime: "3-4 min read",
+    category: "VAM",
+    image: "/images/26-Aug Blog.png",
+    content: `
 <h1>VAM Systems: The Green Alternative to Traditional Air Conditioning</h1>
 <p>
 In our ever-warming world, the demand for air conditioning is skyrocketing. However, traditional vapor compression systems, while effective at cooling, come with significant environmental drawbacks such as high electricity consumption and the use of potent greenhouse gases as refrigerants. Thankfully, a greener alternative exists — <strong>Vapor Absorption Machines (VAMs)</strong>.
@@ -787,30 +985,33 @@ Vapor Absorption Machines (VAMs) offer a compelling and environmentally responsi
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "eco-friendly-buildings-hvac-vam-integration",
-  title: "The Future of Eco-Friendly Buildings: Integrating HVAC and VAM for Maximum Impact",
-  description: "Integrating HVAC and VAM systems for sustainable, energy-efficient, and eco-friendly building designs.",
-  meta: {
-    description: "Discover how integrating HVAC and VAM systems optimizes cooling, reduces carbon footprints, and enhances building sustainability for a greener future.",
-    keywords: [
-      "eco-friendly buildings",
-      "HVAC VAM integration",
-      "sustainable building design",
-      "energy efficient HVAC",
-      "waste heat chillers",
-      "carbon footprint reduction",
-      "vapor absorption machines",
-      "renewable HVAC systems"
-    ]
+`,
   },
-  date: "Aug 24, 2025",
-  readTime: "3-4 min read",
-  category: "Sustainability",
-  image: "/images/24-Aug Blog.png",
-  content: `
+  {
+    id: "eco-friendly-buildings-hvac-vam-integration",
+    title:
+      "The Future of Eco-Friendly Buildings: Integrating HVAC and VAM for Maximum Impact",
+    description:
+      "Integrating HVAC and VAM systems for sustainable, energy-efficient, and eco-friendly building designs.",
+    meta: {
+      description:
+        "Discover how integrating HVAC and VAM systems optimizes cooling, reduces carbon footprints, and enhances building sustainability for a greener future.",
+      keywords: [
+        "eco-friendly buildings",
+        "HVAC VAM integration",
+        "sustainable building design",
+        "energy efficient HVAC",
+        "waste heat chillers",
+        "carbon footprint reduction",
+        "vapor absorption machines",
+        "renewable HVAC systems",
+      ],
+    },
+    date: "Aug 24, 2025",
+    readTime: "3-4 min read",
+    category: "Sustainability",
+    image: "/images/24-Aug Blog.png",
+    content: `
 <h1>The Future of Eco-Friendly Buildings: Integrating HVAC and VAM for Maximum Impact</h1>
 <p>
 The construction and operation of buildings contribute significantly to global energy consumption and greenhouse gas emissions. As environmental awareness grows, the demand for eco-friendly building designs is escalating.
@@ -846,32 +1047,34 @@ While the integrated approach is gaining traction, wider adoption requires great
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "two-stage-vam-system-efficiency",
-  title: "Unlocking Efficiency: Understanding the Two-Stage VAM System",
-  description: "Explore how two-stage VAM systems enhance efficiency, utilize heat sources better, and cut cooling costs.",
-  meta: {
-    description: "Understand the benefits of two-stage VAM systems for industrial and district cooling. Learn how they improve COP, efficiency, and waste heat utilization over single-stage systems.",
-    keywords: [
-      "two stage VAM system",
-      "VAM efficiency improvement",
-      "waste heat cooling technology",
-      "industrial two-stage VAM",
-      "district cooling systems",
-      "coefficient of performance HVAC",
-      "absorption cooling efficiency",
-      "Lucknow VAM technology",
-      "energy efficient absorption chillers",
-      "BROAD India VAM"
-    ]
+`,
   },
-  date: "Aug 22, 2025",
-  readTime: "3-4 min read",
-  category: "VAM",
-  image: "/images/22-Aug Blog.png",
-  content: `
+  {
+    id: "two-stage-vam-system-efficiency",
+    title: "Unlocking Efficiency: Understanding the Two-Stage VAM System",
+    description:
+      "Explore how two-stage VAM systems enhance efficiency, utilize heat sources better, and cut cooling costs.",
+    meta: {
+      description:
+        "Understand the benefits of two-stage VAM systems for industrial and district cooling. Learn how they improve COP, efficiency, and waste heat utilization over single-stage systems.",
+      keywords: [
+        "two stage VAM system",
+        "VAM efficiency improvement",
+        "waste heat cooling technology",
+        "industrial two-stage VAM",
+        "district cooling systems",
+        "coefficient of performance HVAC",
+        "absorption cooling efficiency",
+        "Lucknow VAM technology",
+        "energy efficient absorption chillers",
+        "BROAD India VAM",
+      ],
+    },
+    date: "Aug 22, 2025",
+    readTime: "3-4 min read",
+    category: "VAM",
+    image: "/images/22-Aug Blog.png",
+    content: `
 <h1>Unlocking Efficiency: Understanding the Two-Stage VAM System</h1>
 <p>
 In the realm of cooling technologies, especially for large-scale industrial and commercial applications, Vapor Absorption Machines (VAMs) offer a compelling alternative to traditional vapor compression chillers.
@@ -924,32 +1127,35 @@ The fundamental principle of a VAM system involves using heat to drive a thermod
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "who-uses-vam-systems-industries",
-  title: "Who Uses VAM Systems? Harnessing Heat for Cooling in Key Industries",
-  description: "Explore industries adopting Vapor Absorption Machines (VAMs) to harness waste heat for cooling and efficiency.",
-  meta: {
-    description: "Discover which industries benefit most from VAM systems, including manufacturing, data centers, hospitals, and food processing — reducing reliance on electricity while cutting costs.",
-    keywords: [
-      "VAM system industries",
-      "vapor absorption cooling",
-      "waste heat cooling solutions",
-      "industrial VAM applications",
-      "data center cooling VAM",
-      "hospital VAM usage",
-      "food processing cooling",
-      "Lucknow VAM solutions",
-      "eco-friendly industrial cooling",
-      "absorption chiller industries"
-    ]
+`,
   },
-  date: "Aug 20, 2025",
-  readTime: "3-4 min read",
-  category: "VAM",
-  image: "/images/20-Aug Blog.png",
-  content: `
+  {
+    id: "who-uses-vam-systems-industries",
+    title:
+      "Who Uses VAM Systems? Harnessing Heat for Cooling in Key Industries",
+    description:
+      "Explore industries adopting Vapor Absorption Machines (VAMs) to harness waste heat for cooling and efficiency.",
+    meta: {
+      description:
+        "Discover which industries benefit most from VAM systems, including manufacturing, data centers, hospitals, and food processing — reducing reliance on electricity while cutting costs.",
+      keywords: [
+        "VAM system industries",
+        "vapor absorption cooling",
+        "waste heat cooling solutions",
+        "industrial VAM applications",
+        "data center cooling VAM",
+        "hospital VAM usage",
+        "food processing cooling",
+        "Lucknow VAM solutions",
+        "eco-friendly industrial cooling",
+        "absorption chiller industries",
+      ],
+    },
+    date: "Aug 20, 2025",
+    readTime: "3-4 min read",
+    category: "VAM",
+    image: "/images/20-Aug Blog.png",
+    content: `
 <h1>Who Uses VAM Systems? Harnessing Heat for Cooling in Key Industries</h1>
 <p>
 Vapor Absorption Machines (VAMs) offer a compelling alternative to traditional vapor compression chillers, particularly in scenarios where a significant source of waste heat is readily available. Instead of relying heavily on electricity to drive a mechanical compressor, VAMs utilize thermal energy to facilitate the cooling process.
@@ -1004,32 +1210,35 @@ Vapor Absorption Machines (VAMs) offer a compelling alternative to traditional v
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "understanding-energy-star-hvac-benefits",
-  title: "Understanding the Star: Why Energy Star Ratings Matter for Your HVAC System",
-  description: "Why Energy Star certified HVAC systems matter from energy savings to improved comfort and sustainability.",
-  meta: {
-    description: "Explore the importance of Energy Star ratings in HVAC systems. Learn how they save energy, lower bills, and improve comfort while reducing environmental impact.",
-    keywords: [
-      "Energy Star HVAC",
-      "energy efficient air conditioning",
-      "HVAC energy savings",
-      "Energy Star rating benefits",
-      "eco-friendly HVAC systems",
-      "Lucknow Energy Star HVAC",
-      "HVAC comfort efficiency",
-      "reduce energy bills HVAC",
-      "green HVAC solutions",
-      "EPA Energy Star appliances"
-    ]
+`,
   },
-  date: "Aug 18, 2025",
-  readTime: "3-4 min read",
-  category: "HVAC",
-  image: "/images/18-Aug Blog.png",
-  content: `
+  {
+    id: "understanding-energy-star-hvac-benefits",
+    title:
+      "Understanding the Star: Why Energy Star Ratings Matter for Your HVAC System",
+    description:
+      "Why Energy Star certified HVAC systems matter from energy savings to improved comfort and sustainability.",
+    meta: {
+      description:
+        "Explore the importance of Energy Star ratings in HVAC systems. Learn how they save energy, lower bills, and improve comfort while reducing environmental impact.",
+      keywords: [
+        "Energy Star HVAC",
+        "energy efficient air conditioning",
+        "HVAC energy savings",
+        "Energy Star rating benefits",
+        "eco-friendly HVAC systems",
+        "Lucknow Energy Star HVAC",
+        "HVAC comfort efficiency",
+        "reduce energy bills HVAC",
+        "green HVAC solutions",
+        "EPA Energy Star appliances",
+      ],
+    },
+    date: "Aug 18, 2025",
+    readTime: "3-4 min read",
+    category: "HVAC",
+    image: "/images/18-Aug Blog.png",
+    content: `
 <h1>Understanding the Star: Why Energy Star Ratings Matter for Your HVAC System</h1>
 <p>
 When it comes to choosing a new Heating, Ventilation, and Air Conditioning (HVAC) system for your home or business in Lucknow, or anywhere else for that matter, you'll likely encounter the Energy Star label.
@@ -1073,32 +1282,35 @@ The Energy Star label is a widely recognized symbol for energy efficiency. It wa
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "the-abcs-of-hvac-beginners-guide",
-  title: "The ABCs of HVAC: a Beginner’s Guide to What it Stands for and How it Works",
-  description: "A beginner’s guide to HVAC — Heating, Ventilation, and Air Conditioning explained for comfort and energy efficiency.",
-  meta: {
-    description: "Learn what HVAC stands for and how heating, ventilation, and air conditioning work together to ensure comfort, air quality, and efficiency in homes and businesses.",
-    keywords: [
-      "HVAC beginner guide",
-      "what HVAC stands for",
-      "heating ventilation air conditioning",
-      "HVAC basics Lucknow",
-      "indoor air quality guide",
-      "air conditioning explained",
-      "ventilation importance HVAC",
-      "home comfort systems",
-      "HVAC heating cooling basics",
-      "energy efficient HVAC"
-    ]
+`,
   },
-  date: "Aug 16, 2025",
-  readTime: "3-4 min read",
-  category: "HVAC",
-  image: "/images/16-Aug Blog.png",
-  content: `
+  {
+    id: "the-abcs-of-hvac-beginners-guide",
+    title:
+      "The ABCs of HVAC: a Beginner’s Guide to What it Stands for and How it Works",
+    description:
+      "A beginner’s guide to HVAC — Heating, Ventilation, and Air Conditioning explained for comfort and energy efficiency.",
+    meta: {
+      description:
+        "Learn what HVAC stands for and how heating, ventilation, and air conditioning work together to ensure comfort, air quality, and efficiency in homes and businesses.",
+      keywords: [
+        "HVAC beginner guide",
+        "what HVAC stands for",
+        "heating ventilation air conditioning",
+        "HVAC basics Lucknow",
+        "indoor air quality guide",
+        "air conditioning explained",
+        "ventilation importance HVAC",
+        "home comfort systems",
+        "HVAC heating cooling basics",
+        "energy efficient HVAC",
+      ],
+    },
+    date: "Aug 16, 2025",
+    readTime: "3-4 min read",
+    category: "HVAC",
+    image: "/images/16-Aug Blog.png",
+    content: `
 <h1>The ABCs of HVAC: a Beginner’s Guide to What it Stands for and How it Works</h1>
 <p>
 When it comes to home comfort, few acronyms are as important as HVAC. You've likely heard the term, especially if you've ever dealt with a stuffy room in the summer or a chilly house in the winter. 
@@ -1142,32 +1354,35 @@ HVAC stands for Heating, Ventilation, and Air Conditioning. These three function
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "why-regular-hvac-maintenance-is-crucial",
-  title: "Why Regular HVAC Maintenance is Crucial: Discuss the benefits, from energy savings to preventing costly repairs.",
-  description: "The importance of regular HVAC maintenance for energy savings, repair prevention, and indoor comfort.",
-  meta: {
-    description: "Discover why regular HVAC maintenance is essential for energy savings, preventing costly repairs, and ensuring healthier indoor air in climates like Lucknow.",
-    keywords: [
-      "HVAC maintenance benefits",
-      "energy saving HVAC Lucknow",
-      "prevent costly HVAC repairs",
-      "indoor air quality maintenance",
-      "HVAC servicing importance",
-      "HVAC maintenance for comfort",
-      "Lucknow HVAC care",
-      "regular AC service",
-      "air conditioning maintenance",
-      "heating ventilation maintenance"
-    ]
+`,
   },
-  date: "Aug 14, 2025",
-  readTime: "3-4 min read",
-  category: "HVAC",
-  image: "/images/14-Aug Blog.png",
-  content: `
+  {
+    id: "why-regular-hvac-maintenance-is-crucial",
+    title:
+      "Why Regular HVAC Maintenance is Crucial: Discuss the benefits, from energy savings to preventing costly repairs.",
+    description:
+      "The importance of regular HVAC maintenance for energy savings, repair prevention, and indoor comfort.",
+    meta: {
+      description:
+        "Discover why regular HVAC maintenance is essential for energy savings, preventing costly repairs, and ensuring healthier indoor air in climates like Lucknow.",
+      keywords: [
+        "HVAC maintenance benefits",
+        "energy saving HVAC Lucknow",
+        "prevent costly HVAC repairs",
+        "indoor air quality maintenance",
+        "HVAC servicing importance",
+        "HVAC maintenance for comfort",
+        "Lucknow HVAC care",
+        "regular AC service",
+        "air conditioning maintenance",
+        "heating ventilation maintenance",
+      ],
+    },
+    date: "Aug 14, 2025",
+    readTime: "3-4 min read",
+    category: "HVAC",
+    image: "/images/14-Aug Blog.png",
+    content: `
 <h1>Why Regular HVAC Maintenance is Crucial: Discuss the benefits, from energy savings to preventing costly repairs.</h1>
 <p>
 Your heating, ventilation, and air conditioning (HVAC) system is the unsung hero of your home or business, diligently working to keep you comfortable year-round, especially in a climate like ours in Lucknow where extreme temperatures are common.
@@ -1215,32 +1430,34 @@ Your heating, ventilation, and air conditioning (HVAC) system is the unsung hero
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "record-heat-china-hvac-grid-strain",
-  title: "Record Heat Bakes China: Power Grid Strained, Health Fears Rise",
-  description: "China’s record-breaking heatwaves strain the grid and public health — discover how sustainable HVAC solutions can help.",
-  meta: {
-    description: "China faces extreme heat, grid strain, and rising health risks. Learn how BROAD India’s sustainable non-electric HVAC systems reduce energy load and carbon emissions while providing climate resilience.",
-    keywords: [
-      "China heatwave 2025",
-      "sustainable HVAC solutions",
-      "non-electric chillers",
-      "eco-friendly cooling systems",
-      "waste heat HVAC",
-      "energy efficient cooling",
-      "HVAC grid strain",
-      "climate resilient cooling",
-      "BROAD India HVAC",
-      "heatwave health risks"
-    ]
+`,
   },
-  date: "August 12, 2025",
-  readTime: "3-4 min read",
-  category: "Climate",
-  image: "/images/12-Aug Blog.jpg",
-  content: `
+  {
+    id: "record-heat-china-hvac-grid-strain",
+    title: "Record Heat Bakes China: Power Grid Strained, Health Fears Rise",
+    description:
+      "China’s record-breaking heatwaves strain the grid and public health — discover how sustainable HVAC solutions can help.",
+    meta: {
+      description:
+        "China faces extreme heat, grid strain, and rising health risks. Learn how BROAD India’s sustainable non-electric HVAC systems reduce energy load and carbon emissions while providing climate resilience.",
+      keywords: [
+        "China heatwave 2025",
+        "sustainable HVAC solutions",
+        "non-electric chillers",
+        "eco-friendly cooling systems",
+        "waste heat HVAC",
+        "energy efficient cooling",
+        "HVAC grid strain",
+        "climate resilient cooling",
+        "BROAD India HVAC",
+        "heatwave health risks",
+      ],
+    },
+    date: "August 12, 2025",
+    readTime: "3-4 min read",
+    category: "Climate",
+    image: "/images/12-Aug Blog.jpg",
+    content: `
 <h1>Record Heat Bakes China: Power Grid Strained, Health Fears Rise</h1>
 <p>
 China is reeling under record-breaking heatwaves this summer, with temperatures crossing 45°C in several provinces. The extreme heat is not just uncomfortable — it’s dangerous. Hospitals are reporting a surge in heat-related illnesses, while the national power grid struggles under massive strain as millions switch on air conditioning to survive.
@@ -1279,30 +1496,33 @@ India and China face similar climate threats. Adopting BROAD’s sustainable HVA
 <p>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
 </p>
-`
-},
-  {
-  id: "baba-barfani-melting-fast-hvac-climate-action",
-  title: "Why Is Baba Barfani Melting So Fast This Year? Pilgrims Share Alarming Observations",
-  description: "The rapid melting of Baba Barfani is a wake-up call, Discover how sustainable HVAC can help fight climate change.",
-  meta: {
-    description: "Amarnath’s Baba Barfani is melting faster due to climate change and heatwaves. Explore how BROAD India’s non-electric HVAC systems with water as refrigerant can support climate resilience.",
-    keywords: [
-      "Baba Barfani melting 2025",
-      "Amarnath climate change",
-      "sustainable HVAC India",
-      "non-electric cooling systems",
-      "eco-friendly HVAC solutions",
-      "green cooling technology",
-      "climate action India",
-      "low emission chillers"
-    ]
+`,
   },
-  date: "August 08, 2025",
-  readTime: "3-4 min read",
-  category: "Environment",
-  image: "/images/08-Aug Blog.jpg",
-  content: `
+  {
+    id: "baba-barfani-melting-fast-hvac-climate-action",
+    title:
+      "Why Is Baba Barfani Melting So Fast This Year? Pilgrims Share Alarming Observations",
+    description:
+      "The rapid melting of Baba Barfani is a wake-up call, Discover how sustainable HVAC can help fight climate change.",
+    meta: {
+      description:
+        "Amarnath’s Baba Barfani is melting faster due to climate change and heatwaves. Explore how BROAD India’s non-electric HVAC systems with water as refrigerant can support climate resilience.",
+      keywords: [
+        "Baba Barfani melting 2025",
+        "Amarnath climate change",
+        "sustainable HVAC India",
+        "non-electric cooling systems",
+        "eco-friendly HVAC solutions",
+        "green cooling technology",
+        "climate action India",
+        "low emission chillers",
+      ],
+    },
+    date: "August 08, 2025",
+    readTime: "3-4 min read",
+    category: "Environment",
+    image: "/images/08-Aug Blog.jpg",
+    content: `
 <h1>Why Is Baba Barfani Melting So Fast This Year? Pilgrims Share Alarming Observations</h1>
 <p>
 This year, Amarnath pilgrims were met with a disheartening sight — Baba Barfani, the revered ice Shivling, melting far quicker than expected. Many devotees reported that the ice formation had drastically reduced within days, raising serious concerns about the impact of rising heat.
@@ -1341,30 +1561,32 @@ The melting of Baba Barfani is more than a spiritual loss, it’s a wake-up call
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "indias-heatwaves-future-ready-hvac",
-  title: "India’s Heatwaves Are Getting Worse — Is Your HVAC Future-Ready?",
-  description: "With India’s rising heatwaves, future-ready HVAC solutions like BROAD’s non-electric chillers are redefining sustainable cooling.",
-  meta: {
-    description: "Discover how BROAD India’s HVAC systems, powered by waste heat and water as refrigerant, offer eco-smart, energy-efficient cooling solutions for India’s worsening heatwaves.",
-    keywords: [
-      "India heatwaves HVAC",
-      "future-ready cooling India",
-      "non-electric chillers",
-      "sustainable HVAC solutions",
-      "eco-friendly cooling systems",
-      "waste heat chillers",
-      "green HVAC technology",
-      "climate-resilient cooling"
-    ]
+`,
   },
-  date: "August 06, 2025",
-  readTime: "3-4 min read",
-  category: "Climate",
-  image: "/images/06-Aug Blog.jpg",
-  content: `
+  {
+    id: "indias-heatwaves-future-ready-hvac",
+    title: "India’s Heatwaves Are Getting Worse — Is Your HVAC Future-Ready?",
+    description:
+      "With India’s rising heatwaves, future-ready HVAC solutions like BROAD’s non-electric chillers are redefining sustainable cooling.",
+    meta: {
+      description:
+        "Discover how BROAD India’s HVAC systems, powered by waste heat and water as refrigerant, offer eco-smart, energy-efficient cooling solutions for India’s worsening heatwaves.",
+      keywords: [
+        "India heatwaves HVAC",
+        "future-ready cooling India",
+        "non-electric chillers",
+        "sustainable HVAC solutions",
+        "eco-friendly cooling systems",
+        "waste heat chillers",
+        "green HVAC technology",
+        "climate-resilient cooling",
+      ],
+    },
+    date: "August 06, 2025",
+    readTime: "3-4 min read",
+    category: "Climate",
+    image: "/images/06-Aug Blog.jpg",
+    content: `
 <h1>India’s Heatwaves Are Getting Worse — Is Your HVAC Future-Ready?</h1>
 <p>
 India is facing longer, harsher, and more frequent heatwaves. Traditional air conditioning puts massive pressure on the electric grid and contributes heavily to climate change. It's time to rethink cooling for a hotter, power-stressed future.
@@ -1404,28 +1626,31 @@ As India battles worsening heatwaves, the choice is clear: cooling solutions mus
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-{
-  id: "mumbai-mangroves-microplastic-contamination-hvac-vac-vam-solutions",
-  title: "Mumbai's Mangroves under Threat: the Alarming Reality of Microplastic Contamination and How Technology Can Help",
-  description: "Exploring how HVAC, VAC, and VAM technologies can reduce microplastic contamination threatening Mumbai's mangroves.",
-  meta: {
-    description: "Learn how HVAC, VAC, and VAM systems with advanced filtration can play a vital role in reducing airborne and waterborne microplastics and protecting Mumbai’s mangroves.",
-    keywords: [
-      "microplastic pollution Mumbai",
-      "HVAC air filtration",
-      "VAC industrial vacuum",
-      "VAM ventilation systems",
-      "mangrove protection India",
-      "sustainable technology"
-    ]
+`,
   },
-  date: "August 02, 2025",
-  readTime: "3-4 min read",
-  category: "Environment",
-  image: "/images/02-Aug Blog.png",
-  content: `
+  {
+    id: "mumbai-mangroves-microplastic-contamination-hvac-vac-vam-solutions",
+    title:
+      "Mumbai's Mangroves under Threat: the Alarming Reality of Microplastic Contamination and How Technology Can Help",
+    description:
+      "Exploring how HVAC, VAC, and VAM technologies can reduce microplastic contamination threatening Mumbai's mangroves.",
+    meta: {
+      description:
+        "Learn how HVAC, VAC, and VAM systems with advanced filtration can play a vital role in reducing airborne and waterborne microplastics and protecting Mumbai’s mangroves.",
+      keywords: [
+        "microplastic pollution Mumbai",
+        "HVAC air filtration",
+        "VAC industrial vacuum",
+        "VAM ventilation systems",
+        "mangrove protection India",
+        "sustainable technology",
+      ],
+    },
+    date: "August 02, 2025",
+    readTime: "3-4 min read",
+    category: "Environment",
+    image: "/images/02-Aug Blog.png",
+    content: `
 <h1>Mumbai's Mangroves under Threat: the Alarming Reality of Microplastic Contamination and How Technology Can Help Mumbai, India</h1>
 <p>
 A recent study has cast a stark spotlight on the escalating environmental crisis in Mumbai's vital mangrove ecosystems: the pervasive presence of microplastics. Mumbai's mangrove areas contain, on average, a staggering 6,730 microplastic particles. 
@@ -1465,28 +1690,31 @@ While these technological solutions offer promising avenues for mitigation, it's
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "industrial-vacuum-systems-sustainability",
-  title: "The Unsung Hero of Sustainability: How Industrial Vacuum Systems (VAC) Prevent Contamination and Conserve Water",
-  description: "Discover how industrial vacuum systems support sustainability by preventing contamination and conserving resources.",
-  meta: {
-    description: "Learn how Industrial Vacuum Systems (VAC) prevent contamination, conserve water, and support sustainability in food, pharma, and manufacturing industries.",
-    keywords: [
-      "industrial vacuum systems",
-      "VAC sustainability",
-      "vacuum contamination prevention",
-      "green manufacturing",
-      "pharma hygiene vacuum",
-      "sustainable industrial solutions"
-    ]
+`,
   },
-  date: "July 30, 2025",
-  readTime: "2-3 min read",
-  category: "Industry",
-  image: "/images/30-July Blog.png",
-  content: `
+  {
+    id: "industrial-vacuum-systems-sustainability",
+    title:
+      "The Unsung Hero of Sustainability: How Industrial Vacuum Systems (VAC) Prevent Contamination and Conserve Water",
+    description:
+      "Discover how industrial vacuum systems support sustainability by preventing contamination and conserving resources.",
+    meta: {
+      description:
+        "Learn how Industrial Vacuum Systems (VAC) prevent contamination, conserve water, and support sustainability in food, pharma, and manufacturing industries.",
+      keywords: [
+        "industrial vacuum systems",
+        "VAC sustainability",
+        "vacuum contamination prevention",
+        "green manufacturing",
+        "pharma hygiene vacuum",
+        "sustainable industrial solutions",
+      ],
+    },
+    date: "July 30, 2025",
+    readTime: "2-3 min read",
+    category: "Industry",
+    image: "/images/30-July Blog.png",
+    content: `
 <h1>The Unsung Hero of Sustainability: How Industrial Vacuum Systems (VAC) Prevent Contamination and Conserve Water</h1>
 <p>In industrial operations, efficiency and production often take the spotlight, but sustainability has its own quiet champions. Industrial Vacuum Systems (VAC) are one such hero, working behind the scenes to prevent contamination, conserve resources, and improve operational efficiency.
 </br>
@@ -1524,29 +1752,32 @@ Industrial VAC systems may be silent operators, but their impact on sustainabili
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "eco-friendly-refrigerants-hvac-sustainability",
-  title: "The Future is Green: Exploring the Latest Eco-Friendly Refrigerants and Their Impact on HVAC Sustainability",
-  description: "Discover how eco-friendly refrigerants like R-32 and HFO blends are reshaping HVAC sustainability.",
-  meta: {
-    description: "Learn how eco-friendly refrigerants reduce greenhouse gases, improve efficiency, and future-proof HVAC systems for sustainability.",
-    keywords: [
-      "eco-friendly refrigerants HVAC",
-      "R-32 refrigerant India",
-      "HFO blends HVAC",
-      "green HVAC systems",
-      "sustainable cooling",
-      "low GWP refrigerants",
-      "HVAC environmental impact"
-    ]
+`,
   },
-  date: "July 28, 2025",
-  readTime: "2-3 min read",
-  category: "Sustainability",
-  image: "/images/28-July Blog.png",
-  content: `
+  {
+    id: "eco-friendly-refrigerants-hvac-sustainability",
+    title:
+      "The Future is Green: Exploring the Latest Eco-Friendly Refrigerants and Their Impact on HVAC Sustainability",
+    description:
+      "Discover how eco-friendly refrigerants like R-32 and HFO blends are reshaping HVAC sustainability.",
+    meta: {
+      description:
+        "Learn how eco-friendly refrigerants reduce greenhouse gases, improve efficiency, and future-proof HVAC systems for sustainability.",
+      keywords: [
+        "eco-friendly refrigerants HVAC",
+        "R-32 refrigerant India",
+        "HFO blends HVAC",
+        "green HVAC systems",
+        "sustainable cooling",
+        "low GWP refrigerants",
+        "HVAC environmental impact",
+      ],
+    },
+    date: "July 28, 2025",
+    readTime: "2-3 min read",
+    category: "Sustainability",
+    image: "/images/28-July Blog.png",
+    content: `
 <h1>The Future is Green: Exploring the Latest Eco-Friendly Refrigerants and Their Impact on HVAC Sustainability</h1>
 <p>
 The hum of an air conditioner on a hot summer day represents comfort—but also a significant environmental footprint. For decades, HVAC systems relied on refrigerants that contributed to ozone depletion and global warming. Today, new eco-friendly refrigerants are reshaping HVAC’s sustainability story.
@@ -1592,29 +1823,32 @@ The future of cooling is green, efficient, and vital. By adopting eco-friendly r
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "hvac-geothermal-systems-sustainable-future",
-  title: "Cooling a Warming Planet: Innovations in HVAC & Geothermal Systems for a Sustainable Future",
-  description: "Discover how innovations in HVAC and geothermal cooling are building a climate-friendly, sustainable future.",
-  meta: {
-    description: "Explore how low-GWP refrigerants, smart HVAC, and geothermal systems are reshaping cooling technologies for a sustainable future.",
-    keywords: [
-      "sustainable HVAC India",
-      "geothermal cooling systems",
-      "low GWP refrigerants",
-      "smart HVAC systems",
-      "IoT in HVAC",
-      "green cooling technology",
-      "BROAD geothermal HVAC"
-    ]
+`,
   },
-  date: "July 24, 2025",
-  readTime: "3-4 min read",
-  category: "Sustainability",
-  image: "/images/24-July Blog.png",
-  content: `
+  {
+    id: "hvac-geothermal-systems-sustainable-future",
+    title:
+      "Cooling a Warming Planet: Innovations in HVAC & Geothermal Systems for a Sustainable Future",
+    description:
+      "Discover how innovations in HVAC and geothermal cooling are building a climate-friendly, sustainable future.",
+    meta: {
+      description:
+        "Explore how low-GWP refrigerants, smart HVAC, and geothermal systems are reshaping cooling technologies for a sustainable future.",
+      keywords: [
+        "sustainable HVAC India",
+        "geothermal cooling systems",
+        "low GWP refrigerants",
+        "smart HVAC systems",
+        "IoT in HVAC",
+        "green cooling technology",
+        "BROAD geothermal HVAC",
+      ],
+    },
+    date: "July 24, 2025",
+    readTime: "3-4 min read",
+    category: "Sustainability",
+    image: "/images/24-July Blog.png",
+    content: `
 <h1>Cooling a Warming Planet: Innovations in HVAC & Geothermal Systems for a Sustainable Future</h1>
 <p>
 As global temperatures continue to rise due to climate change and urbanization, the demand for cooling intensifies. The good news is that the HVAC industry, alongside geothermal energy, is undergoing remarkable innovations that promise a more sustainable and climate-friendly future.
@@ -1653,29 +1887,32 @@ Investing in smart, energy-efficient HVAC and geothermal systems is more than co
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "hvac-filtration-defense-against-air-pollution",
-  title: "Beyond the Smog: How Advanced HVAC Filtration is Our First Line of Defense against Rising Air Pollution",
-  description: "Advanced HVAC filtration systems are becoming essential in the fight against rising indoor air pollution in India.",
-  meta: {
-    description: "Learn how MERV filters, activated carbon, and advanced HVAC technology are protecting indoor spaces from India's rising air pollution.",
-    keywords: [
-      "HVAC air filtration India",
-      "MERV 13 filters",
-      "activated carbon filters",
-      "indoor air quality solutions",
-      "smart HVAC systems India",
-      "air pollution HVAC",
-      "BROAD HVAC sustainability"
-    ]
+`,
   },
-  date: "July 22, 2025",
-  readTime: "3-4 min read",
-  category: "Air Quality",
-  image: "/images/22-July Blog.jpg",
-  content: `
+  {
+    id: "hvac-filtration-defense-against-air-pollution",
+    title:
+      "Beyond the Smog: How Advanced HVAC Filtration is Our First Line of Defense against Rising Air Pollution",
+    description:
+      "Advanced HVAC filtration systems are becoming essential in the fight against rising indoor air pollution in India.",
+    meta: {
+      description:
+        "Learn how MERV filters, activated carbon, and advanced HVAC technology are protecting indoor spaces from India's rising air pollution.",
+      keywords: [
+        "HVAC air filtration India",
+        "MERV 13 filters",
+        "activated carbon filters",
+        "indoor air quality solutions",
+        "smart HVAC systems India",
+        "air pollution HVAC",
+        "BROAD HVAC sustainability",
+      ],
+    },
+    date: "July 22, 2025",
+    readTime: "3-4 min read",
+    category: "Air Quality",
+    image: "/images/22-July Blog.jpg",
+    content: `
 <h1>Beyond the Smog: How Advanced HVAC Filtration is Our First Line of Defense against Rising Air Pollution</h1>
 <p>
 Lucknow, Uttar Pradesh – As urban centers across India grapple with escalating air pollution, the focus often remains on outdoor measures like stricter emission norms, greener transport, and industrial regulations. But with people spending nearly 90% of their time indoors, the quality of the air in homes, offices, and public spaces has become paramount. In this fight, advanced HVAC filtration systems are emerging as our indispensable first line of defense.
@@ -1714,30 +1951,33 @@ The synergy between cutting-edge filtration technology and smart HVAC systems of
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "hvac-vac-vam-smart-cooling-climate-future",
-  title: "Beyond Comfort: How HVAC, VAC, and VAM Systems are Quietly Reshaping Our Climate Future",
-  description: "Discover how advanced HVAC, VAC, and VAM systems are cutting carbon emissions and reshaping climate-friendly cooling.",
-  meta: {
-    description: "Explore how smart HVAC, vapor absorption chillers (VAC), and vapor absorption machines (VAM) are reducing energy use, extending equipment life, and supporting climate goals.",
-    keywords: [
-      "BROAD vapor absorption chiller",
-      "VAM systems India",
-      "non electric chiller",
-      "waste heat recovery chiller",
-      "CCHP systems India",
-      "direct fired vapor absorption chiller",
-      "smart HVAC India",
-      "chillers for decarbonisation"
-    ]
+`,
   },
-  date: "July 20, 2025",
-  readTime: "3-4 min read",
-  category: "Sustainability",
-  image: "/images/20-July Blog.jpg",
-  content: `
+  {
+    id: "hvac-vac-vam-smart-cooling-climate-future",
+    title:
+      "Beyond Comfort: How HVAC, VAC, and VAM Systems are Quietly Reshaping Our Climate Future",
+    description:
+      "Discover how advanced HVAC, VAC, and VAM systems are cutting carbon emissions and reshaping climate-friendly cooling.",
+    meta: {
+      description:
+        "Explore how smart HVAC, vapor absorption chillers (VAC), and vapor absorption machines (VAM) are reducing energy use, extending equipment life, and supporting climate goals.",
+      keywords: [
+        "BROAD vapor absorption chiller",
+        "VAM systems India",
+        "non electric chiller",
+        "waste heat recovery chiller",
+        "CCHP systems India",
+        "direct fired vapor absorption chiller",
+        "smart HVAC India",
+        "chillers for decarbonisation",
+      ],
+    },
+    date: "July 20, 2025",
+    readTime: "3-4 min read",
+    category: "Sustainability",
+    image: "/images/20-July Blog.jpg",
+    content: `
 <h1>Beyond Comfort: How HVAC, VAC, and VAM Systems are Quietly Reshaping Our Climate Future</h1>
 <p>
 Our buildings are increasingly at the frontlines of the fight against climate change. While traditional HVAC systems are known for high energy consumption, advanced solutions like Vapor Absorption Chillers (VAC) and Vapor Absorption Machines (VAM) are emerging as true game-changers. By relying on waste heat instead of electricity, and by integrating greener refrigerants and smart controls, these systems are cutting carbon emissions while making cooling more sustainable.
@@ -1790,28 +2030,31 @@ The rise of smart HVAC, alongside vapor absorption chillers and machines, is tra
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "impact-of-india-energy-policy-ecbc-on-vam-vac-hvac-in-india",
-  title: "Impact of India’s energy efficiency policies (like ECBC) on HVAC design and VAM adoption.",
-  description: "How India's ECBC policy is driving smarter HVAC and VAM adoption nationwide.",
-  meta: {
-    description: "Explore how ECBC is transforming HVAC design in India promoting passive design, renewables, lifecycle costing, and variable air management (VAM).",
-    keywords: [
-      "ECBC India HVAC",
-      "VAM systems India",
-      "energy conservation building code",
-      "sustainable HVAC design",
-      "ECBC VAM compliance",
-      "smart cooling India"
-    ]
+`,
   },
-  date: "July 11, 2025",
-  readTime: "3‑4 min read",
-  category: "Policy",
-  image: "/images/ecbc-policy.jpg",
-  content: `
+  {
+    id: "impact-of-india-energy-policy-ecbc-on-vam-vac-hvac-in-india",
+    title:
+      "Impact of India’s energy efficiency policies (like ECBC) on HVAC design and VAM adoption.",
+    description:
+      "How India's ECBC policy is driving smarter HVAC and VAM adoption nationwide.",
+    meta: {
+      description:
+        "Explore how ECBC is transforming HVAC design in India promoting passive design, renewables, lifecycle costing, and variable air management (VAM).",
+      keywords: [
+        "ECBC India HVAC",
+        "VAM systems India",
+        "energy conservation building code",
+        "sustainable HVAC design",
+        "ECBC VAM compliance",
+        "smart cooling India",
+      ],
+    },
+    date: "July 11, 2025",
+    readTime: "3‑4 min read",
+    category: "Policy",
+    image: "/images/ecbc-policy.jpg",
+    content: `
 <h1>Impact of India’s energy efficiency policies (like ECBC) on HVAC design and VAM adoption.</h1>
 <p>
 India is reimagining how we cool, ventilate, and condition our built environment and energy efficiency is no longer optional, it’s essential. The Energy Conservation Building Code (ECBC), developed by the Bureau of Energy Efficiency (BEE), is setting the benchmark for energy performance in Indian buildings and it’s changing how we think about HVAC.
@@ -1870,28 +2113,31 @@ India's building sector is transforming and HVAC is at the center of this evolut
 <p>
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-  {
-  id: "hvac-design-india-diverse-climates",
-  title: "Climate and Comfort: HVAC Design Challenges in India’s Diverse Climate Zones",
-  description: "Tailoring energy‑efficient HVAC for India's varied climates from deserts to mountains.",
-  meta: {
-    description: "Explore how HVAC design must adapt to India's multi‑climate zones, balancing comfort, energy efficiency, air quality, and affordability.",
-    keywords: [
-      "HVAC India climate zones",
-      "smart HVAC design",
-      "energy efficient HVAC India",
-      "indoor air quality HVAC",
-      "climate‑adaptive cooling",
-      "sustainable HVAC systems"
-    ]
+`,
   },
-  date: "July 11, 2025",
-  readTime: "3‑4 min read",
-  category: "HVAC",
-  image: "/images/hvac-climate-india.jpg",
-  content: `
+  {
+    id: "hvac-design-india-diverse-climates",
+    title:
+      "Climate and Comfort: HVAC Design Challenges in India’s Diverse Climate Zones",
+    description:
+      "Tailoring energy‑efficient HVAC for India's varied climates from deserts to mountains.",
+    meta: {
+      description:
+        "Explore how HVAC design must adapt to India's multi‑climate zones, balancing comfort, energy efficiency, air quality, and affordability.",
+      keywords: [
+        "HVAC India climate zones",
+        "smart HVAC design",
+        "energy efficient HVAC India",
+        "indoor air quality HVAC",
+        "climate‑adaptive cooling",
+        "sustainable HVAC systems",
+      ],
+    },
+    date: "July 11, 2025",
+    readTime: "3‑4 min read",
+    category: "HVAC",
+    image: "/images/hvac-climate-india.jpg",
+    content: `
 <h1>Climate and Comfort: HVAC Design Challenges in India’s Diverse Climate Zones</h1>
 <p>
 India is not just one country, it's a climate mosaic. From the arid heat of Rajasthan to the sticky humidity of Kolkata, the temperate chill of Bengaluru to the snowy winters of Leh, India’s climatic diversity demands custom HVAC solutions, not cookie-cutter systems. Here’s what HVAC professionals, policymakers, and developers need to consider:
@@ -1935,28 +2181,30 @@ India is not just one country, it's a climate mosaic. From the arid heat of Raja
 India’s HVAC future will be climate‑responsive, energy‑conscious, and air‑quality focused. It's time for HVAC brands, startups, and governments to collaborate because the future isn't just cooler. It's smarter and cleaner.
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
-`
-},
-{
-  id: "ai-iot-hvac-india",
-  title: "How AI & IoT Are Powering the Next Generation of HVAC in India",
-  description: "Smart, AI‑IoT integrated HVAC and VAM systems are transforming efficiency, IAQ and maintenance in India.",
-  meta: {
-    description: "Learn how AI and IoT are revolutionizing HVAC across India – with real‑time control, predictive maintenance, IAQ improvements, and grid‑friendly energy savings.",
-    keywords: [
-      "AI HVAC India",
-      "IoT HVAC systems",
-      "smart HVAC solutions",
-      "predictive maintenance HVAC",
-      "indoor air quality India",
-      "energy efficient cooling"
-    ]
+`,
   },
-  date: "July 10, 2025",
-  readTime: "3‑4 min read",
-  category: "Technology",
-  image: "/images/ai-iot-hvac.jpg",
-  content: `
+  {
+    id: "ai-iot-hvac-india",
+    title: "How AI & IoT Are Powering the Next Generation of HVAC in India",
+    description:
+      "Smart, AI‑IoT integrated HVAC and VAM systems are transforming efficiency, IAQ and maintenance in India.",
+    meta: {
+      description:
+        "Learn how AI and IoT are revolutionizing HVAC across India – with real‑time control, predictive maintenance, IAQ improvements, and grid‑friendly energy savings.",
+      keywords: [
+        "AI HVAC India",
+        "IoT HVAC systems",
+        "smart HVAC solutions",
+        "predictive maintenance HVAC",
+        "indoor air quality India",
+        "energy efficient cooling",
+      ],
+    },
+    date: "July 10, 2025",
+    readTime: "3‑4 min read",
+    category: "Technology",
+    image: "/images/ai-iot-hvac.jpg",
+    content: `
 <h1>How AI & IoT Are Powering the Next Generation of HVAC in India</h1>
 <p>
 India’s built environment is going digital and AI + IoT are at the heart of this transformation. As cities expand and energy demands rise, the need for smart, efficient, responsive HVAC systems has never been more critical. From Delhi’s dry heat to Mumbai’s coastal humidity, intelligent HVAC is set to redefine how we cool and condition our spaces.
@@ -2003,29 +2251,32 @@ As India accelerates toward smart cities and sustainable infrastructure, AI and 
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
 <p><em>#aihvac #smarthvac #iotindia #energyefficiency #indoorairquality #smartcitiesindia #hvactech #digitalsustainability</em></p>
-`
-},
-  {
-  id: "vapor-absorption-chillers-vac-working-benefits-applications",
-  title: "Vapour Absorption Chillers (VAC): Working, Benefits & Applications in Modern Industry",
-  description: "Explore how Vapour Absorption Chillers work, their eco-friendly advantages, and where they’re used from HVAC to industrial cooling and trigeneration systems.",
-  meta: {
-    description: "Learn how Vapour Absorption Chillers (VAC) provide energy-efficient cooling using heat instead of electricity. Discover how they benefit industries, buildings, and the environment.",
-    keywords: [
-      "vapour absorption chiller",
-      "VAC technology",
-      "energy efficient cooling",
-      "eco-friendly HVAC",
-      "industrial cooling system",
-      "waste heat recovery chiller",
-      "ammonia absorption chiller"
-    ]
+`,
   },
-  date: "July 6, 2025",
-  readTime: "4-5 min read",
-  category: "Chillers",
-  image: "/images/VAC.png",
-  content: `
+  {
+    id: "vapor-absorption-chillers-vac-working-benefits-applications",
+    title:
+      "Vapour Absorption Chillers (VAC): Working, Benefits & Applications in Modern Industry",
+    description:
+      "Explore how Vapour Absorption Chillers work, their eco-friendly advantages, and where they’re used from HVAC to industrial cooling and trigeneration systems.",
+    meta: {
+      description:
+        "Learn how Vapour Absorption Chillers (VAC) provide energy-efficient cooling using heat instead of electricity. Discover how they benefit industries, buildings, and the environment.",
+      keywords: [
+        "vapour absorption chiller",
+        "VAC technology",
+        "energy efficient cooling",
+        "eco-friendly HVAC",
+        "industrial cooling system",
+        "waste heat recovery chiller",
+        "ammonia absorption chiller",
+      ],
+    },
+    date: "July 6, 2025",
+    readTime: "4-5 min read",
+    category: "Chillers",
+    image: "/images/VAC.png",
+    content: `
 <h1>Vapour Absorption Chillers (VAC): Working, Benefits & Applications in Modern Industry</h1>
 <p>
 As energy efficiency and environmental responsibility gain importance across industries, Vapour Absorption Chillers (VAC) are redefining how large facilities manage their cooling needs. Unlike traditional chillers that rely on electricity-powered compressors, VAC systems operate using heat, often derived from waste energy sources. This not only saves power but also supports a cleaner, greener future.
@@ -2092,26 +2343,29 @@ As energy efficiency and environmental responsibility gain importance across ind
     <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
   </li>
 </ul>
-  `
-},
-  {
-  id: "vam-vac-smart-non-electric-cooling-greener-future",
-  title: "BROAD Vapor Absorption Chillers (VAM, VAC) – Smart Non-Electric Cooling for a Greener Future",
-  description: "How BROAD’s non-electric chillers save energy, reduce pollution, and support green buildings.",
-  meta: {
-    description: "Discover how BROAD’s non-electric chillers (VAM, VAC) offer smart, sustainable cooling for green buildings and industries.",
-    keywords: [
-      "vapor absorption chiller",
-      "non-electric chiller",
-      "green cooling",
-      "BROAD India"
-    ]
+  `,
   },
-  date: "June 19, 2025",
-  readTime: "3-4 min read",
-  category: "Chillers",
-  image: "/images/absorption-chillers.jpg",
-  content: `
+  {
+    id: "vam-vac-smart-non-electric-cooling-greener-future",
+    title:
+      "BROAD Vapor Absorption Chillers (VAM, VAC) – Smart Non-Electric Cooling for a Greener Future",
+    description:
+      "How BROAD’s non-electric chillers save energy, reduce pollution, and support green buildings.",
+    meta: {
+      description:
+        "Discover how BROAD’s non-electric chillers (VAM, VAC) offer smart, sustainable cooling for green buildings and industries.",
+      keywords: [
+        "vapor absorption chiller",
+        "non-electric chiller",
+        "green cooling",
+        "BROAD India",
+      ],
+    },
+    date: "June 19, 2025",
+    readTime: "3-4 min read",
+    category: "Chillers",
+    image: "/images/absorption-chillers.jpg",
+    content: `
 <h1>BROAD Vapor Absorption Chillers (VAM, VAC) – Smart Non-Electric Cooling for a Greener Future</h1>
 
 <ul>
@@ -2187,31 +2441,34 @@ As energy efficiency and environmental responsibility gain importance across ind
     <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
   </li>
 </ul>
-  `
-},
-{
-  id: "what-is-vapour-absorption-chillers-smart-cooling-explained",
-  title: "What is Vapour Absorption Chiller and How Does It Cool the Smart Way?",
-  description: "Discover how BROAD India’s absorption chillers use heat, not electricity, for eco-friendly, efficient cooling in large buildings.",
-  meta: {
-    description: "Learn how BROAD India’s vapour absorption chillers deliver smart, sustainable cooling using heat instead of high power, ideal for hotels, hospitals, and offices.",
-    keywords: [
-      "vapour absorption chiller",
-      "BROAD India",
-      "eco-friendly cooling",
-      "non-electric chiller",
-      "energy efficient cooling",
-      "lithium bromide chiller",
-      "direct fired chiller",
-      "waste heat chiller",
-      "solar driven chiller"
-    ]
+  `,
   },
-  date: "July 3, 2025",
-  readTime: "3-4 min read",
-  category: "Chillers",
-  image: "/images/vapour absorption chiller.jpg",
-  content: `
+  {
+    id: "what-is-vapour-absorption-chillers-smart-cooling-explained",
+    title:
+      "What is Vapour Absorption Chiller and How Does It Cool the Smart Way?",
+    description:
+      "Discover how BROAD India’s absorption chillers use heat, not electricity, for eco-friendly, efficient cooling in large buildings.",
+    meta: {
+      description:
+        "Learn how BROAD India’s vapour absorption chillers deliver smart, sustainable cooling using heat instead of high power, ideal for hotels, hospitals, and offices.",
+      keywords: [
+        "vapour absorption chiller",
+        "BROAD India",
+        "eco-friendly cooling",
+        "non-electric chiller",
+        "energy efficient cooling",
+        "lithium bromide chiller",
+        "direct fired chiller",
+        "waste heat chiller",
+        "solar driven chiller",
+      ],
+    },
+    date: "July 3, 2025",
+    readTime: "3-4 min read",
+    category: "Chillers",
+    image: "/images/vapour absorption chiller.jpg",
+    content: `
 <h1>What is Vapour Absorption Chiller and How Does It Cool the Smart Way?</h1>
 <ul>
   <li>
@@ -2260,28 +2517,30 @@ As energy efficiency and environmental responsibility gain importance across ind
 </p>
     </li>
 </ul>
-  `
-},
-  {
-  id: "can-global-partnerships-accelerate-renewable-energy-in-india",
-  title: "Can Global Partnerships Accelerate Renewable Energy in India?",
-  description: "Exploring how international collaboration and non-electric cooling can drive India’s clean energy future.",
-  meta: {
-    description: "Explore the potential of global partnerships in boosting renewable energy initiatives in India.",
-    keywords: [
-      "renewable energy",
-      "global partnerships",
-      "Broad India",
-      "China",
-      "Adani",
-      "Broad Group",
-      "clean energy future"
-    ]
+  `,
   },
-  date: "June 13, 2025",
-  readTime: "3-4 min read",
-  category: "Green Energy",
-  content: `
+  {
+    id: "can-global-partnerships-accelerate-renewable-energy-in-india",
+    title: "Can Global Partnerships Accelerate Renewable Energy in India?",
+    description:
+      "Exploring how international collaboration and non-electric cooling can drive India’s clean energy future.",
+    meta: {
+      description:
+        "Explore the potential of global partnerships in boosting renewable energy initiatives in India.",
+      keywords: [
+        "renewable energy",
+        "global partnerships",
+        "Broad India",
+        "China",
+        "Adani",
+        "Broad Group",
+        "clean energy future",
+      ],
+    },
+    date: "June 13, 2025",
+    readTime: "3-4 min read",
+    category: "Green Energy",
+    content: `
 <h1>Can Global Partnerships Accelerate Renewable Energy in India?</h1>
 
 <h2><strong>India’s Energy Future: Powered by Global Collaboration?</strong></h2>
@@ -2352,29 +2611,31 @@ At BROAD, we believe that solving India’s energy and climate challenges will r
 <a href="/about">About BROAD India</a> | <a href="/installations">See Our Installations</a>
 </p>
 `,
-  image: "/images/24-March article.jpeg"
-},
-  {
-  id: "how-broad-vapour-absorption-chillers-turn-heat-into-cooling",
-  title: "How BROAD’s Vapour Absorption Chillers Turn Heat into Cooling",
-  description: "Explore how BROAD India’s vapour absorption chillers use waste heat to deliver efficient, non-electric cooling for industries and buildings.",
-  meta: {
-    description: "Learn how vapour absorption chillers from BROAD use steam, hot water, or exhaust to provide eco-friendly cooling for Indian industries.",
-    keywords: [
-      "vapor absorption chiller",
-      "two stage chiller",
-      "solar driven chiller",
-      "waste heat chiller",
-      "direct fired chiller",
-      "non-electric chiller",
-      "green cooling",
-      "BROAD India"
-    ]
+    image: "/images/24-March article.jpeg",
   },
-  date: "June 24, 2025",
-  readTime: "3-4 min read",
-  category: "Chillers",
-  content: `
+  {
+    id: "how-broad-vapour-absorption-chillers-turn-heat-into-cooling",
+    title: "How BROAD’s Vapour Absorption Chillers Turn Heat into Cooling",
+    description:
+      "Explore how BROAD India’s vapour absorption chillers use waste heat to deliver efficient, non-electric cooling for industries and buildings.",
+    meta: {
+      description:
+        "Learn how vapour absorption chillers from BROAD use steam, hot water, or exhaust to provide eco-friendly cooling for Indian industries.",
+      keywords: [
+        "vapor absorption chiller",
+        "two stage chiller",
+        "solar driven chiller",
+        "waste heat chiller",
+        "direct fired chiller",
+        "non-electric chiller",
+        "green cooling",
+        "BROAD India",
+      ],
+    },
+    date: "June 24, 2025",
+    readTime: "3-4 min read",
+    category: "Chillers",
+    content: `
 <h1>How BROAD’s Vapour Absorption Chillers Turn Heat into Cooling</h1>
 <h2><strong>Revolutionizing Cooling with Heat</strong></h2>
 <p>
@@ -2440,25 +2701,28 @@ Looking to cut electricity costs, reuse process heat, and boost your facility’
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
 </p>
 `,
-  image: "/images/22-Feb article.jpeg"
-},
-  {
-  id: "why-hvac-systems-are-essential-for-modern-indian-buildings-and-industries",
-  title: "Why HVAC Systems Are Essential for Today’s Buildings and Industries",
-  description: "Understand the importance of HVAC systems in modern India and how BROAD India’s solutions support efficiency and sustainability.",
-  meta: {
-    description: "Discover why HVAC systems are crucial for India’s industrial and urban environments and how BROAD offers sustainable solutions.",
-    keywords: [
-      "HVAC systems",
-      "sustainable cooling",
-      "industrial HVAC",
-      "BROAD India"
-    ]
+    image: "/images/22-Feb article.jpeg",
   },
-  date: "June 26, 2025",
-  readTime: "4-5 min read",
-  category: "HVAC",
-  content: `
+  {
+    id: "why-hvac-systems-are-essential-for-modern-indian-buildings-and-industries",
+    title:
+      "Why HVAC Systems Are Essential for Today’s Buildings and Industries",
+    description:
+      "Understand the importance of HVAC systems in modern India and how BROAD India’s solutions support efficiency and sustainability.",
+    meta: {
+      description:
+        "Discover why HVAC systems are crucial for India’s industrial and urban environments and how BROAD offers sustainable solutions.",
+      keywords: [
+        "HVAC systems",
+        "sustainable cooling",
+        "industrial HVAC",
+        "BROAD India",
+      ],
+    },
+    date: "June 26, 2025",
+    readTime: "4-5 min read",
+    category: "HVAC",
+    content: `
 <h1>Why HVAC Systems Are Essential for Today’s Buildings and Industries</h1>
 
 <h2>Introduction: Cooling, Comfort, and Control</h2>
@@ -2527,29 +2791,31 @@ In a world facing urban heat stress, rising power costs, and sustainability chal
 <a href="/installations">Click here to see recent installations</a> | <a href="/about">About BROAD India</a>
 </p>
 `,
-  image: "/images/19-Feb blog.jpeg"
-},
-  {
-  id: "cool-smarter-with-direct-fired-chillers-explained",
-  title: "Cool Smarter with BROAD India: How Direct-Fired Chillers Work",
-  description: "Discover how BROAD India’s direct-fired chillers use heat, not electricity, for efficient, eco-friendly cooling in large buildings and industries.",
-  meta: {
-    description: "Learn how BROAD India’s direct-fired chillers deliver smart, sustainable cooling using fuel heat instead of electricity, ideal for hotels, hospitals, and factories.",
-    keywords: [
-      "direct fired chiller",
-      "BROAD India",
-      "eco-friendly cooling",
-      "fuel flexible chiller",
-      "energy efficient cooling",
-      "non-electric chiller",
-      "industrial chiller",
-      "vac chillers"
-    ],
+    image: "/images/19-Feb blog.jpeg",
   },
-  date: "July 3, 2025",
-  readTime: "2-3 min read",
-  category: "Chillers",
-  content: `
+  {
+    id: "cool-smarter-with-direct-fired-chillers-explained",
+    title: "Cool Smarter with BROAD India: How Direct-Fired Chillers Work",
+    description:
+      "Discover how BROAD India’s direct-fired chillers use heat, not electricity, for efficient, eco-friendly cooling in large buildings and industries.",
+    meta: {
+      description:
+        "Learn how BROAD India’s direct-fired chillers deliver smart, sustainable cooling using fuel heat instead of electricity, ideal for hotels, hospitals, and factories.",
+      keywords: [
+        "direct fired chiller",
+        "BROAD India",
+        "eco-friendly cooling",
+        "fuel flexible chiller",
+        "energy efficient cooling",
+        "non-electric chiller",
+        "industrial chiller",
+        "vac chillers",
+      ],
+    },
+    date: "July 3, 2025",
+    readTime: "2-3 min read",
+    category: "Chillers",
+    content: `
 <h1>Cool Smarter with BROAD India: How Direct-Fired Chillers Work</h1>
 
 <h2><strong>Introduction: Cooling with Heat Instead of Electricity</strong></h2>
@@ -2605,8 +2871,8 @@ Whether you're designing a new project or upgrading an existing one, BROAD’s s
   <br/>
 </p>
 `,
-  image: "/images/chiller.jpg"
-},
+    image: "/images/chiller.jpg",
+  },
   {
     id: "achieving-sustainable-hvac-with-non-electric-and-vapour-absorption-chillers-in-india",
     title:
@@ -2686,26 +2952,28 @@ Whether you're designing a new project or upgrading an existing one, BROAD’s s
 `,
     image: "/images/14-Feb article.jpeg",
   },
-{
-  id: "cooling-with-heat-meet-absorption-chillers-india",
-  title: "Cooling with Heat? Meet Absorption Chillers!",
-  description: "Discover how absorption chillers use heat—not electricity—to provide eco-friendly cooling for buildings and industries in India.",
-  meta: {
-    description: "Learn how absorption chillers use waste heat for cooling, making them a smart, sustainable choice for Indian industries and smart cities.",
-    keywords: [
-      "absorption chiller",
-      "cooling with heat",
-      "waste heat absorption chiller",
-      "eco-friendly cooling",
-      "natural refrigerants",
-      "India",
-      "sustainable HVAC"
-    ],
-  },
-  date: "July 3, 2025",
-  readTime: "2-3 min read",
-  category: "Chillers",
-  content: `
+  {
+    id: "cooling-with-heat-meet-absorption-chillers-india",
+    title: "Cooling with Heat? Meet Absorption Chillers!",
+    description:
+      "Discover how absorption chillers use heat—not electricity—to provide eco-friendly cooling for buildings and industries in India.",
+    meta: {
+      description:
+        "Learn how absorption chillers use waste heat for cooling, making them a smart, sustainable choice for Indian industries and smart cities.",
+      keywords: [
+        "absorption chiller",
+        "cooling with heat",
+        "waste heat absorption chiller",
+        "eco-friendly cooling",
+        "natural refrigerants",
+        "India",
+        "sustainable HVAC",
+      ],
+    },
+    date: "July 3, 2025",
+    readTime: "2-3 min read",
+    category: "Chillers",
+    content: `
 <h1>Cooling with Heat? Meet Absorption Chillers!</h1>
 <p>
 Did you know that it's possible to cool a building using heat instead of electricity? Sounds strange, right? But that’s exactly what Absorption Chillers do!
@@ -2753,27 +3021,29 @@ Next time you step into a cool building, remember: it might just be running on h
   <br/>
 </p>
 `,
-  image: "/images/17-Feb blog.jpeg",
-},
-  {
-  id: "how-smart-hvac-systems-are-helping-indian-buildings-beat-the-heat",
-  title: "How Smart HVAC Systems Are Helping Indian Buildings Beat the Heat",
-  description: "Smart HVAC adapts to India's climate, boosting efficiency and comfort.",
-  meta: {
-    description: "Discover how smart HVAC systems are transforming climate control in Indian buildings.",
-    keywords: [
-      "smart HVAC",
-      "vapour absorption chillers",
-      "heat absorption pumps",
-      "Indian buildings",
-      "energy efficiency",
-      "climate control"
-    ],
+    image: "/images/17-Feb blog.jpeg",
   },
-  date: "May 24, 2025",
-  readTime: "2-3 min read",
-  category: "HVAC",
-  content: `
+  {
+    id: "how-smart-hvac-systems-are-helping-indian-buildings-beat-the-heat",
+    title: "How Smart HVAC Systems Are Helping Indian Buildings Beat the Heat",
+    description:
+      "Smart HVAC adapts to India's climate, boosting efficiency and comfort.",
+    meta: {
+      description:
+        "Discover how smart HVAC systems are transforming climate control in Indian buildings.",
+      keywords: [
+        "smart HVAC",
+        "vapour absorption chillers",
+        "heat absorption pumps",
+        "Indian buildings",
+        "energy efficiency",
+        "climate control",
+      ],
+    },
+    date: "May 24, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
 <h1>How Smart HVAC Systems Are Helping Indian Buildings Beat the Heat</h1>
 
 <h2><strong>Introduction:</strong> Cooling Smarter in a Warming Nation</h2>
@@ -2821,25 +3091,28 @@ With temperatures rising and energy costs soaring, India’s buildings can no lo
   <br/>
 </p>
 `,
-  image: "/images/May-24 blog.jpg",
-},
-  {
-  id: "the-silent-revolution-magnetic-bearing-chillers-explained-for-everyone",
-  title: "The Silent Revolution: Magnetic Bearing Chillers Explained for Everyone",
-  description: "Silent, efficient magnetic chillers transforming modern HVAC energy solutions.",
-  meta: {
-    description: "Uncover the benefits of magnetic bearing chillers in modern HVAC systems.",
-    keywords: [
-      "magnetic bearing chillers",
-      "power efficient chillers",
-      "HVAC energy solutions",
-      "sustainable cooling"
-    ],
+    image: "/images/May-24 blog.jpg",
   },
-  date: "May 17, 2025",
-  readTime: "2-3 min read",
-  category: "Chillers",
-  content: `
+  {
+    id: "the-silent-revolution-magnetic-bearing-chillers-explained-for-everyone",
+    title:
+      "The Silent Revolution: Magnetic Bearing Chillers Explained for Everyone",
+    description:
+      "Silent, efficient magnetic chillers transforming modern HVAC energy solutions.",
+    meta: {
+      description:
+        "Uncover the benefits of magnetic bearing chillers in modern HVAC systems.",
+      keywords: [
+        "magnetic bearing chillers",
+        "power efficient chillers",
+        "HVAC energy solutions",
+        "sustainable cooling",
+      ],
+    },
+    date: "May 17, 2025",
+    readTime: "2-3 min read",
+    category: "Chillers",
+    content: `
 <h1>The Silent Revolution: Magnetic Bearing Chillers Explained for Everyone</h1>
 
 <h2><strong>Introduction:</strong> The Future of Cooling Is Quietly Powerful</h2>
@@ -2882,25 +3155,27 @@ Magnetic bearing chillers are not just a technological leap—they're a practica
   <br/>
 </p>
 `,
-  image: "/images/May-17 blog.jpg",
-},
-  {
-  id: "5-ways-broads-cchp-systems-are-redefining-energy-use-in-factories",
-  title: "5 Ways BROAD’s CCHP Systems Are Redefining Energy Use in Factories",
-  description: "Efficient CCHP system transforming industrial energy use and sustainability.",
-  meta: {
-    description: "Explore how BROAD’s CCHP systems are revolutionizing energy use in factories.",
-    keywords: [
-      "CCHP systems",
-      "energy use",
-      "industrial sustainability",
-      "BROAD"
-    ],
+    image: "/images/May-17 blog.jpg",
   },
-  date: "May 10, 2025",
-  readTime: "2-3 min read",
-  category: "HVAC",
-  content: `
+  {
+    id: "5-ways-broads-cchp-systems-are-redefining-energy-use-in-factories",
+    title: "5 Ways BROAD’s CCHP Systems Are Redefining Energy Use in Factories",
+    description:
+      "Efficient CCHP system transforming industrial energy use and sustainability.",
+    meta: {
+      description:
+        "Explore how BROAD’s CCHP systems are revolutionizing energy use in factories.",
+      keywords: [
+        "CCHP systems",
+        "energy use",
+        "industrial sustainability",
+        "BROAD",
+      ],
+    },
+    date: "May 10, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
 <h1>5 Ways BROAD’s CCHP Systems Are Redefining Energy Use in Factories</h1>
 
 <h2><strong>Introduction: The Power of Waste Heat Recovery</strong></h2>
@@ -2939,26 +3214,27 @@ BROAD’s CCHP systems are not just an upgrade—they're a strategic transformat
   <br/>
 </p>
 `,
-  image: "/images/May-10 Blog.jpg",
-},
-  {
-  id: "explore-how-hvac-systems-keep-indoor-spaces-fresh-and-cozy",
-  title: "Explore How HVAC Systems Keep Indoor Spaces Fresh and Cozy",
-  description: "Keeps buildings warm, cool, and fresh all year round.",
-  meta: {
-    description: "Learn how HVAC systems maintain indoor comfort throughout the year.",
-    keywords: [
-      "HVAC systems",
-      "heat absorption chillers",
-      "indoor comfort",
-      "air conditioning",
-      "heating systems"
-    ],
+    image: "/images/May-10 Blog.jpg",
   },
-  date: "May 03, 2025",
-  readTime: "2-3 min read",
-  category: "HVAC",
-  content: `
+  {
+    id: "explore-how-hvac-systems-keep-indoor-spaces-fresh-and-cozy",
+    title: "Explore How HVAC Systems Keep Indoor Spaces Fresh and Cozy",
+    description: "Keeps buildings warm, cool, and fresh all year round.",
+    meta: {
+      description:
+        "Learn how HVAC systems maintain indoor comfort throughout the year.",
+      keywords: [
+        "HVAC systems",
+        "heat absorption chillers",
+        "indoor comfort",
+        "air conditioning",
+        "heating systems",
+      ],
+    },
+    date: "May 03, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
 <h1>Explore How HVAC Systems Keep Indoor Spaces Fresh and Cozy</h1>
 
 <h2><strong>Introduction</strong></h2>
@@ -2997,26 +3273,26 @@ HVAC systems are essential to modern indoor living. By heating, cooling, and pur
     <br/>
 </p>
 `,
-  image: "/images/May-03-blog.jpeg",
-},
-  {
-  id: "the-ultimate-guide-to-direct-fired-vapor-absorption-chillers",
-  title: "The Ultimate Guide to Direct Fired Vapor Absorption Chillers",
-  description:
-    "Fuel-powered chillers using heat-driven cycles for efficient, electricity-free cooling.",
-  meta: {
-    description:
-      "A comprehensive guide to Direct Fired Vapor Absorption Chillers and their benefits.",
-    keywords: [
-      "direct fired vapor absorption chiller",
-      "heat-driven cooling",
-      "efficient chillers"
-    ],
+    image: "/images/May-03-blog.jpeg",
   },
-  date: "April 20, 2025",
-  readTime: "2-3 min read",
-  category: "Chillers",
-  content: `
+  {
+    id: "the-ultimate-guide-to-direct-fired-vapor-absorption-chillers",
+    title: "The Ultimate Guide to Direct Fired Vapor Absorption Chillers",
+    description:
+      "Fuel-powered chillers using heat-driven cycles for efficient, electricity-free cooling.",
+    meta: {
+      description:
+        "A comprehensive guide to Direct Fired Vapor Absorption Chillers and their benefits.",
+      keywords: [
+        "direct fired vapor absorption chiller",
+        "heat-driven cooling",
+        "efficient chillers",
+      ],
+    },
+    date: "April 20, 2025",
+    readTime: "2-3 min read",
+    category: "Chillers",
+    content: `
 <h1>The Ultimate Guide to Direct Fired Vapor Absorption Chillers</h1>
 
 <p><strong>Introduction:</strong></p>
@@ -3082,8 +3358,8 @@ Before choosing a DFVAC system, assess:
 For the right application, these systems provide an energy-conscious alternative to traditional electric chillers—delivering comfort, reliability, and reduced environmental impact.
 </p>
 `,
-  image: "/images/20-April-Blog.jpeg",
-},
+    image: "/images/20-April-Blog.jpeg",
+  },
   {
     id: "integrating-exhaust-absorption-chiller",
     title: "Integrating Exhaust Absorption Chiller",
@@ -3147,23 +3423,26 @@ Exhaust absorption chillers offer a smart and sustainable way to utilize waste h
     image: "/images/10-April-Blog.jpeg",
   },
   {
-  id: "ai-driven-energy-efficiency-in-hvac-smart-solution",
-  title: "AI-Driven Energy Efficiency in HVAC: A Smart Solution for Comfort and Savings",
-  description: "AI-driven HVAC systems optimize energy use, improving efficiency and comfort.",
-  meta: {
-    description: "Discover how AI is transforming HVAC energy efficiency for enhanced comfort and savings.",
-    keywords: [
-      "AI in HVAC",
-      "energy efficiency",
-      "smart HVAC systems",
-      "artificial intelligence",
-      "sustainable cooling"
-    ],
-  },
-  date: "July 6, 2025",
-  readTime: "2-3 min read",
-  category: "HVAC",
-  content: `
+    id: "ai-driven-energy-efficiency-in-hvac-smart-solution",
+    title:
+      "AI-Driven Energy Efficiency in HVAC: A Smart Solution for Comfort and Savings",
+    description:
+      "AI-driven HVAC systems optimize energy use, improving efficiency and comfort.",
+    meta: {
+      description:
+        "Discover how AI is transforming HVAC energy efficiency for enhanced comfort and savings.",
+      keywords: [
+        "AI in HVAC",
+        "energy efficiency",
+        "smart HVAC systems",
+        "artificial intelligence",
+        "sustainable cooling",
+      ],
+    },
+    date: "July 6, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
 <h1>AI-Driven Energy Efficiency in HVAC: A Smart Solution for Comfort and Savings</h1>
 
 <p><strong>Introduction:</strong></p>
@@ -3243,25 +3522,27 @@ This makes <strong>AI-powered HVAC</strong> not just reactive but proactive—ke
 As <strong>AI continues transforming HVAC</strong>, expect smarter spaces, better savings, and greener solutions. Whether you’re managing a home or a commercial facility, <a href="/blogs/how-ai-powered-hvac-system-optimization-is-revolutionizing-energy-efficiency">AI optimization</a> helps reduce waste, cut costs, and improve comfort. It’s not just about cool tech—it’s about a cooler, smarter, and more sustainable future.
 </p>
 `,
-  image: "/images/27-March blog.jpeg",
-},
-  {
-  id: "why-central-air-conditioners-are-gaining-popularity-in-india",
-  title: "Why Central Air Conditioners Are Gaining Popularity in India",
-  description: "Central air conditioners offer efficient, consistent cooling for large spaces.",
-  meta: {
-    description: "Explore the reasons behind the rising popularity of central air conditioners in India.",
-    keywords: [
-      "central air conditioners",
-      "India",
-      "efficient cooling",
-      "HVAC systems"
-    ]
+    image: "/images/27-March blog.jpeg",
   },
-  date: "March 24, 2025",
-  readTime: "2-3 min read",
-  category: "air-conditioners",
-  content: `
+  {
+    id: "why-central-air-conditioners-are-gaining-popularity-in-india",
+    title: "Why Central Air Conditioners Are Gaining Popularity in India",
+    description:
+      "Central air conditioners offer efficient, consistent cooling for large spaces.",
+    meta: {
+      description:
+        "Explore the reasons behind the rising popularity of central air conditioners in India.",
+      keywords: [
+        "central air conditioners",
+        "India",
+        "efficient cooling",
+        "HVAC systems",
+      ],
+    },
+    date: "March 24, 2025",
+    readTime: "2-3 min read",
+    category: "air-conditioners",
+    content: `
 <h1>Why Central Air Conditioners Are Gaining Popularity in India</h1>
 
 <p><strong>Introduction</strong></p>
@@ -3322,24 +3603,26 @@ Consider a family living in a large house in a city like Delhi or Chennai. Durin
 Central air conditioners are changing the way people in India experience comfort during the summer. Their ability to cool large spaces efficiently, quietly, and consistently makes them a popular choice in many homes and offices. With technological advancements making these systems more energy-efficient, they’re also becoming more affordable. If you’re looking for a long-term solution to keep cool in the summer, central air conditioners offer an effective, convenient, and sustainable choice.
 </p>
   `,
-  image: "/images/24-March blog.jpeg"
-}, 
- {
-  id: "broad-group-construction-changing-the-future-of-building",
-  title: "Broad Group Construction: Changing the Future of Building",
-  description: "Broad Group Construction uses innovation to create fast, sustainable buildings.",
-  meta: {
-    description: "Discover how Broad Group Construction is innovating the future of building with speed and sustainability.",
-    keywords: [
-      "Broad Group Construction",
-      "sustainable buildings",
-      "innovative building solutions"
-    ]
+    image: "/images/24-March blog.jpeg",
   },
-  date: "March 21, 2025",
-  readTime: "2-3 min read",
-  category: "construction",
-  content: `
+  {
+    id: "broad-group-construction-changing-the-future-of-building",
+    title: "Broad Group Construction: Changing the Future of Building",
+    description:
+      "Broad Group Construction uses innovation to create fast, sustainable buildings.",
+    meta: {
+      description:
+        "Discover how Broad Group Construction is innovating the future of building with speed and sustainability.",
+      keywords: [
+        "Broad Group Construction",
+        "sustainable buildings",
+        "innovative building solutions",
+      ],
+    },
+    date: "March 21, 2025",
+    readTime: "2-3 min read",
+    category: "construction",
+    content: `
 <h1>Broad Group Construction: Changing the Future of Building</h1>
 <ul>
   <li><strong>Introduction</strong><br/>
@@ -3383,25 +3666,27 @@ Central air conditioners are changing the way people in India experience comfort
   </li>
 </ul>
   `,
-  image: "/images/21-March blog.jpeg",
-},
-  {
-  id: "vapour-absorption-chillers-a-smarter-way-to-cool-big-spaces",
-  title: "Vapour Absorption Chillers: A Smarter Way to Cool Big Spaces",
-  description: "Industrial absorption chillers use heat to efficiently cool large spaces.",
-  meta: {
-    description: "Learn how vapour absorption chillers provide efficient cooling using heat energy.",
-    keywords: [
-      "industrial absorption chillers",
-      "vapour absorption chillers",
-      "heat energy cooling",
-      "HVAC solutions"
-    ]
+    image: "/images/21-March blog.jpeg",
   },
-  date: "March 18, 2025",
-  readTime: "2-3 min read",
-  category: "Chillers",
-  content: `
+  {
+    id: "vapour-absorption-chillers-a-smarter-way-to-cool-big-spaces",
+    title: "Vapour Absorption Chillers: A Smarter Way to Cool Big Spaces",
+    description:
+      "Industrial absorption chillers use heat to efficiently cool large spaces.",
+    meta: {
+      description:
+        "Learn how vapour absorption chillers provide efficient cooling using heat energy.",
+      keywords: [
+        "industrial absorption chillers",
+        "vapour absorption chillers",
+        "heat energy cooling",
+        "HVAC solutions",
+      ],
+    },
+    date: "March 18, 2025",
+    readTime: "2-3 min read",
+    category: "Chillers",
+    content: `
 <h1>Industrial Absorption Chillers: A Smarter Way to Cool Big Spaces</h1>
 <ul>
   <li><strong>Introduction</strong><br/>
@@ -3452,25 +3737,28 @@ Central air conditioners are changing the way people in India experience comfort
   </li>
 </ul>
   `,
-  image: "/images/18-March blog.jpeg"
-},
-  {
-  id: "how-ai-powered-hvac-system-optimization-is-revolutionizing-energy-efficiency",
-  title: "How AI-Powered HVAC System Optimization is Revolutionizing Energy Efficiency",
-  description: "AI-driven HVAC systems enhance efficiency, comfort, and environmental impact reduction.",
-  meta: {
-    description: "Explore how AI-powered HVAC system is transforming energy efficiency.",
-    keywords: [
-      "HVAC Chillers",
-      "energy efficiency",
-      "HVAC systems",
-      "sustainable cooling"
-    ]
+    image: "/images/18-March blog.jpeg",
   },
-  date: "March 15, 2025",
-  readTime: "2-3 min read",
-  category: "HVAC",
-  content: `
+  {
+    id: "how-ai-powered-hvac-system-optimization-is-revolutionizing-energy-efficiency",
+    title:
+      "How AI-Powered HVAC System Optimization is Revolutionizing Energy Efficiency",
+    description:
+      "AI-driven HVAC systems enhance efficiency, comfort, and environmental impact reduction.",
+    meta: {
+      description:
+        "Explore how AI-powered HVAC system is transforming energy efficiency.",
+      keywords: [
+        "HVAC Chillers",
+        "energy efficiency",
+        "HVAC systems",
+        "sustainable cooling",
+      ],
+    },
+    date: "March 15, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    content: `
 <h1>How AI-Powered HVAC System Optimization is Revolutionizing Energy Efficiency</h1>
 <ul>
   <li><strong>Introduction</strong><br/>
@@ -3529,29 +3817,32 @@ Central air conditioners are changing the way people in India experience comfort
   </li>
 </ul>
   `,
-  image: "/images/15-March blog.jpeg"
-},
-  {
-  id: "understanding-vapour-absorption-machines-vam-and-their-role-in-energy-efficiency",
-  title: "Understanding Vapour Absorption Machines (VAM) and Their Role in Energy Efficiency",
-  description: "VAMs use heat energy for cooling, providing a sustainable and efficient alternative to traditional systems.",
-  meta: {
-    description: "Learn how Vapour Absorption Machines (VAM) work using waste or renewable heat, offering an eco-friendly cooling alternative with reduced energy consumption and minimal maintenance.",
-    keywords: [
-      "vapour absorption machine",
-      "VAM technology",
-      "energy-efficient cooling",
-      "waste heat utilization",
-      "absorption refrigeration",
-      "industrial cooling systems",
-      "low energy HVAC"
-    ]
+    image: "/images/15-March blog.jpeg",
   },
-  date: "March 09, 2025",
-  readTime: "2-3 min read",
-  category: "VAM",
-  image: "/images/March-9 blog.jpeg",
-  content: `
+  {
+    id: "understanding-vapour-absorption-machines-vam-and-their-role-in-energy-efficiency",
+    title:
+      "Understanding Vapour Absorption Machines (VAM) and Their Role in Energy Efficiency",
+    description:
+      "VAMs use heat energy for cooling, providing a sustainable and efficient alternative to traditional systems.",
+    meta: {
+      description:
+        "Learn how Vapour Absorption Machines (VAM) work using waste or renewable heat, offering an eco-friendly cooling alternative with reduced energy consumption and minimal maintenance.",
+      keywords: [
+        "vapour absorption machine",
+        "VAM technology",
+        "energy-efficient cooling",
+        "waste heat utilization",
+        "absorption refrigeration",
+        "industrial cooling systems",
+        "low energy HVAC",
+      ],
+    },
+    date: "March 09, 2025",
+    readTime: "2-3 min read",
+    category: "VAM",
+    image: "/images/March-9 blog.jpeg",
+    content: `
 <h1>Understanding Vapour Absorption Machines (VAM) and Their Role in Energy Efficiency</h1>
 <p>
 In today's energy-conscious world, businesses and industries are actively looking for solutions that reduce power consumption while maintaining efficiency. One such innovative cooling technology that has gained attention is the Vapour Absorption Machine (VAM). This system is an eco-friendly alternative to traditional vapour compression refrigeration systems, offering significant energy savings and sustainability benefits.
@@ -3597,29 +3888,31 @@ In today's energy-conscious world, businesses and industries are actively lookin
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},  
-{
-  id: "tips-for-homeowners-to-enhance-hvac-sustainability",
-  title: "Tips for Homeowners to Enhance HVAC Sustainability",
-  description: "Smart HVAC Tips for Energy Efficiency & Sustainable Home Cooling!",
-  meta: {
-    description: "Discover real-world tips and best practices to help homeowners improve HVAC efficiency, reduce energy bills, and support greener living—without cutting corners.",
-    keywords: [
-      "HVAC sustainability tips",
-      "home energy savings HVAC",
-      "eco-friendly home cooling",
-      "BROAD HVAC guide",
-      "efficient thermostat use",
-      "duct sealing insulation",
-      "renewable HVAC solutions"
-    ]
+`,
   },
-  date: "Feb 27, 2025",
-  readTime: "2-3 min read",
-  category: "HVAC",
-  image: "/images/27-Feb blog.jpeg",
-  content: `
+  {
+    id: "tips-for-homeowners-to-enhance-hvac-sustainability",
+    title: "Tips for Homeowners to Enhance HVAC Sustainability",
+    description:
+      "Smart HVAC Tips for Energy Efficiency & Sustainable Home Cooling!",
+    meta: {
+      description:
+        "Discover real-world tips and best practices to help homeowners improve HVAC efficiency, reduce energy bills, and support greener living—without cutting corners.",
+      keywords: [
+        "HVAC sustainability tips",
+        "home energy savings HVAC",
+        "eco-friendly home cooling",
+        "BROAD HVAC guide",
+        "efficient thermostat use",
+        "duct sealing insulation",
+        "renewable HVAC solutions",
+      ],
+    },
+    date: "Feb 27, 2025",
+    readTime: "2-3 min read",
+    category: "HVAC",
+    image: "/images/27-Feb blog.jpeg",
+    content: `
 <h1>Tips for Homeowners to Enhance HVAC Sustainability</h1>
 <p>
 As homeowners become increasingly aware of their environmental impact, many are seeking ways to enhance the sustainability of their heating, ventilation, and air conditioning (HVAC) systems. Not only does this contribute to a greener planet, but it can also lead to significant savings on energy bills. Here are some effective strategies to make your HVAC system more sustainable.
@@ -3672,29 +3965,32 @@ As homeowners become increasingly aware of their environmental impact, many are 
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "vapor-absorption-machine-vam-the-future-of-energy-efficient-cooling",
-  title: "Vapor Absorption Machine (VAM) – The Future of Energy-Efficient Cooling",
-  description: "Exploring energy-efficient cooling with Vapor Absorption Machines (VAM) for sustainability.",
-  meta: {
-    description: "Discover how Vapor Absorption Machines (VAM) deliver efficient cooling using thermal energy—ideal for industrial and commercial use where waste heat is available.",
-    keywords: [
-      "vapor absorption machine",
-      "VAM cooling systems",
-      "waste heat chiller",
-      "absorption refrigeration technology",
-      "BROAD VAM India",
-      "sustainable cooling for industry",
-      "energy-efficient chillers"
-    ]
+`,
   },
-  date: "Feb 26, 2025",
-  readTime: "2-3 min read",
-  category: "VAM",
-  image: "/images/26-Feb blog.jpeg",
-  content: `
+  {
+    id: "vapor-absorption-machine-vam-the-future-of-energy-efficient-cooling",
+    title:
+      "Vapor Absorption Machine (VAM) – The Future of Energy-Efficient Cooling",
+    description:
+      "Exploring energy-efficient cooling with Vapor Absorption Machines (VAM) for sustainability.",
+    meta: {
+      description:
+        "Discover how Vapor Absorption Machines (VAM) deliver efficient cooling using thermal energy—ideal for industrial and commercial use where waste heat is available.",
+      keywords: [
+        "vapor absorption machine",
+        "VAM cooling systems",
+        "waste heat chiller",
+        "absorption refrigeration technology",
+        "BROAD VAM India",
+        "sustainable cooling for industry",
+        "energy-efficient chillers",
+      ],
+    },
+    date: "Feb 26, 2025",
+    readTime: "2-3 min read",
+    category: "VAM",
+    image: "/images/26-Feb blog.jpeg",
+    content: `
 <h1>Vapor Absorption Machine (VAM) – The Future of Energy-Efficient Cooling</h1>
 <p>
 As industries continue to shift towards energy-efficient and sustainable solutions, cooling systems play a crucial role in maintaining operational efficiency. One such revolutionary technology is the Vapor Absorption Machine (VAM), a cooling system that utilizes waste heat instead of electricity-driven compressors. Unlike traditional cooling methods, VAM systems rely on a heat-driven absorption process, making them highly energy-efficient and environmentally friendly. With rising energy costs and environmental concerns, businesses are increasingly looking at VAM as a viable alternative to conventional cooling systems.
@@ -3741,29 +4037,32 @@ As industries continue to shift towards energy-efficient and sustainable solutio
 
   </li>
 </ul>
-`
-},
-  {
-  id: "hot-water-absorption-chillers-the-key-to-energy-efficient-cooling",
-  title: "Hot Water Absorption Chillers – The Key to Energy-Efficient Cooling",
-  description: "Maximize cooling efficiency using waste hot water for sustainable solutions.",
-  meta: {
-    description: "Explore how Hot Water Absorption Chillers use surplus hot water for eco-friendly cooling in industrial and commercial applications, reducing costs and emissions.",
-    keywords: [
-      "hot water chiller",
-      "absorption cooling system",
-      "industrial cooling efficiency",
-      "waste heat recovery",
-      "hot water driven HVAC",
-      "BROAD absorption chillers",
-      "low carbon cooling systems"
-    ]
+`,
   },
-  date: "Feb 25, 2025",
-  readTime: "2-3 min read",
-  category: "chillers",
-  image: "/images/25-Feb blog.jpeg",
-  content: `
+  {
+    id: "hot-water-absorption-chillers-the-key-to-energy-efficient-cooling",
+    title:
+      "Hot Water Absorption Chillers – The Key to Energy-Efficient Cooling",
+    description:
+      "Maximize cooling efficiency using waste hot water for sustainable solutions.",
+    meta: {
+      description:
+        "Explore how Hot Water Absorption Chillers use surplus hot water for eco-friendly cooling in industrial and commercial applications, reducing costs and emissions.",
+      keywords: [
+        "hot water chiller",
+        "absorption cooling system",
+        "industrial cooling efficiency",
+        "waste heat recovery",
+        "hot water driven HVAC",
+        "BROAD absorption chillers",
+        "low carbon cooling systems",
+      ],
+    },
+    date: "Feb 25, 2025",
+    readTime: "2-3 min read",
+    category: "chillers",
+    image: "/images/25-Feb blog.jpeg",
+    content: `
 <h1>Hot Water Absorption Chillers - The Key to Energy-Efficient Cooling</h1>
 <p>
 With rising energy costs and increasing emphasis on sustainability, businesses are constantly looking for efficient cooling solutions. Hot Water Absorption Chillers offer a revolutionary approach by using waste hot water instead of electricity to power the cooling process. These chillers not only provide a cost-effective alternative but also help reduce environmental impact. If your facility generates surplus hot water, integrating a Hot Water Chiller could significantly enhance your cooling efficiency.
@@ -3809,29 +4108,32 @@ With rising energy costs and increasing emphasis on sustainability, businesses a
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "revolutionizing-cooling-how-steam-absorption-chillers-are-changing-the-game",
-  title: "Revolutionizing Cooling – How Steam Absorption Chillers Are Changing the Game!",
-  description: "Discover how steam absorption chillers enhance cooling efficiency and sustainability.",
-  meta: {
-    description: "Steam Absorption Chillers offer a game-changing way to reduce electricity use by converting waste steam into high-performance cooling. Learn how it works.",
-    keywords: [
-      "steam absorption chillers",
-      "waste steam cooling",
-      "energy-saving chiller system",
-      "BROAD steam chiller",
-      "industrial HVAC steam",
-      "sustainable industrial cooling",
-      "low power chillers"
-    ]
+`,
   },
-  date: "Feb 24, 2025",
-  readTime: "3-4 min read",
-  category: "chillers",
-  image: "/images/24-Feb blog.jpeg",
-  content: `
+  {
+    id: "revolutionizing-cooling-how-steam-absorption-chillers-are-changing-the-game",
+    title:
+      "Revolutionizing Cooling – How Steam Absorption Chillers Are Changing the Game!",
+    description:
+      "Discover how steam absorption chillers enhance cooling efficiency and sustainability.",
+    meta: {
+      description:
+        "Steam Absorption Chillers offer a game-changing way to reduce electricity use by converting waste steam into high-performance cooling. Learn how it works.",
+      keywords: [
+        "steam absorption chillers",
+        "waste steam cooling",
+        "energy-saving chiller system",
+        "BROAD steam chiller",
+        "industrial HVAC steam",
+        "sustainable industrial cooling",
+        "low power chillers",
+      ],
+    },
+    date: "Feb 24, 2025",
+    readTime: "3-4 min read",
+    category: "chillers",
+    image: "/images/24-Feb blog.jpeg",
+    content: `
 <h1>Revolutionizing Cooling – How Steam Absorption Chillers Are Changing the Game!</h1>
 <p>
 Cooling technology has undergone significant advancements over the years, with businesses constantly searching for more energy-efficient and sustainable solutions. One such innovation is the Steam Absorption Chiller, a system that leverages waste steam for cooling rather than relying on electricity. This groundbreaking technology is transforming industries by offering cost savings, energy efficiency, and environmental benefits. If your facility generates surplus steam, adopting a Steam Chiller could be the game-changer you need.
@@ -3878,29 +4180,31 @@ Cooling technology has undergone significant advancements over the years, with b
 
   </li>
 </ul>
-`
-},
-  {
-  id: "why-vapor-absorption-chillers-are-transforming-industrial-cooling",
-  title: "Why Vapor Absorption Chillers Are Transforming Industrial Cooling",
-  description: "Eco-friendly, heat-driven cooling for sustainable industrial energy efficiency.",
-  meta: {
-    description: "Vapor Absorption Chillers are changing the industrial cooling game by using waste heat instead of electricity. Discover how this eco-friendly solution saves energy and cuts costs.",
-    keywords: [
-      "vapor absorption chillers",
-      "waste heat cooling",
-      "industrial energy efficiency",
-      "BROAD industrial chillers",
-      "low electricity cooling system",
-      "absorption chillers India",
-      "sustainable process cooling"
-    ]
+`,
   },
-  date: "Feb 23, 2025",
-  readTime: "2 min read",
-  category: "chillers",
-  image: "/images/23-Feb blog.jpeg",
-  content: `
+  {
+    id: "why-vapor-absorption-chillers-are-transforming-industrial-cooling",
+    title: "Why Vapor Absorption Chillers Are Transforming Industrial Cooling",
+    description:
+      "Eco-friendly, heat-driven cooling for sustainable industrial energy efficiency.",
+    meta: {
+      description:
+        "Vapor Absorption Chillers are changing the industrial cooling game by using waste heat instead of electricity. Discover how this eco-friendly solution saves energy and cuts costs.",
+      keywords: [
+        "vapor absorption chillers",
+        "waste heat cooling",
+        "industrial energy efficiency",
+        "BROAD industrial chillers",
+        "low electricity cooling system",
+        "absorption chillers India",
+        "sustainable process cooling",
+      ],
+    },
+    date: "Feb 23, 2025",
+    readTime: "2 min read",
+    category: "chillers",
+    image: "/images/23-Feb blog.jpeg",
+    content: `
 <h1>Why Vapor Absorption Chillers Are Transforming Industrial Cooling</h1>
 <p>
 Vapor absorption chillers are gaining prominence as an energy-efficient alternative to conventional cooling systems. Unlike mechanical chillers that rely on electricity to drive compressors, vapor absorption chillers utilize heat sources such as steam, hot water, or direct-fired fuel. This makes them an ideal solution for industries looking to optimize energy consumption while reducing their environmental impact.
@@ -3946,28 +4250,30 @@ Vapor absorption chillers are gaining prominence as an energy-efficient alternat
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "the-future-of-cooling-with-vapor-absorption-machines",
-  title: "The Future of Cooling with Vapor Absorption Machines",
-  description: "Heat-powered, sustainable cooling for energy-efficient industrial applications.",
-  meta: {
-    description: "Explore how Vapor Absorption Machines (VAMs) are shaping the future of cooling with heat-driven cycles that reduce power use and cut emissions.",
-    keywords: [
-      "vapor absorption machine future",
-      "industrial VAM cooling",
-      "heat-powered chillers",
-      "BROAD VAM innovation",
-      "eco-friendly industrial cooling",
-      "waste heat cooling systems"
-    ]
+`,
   },
-  date: "Feb 22, 2025",
-  readTime: "2 min read",
-  category: "VAM",
-  image: "/images/22-Feb blog.jpeg",
-  content: `
+  {
+    id: "the-future-of-cooling-with-vapor-absorption-machines",
+    title: "The Future of Cooling with Vapor Absorption Machines",
+    description:
+      "Heat-powered, sustainable cooling for energy-efficient industrial applications.",
+    meta: {
+      description:
+        "Explore how Vapor Absorption Machines (VAMs) are shaping the future of cooling with heat-driven cycles that reduce power use and cut emissions.",
+      keywords: [
+        "vapor absorption machine future",
+        "industrial VAM cooling",
+        "heat-powered chillers",
+        "BROAD VAM innovation",
+        "eco-friendly industrial cooling",
+        "waste heat cooling systems",
+      ],
+    },
+    date: "Feb 22, 2025",
+    readTime: "2 min read",
+    category: "VAM",
+    image: "/images/22-Feb blog.jpeg",
+    content: `
 <h1>The Future of Cooling with Vapor Absorption Machines</h1>
 <p>
 A vapor absorption machine (VAM) is a cutting-edge cooling system that utilizes heat energy instead of electricity to drive the refrigeration cycle. By eliminating the need for mechanical compressors, these machines provide a sustainable and efficient alternative for industrial and commercial cooling.
@@ -4013,28 +4319,30 @@ A vapor absorption machine (VAM) is a cutting-edge cooling system that utilizes 
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "hot-water-absorption-chillers-a-smart-cooling-solution",
-  title: "Hot Water Absorption Chillers – A Smart Cooling Solution",
-  description: "Sustainable cooling using hot water for energy-efficient temperature control.",
-  meta: {
-    description: "Discover how Hot Water Absorption Chillers use surplus hot water for sustainable cooling, cutting costs and reducing electricity use in industry and commercial setups.",
-    keywords: [
-      "hot water absorption chiller",
-      "sustainable hot water cooling",
-      "waste heat chillers",
-      "BROAD hot water solutions",
-      "efficiency in industrial cooling",
-      "eco-friendly HVAC systems"
-    ]
+`,
   },
-  date: "Feb 21, 2025",
-  readTime: "2 min read",
-  category: "absorption chillers",
-  image: "/images/21-Feb blog.jpeg",
-  content: `
+  {
+    id: "hot-water-absorption-chillers-a-smart-cooling-solution",
+    title: "Hot Water Absorption Chillers – A Smart Cooling Solution",
+    description:
+      "Sustainable cooling using hot water for energy-efficient temperature control.",
+    meta: {
+      description:
+        "Discover how Hot Water Absorption Chillers use surplus hot water for sustainable cooling, cutting costs and reducing electricity use in industry and commercial setups.",
+      keywords: [
+        "hot water absorption chiller",
+        "sustainable hot water cooling",
+        "waste heat chillers",
+        "BROAD hot water solutions",
+        "efficiency in industrial cooling",
+        "eco-friendly HVAC systems",
+      ],
+    },
+    date: "Feb 21, 2025",
+    readTime: "2 min read",
+    category: "absorption chillers",
+    image: "/images/21-Feb blog.jpeg",
+    content: `
 <h1>Hot Water Absorption Chillers – A Smart Cooling Solution</h1>
 <p>
 Hot water absorption chillers are an advanced cooling technology that operates using hot water instead of electricity. They are an excellent alternative for industries with access to waste hot water from industrial processes, combined heat and power (CHP) plants, or solar thermal systems.
@@ -4080,28 +4388,30 @@ Hot water absorption chillers are an advanced cooling technology that operates u
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "how-steam-absorption-chillers-are-revolutionizing-cooling",
-  title: "How Steam Absorption Chillers Are Revolutionizing Cooling",
-  description: "Transforming cooling with heat-powered, eco-friendly, efficient technology.",
-  meta: {
-    description: "Learn how Steam Absorption Chillers harness waste steam to offer efficient, quiet, low-maintenance cooling for large-scale industrial and commercial use.",
-    keywords: [
-      "steam absorption chiller",
-      "steam-powered cooling",
-      "BROAD steam absorption",
-      "industrial steam chillers",
-      "efficient HVAC steam",
-      "eco-friendly cooling systems"
-    ]
+`,
   },
-  date: "Feb 20, 2025",
-  readTime: "2 min read",
-  category: "SAC",
-  image: "/images/20-Feb blog.jpeg",
-  content: `
+  {
+    id: "how-steam-absorption-chillers-are-revolutionizing-cooling",
+    title: "How Steam Absorption Chillers Are Revolutionizing Cooling",
+    description:
+      "Transforming cooling with heat-powered, eco-friendly, efficient technology.",
+    meta: {
+      description:
+        "Learn how Steam Absorption Chillers harness waste steam to offer efficient, quiet, low-maintenance cooling for large-scale industrial and commercial use.",
+      keywords: [
+        "steam absorption chiller",
+        "steam-powered cooling",
+        "BROAD steam absorption",
+        "industrial steam chillers",
+        "efficient HVAC steam",
+        "eco-friendly cooling systems",
+      ],
+    },
+    date: "Feb 20, 2025",
+    readTime: "2 min read",
+    category: "SAC",
+    image: "/images/20-Feb blog.jpeg",
+    content: `
 <h1>How Steam Absorption Chillers Are Revolutionizing Cooling</h1>
 <p>
 Steam absorption chillers are a game-changing cooling technology that uses steam instead of electricity to power the refrigeration cycle. They offer an efficient alternative to traditional chillers, especially in industries where steam is readily available as a byproduct of industrial processes.
@@ -4147,28 +4457,30 @@ Steam absorption chillers are a game-changing cooling technology that uses steam
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "the-role-of-vapor-absorption-chillers-in-modern-cooling",
-  title: "The Role of Vapor Absorption Chillers in Modern Cooling",
-  description: "Revolutionizing cooling with heat-driven, sustainable, and efficient technology.",
-  meta: {
-    description: "See how Vapor Absorption Chillers are revolutionizing modern cooling by using thermal energy, eco-friendly refrigerants, and reduced maintenance demands.",
-    keywords: [
-      "vapor absorption chillers role",
-      "absorption cooling benefits",
-      "BROAD industrial cooling",
-      "sustainable HVAC solutions",
-      "waste heat reuse chillers",
-      "eco-conscious cooling systems"
-    ]
+`,
   },
-  date: "Feb 19, 2025",
-  readTime: "2 min read",
-  category: "chillers",
-  image: "/images/19-Feb blog.jpeg",
-  content: `
+  {
+    id: "the-role-of-vapor-absorption-chillers-in-modern-cooling",
+    title: "The Role of Vapor Absorption Chillers in Modern Cooling",
+    description:
+      "Revolutionizing cooling with heat-driven, sustainable, and efficient technology.",
+    meta: {
+      description:
+        "See how Vapor Absorption Chillers are revolutionizing modern cooling by using thermal energy, eco-friendly refrigerants, and reduced maintenance demands.",
+      keywords: [
+        "vapor absorption chillers role",
+        "absorption cooling benefits",
+        "BROAD industrial cooling",
+        "sustainable HVAC solutions",
+        "waste heat reuse chillers",
+        "eco-conscious cooling systems",
+      ],
+    },
+    date: "Feb 19, 2025",
+    readTime: "2 min read",
+    category: "chillers",
+    image: "/images/19-Feb blog.jpeg",
+    content: `
 <h1>The Role of Vapor Absorption Chillers in Modern Cooling</h1>
 <p>
 Vapor absorption chillers are a groundbreaking technology in the cooling industry, offering an energy-efficient alternative to conventional vapor compression systems. These chillers operate using heat energy instead of electricity, making them ideal for facilities with access to waste heat, solar energy, or other thermal sources. Their unique ability to function without mechanical compressors significantly reduces energy consumption and operational noise.
@@ -4214,28 +4526,31 @@ Vapor absorption chillers are a groundbreaking technology in the cooling industr
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "the-ultimate-guide-to-vapor-absorption-chillers-how-they-work-why-they-matter-and-their-future",
-  title: "The Ultimate Guide to Vapor Absorption Chillers: How They Work, Why They Matter and Their Future",
-  description: "Comprehensive guide on vapor absorption chillers, operation, importance, and future.",
-  meta: {
-    description: "A complete guide to Vapor Absorption Chillers—covering operation, benefits, innovation trends, real-world applications, and the road ahead for sustainable industrial cooling.",
-    keywords: [
-      "ultimate guide VAC",
-      "how vapor absorption chillers work",
-      "VAC benefits and future",
-      "BROAD VAC solutions",
-      "industrial HVAC sustainability",
-      "next-gen absorption chiller"
-    ]
+`,
   },
-  date: "Feb 18, 2025",
-  readTime: "2-3 min read",
-  category: "chillers",
-  image: "/images/18-Feb blog.jpeg",
-  content: `
+  {
+    id: "the-ultimate-guide-to-vapor-absorption-chillers-how-they-work-why-they-matter-and-their-future",
+    title:
+      "The Ultimate Guide to Vapor Absorption Chillers: How They Work, Why They Matter and Their Future",
+    description:
+      "Comprehensive guide on vapor absorption chillers, operation, importance, and future.",
+    meta: {
+      description:
+        "A complete guide to Vapor Absorption Chillers—covering operation, benefits, innovation trends, real-world applications, and the road ahead for sustainable industrial cooling.",
+      keywords: [
+        "ultimate guide VAC",
+        "how vapor absorption chillers work",
+        "VAC benefits and future",
+        "BROAD VAC solutions",
+        "industrial HVAC sustainability",
+        "next-gen absorption chiller",
+      ],
+    },
+    date: "Feb 18, 2025",
+    readTime: "2-3 min read",
+    category: "chillers",
+    image: "/images/18-Feb blog.jpeg",
+    content: `
 <h1>The Ultimate Guide to Vapor Absorption Chillers: How They Work, Why They Matter and Their Future</h1>
 <p>
 In the world of sustainable cooling solutions, the Vapor Absorption Chiller stands out as a revolutionary technology. Unlike traditional chillers that rely on electricity, the Vapor Absorption Chiller operates on thermal energy, making it an ideal choice for industries and applications where waste heat or renewable energy is abundant. This blog provides a comprehensive guide to Vapor Absorption Chillers, exploring their working principles, benefits, and future potential. Whether you're an engineer, industry professional, or sustainability advocate, this guide will help you understand why Vapor Absorption Chillers are a game-changer in the cooling industry.
@@ -4288,28 +4603,31 @@ In the world of sustainable cooling solutions, the Vapor Absorption Chiller stan
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "the-ultimate-guide-to-vapor-absorption-machines-advanced-insights-for-engineers-and-industry-professionals",
-  title: "The Ultimate Guide to Vapor Absorption Machines: Advanced Insights for Engineers and Industry Professionals",
-  description: "In-depth guide on vapor absorption machines for engineers and professionals.",
-  meta: {
-    description: "An advanced guide covering the mechanics, innovations, and applications of Vapor Absorption Machines (VAM) for engineers and industry professionals.",
-    keywords: [
-      "advanced VAM guide",
-      "vapor absorption machine mechanics",
-      "industrial cooling innovation",
-      "BROAD VAM technical insights",
-      "waste heat utilization",
-      "engineering VAM systems"
-    ]
+`,
   },
-  date: "Feb 17, 2025",
-  readTime: "3-4 min read",
-  category: "VAM",
-  image: "/images/17-Feb blog.jpeg",
-  content: `
+  {
+    id: "the-ultimate-guide-to-vapor-absorption-machines-advanced-insights-for-engineers-and-industry-professionals",
+    title:
+      "The Ultimate Guide to Vapor Absorption Machines: Advanced Insights for Engineers and Industry Professionals",
+    description:
+      "In-depth guide on vapor absorption machines for engineers and professionals.",
+    meta: {
+      description:
+        "An advanced guide covering the mechanics, innovations, and applications of Vapor Absorption Machines (VAM) for engineers and industry professionals.",
+      keywords: [
+        "advanced VAM guide",
+        "vapor absorption machine mechanics",
+        "industrial cooling innovation",
+        "BROAD VAM technical insights",
+        "waste heat utilization",
+        "engineering VAM systems",
+      ],
+    },
+    date: "Feb 17, 2025",
+    readTime: "3-4 min read",
+    category: "VAM",
+    image: "/images/17-Feb blog.jpeg",
+    content: `
 <h1>The Ultimate Guide to Vapor Absorption Machines: Advanced Insights for Engineers and Industry Professionals</h1>
 <p>
 The Vapor Absorption Machine is revolutionizing the cooling and refrigeration industry by offering a sustainable and energy-efficient alternative to traditional vapor compression systems. Unlike conventional systems that rely on mechanical energy, the Vapor Absorption Machine operates on thermal energy, making it ideal for applications where waste heat or renewable energy is available. This blog delves into the advanced mechanics, cutting-edge innovations, and real-world applications of the Vapor Absorption Machine, providing engineers and industry professionals with a comprehensive understanding of its potential.
@@ -4362,28 +4680,31 @@ The Vapor Absorption Machine is revolutionizing the cooling and refrigeration in
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "hot-water-absorption-chillers-revolutionizing-sustainable-cooling-with-advanced-technologies",
-  title: "Hot Water Absorption Chillers: Revolutionizing Sustainable Cooling with Advanced Technologies",
-  description: "Harnessing low-grade heat for eco-friendly, energy-efficient cooling solutions.",
-  meta: {
-    description: "Advanced tech in hot water absorption chillers uses microchannel heat exchangers, solar integration, and IoT-smart systems for sustainable industrial cooling.",
-    keywords: [
-      "advanced hot water chillers",
-      "smart absorption cooling",
-      "microchannel heat exchangers",
-      "BROAD HWC technology",
-      "solar thermal integration",
-      "IoT absorption systems"
-    ]
+`,
   },
-  date: "Feb 16, 2025",
-  readTime: "3 min read",
-  category: "HWC",
-  image: "/images/16-Feb blog.jpeg",
-  content: `
+  {
+    id: "hot-water-absorption-chillers-revolutionizing-sustainable-cooling-with-advanced-technologies",
+    title:
+      "Hot Water Absorption Chillers: Revolutionizing Sustainable Cooling with Advanced Technologies",
+    description:
+      "Harnessing low-grade heat for eco-friendly, energy-efficient cooling solutions.",
+    meta: {
+      description:
+        "Advanced tech in hot water absorption chillers uses microchannel heat exchangers, solar integration, and IoT-smart systems for sustainable industrial cooling.",
+      keywords: [
+        "advanced hot water chillers",
+        "smart absorption cooling",
+        "microchannel heat exchangers",
+        "BROAD HWC technology",
+        "solar thermal integration",
+        "IoT absorption systems",
+      ],
+    },
+    date: "Feb 16, 2025",
+    readTime: "3 min read",
+    category: "HWC",
+    image: "/images/16-Feb blog.jpeg",
+    content: `
 <h1>Hot Water Absorption Chillers: Revolutionizing Sustainable Cooling with Advanced Technologies</h1>
 <p>
 As industries and businesses strive for greater energy efficiency and sustainability, hot water absorption chillers are emerging as a key solution. These advanced systems leverage low-grade heat from hot water to provide cooling, making them ideal for applications where waste heat or renewable energy is available.
@@ -4422,28 +4743,31 @@ As industries and businesses strive for greater energy efficiency and sustainabi
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "steam-absorption-chillers-pioneering-sustainable-cooling-solutions",
-  title: "Steam Absorption Chillers: Pioneering Sustainable Cooling Solutions",
-  description: "Harnessing waste heat and renewables for eco-friendly, efficient cooling.",
-  meta: {
-    description: "Steam absorption chillers pioneer sustainable cooling by using waste heat and renewables, integrated with smart IoT systems for greener industrial operations.",
-    keywords: [
-      "steam absorption chillers",
-      "waste steam cooling solutions",
-      "BROAD steam sustainability",
-      "flexible industrial cooling",
-      "IoT steam chillers",
-      "renewable steam integration"
-    ]
+`,
   },
-  date: "Feb 15, 2025",
-  readTime: "3 min read",
-  category: "steam chillers",
-  image: "/images/15-Feb blog.jpeg",
-  content: `
+  {
+    id: "steam-absorption-chillers-pioneering-sustainable-cooling-solutions",
+    title:
+      "Steam Absorption Chillers: Pioneering Sustainable Cooling Solutions",
+    description:
+      "Harnessing waste heat and renewables for eco-friendly, efficient cooling.",
+    meta: {
+      description:
+        "Steam absorption chillers pioneer sustainable cooling by using waste heat and renewables, integrated with smart IoT systems for greener industrial operations.",
+      keywords: [
+        "steam absorption chillers",
+        "waste steam cooling solutions",
+        "BROAD steam sustainability",
+        "flexible industrial cooling",
+        "IoT steam chillers",
+        "renewable steam integration",
+      ],
+    },
+    date: "Feb 15, 2025",
+    readTime: "3 min read",
+    category: "steam chillers",
+    image: "/images/15-Feb blog.jpeg",
+    content: `
 <h1>Steam Absorption Chillers: Pioneering Sustainable Cooling Solutions</h1>
 <p>
 In the fight against climate change, industries are turning to sustainable technologies to reduce their carbon footprint. Steam absorption chillers, with their ability to harness waste heat and renewable energy, are emerging as a cornerstone of sustainable cooling solutions.
@@ -4482,28 +4806,30 @@ In the fight against climate change, industries are turning to sustainable techn
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "advanced-technical-insights-into-vapor-absorption-chillers",
-  title: "Advanced Technical Insights into Vapor Absorption Chillers (VAC)",
-  description: "Energy-efficient cooling using heat-driven absorption refrigeration cycles.",
-  meta: {
-    description: "Get a technical deep dive into VAC chillers—thermodynamic cycle, refrigerant choices, and efficiency optimization techniques for engineers and designers.",
-    keywords: [
-      "technical VAC insights",
-      "vapor absorption chiller engineering",
-      "VAC thermodynamic cycle",
-      "refrigerant absorbent pairs",
-      "BROAD VAC performance optimization",
-      "industrial cooling design"
-    ]
+`,
   },
-  date: "Feb 14, 2025",
-  readTime: "3 min read",
-  category: "chillers",
-  image: "/images/14-Feb blog.jpeg",
-  content: `
+  {
+    id: "advanced-technical-insights-into-vapor-absorption-chillers",
+    title: "Advanced Technical Insights into Vapor Absorption Chillers (VAC)",
+    description:
+      "Energy-efficient cooling using heat-driven absorption refrigeration cycles.",
+    meta: {
+      description:
+        "Get a technical deep dive into VAC chillers—thermodynamic cycle, refrigerant choices, and efficiency optimization techniques for engineers and designers.",
+      keywords: [
+        "technical VAC insights",
+        "vapor absorption chiller engineering",
+        "VAC thermodynamic cycle",
+        "refrigerant absorbent pairs",
+        "BROAD VAC performance optimization",
+        "industrial cooling design",
+      ],
+    },
+    date: "Feb 14, 2025",
+    readTime: "3 min read",
+    category: "chillers",
+    image: "/images/14-Feb blog.jpeg",
+    content: `
 <h1>Advanced Technical Insights into Vapor Absorption Chillers (VAC)</h1>
 <p>
 Vapor Absorption Chillers (VAC) are becoming increasingly popular in industrial and commercial applications due to their ability to utilize waste heat or renewable energy sources for cooling. Unlike traditional vapor compression chillers, VACs operate on a thermally driven cycle, making them highly energy-efficient and environmentally friendly. In this blog, we will explore the advanced working principles of VACs, the types of refrigerants used, efficiency optimization techniques, and their potential applications.
@@ -4542,28 +4868,31 @@ Vapor Absorption Chillers (VAC) are becoming increasingly popular in industrial 
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "the-evolution-of-vapor-absorption-chillers-unlocking-new-potential",
-  title: "The Evolution of Vapor Absorption Chillers – Unlocking New Potential",
-  description: "Advancements in efficiency, sustainability, and cooling technology",
-  meta: {
-    description: "Explore the evolution of Vapor Absorption Chillers, from AI-driven control to graphene absorbers and modular smart systems for next-gen cooling.",
-    keywords: [
-      "evolution of VAC",
-      "AI in absorption chillers",
-      "nanotech absorbent systems",
-      "graphene cooling innovation",
-      "smart modular VAM",
-      "BROAD future cooling"
-    ]
+`,
   },
-  date: "Feb 13, 2025",
-  readTime: "2 min read",
-  category: "VAC",
-  image: "/images/VAM c.jpg",
-  content: `
+  {
+    id: "the-evolution-of-vapor-absorption-chillers-unlocking-new-potential",
+    title:
+      "The Evolution of Vapor Absorption Chillers – Unlocking New Potential",
+    description:
+      "Advancements in efficiency, sustainability, and cooling technology",
+    meta: {
+      description:
+        "Explore the evolution of Vapor Absorption Chillers, from AI-driven control to graphene absorbers and modular smart systems for next-gen cooling.",
+      keywords: [
+        "evolution of VAC",
+        "AI in absorption chillers",
+        "nanotech absorbent systems",
+        "graphene cooling innovation",
+        "smart modular VAM",
+        "BROAD future cooling",
+      ],
+    },
+    date: "Feb 13, 2025",
+    readTime: "2 min read",
+    category: "VAC",
+    image: "/images/VAM c.jpg",
+    content: `
 <h1>The Evolution of Vapor Absorption Chillers – Unlocking New Potential</h1>
 <p>
 In an era where energy efficiency and sustainability are paramount, the vapor absorption chiller (VAC) has evolved beyond a mere alternative to traditional cooling systems. With advancements in technology, modern VAM systems are integrating artificial intelligence, hybrid energy sources, and innovative materials to redefine industrial cooling.
@@ -4602,29 +4931,32 @@ In an era where energy efficiency and sustainability are paramount, the vapor ab
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
+`,
+  },
 
   {
-  id: "heat-vs-power",
-  title: "Heat vs Power: Why Hot Water Absorption Chillers Are Changing the Cooling Game",
-  description: "Harnessing excess heat for cooling, absorption chillers redefine sustainable HVAC technology",
-  meta: {
-    description: "Compare heat-powered HWAC vs electric HWC systems to see how Hot Water Absorption Chillers are shaping the future of efficient, eco‑friendly cooling.",
-    keywords: [
-      "HWAC vs HWC",
-      "heat powered cooling",
-      "hot water absorption chillers",
-      "BROAD sustainable HVAC",
-      "waste heat refrigeration",
-      "energy efficient chillers"
-    ]
-  },
-  date: "Feb 12, 2025",
-  readTime: "3-4 min read",
-  category: "cooling systems",
-  image: "/images/hot-chillers.jpg",
-  content: `
+    id: "heat-vs-power",
+    title:
+      "Heat vs Power: Why Hot Water Absorption Chillers Are Changing the Cooling Game",
+    description:
+      "Harnessing excess heat for cooling, absorption chillers redefine sustainable HVAC technology",
+    meta: {
+      description:
+        "Compare heat-powered HWAC vs electric HWC systems to see how Hot Water Absorption Chillers are shaping the future of efficient, eco‑friendly cooling.",
+      keywords: [
+        "HWAC vs HWC",
+        "heat powered cooling",
+        "hot water absorption chillers",
+        "BROAD sustainable HVAC",
+        "waste heat refrigeration",
+        "energy efficient chillers",
+      ],
+    },
+    date: "Feb 12, 2025",
+    readTime: "3-4 min read",
+    category: "cooling systems",
+    image: "/images/hot-chillers.jpg",
+    content: `
 <h1>Heat vs Power: Why Hot Water Absorption Chillers Are Changing the Cooling Game</h1>
 <p>
 Introduction: The Battle Between Heat‑Powered and Electricity‑Driven Cooling
@@ -4680,27 +5012,30 @@ While both systems use hot water as a cooling medium, their underlying technolog
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "hot-water-absorption-chillers",
-  title: "Cooling Reinvented: How Hot Water Absorption Chillers Are Powering the Future of HVAC",
-  description: "Steam absorption chillers replacing traditional cooling for efficiency, sustainability and cost‑savings",
-  meta: {
-    description: "Discover how Hot Water Absorption Chillers work, their benefits, and why industrial sectors like power plants and data centres are adopting them for greener HVAC.",
-    keywords: [
-      "hot water absorption chiller",
-      "HWAC industrial cooling",
-      "BROAD HVAC innovation",
-      "waste heat driven chillers",
-      "energy efficient HVAC systems"
-    ]
+`,
   },
-  date: "Feb 11, 2025",
-  readTime: "2 min read",
-  category: "chillers",
-  image: "/images/HWAC.jpg",
-  content: `
+  {
+    id: "hot-water-absorption-chillers",
+    title:
+      "Cooling Reinvented: How Hot Water Absorption Chillers Are Powering the Future of HVAC",
+    description:
+      "Steam absorption chillers replacing traditional cooling for efficiency, sustainability and cost‑savings",
+    meta: {
+      description:
+        "Discover how Hot Water Absorption Chillers work, their benefits, and why industrial sectors like power plants and data centres are adopting them for greener HVAC.",
+      keywords: [
+        "hot water absorption chiller",
+        "HWAC industrial cooling",
+        "BROAD HVAC innovation",
+        "waste heat driven chillers",
+        "energy efficient HVAC systems",
+      ],
+    },
+    date: "Feb 11, 2025",
+    readTime: "2 min read",
+    category: "chillers",
+    image: "/images/HWAC.jpg",
+    content: `
 <h1>Cooling Reinvented: How Hot Water Absorption Chillers Are Powering the Future of HVAC</h1>
 <p>
 Introduction: The Growing Need for Energy‑Efficient Cooling
@@ -4747,27 +5082,30 @@ In industries and commercial buildings where waste heat is readily available, Ho
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "sac-replacing-traditional-cooling-systems",
-  title: "Why Steam Absorption Chillers Are Replacing Traditional Cooling Systems",
-  description: "Steam absorption chillers replacing traditional cooling for efficiency, sustainability and cost‑savings",
-  meta: {
-    description: "Learn why Steam Absorption Chillers (SACs) are overtaking conventional chillers, thanks to lower energy use, fewer emissions, and longer lifespan.",
-    keywords: [
-      "steam absorption chillers",
-      "SAC benefits",
-      "BROAD steam HVAC",
-      "waste steam cooling",
-      "sustainable cooling tech"
-    ]
+`,
   },
-  date: "Feb 10, 2025",
-  readTime: "2 min read",
-  category: "cooling systems",
-  image: "/images/HVAC.jpg",
-  content: `
+  {
+    id: "sac-replacing-traditional-cooling-systems",
+    title:
+      "Why Steam Absorption Chillers Are Replacing Traditional Cooling Systems",
+    description:
+      "Steam absorption chillers replacing traditional cooling for efficiency, sustainability and cost‑savings",
+    meta: {
+      description:
+        "Learn why Steam Absorption Chillers (SACs) are overtaking conventional chillers, thanks to lower energy use, fewer emissions, and longer lifespan.",
+      keywords: [
+        "steam absorption chillers",
+        "SAC benefits",
+        "BROAD steam HVAC",
+        "waste steam cooling",
+        "sustainable cooling tech",
+      ],
+    },
+    date: "Feb 10, 2025",
+    readTime: "2 min read",
+    category: "cooling systems",
+    image: "/images/HVAC.jpg",
+    content: `
 <h1>Why Steam Absorption Chillers Are Replacing Traditional Cooling Systems</h1>
 <p>
 Introduction
@@ -4808,27 +5146,30 @@ For decades, mechanical chillers have dominated industrial and commercial coolin
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "future-of-cooling",
-  title: "The Future of Cooling: How Steam Absorption Chillers Are Revolutionizing HVAC",
-  description: "Eco‑friendly HVAC: Steam absorption chillers leading sustainable cooling",
-  meta: {
-    description: "Steam absorption chillers are leading the charge in eco‑friendly HVAC, using waste steam to deliver quiet, efficient, and low‑emission cooling to modern industries.",
-    keywords: [
-      "steam absorption HVAC",
-      "SAC future",
-      "BROAD HVAC steam",
-      "sustainable HVAC solutions",
-      "next‑gen cooling tech"
-    ]
+`,
   },
-  date: "Feb 09, 2025",
-  readTime: "3 min read",
-  category: "HVAC",
-  image: "/images/SAC.jpg",
-  content: `
+  {
+    id: "future-of-cooling",
+    title:
+      "The Future of Cooling: How Steam Absorption Chillers Are Revolutionizing HVAC",
+    description:
+      "Eco‑friendly HVAC: Steam absorption chillers leading sustainable cooling",
+    meta: {
+      description:
+        "Steam absorption chillers are leading the charge in eco‑friendly HVAC, using waste steam to deliver quiet, efficient, and low‑emission cooling to modern industries.",
+      keywords: [
+        "steam absorption HVAC",
+        "SAC future",
+        "BROAD HVAC steam",
+        "sustainable HVAC solutions",
+        "next‑gen cooling tech",
+      ],
+    },
+    date: "Feb 09, 2025",
+    readTime: "3 min read",
+    category: "HVAC",
+    image: "/images/SAC.jpg",
+    content: `
 <h1>The Future of Cooling: How Steam Absorption Chillers Are Revolutionizing HVAC</h1>
 <p>
 Introduction
@@ -4890,27 +5231,30 @@ With industries increasingly focusing on sustainability and cost‑effective ope
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "absorption-chillers",
-  title: "Exploring Vapor Absorption Chillers – A Sustainable Cooling Alternative",
-  description: "Eco‑friendly cooling solution using heat‑powered absorption refrigeration technology",
-  meta: {
-    description: "Discover how Vapor Absorption Chillers (VACs) use heat energy, natural refrigerants, and low maintenance to offer a quiet, eco‑friendly alternative to electric chillers.",
-    keywords: [
-      "vapor absorption chillers",
-      "VAC sustainable cooling",
-      "heat driven chillers",
-      "BROAD VAC solutions",
-      "eco‑friendly industrial cooling"
-    ]
+`,
   },
-  date: "Feb 08, 2025",
-  readTime: "2 min read",
-  category: "chillers",
-  image: "/images/sustainable.jpg",
-  content: `
+  {
+    id: "absorption-chillers",
+    title:
+      "Exploring Vapor Absorption Chillers – A Sustainable Cooling Alternative",
+    description:
+      "Eco‑friendly cooling solution using heat‑powered absorption refrigeration technology",
+    meta: {
+      description:
+        "Discover how Vapor Absorption Chillers (VACs) use heat energy, natural refrigerants, and low maintenance to offer a quiet, eco‑friendly alternative to electric chillers.",
+      keywords: [
+        "vapor absorption chillers",
+        "VAC sustainable cooling",
+        "heat driven chillers",
+        "BROAD VAC solutions",
+        "eco‑friendly industrial cooling",
+      ],
+    },
+    date: "Feb 08, 2025",
+    readTime: "2 min read",
+    category: "chillers",
+    image: "/images/sustainable.jpg",
+    content: `
 <h1>Exploring Vapor Absorption Chillers – A Sustainable Cooling Alternative</h1>
 <p>
 With the increasing need for energy‑efficient cooling solutions, Vapor Absorption Chillers (VACs) have emerged as a sustainable alternative to traditional electric‑driven chillers. These systems utilize heat energy instead of electricity, making them ideal for industries looking to optimize their energy use.
@@ -4952,28 +5296,31 @@ With the increasing need for energy‑efficient cooling solutions, Vapor Absorpt
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "understanding-vapor-absorption-machines",
-  title: "Understanding Vapor Absorption Machines and Their Role in Energy-Efficient Cooling",
-  description: "Heat-driven cooling technology for energy-efficient refrigeration systems.",
-  meta: {
-    description: "Discover how Vapor Absorption Machines (VAM) use waste heat or solar energy to provide efficient, eco-friendly cooling for industrial and commercial applications.",
-    keywords: [
-      "vapor absorption machine",
-      "VAM energy efficiency",
-      "waste heat cooling",
-      "BROAD VAM benefits",
-      "solar cooling systems",
-      "industrial refrigeration"
-    ]
+`,
   },
-  date: "Feb 07, 2025",
-  readTime: "2 min read",
-  category: "VAM",
-  image: "/images/machines.jpg",
-  content: `
+  {
+    id: "understanding-vapor-absorption-machines",
+    title:
+      "Understanding Vapor Absorption Machines and Their Role in Energy-Efficient Cooling",
+    description:
+      "Heat-driven cooling technology for energy-efficient refrigeration systems.",
+    meta: {
+      description:
+        "Discover how Vapor Absorption Machines (VAM) use waste heat or solar energy to provide efficient, eco-friendly cooling for industrial and commercial applications.",
+      keywords: [
+        "vapor absorption machine",
+        "VAM energy efficiency",
+        "waste heat cooling",
+        "BROAD VAM benefits",
+        "solar cooling systems",
+        "industrial refrigeration",
+      ],
+    },
+    date: "Feb 07, 2025",
+    readTime: "2 min read",
+    category: "VAM",
+    image: "/images/machines.jpg",
+    content: `
 <h1>Understanding Vapor Absorption Machines and Their Role in Energy-Efficient Cooling</h1>
 <p>
 Cooling technology is evolving rapidly, with a growing focus on energy efficiency and sustainability. One of the most efficient solutions in industrial and commercial cooling is the Vapor Absorption Machine (VAM). Unlike traditional HVAC systems that rely on electricity, VAM utilizes heat sources such as waste heat, solar energy, or steam to drive the cooling process. This article explores how VAMs work and their advantages over conventional systems.
@@ -5015,28 +5362,29 @@ Cooling technology is evolving rapidly, with a growing focus on energy efficienc
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "vapor-absorption-chiller",
-  title: "Vapor Absorption Chiller (VAC): The Future of Sustainable Cooling",
-  description: "Eco-friendly cooling for industries",
-  meta: {
-    description: "Learn how Vapor Absorption Chillers offer a sustainable, cost-effective alternative using heat-driven cycles and natural refrigerants across industry and HVAC sectors.",
-    keywords: [
-      "vapor absorption chiller",
-      "VAC technology",
-      "sustainable industrial cooling",
-      "BROAD VAC systems",
-      "natural refrigerants",
-      "energy-efficient HVAC"
-    ]
+`,
   },
-  date: "Feb 06, 2025",
-  readTime: "2 min read",
-  category: "Technology",
-  image: "/images/VAC.png",
-  content: `
+  {
+    id: "vapor-absorption-chiller",
+    title: "Vapor Absorption Chiller (VAC): The Future of Sustainable Cooling",
+    description: "Eco-friendly cooling for industries",
+    meta: {
+      description:
+        "Learn how Vapor Absorption Chillers offer a sustainable, cost-effective alternative using heat-driven cycles and natural refrigerants across industry and HVAC sectors.",
+      keywords: [
+        "vapor absorption chiller",
+        "VAC technology",
+        "sustainable industrial cooling",
+        "BROAD VAC systems",
+        "natural refrigerants",
+        "energy-efficient HVAC",
+      ],
+    },
+    date: "Feb 06, 2025",
+    readTime: "2 min read",
+    category: "Technology",
+    image: "/images/VAC.png",
+    content: `
 <h1>Vapor Absorption Chiller (VAC): The Future of Sustainable Cooling</h1>
 <p>
 As industries shift towards energy-efficient and eco-friendly cooling solutions, the Vapor Absorption Chiller (VAC) has emerged as a revolutionary technology in HVAC and industrial applications. Unlike conventional refrigeration systems that depend on electricity-driven compressors, VAC utilizes heat energy to facilitate the cooling process. By reducing electricity reliance and leveraging waste heat, Vapor Absorption Chillers offer a cost-effective and sustainable alternative to traditional cooling methods.
@@ -5091,28 +5439,29 @@ As industries shift towards energy-efficient and eco-friendly cooling solutions,
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "importance-of-regular-inspections",
-  title: "The Importance of Regular HVAC Inspections",
-  description: "Ensuring HVAC Health and Efficiency",
-  meta: {
-    description: "Understand why routine HVAC inspections are crucial for efficiency, indoor air quality, safety and system longevity—beneficial for homeowners and facility managers.",
-    keywords: [
-      "HVAC inspections",
-      "preventive HVAC maintenance",
-      "HVAC efficiency",
-      "indoor air quality",
-      "energy saving HVAC",
-      "HVAC safety checks"
-    ]
+`,
   },
-  date: "Feb 05, 2025",
-  readTime: "2 min read",
-  category: "HVAC Health",
-  image: "/images/Regular-HVAC-Maintenance.jpg",
-  content: `
+  {
+    id: "importance-of-regular-inspections",
+    title: "The Importance of Regular HVAC Inspections",
+    description: "Ensuring HVAC Health and Efficiency",
+    meta: {
+      description:
+        "Understand why routine HVAC inspections are crucial for efficiency, indoor air quality, safety and system longevity—beneficial for homeowners and facility managers.",
+      keywords: [
+        "HVAC inspections",
+        "preventive HVAC maintenance",
+        "HVAC efficiency",
+        "indoor air quality",
+        "energy saving HVAC",
+        "HVAC safety checks",
+      ],
+    },
+    date: "Feb 05, 2025",
+    readTime: "2 min read",
+    category: "HVAC Health",
+    image: "/images/Regular-HVAC-Maintenance.jpg",
+    content: `
 <h1>The Importance of Regular HVAC Inspections</h1>
 <p>
 Regular inspections of Heating, Ventilation, and Air Conditioning (HVAC) systems are crucial to maintaining their efficiency, prolonging their lifespan, and ensuring they provide a comfortable indoor environment. Neglecting regular maintenance can lead to decreased system performance, higher energy bills, and costly repairs. Here’s why regular HVAC inspections are essential for any system.
@@ -5172,28 +5521,29 @@ Regular inspections of Heating, Ventilation, and Air Conditioning (HVAC) systems
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "energy-saving-tips-for-your-hvac",
-  title: "Top 5 Energy-Saving Tips for Your HVAC System This Winter",
-  description: "Maximizing HVAC Efficiency in Cold Weather",
-  meta: {
-    description: "Five practical HVAC energy-saving tips for winter—maintenance, thermostat settings, duct sealing, insulation, window treatments, and smart temperature control.",
-    keywords: [
-      "HVAC energy saving",
-      "winter HVAC tips",
-      "programmable thermostat",
-      "duct sealing",
-      "home heating efficiency",
-      "window insulation"
-    ]
+`,
   },
-  date: "Feb 04, 2025",
-  readTime: "2 min read",
-  category: "Energy",
-  image: "/images/Energy-Saving Tips for  HVAC.jpg",
-  content: `
+  {
+    id: "energy-saving-tips-for-your-hvac",
+    title: "Top 5 Energy-Saving Tips for Your HVAC System This Winter",
+    description: "Maximizing HVAC Efficiency in Cold Weather",
+    meta: {
+      description:
+        "Five practical HVAC energy-saving tips for winter—maintenance, thermostat settings, duct sealing, insulation, window treatments, and smart temperature control.",
+      keywords: [
+        "HVAC energy saving",
+        "winter HVAC tips",
+        "programmable thermostat",
+        "duct sealing",
+        "home heating efficiency",
+        "window insulation",
+      ],
+    },
+    date: "Feb 04, 2025",
+    readTime: "2 min read",
+    category: "Energy",
+    image: "/images/Energy-Saving Tips for  HVAC.jpg",
+    content: `
 <h1>Top 5 Energy-Saving Tips for Your HVAC System This Winter</h1>
 <p>
 As temperatures plummet, heating systems work overtime, often leading to increased energy usage and higher utility bills. However, with strategic adjustments and enhancements, both homeowners and businesses can significantly boost the energy efficiency of their HVAC systems during the winter months. Here are five practical tips to help you reduce energy consumption and maintain a comfortable indoor environment without breaking the bank.
@@ -5265,34 +5615,37 @@ As temperatures plummet, heating systems work overtime, often leading to increas
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
-  {
-  id: "how-to-choose-the-right-hvac-system",
-  title: "Selecting the Ideal HVAC System for Your New Home: A Comprehensive Guide",
-  description: "A vital guide for new homeowners navigating HVAC system choices for optimal comfort and energy efficiency.",
-  meta: {
-    description: "Learn how to choose the perfect HVAC system for your new home. This guide covers split systems, heat pumps, ductless mini-splits, and geothermal options, along with crucial factors like home size, climate, energy efficiency, and budget.",
-    keywords: [
-      "choose HVAC system",
-      "new home HVAC",
-      "HVAC options",
-      "split system HVAC",
-      "heat pump pros and cons",
-      "ductless mini-split benefits",
-      "geothermal HVAC cost",
-      "energy efficient HVAC",
-      "home heating and cooling",
-      "HVAC sizing",
-      "SEER rating",
-      "HSPF rating"
-    ]
+`,
   },
-  date: "Feb 03, 2025",
-  readTime: "2 min read",
-  category: "Home Technology",
-  image: "/images/21-March blog.jpeg",
-  content: `
+  {
+    id: "how-to-choose-the-right-hvac-system",
+    title:
+      "Selecting the Ideal HVAC System for Your New Home: A Comprehensive Guide",
+    description:
+      "A vital guide for new homeowners navigating HVAC system choices for optimal comfort and energy efficiency.",
+    meta: {
+      description:
+        "Learn how to choose the perfect HVAC system for your new home. This guide covers split systems, heat pumps, ductless mini-splits, and geothermal options, along with crucial factors like home size, climate, energy efficiency, and budget.",
+      keywords: [
+        "choose HVAC system",
+        "new home HVAC",
+        "HVAC options",
+        "split system HVAC",
+        "heat pump pros and cons",
+        "ductless mini-split benefits",
+        "geothermal HVAC cost",
+        "energy efficient HVAC",
+        "home heating and cooling",
+        "HVAC sizing",
+        "SEER rating",
+        "HSPF rating",
+      ],
+    },
+    date: "Feb 03, 2025",
+    readTime: "2 min read",
+    category: "Home Technology",
+    image: "/images/21-March blog.jpeg",
+    content: `
 <h1>Selecting the Ideal HVAC System for Your New Home: A Comprehensive Guide</h1>
 <p>
 For any new homeowner, choosing the right HVAC (Heating, Ventilation, and Air Conditioning) system is a pivotal decision. It directly impacts your household's comfort, dictates energy efficiency, and influences long-term operational costs. The sheer variety of systems available, coupled with the unique requirements of each home, can make this choice seem daunting. This guide is crafted to equip new homeowners with practical insights, enabling a truly informed selection.
@@ -5333,6 +5686,6 @@ For any new homeowner, choosing the right HVAC (Heating, Ventilation, and Air Co
     <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
   </li>
 </ul>
-`
-},
+`,
+  },
 ];
