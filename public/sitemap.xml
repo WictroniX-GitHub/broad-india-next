@@ -134,6 +134,31 @@
 
 <!-- Current Blog Posts -->
 <url>
+<loc>https://www.broadindia.com/blogs/ai-machine-learning-hvac</loc>
+ <lastmod>2025-11-10T19:14:24+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/geothermal-solar-powered-hvac</loc>
+ <lastmod>2025-11-10T19:14:24+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/harnessing-waste-heat-vam-industrial-cooling</loc>
+ <lastmod>2025-11-10T19:14:24+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/smart-hvac-systems-iot-2025</loc>
+ <lastmod>2025-11-10T19:14:24+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
+ <loc>https://www.broadindia.com/blogs/transitioning-to-low-gwp-refrigerants-benefits-challenges-industry-impacts</loc>
+ <lastmod>2025-11-10T19:14:24+00:00</lastmod>
+ <priority>0.70</priority>
+</url>
+<url>
  <loc>https://www.broadindia.com/blogs/future-of-hvac-steam-hot-water-chp-vam-chillers</loc>
  <lastmod>2025-10-17T07:39:12+00:00</lastmod>
  <priority>0.70</priority>
