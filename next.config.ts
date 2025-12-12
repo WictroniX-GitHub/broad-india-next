@@ -14,7 +14,6 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"], // Optimized image formats
     minimumCacheTTL: 60, // Cache images for 1 minute
   },
-  swcMinify: true, // Faster builds with SWC
   experimental: {
     scrollRestoration: true, // Enables native browser scroll restoration
   },
