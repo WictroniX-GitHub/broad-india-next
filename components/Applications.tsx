@@ -11,7 +11,7 @@ export default function Applications() {
       icon: "🍎",
     },
     {
-      title: "Textile industries",
+      title: "Textile industries", 
       icon: "🧵",
     },
     {
