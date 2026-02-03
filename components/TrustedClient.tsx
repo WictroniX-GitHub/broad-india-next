@@ -30,7 +30,7 @@ const clients = [
   {
     name: "JSW",
     image:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/JSW_Group_logo.svg/1200px-JSW_Group_logo.svg.png",
+      "/images/JSWSTEEL.NS-5d2dda26.png",
     link: "https://www.jsw.in/",
   },
   {
