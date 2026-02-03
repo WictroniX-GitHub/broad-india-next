@@ -16,7 +16,7 @@ const installations = [
     id: 2,
     title: "Indian Oil Corporation Vadodara, Gujarat",
     image:
-      "https://www.constructionweekonline.in/cloud/2021/11/24/StFDepyN-IOCL-6.jpg",
+      "/images/indian-oil-recent-ints.jpg",
     description:
       "Indian Oil is India's flagship national oil company with business interests straddling the entire hydrocarbon value chain.",
   },

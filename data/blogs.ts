@@ -171,7 +171,7 @@ Comparison: Electric Chillers vs BROAD Non-Electric Chillers ⚡
   </p>
 
   <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
-    <a href="/products/vam-chiller" style="background:white; color:#1976d2; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">View VAM Technology</a>
+    <a href="/absorption-heat-pump" style="background:white; color:#1976d2; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">View VAM Technology</a>
     <a href="/contact-us" style="background:transparent; border:2px solid white; color:white; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">Talk to an Engineer</a>
   </div>
 </div>
@@ -324,7 +324,7 @@ Choosing an absorption cooling solution depends on your facility's energy source
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">💡 Need Help Choosing the Right Absorption Chiller?</strong>
   <p style="margin: 10px 0; font-size: 15px;">BROAD India's engineers can guide you based on your heat sources and infrastructure.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/products/vam-chiller" style="background: white; color: #0d47a1; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Explore VAM Technology</a>
+    <a href="/vapour-absorption-chiller" style="background: white; color: #0d47a1; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Explore VAM Technology</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Talk to an Engineer</a>
   </div>
 </div>
@@ -485,7 +485,7 @@ When BROAD VAM chillers utilize waste heat from DG set exhaust, process cooling,
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Ready to Compare Electric vs. VAM for Your Facility?</strong>
   <p style="margin: 10px 0; font-size: 15px;">Discover how BROAD VAM can transform waste heat into cooling, cut costs, and reduce carbon footprint.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/products/vam-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View VAM Technology</a>
+    <a href="/vapour-absorption-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View VAM Technology</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Talk to an Engineer</a>
   </div>
 </div>
@@ -631,7 +631,7 @@ Textile units face high energy costs (15-25% of manufacturing). Cooling needs in
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Interested in Hot Water VAM Cooling?</strong>
   <p style="margin: 10px 0; font-size: 15px;">Whether you have waste heat from autoclaves, boilers, or processes, BROAD has a VAM solution for your facility.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/products/vam-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Technology</a>
+    <a href="/power-efficient-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Technology</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Talk to an Engineer</a>
   </div>
 </div>
@@ -732,6 +732,7 @@ Every industrial facility generates waste heat from boilers, furnaces, diesel ge
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">💡 Ready to Calculate Your Facility’s VAM ROI?</strong>
   <p style="margin: 10px 0; font-size: 15px;">Turn wasted thermal energy into productive cooling, reduce electricity costs, and maximize lifecycle value with BROAD Steam VAM chillers.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
+    <a href="/vapour-absorption-chiller/waste-heat-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Technology</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Talk to an Engineer ⚡</a>
   </div>
 </div>
@@ -1042,7 +1043,7 @@ Steam VAM (Vapor Absorption Machine) chillers use thermal energy from steam inst
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">🚀 Ready to Transform Your Facility?</strong>
   <p style="margin: 10px 0; font-size: 15px;">Explore how CCHP with BROAD absorption cooling can maximize energy efficiency, cost savings, and sustainability for your facility.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/products/cchp" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View CCHP Solutions</a>
+    <a href="/cchp-systems" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View CCHP Solutions</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Talk to an Engineer</a>
   </div>
 </div>
@@ -1490,7 +1491,7 @@ Contrary to myth, LiBr chillers are simpler than electric ones.
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Interested in Non-Electric Cooling?</strong>
   <p style="margin: 10px 0; font-size: 15px;">Whether you have waste heat or gas, BROAD has a LiBr solution for you.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/products/absorption-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Technology</a>
+    <a href="/vapour-absorption-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Technology</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Talk to an Engineer</a>
   </div>
 </div>
@@ -1604,7 +1605,7 @@ For facilities with natural gas access or high grid costs, direct-fired absorpti
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Ready to Switch to Gas Cooling?</strong>
   <p style="margin: 10px 0; font-size: 15px;">BROAD India can analyze your fuel and electricity rates to calculate your precise savings potential.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/products/direct-fired" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Product Specs</a>
+    <a href="/vapour-absorption-chiller/direct-fired-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">View Product Specs</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Request ROI Calculation</a>
   </div>
 </div>
@@ -1720,7 +1721,7 @@ The question isn't whether hot water chillers make sense—they do. It's whether
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Turn Your Waste Heat into Savings</strong>
   <p style="margin: 10px 0; font-size: 15px;">BROAD India offers comprehensive energy audits to identify your hot water recovery potential.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/solutions/textile-food" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Industry Solutions</a>
+    <a href="/vapour-absorption-chiller/waste-heat-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Industry Solutions</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Request Audit</a>
   </div>
 </div>
@@ -1812,7 +1813,7 @@ While electric chillers cost ~₹38.8 Crores over 20 years (due to power costs),
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Calculate Your Waste Heat Potential</strong>
   <p style="margin: 10px 0; font-size: 15px;">Don't let free energy escape. Contact BROAD for a site-specific financial model.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/solutions/waste-heat" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Explore Solutions</a>
+    <a href="/vapour-absorption-chiller/waste-heat-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Explore Solutions</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Request ROI Study</a>
   </div>
 </div>
@@ -1925,7 +1926,7 @@ Power plants can become "Trigeneration" hubs, supplying electricity, steam, and 
   <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Enhance Plant Efficiency Today</strong>
   <p style="margin: 10px 0; font-size: 15px;">Transform waste heat into capacity. Contact BROAD for a feasibility analysis.</p>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-    <a href="/solutions/power-generation" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Power Solutions</a>
+    <a href="/power-efficient-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;">Power Solutions</a>
     <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;">Contact Engineering</a>
   </div>
 </div>
