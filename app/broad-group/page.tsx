@@ -109,7 +109,7 @@ export default function BroadGroup() {
           </div>
         </div>
         <div className="text-center mt-10">
-          <a href="http://en.broad.com" className="text-blue-600 font-semibold">
+          <a href="https://en.broad.com" className="text-blue-600 font-semibold">
             Visit BROAD Group website
           </a>
         </div>
