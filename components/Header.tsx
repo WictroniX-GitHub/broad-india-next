@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Offcanvas } from "react-bootstrap";
 import logo from "@/public/images/broad-logo.webp";
 
 export default function Header() {
@@ -125,107 +124,108 @@ export default function Header() {
       </div>
 
       {/* Mobile Offcanvas Menu */}
-      <Offcanvas
-        show={isMenuOpen}
-        onHide={() => setIsMenuOpen(false)}
-        placement="end"
-        className="fixed top-0 left-0 w-full h-screen bg-white z-50 shadow-lg p-6 flex flex-col items-center space-y-4"
-      >
-        <button
-          className="absolute top-5 right-5 text-black text-2xl"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          &times;
-        </button>
-        <nav className="flex flex-col items-center space-y-4 text-gray-800 mt-10">
-          <Link href="/" className="font-bold" onClick={handleCloseMenu}>
-            Home
-          </Link>
-
+      {isMenuOpen && (
+        <div className="fixed top-0 left-0 w-full h-screen bg-white z-50 shadow-lg p-6 flex flex-col items-center space-y-4">
           <button
-            onClick={() => setIsProductsOpen(!isProductsOpen)}
-            className="flex items-center gap-2 font-bold focus:outline-none"
+            className="absolute top-5 right-5 text-black text-2xl"
+            onClick={() => setIsMenuOpen(false)}
           >
-            Products <span className="text-xs">▼</span>
+            &times;
           </button>
-          {isProductsOpen && (
-            <div className="w-full text-center">
-              <Link
-                href="/vapour-absorption-chiller"
-                className="block py-2"
-                onClick={handleCloseMenu}
-              >
-                Vapour Absorption Chiller
-              </Link>
-              <Link
-                href="/cchp-systems"
-                className="block py-2"
-                onClick={handleCloseMenu}
-              >
-                BROAD CCHP System
-              </Link>
-              <Link
-                href="/power-efficient-chiller"
-                className="block py-2"
-                onClick={handleCloseMenu}
-              >
-                Power Efficient Chiller
-              </Link>
-              <Link
-                href="/absorption-heat-pump"
-                className="block py-2"
-                onClick={handleCloseMenu}
-              >
-                Absorption Heat Pump
-              </Link>
-              <Link
-                href="/pumpsets"
-                className="block py-2"
-                onClick={handleCloseMenu}
-              >
-                Pumpset
-              </Link>
-            </div>
-          )}
+          <nav className="flex flex-col items-center space-y-4 text-gray-800 mt-10">
+            <Link href="/" className="font-bold" onClick={handleCloseMenu}>
+              Home
+            </Link>
 
-          <Link
-            href="/installations"
-            className="font-bold"
-            onClick={handleCloseMenu}
-          >
-            Installations
-          </Link>
-          <Link href="/about" className="font-bold" onClick={handleCloseMenu}>
-            About
-          </Link>
-          <Link
-            href="/broad-group"
-            className="font-bold"
-            onClick={handleCloseMenu}
-          >
-            BROAD Group
-          </Link>
-          <Link href="/blogs" className="font-bold" onClick={handleCloseMenu}>
-            Blogs
-          </Link>
-          <Link
-            href="/articles"
-            className="font-bold"
-            onClick={handleCloseMenu}
-          >
-            Articles
-          </Link>
-          <Link href="/careers" className="font-bold" onClick={handleCloseMenu}>
-            Careers
-          </Link>
+            <button
+              onClick={() => setIsProductsOpen(!isProductsOpen)}
+              className="flex items-center gap-2 font-bold focus:outline-none"
+            >
+              Products <span className="text-xs">▼</span>
+            </button>
+            {isProductsOpen && (
+              <div className="w-full text-center">
+                <Link
+                  href="/vapour-absorption-chiller"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  Vapour Absorption Chiller
+                </Link>
+                <Link
+                  href="/cchp-systems"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  BROAD CCHP System
+                </Link>
+                <Link
+                  href="/power-efficient-chiller"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  Power Efficient Chiller
+                </Link>
+                <Link
+                  href="/absorption-heat-pump"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  Absorption Heat Pump
+                </Link>
+                <Link
+                  href="/pumpsets"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  Pumpset
+                </Link>
+              </div>
+            )}
 
-          <Link href="/contact-us" onClick={handleCloseMenu}>
-            <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer w-full text-center">
-              Contact Us
-            </div>
-          </Link>
-        </nav>
-      </Offcanvas>
+            <Link
+              href="/installations"
+              className="font-bold"
+              onClick={handleCloseMenu}
+            >
+              Installations
+            </Link>
+            <Link href="/about" className="font-bold" onClick={handleCloseMenu}>
+              About
+            </Link>
+            <Link
+              href="/broad-group"
+              className="font-bold"
+              onClick={handleCloseMenu}
+            >
+              BROAD Group
+            </Link>
+            <Link href="/blogs" className="font-bold" onClick={handleCloseMenu}>
+              Blogs
+            </Link>
+            <Link
+              href="/articles"
+              className="font-bold"
+              onClick={handleCloseMenu}
+            >
+              Articles
+            </Link>
+            <Link
+              href="/careers"
+              className="font-bold"
+              onClick={handleCloseMenu}
+            >
+              Careers
+            </Link>
+
+            <Link href="/contact-us" onClick={handleCloseMenu}>
+              <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer w-full text-center">
+                Contact Us
+              </div>
+            </Link>
+          </nav>
+        </div>
+      )}
     </div>
   );
 }

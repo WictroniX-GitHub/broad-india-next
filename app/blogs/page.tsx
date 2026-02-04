@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, Clock, Tag } from "lucide-react";
 import { blogs } from "@/data/blogs";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogsPage() {
   return (
@@ -35,11 +36,15 @@ export default function BlogsPage() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <div className="overflow-hidden transition-shadow hover:shadow-xl bg-white border border-gray-200 rounded-lg">
-                <img
-                  src={blog.image}
-                  alt={blog.title}
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative w-full h-48">
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </div>
                 <div className="p-6 space-y-4">
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Calendar className="h-4 w-4" />
