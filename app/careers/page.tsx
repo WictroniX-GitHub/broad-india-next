@@ -116,7 +116,7 @@ const Careers = () => {
             <input
               type="hidden"
               name="_next"
-              value="http://localhost:3000/careers"
+              value="https://www.broadindia.com/careers"
             />
             <input type="hidden" name="_subject" value="Careers: BROAD India" />
 

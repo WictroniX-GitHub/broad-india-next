@@ -3,8 +3,16 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.broadindia.com"),
+  alternates: {
+    canonical: "./",
+  },
+};
 
 export default function RootLayout({
   children,

@@ -1,0 +1,71 @@
+
+> broad-india-next@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.10
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+   - Experiments (use with caution):
+     ✓ scrollRestoration
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ○ Compiling /blogs ...
+ ✓ Compiled /blogs in 13.6s (1433 modules)
+ GET /blogs 200 in 16249ms
+ ✓ Compiled in 2.7s (637 modules)
+ ⚠ The "images.domains" configuration is deprecated. Please use "images.remotePatterns" configuration instead.
+ ○ Compiling /blogs/[id] ...
+ ✓ Compiled /blogs/[id] in 1790ms (1431 modules)
+ ⨯ TypeError: _data_blogs__WEBPACK_IMPORTED_MODULE_1__.blogs.find is not a function
+    at BlogsDetailPage (app/blogs/[id]/page.tsx:35:22)
+  33 | export default async function BlogsDetailPage({ params }: PageProps) {
+  34 |   const { id } = await params;
+> 35 |   const blog = blogs.find((n) => n.id === id);
+     |                      ^
+  36 |
+  37 |   if (!blog) {
+  38 |     notFound(); {
+  digest: '1349520696'
+}
+ ⨯ Error [TypeError]: _data_blogs__WEBPACK_IMPORTED_MODULE_1__.blogs.find is not a function
+    at Module.generateMetadata (app/blogs/[id]/page.tsx:12:22)
+  10 | export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  11 |   const { id } = await params;
+> 12 |   const blog = blogs.find((n) => n.id === id);
+     |                      ^
+  13 |
+  14 |   if (!blog) {
+  15 |     return { {
+  environmentName: 'Server',
+  digest: '906698701'
+}
+ GET /blogs/non-electric-chillers-green-certifications 500 in 4914ms
+ ⨯ TypeError: _data_blogs__WEBPACK_IMPORTED_MODULE_1__.blogs.find is not a function
+    at BlogsDetailPage (app/blogs/[id]/page.tsx:35:22)
+  33 | export default async function BlogsDetailPage({ params }: PageProps) {
+  34 |   const { id } = await params;
+> 35 |   const blog = blogs.find((n) => n.id === id);
+     |                      ^
+  36 |
+  37 |   if (!blog) {
+  38 |     notFound(); {
+  digest: '4126591030'
+}
+ ⨯ Error [TypeError]: _data_blogs__WEBPACK_IMPORTED_MODULE_1__.blogs.find is not a function
+    at Module.generateMetadata (app/blogs/[id]/page.tsx:12:22)
+  10 | export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  11 |   const { id } = await params;
+> 12 |   const blog = blogs.find((n) => n.id === id);
+     |                      ^
+  13 |
+  14 |   if (!blog) {
+  15 |     return { {
+  environmentName: 'Server',
+  digest: '906698701'
+}
+ GET /blogs/non-electric-chillers-green-certifications 500 in 584ms
+ ✓ Compiled in 794ms (1431 modules)
+ GET /blogs 200 in 1400ms
+ GET /blogs/non-electric-chillers-green-certifications 200 in 193ms
+ GET /blogs/non-electric-chillers-green-certifications 200 in 159ms
