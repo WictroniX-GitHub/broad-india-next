@@ -8,7 +8,7 @@ const installations = [
     id: 1,
     title: "JSW, Bellary",
     image:
-      "https://www.jsw.in/sites/default/files/assets/cache/images//jsw-vijayanagar-aerial-315f534x432-resize-534x432-a7542dd51f-75addb3d04bc8b10.jpeg",
+      "https://www.jswsteel.in/sites/default/files/assets/cache/images//facilitiesvijayanagarsection41-resize-552x290-a7542dd51f-3f1af835a4930653.png",
     description:
       "The JSW group is amongst the leading conglomerates in India, with presence across the vital sectors of the Indian economy.",
     details: [
@@ -24,7 +24,7 @@ const installations = [
     id: 2,
     title: "Indian Oil Corporation, Vadodra",
     image:
-      "https://www.constructionweekonline.in/cloud/2021/11/24/StFDepyN-IOCL-6.jpg",
+      "/images/indian-oil-recent-ints.jpg",
     description:
       "Indian Oil is India's flagship national oil company with business interests straddling the entire hydrocarbon value chain.",
     details: [
