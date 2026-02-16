@@ -8,7 +8,7 @@ const installations = [
     id: 1,
     title: "JSW Bellary",
     image:
-      "https://www.jswsteel.in/sites/default/files/assets/cache/images//facilitiesvijayanagarsection41-resize-552x290-a7542dd51f-3f1af835a4930653.png",
+      "https://www.jsw.in/sites/default/files/styles/scale_crop_780x430/public/2019-06/Vijayanagar%20Works.jpg",
     description:
       "The JSW group is amongst the leading conglomerates in India, with presence across the vital sectors of the Indian economy.",
   },
