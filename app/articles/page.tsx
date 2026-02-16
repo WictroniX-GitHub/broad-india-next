@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import { ArrowRight, Calendar, Clock, Tag } from "lucide-react";
 import { articles } from "@/data/articles";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ArticlesPage() {
   return (
@@ -36,11 +37,14 @@ export default function ArticlesPage() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="overflow-hidden transition-shadow hover:shadow-xl bg-white border border-gray-200 rounded-lg">
-                <img
-                  src={article.image}
-                  alt={article.title}
-                  className="w-full h-48 object-cover"
-                />
+                <div className="relative w-full h-48">
+                  <Image
+                    src={article.image}
+                    alt={article.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
                 <div className="p-6 space-y-4">
                   <div className="flex items-center space-x-2 text-sm text-gray-600">
                     <Calendar className="h-4 w-4" />
