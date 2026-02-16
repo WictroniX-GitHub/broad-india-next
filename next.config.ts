@@ -10,6 +10,9 @@ const nextConfig = {
       "download.logo.wine",
       "animationvisarts.com",
       "www.jsw.in",
+      "images.unsplash.com",
+      "m.economictimes.com",
+      "media.proprofs.com",
     ],
     formats: ["image/avif", "image/webp"], // Optimized image formats
     minimumCacheTTL: 60, // Cache images for 1 minute

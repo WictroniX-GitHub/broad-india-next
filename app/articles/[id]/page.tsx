@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Calendar, Clock, Tag } from "lucide-react";
 import { articles } from "@/data/articles";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { useParams } from "next/navigation"; // Import useParams
 
@@ -35,11 +36,14 @@ export default function ArticlesDetailPage() {
             </Button>
           </Link>
 
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full h-[400px] object-cover rounded-lg"
-          />
+          <div className="relative w-full h-[400px]">
+            <Image
+              src={article.image}
+              alt={article.title}
+              fill
+              className="object-cover rounded-lg"
+            />
+          </div>
 
           <div className="space-y-4">
             <h1 className="text-4xl font-bold text-gray-900">

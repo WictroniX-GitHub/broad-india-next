@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const blogs = [
   {
@@ -39,11 +40,14 @@ export default function RecentNews() {
             key={index}
             className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
           >
-            <img
-              src={blog.image}
-              alt={blog.title}
-              className="w-full h-64 object-cover"
-            />
+            <div className="relative w-full h-64">
+              <Image
+                src={blog.image}
+                alt={blog.title}
+                fill
+                className="object-cover"
+              />
+            </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-4">{blog.title}</h3>
               <p className="text-gray-700 mb-4">{blog.description}</p>
