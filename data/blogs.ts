@@ -2,27 +2,728 @@ import { Blog } from "@/types/blog";
 
 export const blogs: Blog[] = [
   {
-  id: "non-electric-chillers-green-certifications",
-  title: "The Role of Non-Electric Chillers in Green Building Certifications (LEED & IGBC)",
-  description:
-    "Learn how BROAD non-electric absorption chillers help buildings earn LEED and IGBC points, reduce operational costs, and improve sustainability.",
-  meta: {
-    description:
-      "Discover the contribution of non-electric BROAD VAM chillers toward LEED and IGBC certification, including energy savings, refrigerant impact, and innovation credits.",
-    keywords: [
-      "Non-electric chillers",
-      "BROAD VAM",
-      "LEED certification",
-      "IGBC certification",
-      "Green buildings",
-      "Absorption cooling",
-    ],
+    id: "centrifugal-screw-absorption-chiller-efficiency",
+    title: "Centrifugal, Screw, or Absorption: Which Chiller Type Is Most Efficient for Your Facility?",
+    description: "Compare the efficiency of centrifugal, screw, and absorption chillers. Learn how energy sources, load profiles, and operational conditions define real-world performance beyond peak COP ratings.",
+    meta: {
+      description: "A comprehensive comparison of chiller efficiencies. Understand when centrifugal, screw, or BROAD absorption chillers deliver the best total cost of ownership for your facility.",
+      keywords: [
+        "Chiller efficiency comparison",
+        "Centrifugal vs Screw vs Absorption",
+        "Chiller COP kW/ton",
+        "Part-load chiller performance",
+        "Thermal vs electric efficiency",
+        "BROAD absorption advantage",
+      ],
+    },
+    date: "Feb 12, 2026",
+    readTime: "12 min read",
+    category: "Energy Efficiency",
+    image: "/images/VAM c.jpg",
+    content: `
+<div class="blog-container" style="font-family:Inter, sans-serif; line-height:1.7; color:#333; padding:20px;">
+
+<h1 style="font-size:28px; font-weight:700; margin-bottom:20px;">
+Centrifugal, Screw, or Absorption: Which Chiller Type Is Most Efficient for Your Facility?
+</h1>
+
+<p>
+Facility managers asking "which chiller type is most efficient?" usually discover the answer is frustratingly context-dependent. A centrifugal chiller achieving COP 6.5 at full load sounds impressive until you realize it operates at full load less than 10% annually. A screw chiller with lower peak efficiency but excellent part-load performance might deliver better real-world results.
+</p>
+
+<div style="background-color:#e3f2fd; padding:15px; border-radius:8px; border-left:4px solid #1976d2; margin:20px 0;">
+<p style="margin:0;"><strong>Efficiency Hack:</strong> Real-world efficiency isn't about peak numbers; it's about how the chiller performs during the 90% of the year it operates at partial load.</p>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Understanding Efficiency Metrics
+</h2>
+
+<div style="display:flex; flex-wrap:wrap; gap:15px; margin:20px 0;">
+  <div style="flex:1; min-width:250px; background-color:#f8f9fa; padding:15px; border:1px solid #dee2e6; border-radius:8px; text-align:center;">
+    <strong style="font-size:18px; color:#1976d2; display:block; margin-bottom:8px;">Electric Chillers</strong>
+    <span style="font-size:14px;">Centrifugal & Screw</span>
+    <div style="margin-top:10px; font-weight:700; font-size:20px;">kW/ton or COP</div>
+  </div>
+  <div style="flex:1; min-width:250px; background-color:#f8f9fa; padding:15px; border:1px solid #dee2e6; border-radius:8px; text-align:center;">
+    <strong style="font-size:18px; color:#1976d2; display:block; margin-bottom:8px;">Absorption Chillers</strong>
+    <span style="font-size:14px;">Thermal Energy</span>
+    <div style="margin-top:10px; font-weight:700; font-size:20px;">Thermal COP</div>
+  </div>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Comparison of Technologies
+</h2>
+
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin:20px 0;">
+  <div style="flex:1; min-width:280px; padding:20px; background-color:#ffffff; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#1976d2; margin-top:0;">1. Centrifugal</h3>
+    <p><strong>Capacity:</strong> 150-6,000 TR</p>
+    <p><strong>Peak Strategy:</strong> Highest efficiency at 100% load.</p>
+    <p style="font-size:14px; color:#666;">Best for: Stable, high-load environments like data centers.</p>
+  </div>
+  <div style="flex:1; min-width:280px; padding:20px; background-color:#ffffff; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#1976d2; margin-top:0;">2. Screw</h3>
+    <p><strong>Capacity:</strong> 70-600 TR</p>
+    <p><strong>Peak Strategy:</strong> Superior part-load flexibility (10-100%).</p>
+    <p style="font-size:14px; color:#666;">Best for: Hotels or offices with variable daily loads.</p>
+  </div>
+  <div style="flex:1; min-width:280px; padding:20px; background-color:#e8f5e9; border:1px solid #c8e6c9; border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,0.05);">
+    <h3 style="color:#2e7d32; margin-top:0;">3. BROAD Absorption</h3>
+    <p><strong>Capacity:</strong> 50-1,500 TR</p>
+    <p><strong>Peak Strategy:</strong> Converts waste heat into free cooling.</p>
+    <p style="font-size:14px; color:#1b5e20;">Best for: Industrial sites with steam or exhaust gas.</p>
+  </div>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Efficiency Decisions
+</h2>
+
+<div style="overflow-x:auto; margin:20px 0;">
+<table style="width:100%; border-collapse:collapse; min-width:600px;">
+<tr style="background-color:#1976d2; color:white;">
+<th style="padding:12px; text-align:left;">Factor</th>
+<th style="padding:12px; text-align:left;">Centrifugal</th>
+<th style="padding:12px; text-align:left;">Screw</th>
+<th style="padding:12px; text-align:left;">BROAD VAM</th>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Main Energy</td>
+<td style="padding:12px; border:1px solid #ddd;">Electricity</td>
+<td style="padding:12px; border:1px solid #ddd;">Electricity</td>
+<td style="padding:12px; border:1px solid #ddd;">Heat/Waste Heat</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Part Load</td>
+<td style="padding:12px; border:1px solid #ddd;">Fair (risks surge)</td>
+<td style="padding:12px; border:1px solid #ddd;">Excellent</td>
+<td style="padding:12px; border:1px solid #ddd;">Stable Continuous</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Op. Cost</td>
+<td style="padding:12px; border:1px solid #ddd;">High (Electricity)</td>
+<td style="padding:12px; border:1px solid #ddd;">Medium-High</td>
+<td style="padding:12px; border:1px solid #ddd;">Lowest (Waste Heat)</td>
+</tr>
+</table>
+</div>
+
+<div style="background: linear-gradient(135deg, #1976d2, #1565c0); color:white; border-radius:8px; padding:25px; margin-top:35px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <strong style="font-size:20px; display:block; margin-bottom:12px;">📈 Maximize Your Facility's Energy Potential</strong>
+  <p style="font-size:15px; margin-bottom:20px;">
+    Contact BROAD India for a site-specific energy analysis and cost modeling between centrifugal, screw, and absorption options.
+  </p>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
+    <a href="/vapour-absorption-chiller" style="background:white; color:#1976d2; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">Compare Products</a>
+    <a href="/contact-us" style="background:transparent; border:2px solid white; color:white; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">Talk to an Engineer</a>
+  </div>
+</div>
+
+</div>
+`,
+
   },
-  date: "Jan 30, 2026",
-  readTime: "9 min read",
-  category: "Sustainable Construction",
-  image: "/images/30 Jan-NonElectric-Chillers-GreenBuilding.png",
-  content: `
+  {
+    id: "4-key-components-absorption-chiller",
+
+    title: "The 4 Key Components of an Absorption Chiller Explained (With Working Principle)",
+    description: "Deep dive into the four essential chambers of an absorption chiller: generator, condenser, evaporator, and absorber. Learn how they work together to provide energy-efficient cooling.",
+    meta: {
+      description: "Understand the working principle of absorption chillers through its four main components. A detailed guide to the thermal cycle powering BROAD VAM technology.",
+      keywords: [
+        "Absorption chiller components",
+        "Generator condenser evaporator absorber",
+        "VAM working principle",
+        "Absorption refrigeration cycle",
+        "Thermal cooling chambers",
+        "BROAD chiller engineering",
+      ],
+    },
+    date: "Feb 10, 2026",
+    readTime: "12 min read",
+    category: "Engineering & Technology",
+    image: "/images/vam-machine-explained.jpg",
+    content: `
+<div class="blog-container" style="font-family:Inter, sans-serif; line-height:1.7; color:#333; padding:20px;">
+
+<h1 style="font-size:28px; font-weight:700; margin-bottom:20px;">
+The 4 Key Components of an Absorption Chiller Explained (With Working Principle)
+</h1>
+
+<p>
+Strip away the insulation, piping, and control panels from an absorption chiller, and you'll find four interconnected chambers doing all the real work. These components—<strong>generator, condenser, evaporator, and absorber</strong>—work together in a continuous cycle that transforms heat into cold.
+</p>
+
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin:25px 0;">
+  <div style="flex:1; min-width:250px; background-color:#e3f2fd; padding:15px; border-radius:8px; border-top:4px solid #1976d2;">
+    <h3 style="margin-top:0; font-size:18px; color:#1976d2;">1. Generator</h3>
+    <p style="font-size:14px; margin-bottom:0;">Separates water vapor from the salt solution using a heat source (steam/gas/hot water).</p>
+  </div>
+  <div style="flex:1; min-width:250px; background-color:#f5f5f5; padding:15px; border-radius:8px; border-top:4px solid #757575;">
+    <h3 style="margin-top:0; font-size:18px; color:#333;">2. Condenser</h3>
+    <p style="font-size:14px; margin-bottom:0;">Cools the water vapor into liquid refrigerant using cooling tower water.</p>
+  </div>
+  <div style="flex:1; min-width:250px; background-color:#e3f2fd; padding:15px; border-radius:8px; border-top:4px solid #1976d2;">
+    <h3 style="margin-top:0; font-size:18px; color:#1976d2;">3. Evaporator</h3>
+    <p style="font-size:14px; margin-bottom:0;">Where cooling happens: water boils under vacuum, absorbing heat from your facility circuit.</p>
+  </div>
+  <div style="flex:1; min-width:250px; background-color:#f5f5f5; padding:15px; border-radius:8px; border-top:4px solid #757575;">
+    <h3 style="margin-top:0; font-size:18px; color:#333;">4. Absorber</h3>
+    <p style="font-size:14px; margin-bottom:0;">Concentrated LiBr salt solution "pushed" into the chamber to absorb vapor and restart the cycle.</p>
+  </div>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Internal Thermodynamics
+</h2>
+
+<p>
+The magic of BROAD absorption chillers lies in the <strong>vacuum environment</strong>. At atmospheric pressure, water boils at 100°C. But inside the evaporator, we maintain approximately 0.8-1.2 kPa, allowing water to boil at just 4-7°C. This phase change—liquid becoming vapor—is what absorbs the heat from your building.
+</p>
+
+<div style="background-color:#e8f5e9; padding:20px; border-radius:8px; margin:20px 0; border-left:4px solid #2e7d32;">
+<h4 style="margin-top:0; color:#2e7d32;">The Solution Heat Exchanger</h4>
+<p style="margin-bottom:0;">
+While not one of the "four main" components, BROAD chillers include a critical <strong>Solution Heat Exchanger</strong>. This device allows preheating of the cold solution returning to the generator, improving overall COP by 15-20%.
+</p>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Comparison: Why This Design Works
+</h2>
+
+<div style="overflow-x:auto; margin:20px 0;">
+<table style="width:100%; border-collapse:collapse; min-width:600px;">
+<tr style="background-color:#1976d2; color:white;">
+<th style="padding:12px; text-align:left;">Component</th>
+<th style="padding:12px; text-align:left;">Function</th>
+<th style="padding:12px; text-align:left;">Key Advantage</th>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Generator</td>
+<td style="padding:12px; border:1px solid #ddd;">Heat Application</td>
+<td style="padding:12px; border:1px solid #ddd;">No compressor needed</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Condenser</td>
+<td style="padding:12px; border:1px solid #ddd;">Heat Rejection</td>
+<td style="padding:12px; border:1px solid #ddd;">Simple cooling water loop</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Evaporator</td>
+<td style="padding:12px; border:1px solid #ddd;">Cooling Generation</td>
+<td style="padding:12px; border:1px solid #ddd;">Precision temp control (±0.1°C)</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Absorber</td>
+<td style="padding:12px; border:1px solid #ddd;">Vapor Recovery</td>
+<td style="padding:12px; border:1px solid #ddd;">Low electrical consumption</td>
+</tr>
+</table>
+</div>
+
+<div style="background: linear-gradient(135deg, #1976d2, #1565c0); color:white; border-radius:8px; padding:25px; margin-top:35px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <strong style="font-size:20px; display:block; margin-bottom:12px;">⚙️ Experience BROAD Engineering</strong>
+  <p style="font-size:15px; margin-bottom:20px;">
+    Our four-component design is proven across 25,000+ installations globally for 30+ years.
+  </p>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
+    <a href="/vapour-absorption-chiller" style="background:white; color:#1976d2; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">VAM Working Details</a>
+    <a href="/contact-us" style="background:transparent; border:2px solid white; color:white; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">Technical Inquiry</a>
+  </div>
+</div>
+
+</div>
+`,
+
+  },
+  {
+    id: "refrigerant-in-absorption-chillers",
+    title: "What Refrigerant Is Used in Absorption Chillers and Why It Matters for Your Project",
+    description: "Discover why water is the superior refrigerant for BROAD absorption chillers, offering zero environmental impact, complete safety, and regulatory freedom compared to synthetic alternatives.",
+    meta: {
+      description: "Learn about the water-lithium bromide working pair in BROAD absorption chillers, environmental benefits of water refrigerant, and comparison with ammonia systems.",
+      keywords: [
+        "Absorption chiller refrigerant",
+        "Water as refrigerant",
+        "Lithium Bromide solution",
+        "GWP zero refrigerant",
+        "ODP zero cooling",
+        "BROAD VAM safety",
+        "Ammonia vs Water-LiBr",
+      ],
+    },
+    date: "Feb 08, 2026",
+    readTime: "10 min read",
+    category: "Sustainable Cooling",
+    image: "/images/Eco-Friendly Refrigerant.webp",
+    content: `
+<div class="blog-container" style="font-family:Inter, sans-serif; line-height:1.7; color:#333; padding:20px;">
+
+<h1 style="font-size:28px; font-weight:700; margin-bottom:20px;">
+What Refrigerant Is Used in Absorption Chillers and Why It Matters for Your Project
+</h1>
+
+<p>
+Ask engineers what refrigerant runs in their electric chiller, and you'll hear R-134a, R-513A, maybe R-1234ze. Ask about an absorption chiller, and the answer surprises people: <strong>water</strong>. Plain water. The same H₂O flowing from taps.
+</p>
+
+<p>
+BROAD's absorption chillers genuinely use water as the refrigerant. Understanding why this matters reveals advantages that extend far beyond specification sheets.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+The Two Working Fluid Pairs
+</h2>
+
+<p>
+Absorption chillers require two substances working together:
+</p>
+
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin:20px 0;">
+<div style="flex:1; min-width:300px; background-color:#e3f2fd; padding:15px; border-radius:8px; border-left:4px solid #1976d2;">
+<h3 style="margin-top:0; font-size:18px; color:#1976d2;">1. Water-Lithium Bromide (H₂O-LiBr)</h3>
+<p><strong>What BROAD uses:</strong></p>
+<ul style="margin-bottom:0;">
+<li><strong>Refrigerant:</strong> Water</li>
+<li><strong>Absorbent:</strong> Lithium bromide salt solution</li>
+<li><strong>Operating range:</strong> Chilled water down to 4-5°C</li>
+<li><strong>Applications:</strong> Air conditioning, process cooling above 0°C</li>
+<li><strong>Market share:</strong> ~85% of absorption chillers worldwide</li>
+</ul>
+</div>
+
+<div style="flex:1; min-width:300px; background-color:#f5f5f5; padding:15px; border-radius:8px; border-left:4px solid #757575;">
+<h3 style="margin-top:0; font-size:18px; color:#333;">2. Ammonia-Water (NH₃-H₂O)</h3>
+<ul style="margin-bottom:0;">
+<li><strong>Refrigerant:</strong> Ammonia</li>
+<li><strong>Absorbent:</strong> Water</li>
+<li><strong>Operating range:</strong> Below -30°C achievable</li>
+<li><strong>Applications:</strong> Cold storage, industrial freezing</li>
+<li><strong>Market share:</strong> ~15%, primarily industrial</li>
+</ul>
+</div>
+</div>
+
+<p>
+For commercial buildings, hospitals, pharmaceutical plants, food processing, and most industrial cooling, BROAD's water-lithium bromide systems deliver optimal performance, safety, and reliability.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Why Water Works as a Refrigerant
+</h2>
+
+<p>
+Water boils at 100°C, useless for air conditioning, right? The secret is <strong>pressure</strong>.
+</p>
+
+<p>
+At atmospheric pressure, water boils at 100°C. But inside BROAD's evaporator, pressure is maintained at approximately 0.8-1.2 kPa, near vacuum. <strong>At these pressures, water boils at just 4-7°C.</strong>
+</p>
+
+<p>
+When liquid water enters this low-pressure environment and boils at such low temperatures, it absorbs heat from chilled water flowing through evaporator tubes. Your facility's warm return water (12°C) gives up heat to the boiling refrigerant and exits chilled (7°C).
+</p>
+
+<p>
+This phase change, liquid water becoming vapor under vacuum, produces the refrigeration effect. No exotic chemicals. No synthetic compounds. Just water under carefully controlled pressure.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+The Environmental Revolution 🌍
+</h2>
+
+<p>
+Using water as refrigerant transforms the environmental profile:
+</p>
+
+<ul style="margin-left:20px;">
+<li><strong>Zero Ozone Depletion:</strong> Water ODP = 0 (vs. R-22 ODP = 0.05)</li>
+<li><strong>Zero Global Warming Potential:</strong> Water GWP = 0 (vs. R-134a GWP = 1,430; R-410A GWP = 2,088; R-32 GWP = 675)</li>
+</ul>
+
+<p>
+Even newest "low-GWP" refrigerants like R-1234ze (GWP = 6) can't match water's absolute zero impact.
+</p>
+
+<div style="background-color:#e8f5e9; padding:20px; border-radius:8px; margin:20px 0;">
+<h4 style="margin-top:0; color:#2e7d32;">No Refrigerant Management Regulations</h4>
+<p>BROAD water-lithium bromide chillers face:</p>
+<ul style="margin-bottom:0;">
+<li>No leak detection requirements</li>
+<li>No recovery mandates during service</li>
+<li>No EPA refrigerant reporting</li>
+<li>No technician certification for handling</li>
+<li>No disposal costs</li>
+</ul>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Complete Non-Toxicity
+</h2>
+
+<p>
+If a BROAD chiller develops a leak:
+</p>
+<ul style="margin-left:20px;">
+<li><strong>What escapes:</strong> Water vapor and lithium bromide solution</li>
+<li><strong>Toxicity:</strong> None (LiBr is essentially dissolved salt)</li>
+<li><strong>Flammability:</strong> None</li>
+<li><strong>Emergency response:</strong> Simple cleanup, no evacuation</li>
+</ul>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Understanding Lithium Bromide
+</h2>
+
+<p>
+While water is the refrigerant, lithium bromide plays a critical role as absorbent:
+</p>
+
+<ul style="margin-left:20px;">
+<li><strong>What it is:</strong> A salt (LiBr) dissolved in water at 50-65% concentration, chemically similar to table salt.</li>
+<li><strong>Why it works:</strong> Lithium bromide has extraordinarily strong hygroscopic properties, it attracts and absorbs water vapor with almost magnetic force.</li>
+<li><strong>Corrosion concerns:</strong> Yes, concentrated LiBr can corrode steel. BROAD's proprietary corrosion inhibitors and resistant materials ensure 20-30 year equipment life.</li>
+<li><strong>Crystallization:</strong> BROAD's multi-stage prevention systems and concentration control virtually eliminate the risk of the solution solidifying.</li>
+</ul>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Why Not Ammonia-Water Systems?
+</h2>
+
+<p>
+Unless your application requires sub-zero cooling, water-lithium bromide provides superior safety, simplicity, and regulatory ease:
+</p>
+
+<div style="overflow-x:auto; margin:20px 0;">
+<table style="width:100%; border-collapse:collapse; min-width:600px;">
+<tr style="background-color:#1976d2; color:white;">
+<th style="padding:12px; text-align:left;">Factor</th>
+<th style="padding:12px; text-align:left;">Water-LiBr (BROAD)</th>
+<th style="padding:12px; text-align:left;">Ammonia-Water</th>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Safety</td>
+<td style="padding:12px; border:1px solid #ddd;">Inherent safety, non-toxic</td>
+<td style="padding:12px; border:1px solid #ddd;">Toxic vapor risk</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Insurance</td>
+<td style="padding:12px; border:1px solid #ddd;">Standard rates</td>
+<td style="padding:12px; border:1px solid #ddd;">Higher premiums (15-25%)</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Installation</td>
+<td style="padding:12px; border:1px solid #ddd;">Standard permits</td>
+<td style="padding:12px; border:1px solid #ddd;">Complex compliance (PSM/RMP)</td>
+</tr>
+</table>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+BROAD's 30+ Years of Validation
+</h2>
+
+<p>
+BROAD selected water-lithium bromide in the early 1990s and never deviated. This commitment reflects performance advantages and strategic thinking:
+</p>
+
+<ul style="margin-left:20px;">
+<li><strong>25,000+ installations globally:</strong> Three decades of field experience validate the technology choice.</li>
+<li><strong>Zero refrigerant-related safety incidents:</strong> No water-refrigerant chiller has caused toxicity events or environmental releases.</li>
+<li><strong>Future-proof technology:</strong> As regulations tighten around high-GWP refrigerants, BROAD customers face zero compliance risk.</li>
+</ul>
+
+<div style="background: linear-gradient(135deg, #1976d2, #1565c0); color:white; border-radius:8px; padding:25px; margin-top:35px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <strong style="font-size:20px; display:block; margin-bottom:12px;">💧 Ready to Explore Refrigerant-Safe Cooling?</strong>
+  <p style="font-size:15px; margin-bottom:20px;">
+    Contact BROAD India for a detailed technical consultation on water-lithium bromide chiller technology.
+  </p>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
+    <a href="/vapour-absorption-chiller" style="background:white; color:#1976d2; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">View VAM Products</a>
+    <a href="/contact-us" style="background:transparent; border:2px solid white; color:white; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">Talk to an Engineer</a>
+  </div>
+</div>
+
+</div>
+`,
+
+  },
+  {
+    id: "absorption-vs-adsorption-chillers",
+    title: "Absorption vs Adsorption Chillers: What's the Real Difference and Which One Do You Need?",
+    description: "Understand the fundamental differences between absorption and adsorption technologies, their performance metrics, efficiency, and which one is right for your industrial cooling needs.",
+    meta: {
+      description: "Compare BROAD absorption chillers with adsorption systems. Learn about COP differences, efficiency, maintenance, and which technology fits your heat source and capacity.",
+      keywords: [
+        "Absorption vs Adsorption",
+        "BROAD absorption chillers",
+        "Thermal cooling",
+        "Industrial chillers",
+        "Lithium Bromide",
+        "Silica gel adsorbent",
+        "COP efficiency",
+      ],
+    },
+    date: "Feb 03, 2026",
+    readTime: "10 min read",
+    category: "Thermal Cooling Technology",
+    image: "/images/24-Feb blog.jpeg",
+    content: `
+<div class="blog-container" style="font-family:Inter, sans-serif; line-height:1.7; color:#333; padding:20px;">
+
+<h1 style="font-size:28px; font-weight:700; margin-bottom:20px;">
+Absorption vs Adsorption Chillers: What's the Real Difference and Which One Do You Need?
+</h1>
+
+<p>
+Walk into engineering meetings about thermal cooling, and you'll hear these terms used almost interchangeably. Absorption. Adsorption. One letter apart, yet they represent fundamentally different technologies. Both use heat instead of electricity, both eliminate compressors, both promise sustainable cooling. But choosing the wrong one could mean disappointing performance and wasted capital.
+</p>
+
+<p>
+Here's what actually separates these technologies, and which one makes sense for your facility.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+The One-Letter Difference That Changes Everything
+</h2>
+
+<p>
+<strong>Absorption</strong> chillers use a liquid absorbent (typically lithium bromide) to capture water vapor. The refrigerant dissolves into the liquid solution, like a sponge soaking up moisture.
+</p>
+
+<p>
+<strong>Adsorption</strong> chillers use a solid adsorbent (usually silica gel) to trap water vapor on its surface. The refrigerant bonds to the solid material through surface forces, like water molecules sticking to a dry surface.
+</p>
+
+<p>
+Both achieve the same result: chilled water for air conditioning or process cooling. But their different paths create distinct operational characteristics that matter in real applications.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+How BROAD Absorption Chillers Work
+</h2>
+
+<p>
+BROAD's absorption chillers operate through a continuous four-component cycle:
+</p>
+
+<ul style="margin-left:20px;">
+<li><strong>Generator:</strong> Heat source (steam at 80-180°C, hot water at 80-95°C, or direct combustion) heats lithium bromide solution. Water vapor separates and rises to the condenser.</li>
+<li><strong>Condenser:</strong> Water vapor cools and condenses at low pressure (7-10 kPa).</li>
+<li><strong>Evaporator:</strong> Under vacuum (~1 kPa), liquid water boils at 4-7°C, absorbing heat from your chilled water circuit.</li>
+<li><strong>Absorber:</strong> Concentrated lithium bromide absorbs water vapor from the evaporator, releasing heat that's removed by cooling water.</li>
+</ul>
+
+<p>
+The cycle is continuous and smooth. BROAD systems achieve COP values of 0.70-0.75 for single-effect and 1.20-1.35 for double-effect configurations, efficiency proven across 25,000+ global installations.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+How Adsorption Systems Work
+</h2>
+
+<p>
+Adsorption uses two silica gel beds alternating between heating and cooling:
+</p>
+
+<p>
+One bed gets heated (65-95°C), releasing trapped water vapor to the condenser. The other bed (now cool) adsorbs water vapor from the evaporator. After 7-10 minutes, chambers switch roles, one bed adsorbs while the other desorbs.
+</p>
+
+<p>
+The system is mechanically simpler with no solution pumps, just valves switching between chambers. However, this batch-cycle operation creates inherent limitations.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Critical Performance Differences
+</h2>
+
+<h3 style="margin-top:20px; font-size:18px; font-weight:600;">Efficiency and Temperature</h3>
+
+<div style="overflow-x:auto; margin:20px 0;">
+<table style="width:100%; border-collapse:collapse; min-width:600px;">
+<tr style="background-color:#1976d2; color:white;">
+<th style="padding:12px; text-align:left;">Feature</th>
+<th style="padding:12px; text-align:left;">BROAD Absorption</th>
+<th style="padding:12px; text-align:left;">Adsorption</th>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Operating Temperature</td>
+<td style="padding:12px; border:1px solid #ddd;">80-180°C</td>
+<td style="padding:12px; border:1px solid #ddd;">55-95°C (lower threshold)</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">COP</td>
+<td style="padding:12px; border:1px solid #ddd;">0.70-1.35</td>
+<td style="padding:12px; border:1px solid #ddd;">0.30-0.60</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Cooling Output</td>
+<td style="padding:12px; border:1px solid #ddd;">Continuous</td>
+<td style="padding:12px; border:1px solid #ddd;">Pulsing/Cycling</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Heat Grade</td>
+<td style="padding:12px; border:1px solid #ddd;">Medium to High</td>
+<td style="padding:12px; border:1px solid #ddd;">Very Low</td>
+</tr>
+</table>
+</div>
+
+<p>
+Adsorption works with lower temperatures, useful if your heat source is 60-70°C. But BROAD's absorption technology delivers double the COP when suitable heat is available. That efficiency gap means real money over 20+ years.
+</p>
+
+<h3 style="margin-top:20px; font-size:18px; font-weight:600;">Capacity and Scale</h3>
+
+<ul style="margin-left:20px;">
+<li><strong>BROAD Absorption Chillers:</strong> Single units range from 50 to 1,500 TR, with large installations scaling to 5,000+ TR. Proven at industrial scale.</li>
+<li><strong>Adsorption Chillers:</strong> Single units typically range from 10 to 100 kW (2.8 to 28.4 TR), with some reaching up to 100 TR. Limited industrial track record for large scales.</li>
+</ul>
+
+<p>
+For substantial cooling capacity, pharmaceutical plants, petrochemical facilities, commercial buildings, data centers, absorption is the only practical thermal solution.
+</p>
+
+<h3 style="margin-top:20px; font-size:18px; font-weight:600;">Maintenance and Reliability</h3>
+
+<div style="overflow-x:auto; margin:20px 0;">
+<table style="width:100%; border-collapse:collapse; min-width:600px;">
+<tr style="background-color:#1976d2; color:white;">
+<th style="padding:12px; text-align:left;">Aspect</th>
+<th style="padding:12px; text-align:left;">BROAD Absorption</th>
+<th style="padding:12px; text-align:left;">Adsorption</th>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Pumps</td>
+<td style="padding:12px; border:1px solid #ddd;">Hermetically sealed solution pumps</td>
+<td style="padding:12px; border:1px solid #ddd;">No solution pumps</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Consumables/Media</td>
+<td style="padding:12px; border:1px solid #ddd;">Annual solution analysis</td>
+<td style="padding:12px; border:1px solid #ddd;">Silica gel beds degrade (10-15 year replacement)</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Moving Parts</td>
+<td style="padding:12px; border:1px solid #ddd;">Minimal pumps</td>
+<td style="padding:12px; border:1px solid #ddd;">Valve systems cycle thousands of times annually</td>
+</tr>
+<tr>
+<td style="padding:12px; border:1px solid #ddd;">Expected Life</td>
+<td style="padding:12px; border:1px solid #ddd;">20-30 years</td>
+<td style="padding:12px; border:1px solid #ddd;">15-20 years</td>
+</tr>
+</table>
+</div>
+
+<p>
+The "no pump" claim sounds appealing until you factor in silica gel replacement costs and valve complexity. BROAD's absorption technology proves more reliable in continuous industrial operations.
+</p>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+When Each Technology Makes Sense
+</h2>
+
+<div style="display:flex; flex-wrap:wrap; gap:20px; margin:20px 0;">
+<div style="flex:1; min-width:300px; background-color:#f5f5f5; padding:20px; border-radius:8px; border-left:4px solid #757575;">
+<h4 style="margin-top:0; color:#333;">Choose Adsorption if:</h4>
+<ul style="margin-bottom:0;">
+<li>Your only heat source is 55-75°C (too cool for absorption)</li>
+<li>Cooling requirement is under 50 TR</li>
+<li>Minimal maintenance capability exists</li>
+<li>Capital budget is extremely constrained</li>
+</ul>
+</div>
+
+<div style="flex:1; min-width:300px; background-color:#e3f2fd; padding:20px; border-radius:8px; border-left:4px solid #1976d2;">
+<h4 style="margin-top:0; color:#1976d2;">Choose BROAD Absorption if:</h4>
+<ul style="margin-bottom:0;">
+<li>Heat sources are 80°C+ (steam, hot water, exhaust, direct-fired)</li>
+<li>Cooling requirement exceeds 200 TR</li>
+<li>Facility needs reliable continuous cooling</li>
+<li>Total cost of ownership over 20 years matters</li>
+<li>Proven technology with global support is valued</li>
+</ul>
+</div>
+</div>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+Why BROAD Absorption Leads
+</h2>
+
+<p>
+When facilities need reliable thermal cooling at industrial scale, BROAD's absorption technology delivers what adsorption cannot:
+</p>
+
+<ul style="margin-left:20px;">
+<li><strong>Proven scale:</strong> 25,000+ installations globally across pharmaceuticals, petrochemicals, food processing, textiles, and commercial buildings.</li>
+<li><strong>Superior efficiency:</strong> COP values 50-100% higher than adsorption, translating to lower fuel consumption.</li>
+<li><strong>Heat source flexibility:</strong> Steam, hot water, exhaust gases, or direct combustion. BROAD engineers optimal configurations for your available thermal energy.</li>
+<li><strong>Continuous operation:</strong> Smooth, steady chilled water output without pulsing, critical for process cooling and precision HVAC.</li>
+<li><strong>Long-term reliability:</strong> Proprietary crystallization prevention, advanced corrosion protection, and sealed components deliver 20-30 year life with minimal intervention.</li>
+</ul>
+
+<h2 style="margin-top:30px; font-size:22px; font-weight:700;">
+The Bottom Line
+</h2>
+
+<p>
+The one-letter difference isn't trivial, it represents fundamentally different performance profiles. For mainstream industrial and commercial cooling applications, absorption technology dominates.
+</p>
+
+<p>
+Adsorption serves niche scenarios: very low-temperature waste heat, small-scale applications, or remote locations with minimal maintenance capability. But for facilities needing substantial, reliable thermal cooling, BROAD's absorption chillers deliver the efficiency, capacity, and long-term value that adsorption systems simply cannot match at industrial scale.
+</p>
+
+<p>
+Understanding this difference prevents costly mistakes and ensures your cooling investment delivers decades of value.
+</p>
+
+<div style="background: linear-gradient(135deg, #1976d2, #1565c0); color:white; border-radius:8px; padding:25px; margin-top:35px; text-align:center; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+  <strong style="font-size:20px; display:block; margin-bottom:12px;">📊 Ready to Determine the Best Fit for Your Facility?</strong>
+  <p style="font-size:15px; margin-bottom:20px;">
+    Contact BROAD India for a comprehensive heat source analysis and application-specific technology recommendations.
+  </p>
+
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px;">
+    <a href="/vapour-absorption-chiller" style="background:white; color:#1976d2; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">View VAM Technology</a>
+    <a href="/contact-us" style="background:transparent; border:2px solid white; color:white; padding:10px 20px; border-radius:6px; font-weight:600; text-decoration:none;">Talk to an Engineer</a>
+  </div>
+</div>
+
+</div>
+`,
+  },
+  {
+
+    id: "non-electric-chillers-green-certifications",
+    title: "The Role of Non-Electric Chillers in Green Building Certifications (LEED & IGBC)",
+    description:
+      "Learn how BROAD non-electric absorption chillers help buildings earn LEED and IGBC points, reduce operational costs, and improve sustainability.",
+    meta: {
+      description:
+        "Discover the contribution of non-electric BROAD VAM chillers toward LEED and IGBC certification, including energy savings, refrigerant impact, and innovation credits.",
+      keywords: [
+        "Non-electric chillers",
+        "BROAD VAM",
+        "LEED certification",
+        "IGBC certification",
+        "Green buildings",
+        "Absorption cooling",
+      ],
+    },
+    date: "Jan 30, 2026",
+    readTime: "9 min read",
+    category: "Sustainable Construction",
+    image: "/images/30 Jan-NonElectric-Chillers-GreenBuilding.png",
+    content: `
 <div class="blog-container" style="font-family:Inter, sans-serif; line-height:1.7; color:#333; padding:20px;">
 
 <h1 style="font-size:28px; font-weight:700; margin-bottom:20px;">
@@ -177,30 +878,30 @@ Comparison: Electric Chillers vs BROAD Non-Electric Chillers ⚡
 
 </div>
 `,
-},
-
- {
-  id: "direct-vs-indirect-absorption-chillers",
-  title: "Direct Fired vs. Indirect Fired Absorption Chillers: Which Fits Your Infrastructure?",
-  description:
-    "Compare direct-fired and indirect-fired absorption chillers for your facility and discover which matches your energy sources, infrastructure, and operational priorities.",
-  meta: {
-    description:
-      "Understand when to choose direct-fired vs. indirect-fired BROAD VAM chillers, including CAPEX, OPEX, energy efficiency, and infrastructure requirements.",
-    keywords: [
-      "Direct Fired VAM",
-      "Indirect Fired VAM",
-      "Absorption Chillers",
-      "BROAD VAM",
-      "Industrial Cooling",
-      "Energy Efficiency",
-    ],
   },
-  date: "Jan 27, 2026",
-  readTime: "8 min read",
-  category: "Energy & Industrial Efficiency",
-  image: "/images/27 Jan-Direct-vs-Indirect-VAM.png",
-  content: `
+
+  {
+    id: "direct-vs-indirect-absorption-chillers",
+    title: "Direct Fired vs. Indirect Fired Absorption Chillers: Which Fits Your Infrastructure?",
+    description:
+      "Compare direct-fired and indirect-fired absorption chillers for your facility and discover which matches your energy sources, infrastructure, and operational priorities.",
+    meta: {
+      description:
+        "Understand when to choose direct-fired vs. indirect-fired BROAD VAM chillers, including CAPEX, OPEX, energy efficiency, and infrastructure requirements.",
+      keywords: [
+        "Direct Fired VAM",
+        "Indirect Fired VAM",
+        "Absorption Chillers",
+        "BROAD VAM",
+        "Industrial Cooling",
+        "Energy Efficiency",
+      ],
+    },
+    date: "Jan 27, 2026",
+    readTime: "8 min read",
+    category: "Energy & Industrial Efficiency",
+    image: "/images/27 Jan-Direct-vs-Indirect-VAM.png",
+    content: `
 <h1>Direct Fired vs. Indirect Fired Absorption Chillers: Which Fits Your Infrastructure?</h1>
 <br/>
 
@@ -328,21 +1029,21 @@ Choosing an absorption cooling solution depends on your facility's energy source
   </div>
 </div>
 `
-},
-
-{
-  id: "electric-vs-vam-chillers-2025-cost-comparison",
-  title: "Electric Centrifugal Chillers vs. Vapor Absorption Machines: A 2025 Cost Comparison",
-  description: "Compare electric centrifugal chillers and BROAD VAM systems for industrial cooling in 2025, including CAPEX, OPEX, carbon footprint, and ROI.",
-  meta: {
-    description: "Understand why BROAD VAM chillers outperform electric chillers in India in 2025, leveraging waste heat, reducing costs, and cutting carbon emissions.",
-    keywords: ["Electric Chiller", "Vapor Absorption Machine", "BROAD VAM", "Industrial Cooling", "Waste Heat Recovery", "Energy Efficiency"]
   },
-  date: "Jan 23, 2026",
-  readTime: "9 min read",
-  category: "Energy & Industrial Efficiency",
-  image: "/images/23 Jan-VAM-Electric-Comparison.png",
-  content: `
+
+  {
+    id: "electric-vs-vam-chillers-2025-cost-comparison",
+    title: "Electric Centrifugal Chillers vs. Vapor Absorption Machines: A 2025 Cost Comparison",
+    description: "Compare electric centrifugal chillers and BROAD VAM systems for industrial cooling in 2025, including CAPEX, OPEX, carbon footprint, and ROI.",
+    meta: {
+      description: "Understand why BROAD VAM chillers outperform electric chillers in India in 2025, leveraging waste heat, reducing costs, and cutting carbon emissions.",
+      keywords: ["Electric Chiller", "Vapor Absorption Machine", "BROAD VAM", "Industrial Cooling", "Waste Heat Recovery", "Energy Efficiency"]
+    },
+    date: "Jan 23, 2026",
+    readTime: "9 min read",
+    category: "Energy & Industrial Efficiency",
+    image: "/images/23 Jan-VAM-Electric-Comparison.png",
+    content: `
 <h1>Electric Centrifugal Chillers vs. Vapor Absorption Machines: A 2025 Cost Comparison</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#capex">Capital Investment</a> | <a href="#opex">Operating Costs</a> | <a href="#lifecycle">Lifecycle Costs</a> | <a href="#performance">Performance Comparison</a> | <a href="#carbon">Carbon Footprint</a> | <a href="/contact-us">Get Guidance</a></p>
@@ -489,21 +1190,21 @@ When BROAD VAM chillers utilize waste heat from DG set exhaust, process cooling,
   </div>
 </div>
 `
-},
+  },
 
   {
-  id: "indian-pharma-textile-hot-water-vam-chillers",
-  title: "Why Indian Pharma & Textile Units Are Switching from Electric to Hot Water VAM Chillers",
-  description: "Explore how hot water VAM chillers help Indian pharmaceutical and textile industries cut costs, utilize waste heat, and improve sustainability.",
-  meta: {
-    description: "Learn why Indian pharma and textile units are replacing electric chillers with hot water VAM chillers, using waste heat for efficient cooling.",
-    keywords: ["Hot Water VAM", "Waste Heat Recovery", "Pharmaceutical Cooling", "Textile Cooling", "BROAD VAM Chillers", "Industrial Efficiency"]
-  },
-  date: "Jan 18, 2026",
-  readTime: "8 min read",
-  category: "Energy & Industrial Efficiency",
-  image: "/images/18 Jan-Blog.png",
-  content: `
+    id: "indian-pharma-textile-hot-water-vam-chillers",
+    title: "Why Indian Pharma & Textile Units Are Switching from Electric to Hot Water VAM Chillers",
+    description: "Explore how hot water VAM chillers help Indian pharmaceutical and textile industries cut costs, utilize waste heat, and improve sustainability.",
+    meta: {
+      description: "Learn why Indian pharma and textile units are replacing electric chillers with hot water VAM chillers, using waste heat for efficient cooling.",
+      keywords: ["Hot Water VAM", "Waste Heat Recovery", "Pharmaceutical Cooling", "Textile Cooling", "BROAD VAM Chillers", "Industrial Efficiency"]
+    },
+    date: "Jan 18, 2026",
+    readTime: "8 min read",
+    category: "Energy & Industrial Efficiency",
+    image: "/images/18 Jan-Blog.png",
+    content: `
 <h1>Why Indian Pharma & Textile Units Are Switching from Electric to Hot Water VAM Chillers</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#how-it-works">How Hot Water VAM Works</a> | <a href="#pharma">Pharma Case Study</a> | <a href="#textile">Textile Case Study</a> | <a href="#economics">Economics & Payback</a> | <a href="/contact-us">Get Guidance</a></p>
@@ -635,21 +1336,21 @@ Textile units face high energy costs (15-25% of manufacturing). Cooling needs in
   </div>
 </div>
 `
-},
+  },
 
   {
-  id: "vam-chillers-waste-heat-roi",
-  title: "The ROI of Waste Heat Recovery: Calculating Payback for VAM Chillers in India",
-  description: "Learn how waste heat from industrial processes can be converted into chilled water using VAM chillers, and how to calculate ROI for Indian facilities.",
-  meta: {
-    description: "Explore the economics of waste heat recovery with VAM chillers, incremental investment, annual savings, hidden benefits, real ROI scenarios, and BROAD's technology advantages.",
-    keywords: ["VAM chiller", "waste heat recovery", "industrial cooling ROI", "BROAD VAM", "absorption cooling"]
-  },
-  date: "Jan 17, 2026",
-  readTime: "9 min read",
-  category: "Industrial Energy Efficiency",
-  image: "/images/17 Jan-VAM-ROI.png",
-  content: `
+    id: "vam-chillers-waste-heat-roi",
+    title: "The ROI of Waste Heat Recovery: Calculating Payback for VAM Chillers in India",
+    description: "Learn how waste heat from industrial processes can be converted into chilled water using VAM chillers, and how to calculate ROI for Indian facilities.",
+    meta: {
+      description: "Explore the economics of waste heat recovery with VAM chillers, incremental investment, annual savings, hidden benefits, real ROI scenarios, and BROAD's technology advantages.",
+      keywords: ["VAM chiller", "waste heat recovery", "industrial cooling ROI", "BROAD VAM", "absorption cooling"]
+    },
+    date: "Jan 17, 2026",
+    readTime: "9 min read",
+    category: "Industrial Energy Efficiency",
+    image: "/images/17 Jan-VAM-ROI.png",
+    content: `
 <h1>🌡️ The ROI of Waste Heat Recovery: Calculating Payback for VAM Chillers in India</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#understanding">Understanding Waste Heat Recovery</a> | <a href="#capex">Capital Investment</a> | <a href="#savings">Annual Savings</a> | <a href="#scenarios">Real ROI Scenarios</a> | <a href="#lifecycle">Lifecycle ROI</a> | <a href="#decision">Decision Framework</a></p>
@@ -736,21 +1437,21 @@ Every industrial facility generates waste heat from boilers, furnaces, diesel ge
   </div>
 </div>
 `
-},
+  },
 
   {
-  id: "steam-vam-chillers-explained",
-  title: "Steam VAM Chillers Explained: Turning Your Factory's Waste Steam into Free Cooling",
-  description: "Discover how Steam VAM (Vapor Absorption Machine) chillers convert waste or low-grade steam into chilled water, cutting electricity costs and boosting operational efficiency.",
-  meta: {
-    description: "Learn how Steam VAM chillers work, single vs double-effect performance, industrial applications, ROI calculations, and BROAD's proven technology advantages.",
-    keywords: ["Steam VAM chiller", "absorption cooling", "waste steam recovery", "industrial energy efficiency", "BROAD VAM"]
-  },
-  date: "Jan 15, 2026",
-  readTime: "8 min read",
-  category: "Technology Deep Dive",
-  image: "/images/15 Jan-Steam-VAM.png",
-  content: `
+    id: "steam-vam-chillers-explained",
+    title: "Steam VAM Chillers Explained: Turning Your Factory's Waste Steam into Free Cooling",
+    description: "Discover how Steam VAM (Vapor Absorption Machine) chillers convert waste or low-grade steam into chilled water, cutting electricity costs and boosting operational efficiency.",
+    meta: {
+      description: "Learn how Steam VAM chillers work, single vs double-effect performance, industrial applications, ROI calculations, and BROAD's proven technology advantages.",
+      keywords: ["Steam VAM chiller", "absorption cooling", "waste steam recovery", "industrial energy efficiency", "BROAD VAM"]
+    },
+    date: "Jan 15, 2026",
+    readTime: "8 min read",
+    category: "Technology Deep Dive",
+    image: "/images/15 Jan-Steam-VAM.png",
+    content: `
 <h1>Steam VAM Chillers Explained: Turning Your Factory's Waste Steam into Free Cooling</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#understanding">Understanding Steam VAM</a> | <a href="#cycle">How It Works</a> | <a href="#effect">Single vs Double Effect</a> | <a href="#applications">Applications</a> | <a href="#roi">Economics & ROI</a> | <a href="#advantages">BROAD Advantages</a></p>
@@ -863,21 +1564,21 @@ Steam VAM (Vapor Absorption Machine) chillers use thermal energy from steam inst
   </div>
 </div>
 `
-},
+  },
 
   {
-  id: "cchp-india-industrial-energy",
-  title: "What is CCHP? How Combined Cooling, Heating, and Power is Revolutionizing Indian Industry",
-  description: "Explore how Combined Cooling, Heating, and Power (CCHP) systems deliver electricity, heating, and cooling simultaneously for industrial efficiency and cost savings in India.",
-  meta: {
-    description: "Learn how CCHP (trigeneration) works, its applications in Indian industries, efficiency benefits, BROAD integration expertise, and payback potential.",
-    keywords: ["CCHP India", "trigeneration systems", "industrial energy efficiency", "BROAD absorption chillers", "waste heat utilization"]
-  },
-  date: "Jan 12, 2026",
-  readTime: "9 min read",
-  category: "Energy Efficiency",
-  image: "/images/12 Jan-CCHP-India.png",
-  content: `
+    id: "cchp-india-industrial-energy",
+    title: "What is CCHP? How Combined Cooling, Heating, and Power is Revolutionizing Indian Industry",
+    description: "Explore how Combined Cooling, Heating, and Power (CCHP) systems deliver electricity, heating, and cooling simultaneously for industrial efficiency and cost savings in India.",
+    meta: {
+      description: "Learn how CCHP (trigeneration) works, its applications in Indian industries, efficiency benefits, BROAD integration expertise, and payback potential.",
+      keywords: ["CCHP India", "trigeneration systems", "industrial energy efficiency", "BROAD absorption chillers", "waste heat utilization"]
+    },
+    date: "Jan 12, 2026",
+    readTime: "9 min read",
+    category: "Energy Efficiency",
+    image: "/images/12 Jan-CCHP-India.png",
+    content: `
 <h1>What is CCHP? How Combined Cooling, Heating, and Power is Revolutionizing Indian Industry</h1>
 <br/>
 <p>Imagine a facility generating its own electricity, capturing waste heat for process steam, and powering air conditioning—all from burning fuel just once. This is <strong>CCHP technology</strong>, quietly transforming India's industrial energy management.</p>
@@ -1047,20 +1748,20 @@ Steam VAM (Vapor Absorption Machine) chillers use thermal energy from steam inst
   </div>
 </div>
 `
-},
-  {
-  id: "libr-vs-ammonia-absorption-chillers-safety",
-  title: "LiBr vs. Ammonia Absorption Chillers: Which is Safer for Your Facility?",
-  description: "Compare lithium bromide (LiBr) and ammonia absorption chillers in terms of safety, operational risks, regulatory burden, and facility suitability.",
-  meta: {
-    description: "Understand the safety differences between LiBr and ammonia absorption chillers, including toxicity, pressure, regulatory compliance, maintenance, and insurance implications.",
-    keywords: ["LiBr absorption chiller safety", "Ammonia absorption chiller", "absorption chiller comparison", "industrial cooling safety", "BROAD chillers"]
   },
-  date: "Jan 06, 2026",
-  readTime: "8 min read",
-  category: "Technology Safety Insights",
-  image: "/images/06 Jan-LiBr-vs-Ammonia.png",
-  content: `
+  {
+    id: "libr-vs-ammonia-absorption-chillers-safety",
+    title: "LiBr vs. Ammonia Absorption Chillers: Which is Safer for Your Facility?",
+    description: "Compare lithium bromide (LiBr) and ammonia absorption chillers in terms of safety, operational risks, regulatory burden, and facility suitability.",
+    meta: {
+      description: "Understand the safety differences between LiBr and ammonia absorption chillers, including toxicity, pressure, regulatory compliance, maintenance, and insurance implications.",
+      keywords: ["LiBr absorption chiller safety", "Ammonia absorption chiller", "absorption chiller comparison", "industrial cooling safety", "BROAD chillers"]
+    },
+    date: "Jan 06, 2026",
+    readTime: "8 min read",
+    category: "Technology Safety Insights",
+    image: "/images/06 Jan-LiBr-vs-Ammonia.png",
+    content: `
 <h1>LiBr vs. Ammonia Absorption Chillers: Which is Safer for Your Facility?</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#toxicity">Refrigerant Toxicity</a> | <a href="#regulatory">Regulatory Burden</a> | <a href="#operational">Operational Safety</a> | <a href="#maintenance">Maintenance & Liability</a> | <a href="#matrix">Safety Matrix</a> | <a href="#decision">Making the Safety-First Decision</a></p>
@@ -1241,21 +1942,21 @@ Steam VAM (Vapor Absorption Machine) chillers use thermal energy from steam inst
   </div>
 </div>
 `
-},
+  },
 
   {
-  id: "understanding-libr-absorption-chillers",
-  title: "Understanding LiBr Absorption Chillers: A Deep Dive into Lithium Bromide Technology",
-  description: "Explore how lithium bromide (LiBr) absorption chillers convert heat into cooling efficiently, with insights into their cycle, performance, components, and applications.",
-  meta: {
-    description: "Learn how LiBr absorption chillers work, including the generator, condenser, evaporator, absorber stages, performance comparisons, and why BROAD leads in this technology.",
-    keywords: ["LiBr absorption chiller", "lithium bromide cooling", "absorption cycle", "industrial cooling", "BROAD chillers"]
-  },
-  date: "Jan 03, 2026",
-  readTime: "8 min read",
-  category: "Technology Deep Dive",
-  image: "/images/03 Jan-LiBr-Blog.png",
-  content: `
+    id: "understanding-libr-absorption-chillers",
+    title: "Understanding LiBr Absorption Chillers: A Deep Dive into Lithium Bromide Technology",
+    description: "Explore how lithium bromide (LiBr) absorption chillers convert heat into cooling efficiently, with insights into their cycle, performance, components, and applications.",
+    meta: {
+      description: "Learn how LiBr absorption chillers work, including the generator, condenser, evaporator, absorber stages, performance comparisons, and why BROAD leads in this technology.",
+      keywords: ["LiBr absorption chiller", "lithium bromide cooling", "absorption cycle", "industrial cooling", "BROAD chillers"]
+    },
+    date: "Jan 03, 2026",
+    readTime: "8 min read",
+    category: "Technology Deep Dive",
+    image: "/images/03 Jan-LiBr-Blog.png",
+    content: `
 <h1>Understanding LiBr Absorption Chillers: A Deep Dive into Lithium Bromide Technology</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#difference">What Makes LiBr Different</a> | <a href="#cycle">LiBr Absorption Cycle</a> | <a href="#performance">Single vs Double Effect</a> | <a href="#components">Key Components</a> | <a href="#applications">Applications</a> | <a href="#maintenance">Maintenance & Environment</a></p>
@@ -1372,20 +2073,20 @@ Unlike conventional chillers that rely on electricity-driven compressors, <stron
   </div>
 </div>
 `
-},
-  {
-  id: "libr-absorption-chiller-cycle-technology",
-  title: "LiBr Absorption Chiller Cycle: A Deep Dive into Lithium Bromide Technology",
-  description: "A comprehensive guide to how Lithium Bromide absorption chillers work, the chemistry behind them, and why they are efficient for industrial cooling.",
-  meta: {
-    description: "Understand the working principle of LiBr Absorption Chillers. Learn about the generator, condenser, evaporator, and absorber stages.",
-    keywords: ["LiBr absorption chiller", "Lithium Bromide cycle", "absorption chiller working principle", "BROAD chillers", "industrial cooling"]
   },
-  date: "Dec 26, 2026",
-  readTime: "7 min read",
-  category: "Technology Deep Dive",
-  image: "/images/26 Dec-Blog.png",
-  content: `
+  {
+    id: "libr-absorption-chiller-cycle-technology",
+    title: "LiBr Absorption Chiller Cycle: A Deep Dive into Lithium Bromide Technology",
+    description: "A comprehensive guide to how Lithium Bromide absorption chillers work, the chemistry behind them, and why they are efficient for industrial cooling.",
+    meta: {
+      description: "Understand the working principle of LiBr Absorption Chillers. Learn about the generator, condenser, evaporator, and absorber stages.",
+      keywords: ["LiBr absorption chiller", "Lithium Bromide cycle", "absorption chiller working principle", "BROAD chillers", "industrial cooling"]
+    },
+    date: "Dec 26, 2026",
+    readTime: "7 min read",
+    category: "Technology Deep Dive",
+    image: "/images/26 Dec-Blog.png",
+    content: `
 <h1>LiBr Absorption Chiller Cycle: A Deep Dive into Lithium Bromide Technology</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#cycle">The 4-Stage Cycle</a> | <a href="#comparison">Single vs. Double Effect</a> | <a href="#broad">The BROAD Edge</a> | <a href="/contact-us">Get Guidance</a></p>
@@ -1495,7 +2196,7 @@ Contrary to myth, LiBr chillers are simpler than electric ones.
   </div>
 </div>
 `
-},
+  },
   {
     id: "direct-fired-vapor-absorption-chiller-gas-vs-electricity",
     title: "Direct Fired Vapor Absorption Chiller: When to Use Gas Instead of Electricity",
@@ -2247,7 +2948,7 @@ Facilities that achieve the best return on investment share common traits: consi
   </div>
 </div>
 `
-},
+  },
   {
     id: "industrial-chillers-decarbonisation-esg-goals",
     title: "Industrial Chillers for Decarbonisation: How to Meet ESG Goals in India",
@@ -2721,8 +3422,8 @@ BROAD India's vapor absorption technology, validated across numerous installatio
   </p>
 </div>
 `
-  
-},
+
+  },
   {
     id: "trigeneration-cchp-explained-cooling-heating-power",
     title: "Trigeneration (CCHP) Explained: Combined Cooling, Heating, and Power for Dummies",
@@ -3071,32 +3772,32 @@ Whether you're running a pharmaceutical plant, food processing facility, textile
   </p>
 </div>
 `
-},
-{
-  id: "top-5-vapor-absorption-machine-manufacturers-india-2025",
-  title: "Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review",
-  description: "Comprehensive review of the top VAM manufacturers in India, including BROAD, Thermax, Voltas, Kirloskar, and Blue Star with technology comparison and recommendations.",
-  meta: {
-    description: "Compare the top 5 VAM manufacturers in India—BROAD, Thermax, Voltas, Kirloskar, and Blue Star. Review their technology, capacity, service networks, and suitability for different applications.",
-    keywords: [
-      "vapor absorption machine manufacturers India",
-      "VAM manufacturers",
-      "BROAD India",
-      "Thermax VAM",
-      "Voltas VAM chillers",
-      "Kirloskar absorption chillers",
-      "Blue Star VAM systems",
-      "industrial chillers India",
-      "absorption cooling systems",
-      "VAM technology comparison",
-      "best VAM manufacturers"
-    ]
   },
-  date: "Dec 02, 2025",
-  readTime: "14 min read",
-  category: "Industry Review",
-  image: "/images/02 Dec-Blog.png",
-  content: `
+  {
+    id: "top-5-vapor-absorption-machine-manufacturers-india-2025",
+    title: "Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review",
+    description: "Comprehensive review of the top VAM manufacturers in India, including BROAD, Thermax, Voltas, Kirloskar, and Blue Star with technology comparison and recommendations.",
+    meta: {
+      description: "Compare the top 5 VAM manufacturers in India—BROAD, Thermax, Voltas, Kirloskar, and Blue Star. Review their technology, capacity, service networks, and suitability for different applications.",
+      keywords: [
+        "vapor absorption machine manufacturers India",
+        "VAM manufacturers",
+        "BROAD India",
+        "Thermax VAM",
+        "Voltas VAM chillers",
+        "Kirloskar absorption chillers",
+        "Blue Star VAM systems",
+        "industrial chillers India",
+        "absorption cooling systems",
+        "VAM technology comparison",
+        "best VAM manufacturers"
+      ]
+    },
+    date: "Dec 02, 2025",
+    readTime: "14 min read",
+    category: "Industry Review",
+    image: "/images/02 Dec-Blog.png",
+    content: `
 <h1>Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review</h1>
 <br/>
 <p><strong>Quick Links:</strong> <a href="#comparison-table">Compare Manufacturers</a> | <a href="/vapour-absorption-chiller">BROAD VAM Solutions</a> | <a href="/contact-us">Get Expert Guidance</a></p>
@@ -3578,29 +4279,29 @@ As industrial facilities increasingly focus on energy efficiency and reducing ca
   </div>
 </div>
 `
-}, 
-  {
-  id: "ai-machine-learning-hvac",
-  title: "AI and Machine Learning in HVAC: Predictive Maintenance and Adaptive Climate Management",
-  description: "How AI and machine learning are revolutionizing HVAC systems through predictive maintenance and adaptive climate control for energy efficiency and comfort.",
-  meta: {
-    description: "Discover how AI and machine learning optimize HVAC systems with predictive maintenance, adaptive control, and enhanced energy efficiency.",
-    keywords: [
-      "AI in HVAC",
-      "machine learning",
-      "predictive maintenance",
-      "adaptive climate control",
-      "smart hvac",
-      "Li-Br vapour absorption chillers",
-      "energy efficiency",
-      "BROAD India"
-    ]
   },
-  date: "Nov 08, 2025",
-  readTime: "3 min read",
-  category: "Smart HVAC",
-  image: "/images/08-Nov Blog.png",
-  content: `
+  {
+    id: "ai-machine-learning-hvac",
+    title: "AI and Machine Learning in HVAC: Predictive Maintenance and Adaptive Climate Management",
+    description: "How AI and machine learning are revolutionizing HVAC systems through predictive maintenance and adaptive climate control for energy efficiency and comfort.",
+    meta: {
+      description: "Discover how AI and machine learning optimize HVAC systems with predictive maintenance, adaptive control, and enhanced energy efficiency.",
+      keywords: [
+        "AI in HVAC",
+        "machine learning",
+        "predictive maintenance",
+        "adaptive climate control",
+        "smart hvac",
+        "Li-Br vapour absorption chillers",
+        "energy efficiency",
+        "BROAD India"
+      ]
+    },
+    date: "Nov 08, 2025",
+    readTime: "3 min read",
+    category: "Smart HVAC",
+    image: "/images/08-Nov Blog.png",
+    content: `
 <h1>AI and Machine Learning in HVAC: Predictive Maintenance and Adaptive Climate Management</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -3633,29 +4334,29 @@ AI and machine learning integration into HVAC systems is a game-changer, combini
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
 `
-},
-  {
-  id: "geothermal-solar-powered-hvac",
-  title: "Geothermal and Solar-Powered HVAC: Combining Renewable Energy for Sustainable Climate Control",
-  description: "How geothermal and solar HVAC systems combine renewable energy sources to create sustainable and efficient climate control solutions.",
-  meta: {
-    description: "Explore how geothermal and solar-powered HVAC systems use renewable energy to deliver sustainable heating, cooling, and ventilation with reduced emissions.",
-    keywords: [
-      "geothermal hvac",
-      "solar powered hvac",
-      "renewable energy",
-      "sustainable building",
-      "green hvac",
-      "Li-Br vapour absorption chillers",
-      "energy efficiency",
-      "BROAD India"
-    ]
   },
-  date: "Nov 04, 2025",
-  readTime: "3 min read",
-  category: "Sustainable HVAC",
-  image: "/images/04 Nov-Blog.png",
-  content: `
+  {
+    id: "geothermal-solar-powered-hvac",
+    title: "Geothermal and Solar-Powered HVAC: Combining Renewable Energy for Sustainable Climate Control",
+    description: "How geothermal and solar HVAC systems combine renewable energy sources to create sustainable and efficient climate control solutions.",
+    meta: {
+      description: "Explore how geothermal and solar-powered HVAC systems use renewable energy to deliver sustainable heating, cooling, and ventilation with reduced emissions.",
+      keywords: [
+        "geothermal hvac",
+        "solar powered hvac",
+        "renewable energy",
+        "sustainable building",
+        "green hvac",
+        "Li-Br vapour absorption chillers",
+        "energy efficiency",
+        "BROAD India"
+      ]
+    },
+    date: "Nov 04, 2025",
+    readTime: "3 min read",
+    category: "Sustainable HVAC",
+    image: "/images/04 Nov-Blog.png",
+    content: `
 <h1>Geothermal and Solar-Powered HVAC: Combining Renewable Energy for Sustainable Climate Control</h1>
 </br>
 <a href="/vapour-absorption-chiller/direct-fired-chiller">Learn about Direct Fired Chiller</a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
@@ -3688,7 +4389,7 @@ The fusion of geothermal and solar HVAC technologies marks a transformative shif
 <a href="/contact-us">Contact us for a free consultation</a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 </p>
 `
-},
+  },
   {
     id: "harnessing-waste-heat-vam-industrial-cooling",
     title:
@@ -9374,5 +10075,5 @@ For any new homeowner, choosing the right HVAC (Heating, Ventilation, and Air Co
   </li>
 </ul>
 `,
-  },  
+  },
 ];
