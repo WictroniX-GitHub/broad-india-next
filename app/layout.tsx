@@ -23,10 +23,16 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="preload"
+          fetchPriority="high"
+          as="image"
+          href="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbroad-bg-1.6f0f0f0f.webp&w=3840&q=75"
+        />
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
