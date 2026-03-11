@@ -45,7 +45,9 @@ export default function HomePageCarousel() {
             alt={slide.text}
             fill
             priority={index === 0}
-            quality={75}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            {...(index === 0 ? ({ fetchPriority: "high" } as any) : {})}
+            quality={60}
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-black/60 text-white p-4 rounded-lg text-center">
