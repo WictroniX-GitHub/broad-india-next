@@ -71,7 +71,7 @@ export default function Footer() {
           </div>
           {/* Links */}
           <div>
-            <h4 className="text-white mb-4">Links</h4>
+            <h3 className="text-white mb-4 text-lg font-bold">Links</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/about">About</Link>
@@ -92,7 +92,7 @@ export default function Footer() {
           </div>
           {/* Contact */}
           <div>
-            <h4 className="text-white mb-4">Contact Us</h4>
+            <h3 className="text-white mb-4 text-lg font-bold">Contact Us</h3>
             <ul className="space-y-2">
               <li>
                 <a

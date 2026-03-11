@@ -41,7 +41,7 @@ export default function Header() {
           BROAD India
         </Link>
         {isMobile ? (
-          <button onClick={() => setIsMenuOpen(true)}>
+          <button onClick={() => setIsMenuOpen(true)} aria-label="Open Menu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -115,7 +115,7 @@ export default function Header() {
             <Link href="/articles">Articles</Link>
             <Link href="/careers">Careers</Link>
             <Link href="/contact-us" className="ml-2">
-              <span className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer whitespace-nowrap">
+              <span className="bg-blue-700 text-white px-4 py-2 rounded-md cursor-pointer whitespace-nowrap">
                 Contact Us
               </span>
             </Link>
@@ -129,6 +129,7 @@ export default function Header() {
           <button
             className="absolute top-5 right-5 text-black text-2xl"
             onClick={() => setIsMenuOpen(false)}
+            aria-label="Close Menu"
           >
             &times;
           </button>
@@ -219,7 +220,7 @@ export default function Header() {
             </Link>
 
             <Link href="/contact-us" onClick={handleCloseMenu}>
-              <div className="bg-blue-600 text-white px-4 py-2 rounded-md cursor-pointer w-full text-center">
+              <div className="bg-blue-700 text-white px-4 py-2 rounded-md cursor-pointer w-full text-center">
                 Contact Us
               </div>
             </Link>

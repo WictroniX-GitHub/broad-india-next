@@ -42,12 +42,14 @@ export default function HomePageCarousel() {
         >
           <Image
             src={slide.src}
-            alt="carousel image"
+            alt={slide.text}
             fill
+            priority={index === 0}
+            quality={75}
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-black/60 text-white p-4 rounded-lg text-center">
-            <h1 className="text-2xl md:text-4xl uppercase">{slide.text}</h1>
+            <h2 className="text-2xl md:text-4xl uppercase">{slide.text}</h2>
             {slide.link && (
               <a
                 href={slide.link}

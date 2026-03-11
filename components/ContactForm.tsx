@@ -9,7 +9,7 @@ export default function ContactForm() {
         </div>
         <div className="p-6">
           <form
-            action="https://send.pageclip.co/65eBhbmaUsB0Tsr1yJoeTjOITQgSz8Uc"
+            action="https://formspree.io/f/xqeypqdv"
             method="post"
             className="space-y-4"
           >
