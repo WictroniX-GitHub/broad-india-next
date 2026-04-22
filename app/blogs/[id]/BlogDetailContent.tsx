@@ -6,6 +6,7 @@ import { ArrowLeft, Calendar, Clock, Tag } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { Blog } from "@/types/blog";
+import BlogContentRenderer from "@/components/BlogContentRenderer";
 
 interface BlogDetailContentProps {
   blog: Blog;
@@ -59,10 +60,14 @@ export default function BlogDetailContent({ blog }: BlogDetailContentProps) {
               </div>
             </div>
 
-            <div
-              className="prose prose-lg max-w-none text-gray-800"
-              dangerouslySetInnerHTML={{ __html: blog.content }}
-            />
+            {typeof blog.content === "string" ? (
+              <div
+                className="prose prose-lg max-w-none text-gray-800"
+                dangerouslySetInnerHTML={{ __html: blog.content }}
+              />
+            ) : (
+              <BlogContentRenderer content={blog.content} />
+            )}
           </div>
         </motion.div>
       </div>
