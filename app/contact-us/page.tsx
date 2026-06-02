@@ -54,7 +54,7 @@ export default function ContactUs() {
             <hr className="my-4" />
             <h4 className="text-lg font-semibold">Surat Office:</h4>
             <p className="text-gray-700">
-              908, Luxuria Trade Hub, Near VR Mall, Surat - 395007
+              Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd, Road, New Magdalla, Surat, Gujarat 395007
             </p>
             <hr className="my-4" />
             <h4 className="text-lg font-semibold">Gurugram Office:</h4>
