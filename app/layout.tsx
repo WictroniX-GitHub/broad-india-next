@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 import { Metadata } from "next";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.broadindia.com"),

@@ -213,7 +213,7 @@ const Careers = () => {
                   backgroundPosition: 'right 24px center'
                 }}
               >
-                <option value="">— Select a role —</option>
+                <option value=""> -  Select a role  - </option>
                 <option value="Service Engineer">Service Engineer – Surat</option>
                 <option value="Customer Manager">Customer Manager / Sales Manager – Multiple Locations</option>
               </select>

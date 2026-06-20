@@ -20,6 +20,25 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true, // Enables native browser scroll restoration
   },
+  async redirects() {
+    return [
+      {
+        source: "/hvac-systems",
+        destination: "/vapour-absorption-chiller",
+        permanent: true,
+      },
+      {
+        source: "/cchp",
+        destination: "/cchp-systems",
+        permanent: true,
+      },
+      {
+        source: "/articles/:slug*",
+        destination: "/blogs/:slug*",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

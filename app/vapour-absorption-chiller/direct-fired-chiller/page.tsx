@@ -106,7 +106,7 @@ const DirectFiredChiller = () => {
               non-electric cooling and heating. This advanced system leverages
               natural gas or light fuel oil to deliver high-capacity cooling and
               hot water with minimal electricity demand and ultra-low
-              emissions—making it ideal for large facilities, data centers,
+              emissions - making it ideal for large facilities, data centers,
               manufacturing plants, hospitals, and sites with unstable power
               supply.
             </p>
@@ -190,7 +190,7 @@ const DirectFiredChiller = () => {
                   and crystallization prevention
                 </li>
                 <li>
-                  • Modular design—adaptable for space cooling, process cooling,
+                  • Modular design - adaptable for space cooling, process cooling,
                   hot water supply, and supplementary heating
                 </li>
               </ul>

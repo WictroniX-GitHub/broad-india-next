@@ -16,8 +16,47 @@ const CCHPSystems = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a CCHP System?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A CCHP (Combined Cooling, Heating & Power) system, or trigeneration, is an energy-efficient solution that generates electricity, chilled water, and hot water simultaneously from a single fuel source or waste heat."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How efficient are BROAD's CCHP systems?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By capturing and utilizing waste heat that would otherwise be exhausted, BROAD CCHP systems achieve total system efficiencies between 60% and 80%, drastically reducing lifecycle energy costs and carbon emissions."
+        }
+      }
+    ]
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "CCHP Systems (Combined Cooling, Heating & Power)",
+          "description": "Trigeneration systems integrating cogeneration and absorption technology for simultaneous electricity, cooling, and heating with 60-80% efficiency.",
+          "provider": { "@type": "Organization", "name": "BROAD India", "url": "https://www.broadindia.com" },
+          "areaServed": { "@type": "Country", "name": "India" },
+          "serviceType": "Combined Cooling Heating and Power"
+        }) }}
+      />
       {/* Hero Section */}
       <div
         className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
@@ -37,18 +76,38 @@ const CCHPSystems = () => {
 
       {/* Introduction Section */}
       <div className="container mx-auto py-12 px-4">
-        <div className="max-w-4xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-6">
-            BROAD CCHP (Combined Cooling, Heating & Power) Systems
+        <div className="max-w-4xl mx-auto mb-12">
+          <h2 className="text-3xl font-bold mb-6 text-center">
+            Maximizing Energy Yield with BROAD CCHP (Combined Cooling, Heating & Power) Systems
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            BROAD&apos;s CCHP Systems deliver comprehensive energy solutions by
-            integrating cogeneration and thermally driven absorption technology
-            to produce electricity, chilled water, and hot water from a single
-            waste heat powered plant. These trigeneration systems achieve total
-            system efficiencies between 60%–80%, dramatically reducing lifecycle
-            energy costs, carbon emissions, and reliance on grid electricity.
-          </p>
+          <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <p>
+              In the quest for total energy optimization and decarbonization, traditional power generation models fall short - often wasting up to 60% of their primary fuel energy as exhausted heat. <strong>BROAD India&apos;s CCHP (Combined Cooling, Heating & Power) Systems</strong>, also known as trigeneration, revolutionize this paradigm. By integrating advanced cogeneration engines or turbines with our world-class thermally driven absorption technology, our CCHP plants capture and repurpose that exhausted heat. The result? A single integrated plant that simultaneously produces electricity, chilled water for air conditioning or process cooling, and hot water for heating operations.
+            </p>
+            <p>
+              This synergistic approach elevates total system energy efficiency from a conventional 30-40% to an astounding <strong>60%–80%</strong>. For heavy industries, commercial complexes, district cooling networks, and institutional campuses across India, a BROAD CCHP system translates to massive reductions in primary fuel consumption, drastically lower operational expenditures (OPEX), and unparalleled energy security.
+            </p>
+            
+            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">The Strategic Advantage of Trigeneration in India</h3>
+            <p>
+              India&apos;s rapid industrialization combined with an increasingly strained national power grid demands decentralized, reliable, and highly efficient energy solutions. A BROAD CCHP plant empowers facilities to become self-sufficient microgrids. By generating electricity on-site, facilities bypass transmission and distribution (T&D) losses - which can be substantial - and insulate themselves from unpredictable grid outages and peak tariff penalties.
+            </p>
+            <p>
+              Simultaneously, the high-temperature exhaust gas and jacket cooling water from the power generator (running on natural gas, biogas, or other fuels) are routed directly into a BROAD multi-energy or exhaust-driven vapour absorption chiller. Instead of consuming expensive grid electricity to run mechanical chillers, the facility achieves &quot;free cooling&quot; driven entirely by the generator&apos;s waste heat. During winter months or in industrial processes requiring heat, the system seamlessly redirects thermal energy to provide high-grade heating water or steam.
+            </p>
+
+            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Driving Corporate Sustainability and Net-Zero Targets</h3>
+            <p>
+              The environmental impact of transitioning to a BROAD CCHP system is profound. By utilizing the same unit of fuel to produce three distinct utility streams, facilities drastically cut their carbon footprint. The absorption chillers themselves use pure water as the refrigerant, ensuring zero Ozone Depletion Potential (ODP) and zero Global Warming Potential (GWP). For corporations operating in India that are committed to strict ESG (Environmental, Social, and Governance) targets, a trigeneration plant is one of the most effective capital investments to accelerate the journey toward Net-Zero emissions.
+            </p>
+            <p>
+              Furthermore, the integration of BROAD&apos;s intelligent control systems ensures that the CCHP plant dynamically balances the electrical and thermal loads in real-time. Whether operating in base-load, thermal-following, or electrical-following modes, the system optimizes fuel consumption to guarantee the highest possible economic return under varying operational conditions.
+            </p>
+
+            <p className="pt-4 font-medium text-center text-xl text-blue-800">
+              Discover how our trigeneration technology operates and explore its proven applications below.
+            </p>
+          </div>
         </div>
 
         {/* Sub-category Card */}

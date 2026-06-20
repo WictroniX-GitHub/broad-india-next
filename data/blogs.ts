@@ -997,7 +997,7 @@ export const blogs: Blog[] = [
 </style>
 <div style="font-family:Inter, sans-serif; line-height:1.6; color:#333; max-width:100%;">
   <p>
-    A single fuel input — natural gas or diesel — producing cooling, heating, and reduced power demand simultaneously. This is what trigeneration through a direct-fired absorption chiller delivers. For Indian industrial facilities paying separately for electricity, cooling, and thermal energy, it is one of the most efficient energy configurations available today.
+    A single fuel input  -  natural gas or diesel  -  producing cooling, heating, and reduced power demand simultaneously. This is what trigeneration through a direct-fired absorption chiller delivers. For Indian industrial facilities paying separately for electricity, cooling, and thermal energy, it is one of the most efficient energy configurations available today.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">The Problem with Treating Energy in Silos</h2>
@@ -1005,7 +1005,7 @@ export const blogs: Blog[] = [
     Most Indian industrial facilities manage their energy in three separate silos: electricity, process heating, and HVAC cooling. Each silo has its own budget, its own vendors, and its own inefficiencies.
   </p>
   <p>
-    Combined Cooling, Heating and Power — CCHP — is the engineering solution to this silo problem. It integrates these three energy functions into a single system, extracting maximum useful work from every unit of fuel consumed.
+    Combined Cooling, Heating and Power  -  CCHP  -  is the engineering solution to this silo problem. It integrates these three energy functions into a single system, extracting maximum useful work from every unit of fuel consumed.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">What Is CCHP and Why Does a Chiller Drive It?</h2>
@@ -1140,12 +1140,12 @@ export const blogs: Blog[] = [
 </style>
 <div style="font-family:Inter, sans-serif; line-height:1.6; color:#333; max-width:100%;">
   <p>
-    Both natural gas and diesel can fire the same absorption chiller body. The machine is largely identical — the burner and fuel supply are the only differences. But over the life of an installation, those differences in fuel cost, infrastructure dependency, emissions profile, and operational risk add up to millions of rupees. This article makes the comparison direct and clear.
+    Both natural gas and diesel can fire the same absorption chiller body. The machine is largely identical  -  the burner and fuel supply are the only differences. But over the life of an installation, those differences in fuel cost, infrastructure dependency, emissions profile, and operational risk add up to millions of rupees. This article makes the comparison direct and clear.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">The Same Machine, Two Different Energy Conversations</h2>
   <p>
-    BROAD India's direct-fired vapour absorption chillers come with a dual-fuel burner as standard. A single machine can operate on natural gas or High Speed Diesel — or switch between them. The variable is the fuel you burn in the burner.
+    BROAD India's direct-fired vapour absorption chillers come with a dual-fuel burner as standard. A single machine can operate on natural gas or High Speed Diesel  -  or switch between them. The variable is the fuel you burn in the burner.
   </p>
   <p>
     This means the gas vs diesel decision is not a technology choice. It is an energy procurement and infrastructure decision. The right answer depends entirely on what is available at your facility, what it costs, and how reliable you need it to be.
@@ -1281,7 +1281,7 @@ export const blogs: Blog[] = [
     <details class="faq-accordion">
       <summary>Can I switch from diesel to gas mid-life?</summary>
       <div class="faq-content">
-        Yes. The dual-fuel burner fitted to BROAD India machines as standard allows changeover between HSD and natural gas with a burner adjustment — no machine replacement required.
+        Yes. The dual-fuel burner fitted to BROAD India machines as standard allows changeover between HSD and natural gas with a burner adjustment  -  no machine replacement required.
       </div>
     </details>
   </div>
@@ -1332,7 +1332,7 @@ export const blogs: Blog[] = [
 </style>
 <div style="font-family:Inter, sans-serif; line-height:1.6; color:#333; max-width:100%;">
   <p>
-    India's city gas distribution network now covers over 630 districts. For industrial and commercial facilities in Delhi NCR, Mumbai, Ahmedabad, Pune, and Bengaluru with access to piped natural gas, a gas-fired absorption chiller offers one of the cleanest, most cost-effective large-scale cooling solutions available — with no compressor, near-zero peak electrical demand, and simultaneous hot water output.
+    India's city gas distribution network now covers over 630 districts. For industrial and commercial facilities in Delhi NCR, Mumbai, Ahmedabad, Pune, and Bengaluru with access to piped natural gas, a gas-fired absorption chiller offers one of the cleanest, most cost-effective large-scale cooling solutions available  -  with no compressor, near-zero peak electrical demand, and simultaneous hot water output.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">Why Natural Gas Is Changing the Absorption Chiller Economics in India</h2>
@@ -1340,7 +1340,7 @@ export const blogs: Blog[] = [
     When absorption chillers were first introduced to the Indian market, the primary energy sources were steam from industrial boilers and waste heat from process plants. Natural gas fired chillers existed, but the limited reach of India's gas distribution infrastructure kept them a niche option.
   </p>
   <p>
-    That has changed substantially. The Petroleum and Natural Gas Regulatory Board (PNGRB) has aggressively expanded city gas distribution (CGD) networks, and PNG is now commercially available for industrial and commercial consumers across India's most industrialised cities. For a commercial complex in Gurgaon, a pharmaceutical plant in Ahmedabad, or a hospital in Mumbai, piped natural gas is now a routine utility — like water or electricity.
+    That has changed substantially. The Petroleum and Natural Gas Regulatory Board (PNGRB) has aggressively expanded city gas distribution (CGD) networks, and PNG is now commercially available for industrial and commercial consumers across India's most industrialised cities. For a commercial complex in Gurgaon, a pharmaceutical plant in Ahmedabad, or a hospital in Mumbai, piped natural gas is now a routine utility  -  like water or electricity.
   </p>
   <p>
     This infrastructure shift creates a straightforward opportunity: replace electrical cooling load with gas-fired absorption cooling. The economics work because natural gas, used directly in an absorption chiller at 80% thermal efficiency, delivers cooling at a lower cost per kW-hr than electricity from the grid in most Indian industrial tariff categories.
@@ -1362,7 +1362,7 @@ export const blogs: Blog[] = [
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">How It Works: The Double Effect Gas-Fired Cycle</h2>
   <p>
-    Natural gas combusts in the integrated burner at temperatures above 900°C. This high-temperature energy drives a high-temperature generator in the first stage of the double effect cycle, producing water vapour and concentrated LiBr solution. The vapour from the first stage then acts as the heat source for a second, lower-temperature generator — effectively extracting two refrigeration cycles from a single combustion event.
+    Natural gas combusts in the integrated burner at temperatures above 900°C. This high-temperature energy drives a high-temperature generator in the first stage of the double effect cycle, producing water vapour and concentrated LiBr solution. The vapour from the first stage then acts as the heat source for a second, lower-temperature generator  -  effectively extracting two refrigeration cycles from a single combustion event.
   </p>
   <p>
     The result: a COP of 1.0–1.4 versus 0.65–0.75 for a single effect hot water machine. Every cubic metre of natural gas consumed delivers 1.0–1.4 kW-hr of cooling.
@@ -1497,18 +1497,18 @@ export const blogs: Blog[] = [
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">Why Upfront Price Is the Wrong Metric</h2>
   <p>
-    When Indian procurement teams compare a diesel fired absorption chiller against an electric screw or centrifugal chiller, the instinct is to compare capital cost. On that basis, an electric chiller almost always appears cheaper — the equipment cost per TR is lower, the installation is simpler, and the supply chain is more commoditised.
+    When Indian procurement teams compare a diesel fired absorption chiller against an electric screw or centrifugal chiller, the instinct is to compare capital cost. On that basis, an electric chiller almost always appears cheaper  -  the equipment cost per TR is lower, the installation is simpler, and the supply chain is more commoditised.
   </p>
   <p>
     But a large industrial chiller runs for 15–25 years. Over that period, the CAPEX is typically 8–15% of total lifecycle cost. The remaining 85–92% is energy, maintenance, refrigerant, and water. A comparison that ignores these costs does not reflect the decision you are actually making.
   </p>
   <p>
-    This article builds the Total Cost of Ownership (TCO) comparison for both technologies at Indian conditions — with honest numbers, clear assumptions, and the scenarios where each choice wins.
+    This article builds the Total Cost of Ownership (TCO) comparison for both technologies at Indian conditions  -  with honest numbers, clear assumptions, and the scenarios where each choice wins.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">The Comparison Framework: 500 TR, 20-Year Lifecycle</h2>
   <p>
-    All comparisons in this article are modelled at 500 TR capacity — a common scale for large commercial complexes, industrial HVAC, and mid-size manufacturing process cooling. The base scenario is a facility in Maharashtra with the following parameters:
+    All comparisons in this article are modelled at 500 TR capacity  -  a common scale for large commercial complexes, industrial HVAC, and mid-size manufacturing process cooling. The base scenario is a facility in Maharashtra with the following parameters:
   </p>
   <ul style="list-style-type:disc; padding-left:25px; margin:20px 0;">
     <li>Operating hours: 6,000 per year</li>
@@ -1548,7 +1548,7 @@ export const blogs: Blog[] = [
       </tr>
       <tr>
         <td style="padding:12px; border:1px solid #ddd;">Fuel system (diesel tank, lines)</td>
-        <td style="padding:12px; border:1px solid #ddd;">—</td>
+        <td style="padding:12px; border:1px solid #ddd;"> - </td>
         <td style="padding:12px; border:1px solid #ddd;">₹15–25 lakh</td>
       </tr>
       <tr style="background-color:#f8fafc; font-weight:700;">
@@ -1560,7 +1560,7 @@ export const blogs: Blog[] = [
   </div>
 
   <p>
-    The electric chiller is meaningfully cheaper to install — by approximately ₹2.5–5.5 crore at 500 TR. This is the gap that must be recovered through lower operating costs over the lifecycle.
+    The electric chiller is meaningfully cheaper to install  -  by approximately ₹2.5–5.5 crore at 500 TR. This is the gap that must be recovered through lower operating costs over the lifecycle.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">Annual Operating Cost: Where the TCO Gap Is Determined</h2>
@@ -1640,12 +1640,12 @@ export const blogs: Blog[] = [
       </tr>
       <tr>
         <td style="padding:12px; border:1px solid #ddd;">Annual OPEX saving</td>
-        <td style="padding:12px; border:1px solid #ddd;">—</td>
+        <td style="padding:12px; border:1px solid #ddd;"> - </td>
         <td style="padding:12px; border:1px solid #ddd;">₹3.45 crore/year</td>
       </tr>
       <tr style="background-color:#fdfcea;">
         <td style="padding:12px; border:1px solid #ddd; font-weight:600;">Simple payback on premium</td>
-        <td style="padding:12px; border:1px solid #ddd;">—</td>
+        <td style="padding:12px; border:1px solid #ddd;"> - </td>
         <td style="padding:12px; border:1px solid #ddd; font-weight:700; color:#854d0e;">15–16 months</td>
       </tr>
       <tr>
@@ -1660,14 +1660,14 @@ export const blogs: Blog[] = [
       </tr>
       <tr style="background-color:#ecfdf5; font-weight:700;">
         <td style="padding:12px; border:1px solid #ddd;">20-year NPV saving (10% DR)</td>
-        <td style="padding:12px; border:1px solid #ddd;">—</td>
+        <td style="padding:12px; border:1px solid #ddd;"> - </td>
         <td style="padding:12px; border:1px solid #ddd; color:#065f46;">₹22–28 crore</td>
       </tr>
     </table>
   </div>
 
   <p>
-    At ₹10/kWh electricity and ₹90/litre diesel, the diesel fired absorption chiller delivers a CAPEX payback in approximately 15–16 months at 500 TR and 6,000 operating hours. Over 20 years, the total cost saving exceeds ₹60 crore at nominal values — or ₹22–28 crore in NPV terms.
+    At ₹10/kWh electricity and ₹90/litre diesel, the diesel fired absorption chiller delivers a CAPEX payback in approximately 15–16 months at 500 TR and 6,000 operating hours. Over 20 years, the total cost saving exceeds ₹60 crore at nominal values  -  or ₹22–28 crore in NPV terms.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">How Diesel Price and Electricity Tariff Shift the Decision</h2>
@@ -1726,7 +1726,7 @@ export const blogs: Blog[] = [
     Indian HT industrial consumers pay two charges on their electricity bill: an energy charge (₹/kWh consumed) and a demand charge (₹/kVA of maximum demand). Demand charges often represent 20–35% of the total electricity bill for large consumers.
   </p>
   <p>
-    A 500 TR electric chiller adds approximately 350 kVA of demand to the facility's maximum demand at full load. At ₹400/kVA/month, that is ₹16.8 lakh per year in demand charges alone — regardless of how many hours the chiller actually runs.
+    A 500 TR electric chiller adds approximately 350 kVA of demand to the facility's maximum demand at full load. At ₹400/kVA/month, that is ₹16.8 lakh per year in demand charges alone  -  regardless of how many hours the chiller actually runs.
   </p>
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">Maintenance and Lifecycle Cost Comparison</h2>
@@ -1781,7 +1781,7 @@ export const blogs: Blog[] = [
 
   <h2 style="margin-top:30px; font-size: clamp(18px, 4vw, 22px); font-weight:700;">Conclusion</h2>
   <p>
-    The TCO comparison between a diesel fired absorption chiller and an electric chiller in India is not close at tariffs above ₹8/kWh — the absorption machine pays back its CAPEX premium in under 18 months and then delivers ₹3–3.5 crore in annual savings for the next 18–22 years.
+    The TCO comparison between a diesel fired absorption chiller and an electric chiller in India is not close at tariffs above ₹8/kWh  -  the absorption machine pays back its CAPEX premium in under 18 months and then delivers ₹3–3.5 crore in annual savings for the next 18–22 years.
   </p>
 
   <div style="background: linear-gradient(135deg, #1e40af, #1e3a8a); color:white; border-radius:12px; padding:25px; margin-top:35px; text-align:center;">
@@ -6507,7 +6507,7 @@ Facilities that achieve the best return on investment share common traits: consi
     content: `
                 <h1> Industrial Chillers for Decarbonisation: How to Meet ESG Goals in India </h1>
                   <br />
-                  <p><strong>Quick Links: </strong> <a href="/vapour - absorption - chiller">VAM Chillers</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / contact - us">Request Assessment</a></p>
+                  <p><strong>Quick Links: </strong> <a href="/vapour-absorption-chiller">VAM Chillers</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/contact-us">Request Assessment</a></p>
                     <br />
 
                     <h2><strong>The ESG Revolution: Why Chillers Matter </strong></h2>
@@ -6949,7 +6949,7 @@ BROAD India's vapor absorption technology, validated across numerous installatio
       <strong style="font-size: 18px;"> Ready to Decarbonise Your Facility ? </strong>
         <p> Let BROAD India assess your chiller systems and design a tailored decarbonisation strategy aligned with your ESG goals.</p>
           <p>
-          <a href="/vapour-absorption-chiller"> Explore VAM Solutions </a> | <a href="/cchp - systems">Learn About CCHP Systems</a> | <a href=" / contact - us">Schedule Your Energy Audit</a>
+          <a href="/vapour-absorption-chiller"> Explore VAM Solutions </a> | <a href="/cchp-systems">Learn About CCHP Systems</a> | <a href="/contact-us">Schedule Your Energy Audit</a>
             </p>
             </div>
               `
@@ -6981,7 +6981,7 @@ BROAD India's vapor absorption technology, validated across numerous installatio
     content: `
             <h1> Trigeneration(CCHP) Explained: Combined Cooling, Heating, and Power for Dummies </h1>
               <br />
-              <p><strong>Quick Links: </strong> <a href="/cchp - systems">CCHP Systems</a> | <a href=" / vapour - absorption - chiller">VAM Chillers</a> | <a href=" / absorption - heat - pump">Absorption Heat Pumps</a> | <a href=" / contact - us">Get a Consultation</a></p>
+              <p><strong>Quick Links: </strong> <a href="/cchp-systems">CCHP Systems</a> | <a href="/vapour-absorption-chiller">VAM Chillers</a> | <a href="/absorption-heat-pump">Absorption Heat Pumps</a> | <a href="/contact-us">Get a Consultation</a></p>
                 <br />
 
                 <h2><strong>Introduction: The Energy Revolution in Your Facility </strong></h2>
@@ -7299,7 +7299,7 @@ Whether you're running a pharmaceutical plant, food processing facility, textile
     <strong style="font-size: 18px;"> Ready to Transform Your Facility's Energy Management?</strong>
       <p> Let BROAD India's experts design a tailored CCHP solution for your industrial needs.</p>
         <p>
-        <a href="/cchp-systems"> Explore CCHP Systems </a> | <a href="/vapour - absorption - chiller">Learn About VAM Chillers</a> | <a href=" / contact - us">Schedule Your Free Consultation</a>
+        <a href="/cchp-systems"> Explore CCHP Systems </a> | <a href="/vapour-absorption-chiller">Learn About VAM Chillers</a> | <a href="/contact-us">Schedule Your Free Consultation</a>
           </p>
           </div>
             `
@@ -7835,7 +7835,7 @@ As industrial facilities increasingly focus on energy efficiency and reducing ca
     content: `
                 <h1> AI and Machine Learning in HVAC: Predictive Maintenance and Adaptive Climate Management </h1>
                   </br>
-                  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                     </br>
                     </br>
                     <p> <strong>Introduction: </strong><br>
@@ -7862,7 +7862,7 @@ AI and machine learning integration into HVAC systems is a game - changer, combi
 </p>
 
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `
   },
@@ -7890,7 +7890,7 @@ AI and machine learning integration into HVAC systems is a game - changer, combi
     content: `
     <h1> Geothermal and Solar - Powered HVAC: Combining Renewable Energy for Sustainable Climate Control </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         </br>
         <p> <strong>Introduction: </strong><br>
@@ -7917,7 +7917,7 @@ The fusion of geothermal and solar HVAC technologies marks a transformative shif
 </p>
 
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `
   },
@@ -7973,7 +7973,7 @@ VAMs effectively utilize waste heat from industrial processes, cogeneration plan
 Harnessing waste heat with vapor absorption machines represents a critical shift towards sustainable and energy - efficient industrial cooling.VAM technology leverages thermal energy that would otherwise be wasted, reducing environmental impact while maintaining optimal cooling performance.</p>
 
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8026,7 +8026,7 @@ IoT enables remote control and automation of HVAC systems through mobile or web 
 In 2025, IoT integration in HVAC represents a pivotal step toward sustainable, energy - efficient buildings.By combining real - time data, automation, and predictive analytics, smart HVAC systems deliver optimized performance, cost savings, and improved indoor environments, making them essential for future - ready homes and industries.</p>
 
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8079,7 +8079,7 @@ This shift stimulates innovation in HVAC system design, material selection, and 
 Transitioning to low - GWP refrigerants is critical for shaping the future of HVAC technology, aligning industry practices with global climate goals.While challenges exist, the environmental and operational benefits of these refrigerants make them the cornerstone of sustainable and efficient cooling solutions in 2025 and beyond.</p>
 
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8108,7 +8108,7 @@ Transitioning to low - GWP refrigerants is critical for shaping the future of HV
     content: `
     <h1> Future of HVAC: Steam, Hot Water & CHP VAM Chillers </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 As cities evolve into smart, sustainable ecosystems, energy - efficient HVAC systems are
@@ -8131,7 +8131,7 @@ By integrating these systems, smart cities can achieve sustainable, energy - eff
 solutions, balancing comfort, cost, and climate responsibility.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8160,7 +8160,7 @@ solutions, balancing comfort, cost, and climate responsibility.
     content: `
     <h1> Exhaust to Efficiency: How VAM Chillers Cut Carbon </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Industries are under pressure to reduce carbon emissions while maintaining efficient cooling. 
@@ -8180,7 +8180,7 @@ By turning waste exhaust into valuable cooling, these chillers help industries a
 and sustainability goals simultaneously, supporting a greener future.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8209,7 +8209,7 @@ and sustainability goals simultaneously, supporting a greener future.
     content: `
     <h1> From Heat to Cool: Hot Water & CHP VAM Chillers in India </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 India’s industries are adopting energy - efficient and sustainable cooling solutions.Traditional electric systems are costly and emission - intensive.Hot Water and Combined Heat & Power(CHP) VAM chillers are changing this by turning waste heat into valuable cooling and power.
@@ -8230,7 +8230,7 @@ India’s industries are adopting energy - efficient and sustainable cooling sol
 By converting heat into useful energy, these systems are helping Indian industries save costs, reduce emissions, and operate greener.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8259,7 +8259,7 @@ By converting heat into useful energy, these systems are helping Indian industri
     content: `
     <h1> Why Industries Are Switching to Non - Electric Cooling </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Industries are looking to cut energy costs and emissions while maintaining efficient cooling.Traditional electric chillers consume huge electricity and often use synthetic refrigerants, increasing costs and environmental impact.
@@ -8282,7 +8282,7 @@ Steam and Exhaust Fired VAM chillers offer a sustainable alternative by using wa
 Switching to non - electric VAM cooling helps industries achieve efficient, sustainable, and cost - effective operations.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8310,7 +8310,7 @@ Switching to non - electric VAM cooling helps industries achieve efficient, sust
     content: `
     <h1> CHP VAM Chillers: Cooling, Heating & Power in One </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Industries today need efficiency, sustainability, and flexibility.CHP(Combined Heat and Power) VAM chillers deliver all three by providing cooling, heating, and electricity from a single system.
@@ -8333,7 +8333,7 @@ Industries today need efficiency, sustainability, and flexibility.CHP(Combined H
 By combining power, heating, and cooling, CHP VAM chillers provide a holistic, sustainable energy solution, helping industries save costs and operate greener.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8362,7 +8362,7 @@ By combining power, heating, and cooling, CHP VAM chillers provide a holistic, s
     content: `
     <h1> Exhaust Fired VAM Chillers: Transforming Waste Energy into Climate Solutions </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Industries today face the challenge of reducing energy costs and emissions while maintaining high productivity.Cooling systems, essential in manufacturing, food processing, and pharmaceuticals, often consume large amounts of electricity.Exhaust Fired Vapor Absorption Machine(VAM) chillers turn a problem into an opportunity using waste exhaust energy to provide efficient, sustainable cooling.
@@ -8390,7 +8390,7 @@ Industries today face the challenge of reducing energy costs and emissions while
 By harnessing waste heat, these chillers provide smart, sustainable, and climate - friendly cooling, helping industries operate efficiently and greener.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8418,7 +8418,7 @@ By harnessing waste heat, these chillers provide smart, sustainable, and climate
     content: `
     <h1> Hot Water VAM Chillers: Turning Waste Heat into Smart Cooling </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Industries today are challenged to cut energy costs while reducing their environmental impact.Cooling systems, essential in manufacturing, food processing, pharmaceuticals, and more, consume huge amounts of electricity.Hot Water Vapor Absorption Machine(VAM) chillers provide a smart solution  using waste heat or hot water to generate cooling, reducing electricity demand and carbon emissions.
@@ -8451,7 +8451,7 @@ Industries today are challenged to cut energy costs while reducing their environ
 By turning waste heat into a resource, Hot Water VAM chillers help industries cool efficiently, save costs, and operate sustainably.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8479,7 +8479,7 @@ By turning waste heat into a resource, Hot Water VAM chillers help industries co
     content: `
     <h1> How Steam VAM Chillers are Powering a Cleaner Industrial Future </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Industries today face a tough balance  staying productive while cutting energy costs and emissions.That’s where Steam Vapor Absorption Machines(VAM) chillers are making a difference.Instead of using electricity, these systems use steam or waste heat to produce cooling  turning industrial heat losses into energy savings.
@@ -8523,7 +8523,7 @@ Industries today face a tough balance  staying productive while cutting energy c
 They’re efficient, reliable, and sustainable  the future of green industrial cooling.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8552,7 +8552,7 @@ They’re efficient, reliable, and sustainable  the future of green industrial c
     content: `
     <h1> The Environmental and Economic Impact of Using BROAD’s HVAC Systems in Manufacturing </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 Manufacturing industries face constant pressure to improve energy efficiency while reducing environmental footprints.BROAD India offers sustainable HVAC solutions tailored for this critical need.
@@ -8592,7 +8592,7 @@ Manufacturing industries face constant pressure to improve energy efficiency whi
 In manufacturing, BROAD India’s eco - friendly HVAC solutions drive operational savings, regulatory compliance, and environmental responsibility, essential for sustainable industrial growth.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8620,7 +8620,7 @@ In manufacturing, BROAD India’s eco - friendly HVAC solutions drive operationa
     content: `
     <h1> Why Businesses Should Invest in Sustainable HVAC Solutions Today </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p> <strong>Introduction: </strong><br>
 In today’s eco - conscious world, sustainable HVAC solutions are no longer optional.They are essential for businesses aiming to reduce costs and environmental impact.
@@ -8660,7 +8660,7 @@ In today’s eco - conscious world, sustainable HVAC solutions are no longer opt
 Choosing BROAD India’s sustainable HVAC solutions empowers businesses to save money, reduce emissions, and create healthier workplace buildings a path to a greener future.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8688,7 +8688,7 @@ Choosing BROAD India’s sustainable HVAC solutions empowers businesses to save 
     content: `
     <h1> The Invisible Architects: How Catalysts Efficiently Destroy Low - Concentration VAM </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p>
 In the case of VAM, the goal is to oxidize methane into less harmful carbon dioxide and water.This reaction occurs naturally, but at typical mine ventilation temperatures and low methane concentrations, it's incredibly slow. Without a catalyst, you'd need extremely high temperatures to achieve significant methane destruction, which is economically and practically unfeasible for large volumes of VAM.
@@ -8706,7 +8706,7 @@ In the case of VAM, the goal is to oxidize methane into less harmful carbon diox
 As we strive for a more sustainable future, catalysts will continue to be the unsung heroes in the fight against climate change, proving that even the most dilute environmental challenges can be tackled with ingenuity and the right chemical "architects."
   </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8735,7 +8735,7 @@ As we strive for a more sustainable future, catalysts will continue to be the un
     content: `
     <h1> The Global Methane Pledge: How VAM Mitigation Fits into International Climate Goals </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
         <p>
 Methane, though less abundant than carbon dioxide, is a far more potent greenhouse gas, trapping significantly more heat in our atmosphere over a shorter period.Recognizing this urgent threat, over 150 countries have joined the Global Methane Pledge(GMP).One significant source of anthropogenic methane emissions, particularly in countries with active mining operations, is Ventilation Air Methane(VAM).
@@ -8756,7 +8756,7 @@ Cost - effective VAM abatement technologies are making them accessible to a wide
 For sectors like coal mining, this translates into a renewed focus on understanding and mitigating VAM emissions.As countries work towards their 2030 targets, we can expect to see increased investment in research and development, policy incentives for VAM abatement, and broader adoption of existing and emerging technologies.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8787,7 +8787,7 @@ For sectors like coal mining, this translates into a renewed focus on understand
     content: `
     <h1> The Double Whammy: Environmental Hazards Fueling Extreme Climatic Conditions </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
 
         <ul>
@@ -8801,7 +8801,7 @@ For sectors like coal mining, this translates into a renewed focus on understand
 Hence, addressing these challenges requires concerted efforts from individuals, communities, and policymakers.Investing in cleaner technologies, promoting sustainable land use practices, and raising awareness about the interconnectedness of environmental hazards and extreme climate are vital steps towards building a more resilient and sustainable future.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8832,7 +8832,7 @@ Hence, addressing these challenges requires concerted efforts from individuals, 
     content: `
     <h1> Turning Waste into Cool Air: How VAM Systems Help Businesses Achieve Sustainability Goals </h1>
       </br>
-      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+      <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
         </br>
 
         <ul>
@@ -8853,7 +8853,7 @@ Hence, addressing these challenges requires concerted efforts from individuals, 
 By harnessing the potential of waste heat, businesses across the globe can significantly reduce their environmental impact, lower operating costs, and contribute to a more sustainable future.As the focus on environmental responsibility grows, VAM systems are poised to play an increasingly crucial role in achieving global sustainability goals.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8885,7 +8885,7 @@ By harnessing the potential of waste heat, businesses across the globe can signi
       <p>
 In our ever - warming world, the demand for air conditioning is skyrocketing.However, traditional vapor compression systems, while effective at cooling, come with significant environmental drawbacks such as high electricity consumption and the use of potent greenhouse gases as refrigerants.Thankfully, a greener alternative exists  <strong>Vapor Absorption Machines(VAMs) </strong>.
   </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -8902,7 +8902,7 @@ In our ever - warming world, the demand for air conditioning is skyrocketing.How
 Vapor Absorption Machines(VAMs) offer a compelling and environmentally responsible alternative to traditional air conditioning.By leveraging thermal energy and natural refrigerants, VAM systems can significantly reduce energy consumption and greenhouse gas emissions.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8935,7 +8935,7 @@ Vapor Absorption Machines(VAMs) offer a compelling and environmentally responsib
       <p>
 The construction and operation of buildings contribute significantly to global energy consumption and greenhouse gas emissions.As environmental awareness grows, the demand for eco - friendly building designs is escalating.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -8964,7 +8964,7 @@ The construction and operation of buildings contribute significantly to global e
 While the integrated approach is gaining traction, wider adoption requires greater awareness, supportive policies, and advancements in system design and control.In conclusion, the strategic integration of HVAC and VAM systems represents a significant step towards creating truly eco - friendly buildings.
 </p>
   <p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </p>
       `,
   },
@@ -8998,7 +8998,7 @@ While the integrated approach is gaining traction, wider adoption requires great
       <p>
 In the realm of cooling technologies, especially for large - scale industrial and commercial applications, Vapor Absorption Machines(VAMs) offer a compelling alternative to traditional vapor compression chillers.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9044,7 +9044,7 @@ In the realm of cooling technologies, especially for large - scale industrial an
                           </li>
                           </ul>
                           <p>
-                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                             </p>
                               `,
   },
@@ -9079,7 +9079,7 @@ In the realm of cooling technologies, especially for large - scale industrial an
                               <p>
 Vapor Absorption Machines(VAMs) offer a compelling alternative to traditional vapor compression chillers, particularly in scenarios where a significant source of waste heat is readily available.Instead of relying heavily on electricity to drive a mechanical compressor, VAMs utilize thermal energy to facilitate the cooling process.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9127,7 +9127,7 @@ Vapor Absorption Machines(VAMs) offer a compelling alternative to traditional va
       </li>
       </ul>
       <p>
-      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
         </p>
           `,
   },
@@ -9165,7 +9165,7 @@ When it comes to choosing a new Heating, Ventilation, and Air Conditioning(HVAC)
   <p>
 The Energy Star label is a widely recognized symbol for energy efficiency.It was established by the U.S.Environmental Protection Agency(EPA) in 1992 and has since expanded to cover a vast range of products, including major appliances, electronics, and, importantly for our discussion, HVAC equipment.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9199,7 +9199,7 @@ The Energy Star label is a widely recognized symbol for energy efficiency.It was
                   </li>
                   </ul>
                   <p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </p>
                       `,
   },
@@ -9237,7 +9237,7 @@ When it comes to home comfort, few acronyms are as important as HVAC.You've like
   <p>
 HVAC stands for Heating, Ventilation, and Air Conditioning.These three functions are the cornerstones of a modern system designed to control temperature, humidity, and air quality within an enclosed space. 
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9271,7 +9271,7 @@ HVAC stands for Heating, Ventilation, and Air Conditioning.These three functions
               </li>
               </ul>
               <p>
-              <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+              <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                 </p>
                   `,
   },
@@ -9306,7 +9306,7 @@ HVAC stands for Heating, Ventilation, and Air Conditioning.These three functions
                   <p>
 Your heating, ventilation, and air conditioning(HVAC) system is the unsung hero of your home or business, diligently working to keep you comfortable year - round, especially in a climate like ours in Lucknow where extreme temperatures are common.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9347,7 +9347,7 @@ Your heating, ventilation, and air conditioning(HVAC) system is the unsung hero 
     </li>
     </ul>
     <p>
-    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
       </p>
         `,
   },
@@ -9381,7 +9381,7 @@ Your heating, ventilation, and air conditioning(HVAC) system is the unsung hero 
         <p>
 China is reeling under record - breaking heatwaves this summer, with temperatures crossing 45°C in several provinces.The extreme heat is not just uncomfortable  it’s dangerous.Hospitals are reporting a surge in heat - related illnesses, while the national power grid struggles under massive strain as millions switch on air conditioning to survive.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9413,7 +9413,7 @@ China is reeling under record - breaking heatwaves this summer, with temperature
                   India and China face similar climate threats.Adopting BROAD’s sustainable HVAC systems can ease grid pressure, reduce emissions, and protect communities from the dangers of extreme heat.In a warming world, cooling must be efficient, eco - friendly, and future - ready.
 </p>
                     <p>
-                    <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                    <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                       </p>
                         `,
   },
@@ -9446,7 +9446,7 @@ China is reeling under record - breaking heatwaves this summer, with temperature
                         <p>
 This year, Amarnath pilgrims were met with a disheartening sight  Baba Barfani, the revered ice Shivling, melting far quicker than expected.Many devotees reported that the ice formation had drastically reduced within days, raising serious concerns about the impact of rising heat.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9478,7 +9478,7 @@ This year, Amarnath pilgrims were met with a disheartening sight  Baba Barfani, 
                 The melting of Baba Barfani is more than a spiritual loss, it’s a wake - up call to embrace greener technologies and build resilience against climate extremes.Sustainable HVAC solutions like BROAD’s can help us fight back against climate change while cooling responsibly.
 </p>
                   <p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </p>
                       `,
   },
@@ -9510,7 +9510,7 @@ This year, Amarnath pilgrims were met with a disheartening sight  Baba Barfani, 
                       <p>
 India is facing longer, harsher, and more frequent heatwaves.Traditional air conditioning puts massive pressure on the electric grid and contributes heavily to climate change.It's time to rethink cooling for a hotter, power-stressed future.
   </br>
-  <a href="/hvac-systems"> Explore HVAC Solutions </a> | <a href="/vapour - absorption - chiller">Learn about VAM Technology</a> | <a href=" / vacuum - systems">Industrial VAC Systems</a>
+  <a href="/hvac-systems"> Explore HVAC Solutions </a> | <a href="/vapour-absorption-chiller">Learn about VAM Technology</a> | <a href="/vacuum-systems">Industrial VAC Systems</a>
     </br>
     </p>
 
@@ -9543,7 +9543,7 @@ India is facing longer, harsher, and more frequent heatwaves.Traditional air con
 </p>
 
                     <p>
-                    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                       </p>
                         `,
   },
@@ -9574,7 +9574,7 @@ India is facing longer, harsher, and more frequent heatwaves.Traditional air con
                         <p>
 A recent study has cast a stark spotlight on the escalating environmental crisis in Mumbai's vital mangrove ecosystems: the pervasive presence of microplastics. Mumbai's mangrove areas contain, on average, a staggering 6, 730 microplastic particles. 
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9607,7 +9607,7 @@ A recent study has cast a stark spotlight on the escalating environmental crisis
 </p>
 
                     <p>
-                    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                       </p>
                         `,
   },
@@ -9637,7 +9637,7 @@ A recent study has cast a stark spotlight on the escalating environmental crisis
                       <h1> The Unsung Hero of Sustainability: How Industrial Vacuum Systems(VAC) Prevent Contamination and Conserve Water </h1>
                         <p> In industrial operations, efficiency and production often take the spotlight, but sustainability has its own quiet champions.Industrial Vacuum Systems(VAC) are one such hero, working behind the scenes to prevent contamination, conserve resources, and improve operational efficiency.
 </br>
-                          <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                          <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                             </br>
                             </p>
 
@@ -9669,7 +9669,7 @@ A recent study has cast a stark spotlight on the escalating environmental crisis
                                         Industrial VAC systems may be silent operators, but their impact on sustainability is loud and clear.By reducing contamination, saving water, and improving workplace health, they prove to be essential for industries aiming for a greener future.
 </p>
                                           <p>
-                                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                                             </p>
                                               `,
   },
@@ -9701,7 +9701,7 @@ A recent study has cast a stark spotlight on the escalating environmental crisis
                                               <p>
 The hum of an air conditioner on a hot summer day represents comfortbut also a significant environmental footprint.For decades, HVAC systems relied on refrigerants that contributed to ozone depletion and global warming.Today, new eco - friendly refrigerants are reshaping HVAC’s sustainability story.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9740,7 +9740,7 @@ The hum of an air conditioner on a hot summer day represents comfortbut also a s
                   The future of cooling is green, efficient, and vital.By adopting eco - friendly refrigerants, industries and households alike can reduce emissions, improve energy performance, and align with global climate action efforts.
 </p>
                     <p>
-                    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                    <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                       </p>
                         `,
   },
@@ -9772,7 +9772,7 @@ The hum of an air conditioner on a hot summer day represents comfortbut also a s
                         <p>
 As global temperatures continue to rise due to climate change and urbanization, the demand for cooling intensifies.The good news is that the HVAC industry, alongside geothermal energy, is undergoing remarkable innovations that promise a more sustainable and climate - friendly future.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9804,7 +9804,7 @@ As global temperatures continue to rise due to climate change and urbanization, 
                 Investing in smart, energy - efficient HVAC and geothermal systems is more than comfort, it’s a climate solution.These advancements reduce carbon footprints, improve air quality, and build resilient infrastructure for a warming planet.The commitment to innovation signals a future where technology and sustainability go hand in hand for a greener, cooler world.
 </p>
                   <p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </p>
                       `,
   },
@@ -9836,7 +9836,7 @@ As global temperatures continue to rise due to climate change and urbanization, 
                       <p>
 Lucknow, Uttar Pradesh – As urban centers across India grapple with escalating air pollution, the focus often remains on outdoor measures like stricter emission norms, greener transport, and industrial regulations.But with people spending nearly 90 % of their time indoors, the quality of the air in homes, offices, and public spaces has become paramount.In this fight, advanced HVAC filtration systems are emerging as our indispensable first line of defense.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9868,7 +9868,7 @@ Lucknow, Uttar Pradesh – As urban centers across India grapple with escalating
                 The synergy between cutting - edge filtration technology and smart HVAC systems offers a powerful shield against the invisible threats in our air.By embracing these advancements, we can ensure that "beyond the smog" lies not just cleaner outdoor air, but a sanctuary of breathable, healthy air indoors.
 </p>
                   <p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </p>
                       `,
   },
@@ -9901,7 +9901,7 @@ Lucknow, Uttar Pradesh – As urban centers across India grapple with escalating
                       <p>
 Our buildings are increasingly at the frontlines of the fight against climate change.While traditional HVAC systems are known for high energy consumption, advanced solutions like Vapor Absorption Chillers(VAC) and Vapor Absorption Machines(VAM) are emerging as true game - changers.By relying on waste heat instead of electricity, and by integrating greener refrigerants and smart controls, these systems are cutting carbon emissions while making cooling more sustainable.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -9947,7 +9947,7 @@ Our buildings are increasingly at the frontlines of the fight against climate ch
                         The rise of smart HVAC, alongside vapor absorption chillers and machines, is transforming a traditional energy - intensive system into a powerful climate management tool.These solutions make buildings not only comfortable but also active contributors to global decarbonisation goals.
 </p>
                           <p>
-                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                             </p>
                               `,
   },
@@ -9978,7 +9978,7 @@ Our buildings are increasingly at the frontlines of the fight against climate ch
                               <p>
 India is reimagining how we cool, ventilate, and condition our built environment and energy efficiency is no longer optional, it’s essential.The Energy Conservation Building Code(ECBC), developed by the Bureau of Energy Efficiency(BEE), is setting the benchmark for energy performance in Indian buildings and it’s changing how we think about HVAC.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -10030,7 +10030,7 @@ India is reimagining how we cool, ventilate, and condition our built environment
           India's building sector is transforming and HVAC is at the center of this evolution. ECBC isn’t just regulation, it’s a roadmap to a cooler, cleaner, more cost-effective future. The question is: are we designing for compliance or for leadership?
             </p>
             <p>
-            <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+            <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
               </p>
                 `,
   },
@@ -10061,7 +10061,7 @@ India is reimagining how we cool, ventilate, and condition our built environment
                 <p>
 India is not just one country, it's a climate mosaic. From the arid heat of Rajasthan to the sticky humidity of Kolkata, the temperate chill of Bengaluru to the snowy winters of Leh, India’s climatic diversity demands custom HVAC solutions, not cookie-cutter systems. Here’s what HVAC professionals, policymakers, and developers need to consider:
   </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -10098,7 +10098,7 @@ India is not just one country, it's a climate mosaic. From the arid heat of Raja
                     <h2> <strong>Conclusion </strong></h2>
                     <p>
                     India’s HVAC future will be climate‑responsive, energy‑conscious, and air‑quality focused.It's time for HVAC brands, startups, and governments to collaborate because the future isn't just cooler.It's smarter and cleaner.
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                         </p>
                           `,
   },
@@ -10128,7 +10128,7 @@ India is not just one country, it's a climate mosaic. From the arid heat of Raja
                           <p>
 India’s built environment is going digital and AI + IoT are at the heart of this transformation.As cities expand and energy demands rise, the need for smart, efficient, responsive HVAC systems has never been more critical.From Delhi’s dry heat to Mumbai’s coastal humidity, intelligent HVAC is set to redefine how we cool and condition our spaces.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -10167,7 +10167,7 @@ India’s built environment is going digital and AI + IoT are at the heart of th
                       As India accelerates toward smart cities and sustainable infrastructure, AI and IoT‑powered HVAC systems are more than a luxury they’re a strategic necessity.Whether you're designing a commercial skyscraper or a green‑certified home, integrating intelligent HVAC is the way forward.
                         </p>
                         <p>
-                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                           </p>
                           <p> <em>#aihvac #smarthvac #iotindia #energyefficiency #indoorairquality #smartcitiesindia #hvactech #digitalsustainability </em></p>
                             `,
@@ -10200,7 +10200,7 @@ India’s built environment is going digital and AI + IoT are at the heart of th
                               <p>
 As energy efficiency and environmental responsibility gain importance across industries, Vapour Absorption Chillers(VAC) are redefining how large facilities manage their cooling needs.Unlike traditional chillers that rely on electricity - powered compressors, VAC systems operate using heat, often derived from waste energy sources.This not only saves power but also supports a cleaner, greener future.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -10402,7 +10402,7 @@ As energy efficiency and environmental responsibility gain importance across ind
                                 Water turns into a cold vapor at a very low pressure and temperature.While doing this, it absorbs heat from your room or space, making the area feel cooler.This vapor is then soaked up by a special liquid, lithium bromide.<br />
                                   Think of lithium bromide like a sponge that pulls in the water vapor so it can be used again.
         <br />
-                                    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                                    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                                       </li>
                                       <li>
                                       <strong>Generation: Heating to Cool </strong><br/ >
@@ -10561,7 +10561,7 @@ If more Indian conglomerates engage with global clean tech providers, the result
                             As the world pushes for cleaner, more sustainable energy solutions, BROAD India leads the way with vapour absorption chillers, innovative systems that transform waste heat or natural gas into powerful, eco - friendly cooling.These systems operate without electricity, making them ideal for industrial, commercial, and even residential use.
 </p>
                               <p>
-                              <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                              <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                                 </p>
 
                                 <h2> <strong>What Are Vapour Absorption Chillers ? </strong></h2>
@@ -10617,7 +10617,7 @@ Our vapour absorption chillers are trusted across multiple sectors:
                       Looking to cut electricity costs, reuse process heat, and boost your facility’s energy profile ? BROAD’s vapour absorption chillers are your go - to solution for reliable, clean, and efficient cooling with no electricity required.
 </p>
                         <p>
-                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
                           </p>
                             `,
     image: "/images/22-Feb article.jpeg",
@@ -10648,11 +10648,11 @@ Our vapour absorption chillers are trusted across multiple sectors:
                               <p>
 In modern cities and industrial spaces, HVAC systems(Heating, Ventilation, and Air Conditioning) are no longer optional, they are essential for comfort, safety, productivity, and energy efficiency.But why is HVAC so important in today’s world, especially in India’s increasingly hot and densely populated environments ?
   <br/>
-  <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     <br />
     </p>
     <p>
-    <a href="/absorption-heat-pump"> Learn about Absorption Heat Pumps </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+    <a href="/absorption-heat-pump"> Learn about Absorption Heat Pumps </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
       </p>
 
       <h2> <strong>What Is an HVAC System ? </strong></h2>
@@ -10741,7 +10741,7 @@ These systems offer:
                     <p>
                     When it comes to cooling large buildings, hotels, hospitals, and industries, most people think of electric chillers.But did you know there’s a smarter, more efficient way to stay cool ? Meet <strong> <a href="/vapour-absorption-chiller/direct-fired-chiller"> Direct Fired Chiller </a></strong> by <strong> BROAD India </strong> which is an advanced cooling solution that’s saving energy, reducing costs, and helping the planet.
                       <br />
-                      <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                      <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                         <br />
                         </p>
 
@@ -10786,7 +10786,7 @@ At <strong> BROAD India </strong>, we believe in combining cutting-edge technolo
   <p>
 Whether you're designing a new project or upgrading an existing one, BROAD’s smart, non-electric cooling systems offer a reliable, sustainable solution for the future.
   <br />
-  <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+  <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
     <br />
     </p>
       `,
@@ -10821,7 +10821,7 @@ Whether you're designing a new project or upgrading an existing one, BROAD’s s
         But the big question is:
 <strong>How can we actually achieve this ? </strong><br/ >
   Let’s explore practical, scalable ways to build an HVAC future that is both energy - efficient and environmentally responsible.<br />
-    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
       </li>
       <li> <strong>1. Use Waste Heat and Renewable Sources for Cooling </strong><br/ >
         <ul>
@@ -10865,7 +10865,7 @@ Whether you're designing a new project or upgrading an existing one, BROAD’s s
                               <li> - Green building practices </li>
                                 <li> - Reliable partners like Broad Group </li>
                                   <strong> Talk to Broad Group India about customized HVAC solutions that are built for the future.</strong></br>
-                                    <a href="/contact-us"> Click Here for a Free Consultation </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+                                    <a href="/contact-us"> Click Here for a Free Consultation </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
                                       </li>
                                       </ul>
                                         `,
@@ -10897,14 +10897,14 @@ Whether you're designing a new project or upgrading an existing one, BROAD’s s
                                         <p>
 Did you know that it's possible to cool a building using heat instead of electricity? Sounds strange, right? But that’s exactly what Absorption Chillers do!
   <br />
-  <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     <br />
     </p>
     <ul>
     <li><strong>What is an Absorption Chiller ? </strong><br/ >
       An absorption chiller is a type of cooling system that uses heat(yes, heat!) to create cooling.Unlike traditional ACs or chillers that use electric compressors, these machines rely on a chemical process to chill the air.<br />
         It’s like using waste heat to keep things cool and that’s pretty smart technology to promote sustainability in your premises.
-    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
   </li>
   <li> <strong>Natural Refrigerants – Good for the Planet </strong><br/ >
     Most absorption chillers use natural refrigerants like water or ammonia, which are much better for the environment than the synthetic coolants found in many regular air conditioners.This makes absorption chillers a more eco - friendly option for industries, commercial buildings, and even some large residential projects.
@@ -10936,7 +10936,7 @@ Did you know that it's possible to cool a building using heat instead of electri
     Cooling with heat may sound like magic, but it’s ground - breaking technology and it’s already helping India, eventually the whole world move toward a greener, cleaner future.<br />
       Next time you step into a cool building, remember: it might just be running on heat!
         <br />
-        <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+        <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
           <br />
           </p>
             `,
@@ -10969,7 +10969,7 @@ Did you know that it's possible to cool a building using heat instead of electri
               <p>
               India’s climate is no longer just hot, it’s extreme.Cities like Delhi, Chennai, Ahmedabad, and Nagpur are recording record - breaking temperatures and rising humidity levels year after year.In this harsh environment, conventional HVAC systems often overcool or underperform, leading to high energy bills and uneven comfort.Here enters smart HVAC systems which is a next - generation solution using AI and IoT to monitor, adapt, and optimize cooling intelligently.BROAD’s smart HVAC platforms are empowering Indian buildings to respond dynamically to shifting temperatures, occupancy patterns and energy usage, all while saving costs and reducing emissions.
 <br />
-                <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                   <br />
                   </p>
 
@@ -11006,7 +11006,7 @@ BROAD’s smart app and cloud dashboard provide visual insights into performance
             <p>
             With temperatures rising and energy costs soaring, India’s buildings can no longer afford inefficient climate control.Smart HVAC systems, like those offered by BROAD, are bridging the gap between comfort and sustainability using intelligent data-driven control.By customizing cooling to local climates, minimizing waste, and empowering facility managers with real - time visibility, BROAD is redefining how Indian infrastructure stays coolefficiently, intelligently, and responsibly.
 <br />
-              <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+              <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
                 <br />
                 </p>
                   `,
@@ -11038,7 +11038,7 @@ BROAD’s smart app and cloud dashboard provide visual insights into performance
                     <p>
                     Imagine a machine that cools large buildings or factories with almost no noise, no friction, and astonishing energy savings.That’s exactly what magnetic bearing chillers doand they’re silently revolutionizing HVAC technology across industries.These next - gen chillers are built without traditional mechanical contact, meaning they operate more efficiently, last longer, and demand far less maintenance.BROAD, a global pioneer in sustainable HVAC innovation, is leading this quiet yet powerful transformation in India and beyond.
 <br />
-                      <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                      <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                         <br />
                         </p>
 
@@ -11070,7 +11070,7 @@ What sets BROAD apart is not just the technologybut how it’s built.At BROAD’
       <p>
       Magnetic bearing chillers are not just a technological leapthey're a practical, forward-thinking solution for energy-conscious businesses. With near-zero maintenance, ultra-quiet operation, and game-changing efficiency, these chillers are quickly becoming the gold standard for high-performance cooling. BROAD’s magnetic bearing systems are engineered for the industries of tomorrow with a silent, smart, and sustainable technology. The revolution might be quiet, but its impact is loud and clear.
         <br />
-        <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+        <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
           <br />
           </p>
             `,
@@ -11101,7 +11101,7 @@ What sets BROAD apart is not just the technologybut how it’s built.At BROAD’
               <p>
               In a world where energy efficiency is no longer optional but essential, BROAD's Combined Cooling, Heating, and Power (CCHP) systems are transforming how factories operate. By harnessing waste heat that would typically go unused, CCHP systems maximize every unit of fuel, dramatically lowering energy bills and carbon emissions. This integrated approach is not only reshaping the HVAC industry but is also helping manufacturers take a massive leap toward sustainability.
                 <br />
-                <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                   <br />
                   </p>
 
@@ -11129,7 +11129,7 @@ What sets BROAD apart is not just the technologybut how it’s built.At BROAD’
                                   <p>
                                   BROAD’s CCHP systems are not just an upgradethey're a strategic transformation. By converting waste heat into usable energy, offering integrated solutions, cutting emissions, and ensuring energy security, BROAD is helping Indian industries become more resilient, cost-effective, and environmentally responsible. As global competition rises and regulations tighten, embracing such intelligent energy systems is not just a smart moveit's a necessary one.
 <br />
-                                    <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+                                    <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
                                       <br />
                                       </p>
                                         `,
@@ -11160,7 +11160,7 @@ What sets BROAD apart is not just the technologybut how it’s built.At BROAD’
                                         <p>
                                         Have you ever wondered why it feels warm inside during winter or cool during summer, even when the weather outside is the opposite ? That’s thanks to HVAC systems.HVAC stands for Heating, Ventilation, and Air Conditioning.These systems work quietly in the background to make our homes, schools, offices, and malls comfortable throughout the year.
 <br />
-                                          <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                                          <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                                             <br />
                                             </p>
 
@@ -11188,7 +11188,7 @@ What sets BROAD apart is not just the technologybut how it’s built.At BROAD’
                                                             <p>
                                                             HVAC systems are essential to modern indoor living.By heating, cooling, and purifying the air, they keep indoor environments safe and comfortable all year round.As technology evolves, HVAC systems will continue to play a vital role in making buildings more efficient, healthy, and enjoyable to live and work in.
 <br />
-                                                              <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+                                                              <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
                                                                 <br />
                                                                 </p>
                                                                   `,
@@ -11438,7 +11438,7 @@ This makes <strong> AI - powered HVAC </strong> not just reactive but proactivek
 
   <p> <strong>Conclusion: Embracing Smarter, More Efficient HVAC Systems </strong></p>
     <p>
-    As <strong> AI continues transforming HVAC </strong>, expect smarter spaces, better savings, and greener solutions. Whether you’re managing a home or a commercial facility, <a href="/blogs / how - ai - powered - hvac - system - optimization - is - revolutionizing - energy - efficiency">AI optimization</a> helps reduce waste, cut costs, and improve comfort. It’s not just about cool techit’s about a cooler, smarter, and more sustainable future.
+    As <strong> AI continues transforming HVAC </strong>, expect smarter spaces, better savings, and greener solutions. Whether you’re managing a home or a commercial facility, <a href="/blogs/how-ai-powered-hvac-system-optimization-is-revolutionizing-energy-efficiency">AI optimization</a> helps reduce waste, cut costs, and improve comfort. It’s not just about cool techit’s about a cooler, smarter, and more sustainable future.
       </p>
         `,
     image: "/images/27-March blog.jpeg",
@@ -11547,7 +11547,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
                   <li><strong>Introduction </strong><br/ >
                   Traditional construction methods are often slow, costly, and resource - intensive.But Broad Group Construction is flipping the script.With innovation, speed, and sustainability at the core of its strategy, Broad is building smarter and faster than ever before.
     <br />
-                    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+                    <a href="/power-efficient-chiller"> Learn about Magnetic Bearing Chillers </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
                       </li>
 
                       <li> <strong>How Broad Group Uses Modular Construction </strong><br/ >
@@ -11581,7 +11581,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
   <li> <strong>Conclusion: Fast, Green, and Visionary </strong><br/ >
     Broad Group is not just building structuresthey’re building the future.With rapid modular construction, eco - friendly systems, and innovation at scale, they are redefining what’s possible in construction.If you’re looking to build smarter, faster, and greener, Broad Group is showing the way forward.
     <br />
-      <a href="/contact-us"> Contact us to know more </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+      <a href="/contact-us"> Contact us to know more </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
         </li>
         </ul>
           `,
@@ -11611,7 +11611,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
           <li><strong>Introduction </strong><br/ >
           When you think of cooling, you probably imagine air conditioners running on electricity.However, in large industries, buildings, or factories, the cooling process can be very different.One of the coolest(pun intended!) systems used for cooling is the industrial absorption chiller.This system doesn’t rely solely on electricity to cool large areas.Instead, it uses heat, making it an energy - efficient choice for places that need a lot of cooling power.
     <br />
-            <a href="/vapour-absorption-chiller"> See VAM Product Page </a> | <a href="/cchp - systems">CCHP Systems</a> | <a href=" / installations">View Installations</a> | <a href=" / about">About BROAD India</a>
+            <a href="/vapour-absorption-chiller"> See VAM Product Page </a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/installations">View Installations</a> | <a href="/about">About BROAD India</a>
               </li>
 
               <li> <strong>How Does an Industrial Absorption Chiller Work ? </strong><br/ >
@@ -11652,7 +11652,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
   <li> <strong>Conclusion: Smart, Sustainable Cooling </strong><br/ >
     Industrial absorption chillers offer a smarter, greener way to cool big spaces.By using heatoften a byproduct of industrial processesthey improve efficiency, cut costs, and support sustainability goals.If you’re managing a large facility or planning a smart cooling solution, absorption chillers are worth considering.
     <br />
-      <a href="/contact-us"> Talk to our team </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+      <a href="/contact-us"> Talk to our team </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
         </li>
         </ul>
           `,
@@ -11683,7 +11683,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
           <li><strong>Introduction </strong><br/ >
           With the rise of smart homes and automation, energy management has entered a whole new era.One standout innovation is AI - powered HVAC optimization.By combining artificial intelligence with traditional HVAC systems, users gain improved comfort, lower energy costs, and a more eco - conscious way to manage indoor environments.
     <br />
-            <a href="/vapour-absorption-chiller"> See Absorption Chillers </a> | <a href="/cchp - systems">Explore CCHP Systems</a> | <a href=" / contact - us">Talk to Our HVAC Experts</a>
+            <a href="/vapour-absorption-chiller"> See Absorption Chillers </a> | <a href="/cchp-systems">Explore CCHP Systems</a> | <a href="/contact-us">Talk to Our HVAC Experts</a>
               </li>
 
               <li> <strong>Understanding AI in HVAC Systems </strong><br/ >
@@ -11732,7 +11732,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
   <li> <strong>Conclusion: Smarter HVAC for a Greener Future </strong><br/ >
     AI is changing the HVAC industry for goodbringing energy savings, cost reduction, and climate benefits under one roof.These systems learn your habits, automate comfort, and contribute to a sustainable future.Whether you’re upgrading your office, facility, or home, consider AI - powered HVAC as the next step toward smarter living.
     <br />
-      <a href="/contact-us"> Book a free consultation </a> | <a href="http:/ / en.broad.com / " target="_blank" rel="noopener">Visit BROAD International</a>
+      <a href="/contact-us"> Book a free consultation </a> | <a href="http://en.broad.com/" target="_blank" rel="noopener">Visit BROAD International</a>
         </li>
         </ul>
           `,
@@ -11766,7 +11766,7 @@ Whether you are in the living room, bedroom, or kitchen, you can enjoy the same 
           <p>
 In today's energy-conscious world, businesses and industries are actively looking for solutions that reduce power consumption while maintaining efficiency. One such innovative cooling technology that has gained attention is the Vapour Absorption Machine (VAM). This system is an eco-friendly alternative to traditional vapour compression refrigeration systems, offering significant energy savings and sustainability benefits.
   </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -11804,7 +11804,7 @@ In today's energy-conscious world, businesses and industries are actively lookin
           <p>
           A vapour absorption machine is an excellent choice for industries and businesses looking to improve energy efficiency while reducing their carbon footprint.By harnessing waste heat and renewable energy sources, VAMs provide a sustainable cooling solution with long - term economic and environmental benefits.
     </p>
-            <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+            <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
               </li>
               </ul>
                 `,
@@ -11836,7 +11836,7 @@ In today's energy-conscious world, businesses and industries are actively lookin
                 <p>
 As homeowners become increasingly aware of their environmental impact, many are seeking ways to enhance the sustainability of their heating, ventilation, and air conditioning(HVAC) systems.Not only does this contribute to a greener planet, but it can also lead to significant savings on energy bills.Here are some effective strategies to make your HVAC system more sustainable.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -11881,7 +11881,7 @@ As homeowners become increasingly aware of their environmental impact, many are 
                         <p>
                         Enhancing the sustainability of your HVAC system is not only good for the environment but also beneficial for your wallet.By implementing these strategies, homeowners can enjoy a more efficient system that conserves energy, reduces costs, and promotes a healthier environment.Whether you start small by changing your air filters more regularly or invest in bigger upgrades like energy - efficient units or solar panels, every step towards sustainability counts.
     </p>
-                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                             </li>
                             </ul>
                               `,
@@ -11914,7 +11914,7 @@ As homeowners become increasingly aware of their environmental impact, many are 
                               <p>
 As industries continue to shift towards energy - efficient and sustainable solutions, cooling systems play a crucial role in maintaining operational efficiency.One such revolutionary technology is the Vapor Absorption Machine(VAM), a cooling system that utilizes waste heat instead of electricity - driven compressors.Unlike traditional cooling methods, VAM systems rely on a heat - driven absorption process, making them highly energy - efficient and environmentally friendly.With rising energy costs and environmental concerns, businesses are increasingly looking at VAM as a viable alternative to conventional cooling systems.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -11952,7 +11952,7 @@ As industries continue to shift towards energy - efficient and sustainable solut
                     <p>
                     As industries worldwide focus on sustainability and energy efficiency, Vapor Absorption Machines are emerging as a top choice for businesses seeking alternative cooling solutions.Their ability to leverage waste heat, reduce operational costs, and minimize environmental impact makes them an excellent investment.If you are looking for an energy - efficient cooling solution, now is the time to explore VAM technology.Contact us today to learn how VAM systems can transform your cooling strategy!
                       </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 
                         </li>
                         </ul>
@@ -11986,7 +11986,7 @@ As industries continue to shift towards energy - efficient and sustainable solut
                           <p>
 With rising energy costs and increasing emphasis on sustainability, businesses are constantly looking for efficient cooling solutions.Hot Water Absorption Chillers offer a revolutionary approach by using waste hot water instead of electricity to power the cooling process.These chillers not only provide a cost - effective alternative but also help reduce environmental impact.If your facility generates surplus hot water, integrating a Hot Water Chiller could significantly enhance your cooling efficiency.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12024,7 +12024,7 @@ With rising energy costs and increasing emphasis on sustainability, businesses a
                     <p>
                     As industries shift toward energy - efficient solutions, Hot Water Absorption Chillers are becoming a preferred choice for sustainable cooling.By harnessing waste heat, businesses can optimize efficiency, reduce expenses, and contribute to a greener planet.Contact us today to learn how you can integrate Hot Water Chillers into your facility and start saving energy immediately!
                       </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                         </li>
                         </ul>
                           `,
@@ -12057,7 +12057,7 @@ With rising energy costs and increasing emphasis on sustainability, businesses a
                           <p>
 Cooling technology has undergone significant advancements over the years, with businesses constantly searching for more energy - efficient and sustainable solutions.One such innovation is the Steam Absorption Chiller, a system that leverages waste steam for cooling rather than relying on electricity.This groundbreaking technology is transforming industries by offering cost savings, energy efficiency, and environmental benefits.If your facility generates surplus steam, adopting a Steam Chiller could be the game - changer you need.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12095,7 +12095,7 @@ Cooling technology has undergone significant advancements over the years, with b
                     <p>
                     As businesses increasingly seek ways to optimize their operations, adopting Steam Absorption Chillers presents an opportunity to enhance energy efficiency while cutting costs.These systems are an excellent solution for industries that generate surplus steam, helping them repurpose waste energy into a valuable resource.If you're looking for a sustainable and cost-effective cooling solution, now is the time to make the switch. Contact us today and take a step toward a greener and more efficient future!
                       </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
 
                         </li>
                         </ul>
@@ -12128,7 +12128,7 @@ Cooling technology has undergone significant advancements over the years, with b
                           <p>
 Vapor absorption chillers are gaining prominence as an energy - efficient alternative to conventional cooling systems.Unlike mechanical chillers that rely on electricity to drive compressors, vapor absorption chillers utilize heat sources such as steam, hot water, or direct - fired fuel.This makes them an ideal solution for industries looking to optimize energy consumption while reducing their environmental impact.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12166,7 +12166,7 @@ Vapor absorption chillers are gaining prominence as an energy - efficient altern
                     <p>
                     Vapor absorption chillers are paving the way for sustainable and cost - effective cooling solutions across various industries.Their ability to utilize waste heat, reduce electricity consumption, and operate with minimal environmental impact makes them a smart choice for businesses looking to improve energy efficiency.As the demand for sustainable cooling solutions grows, vapor absorption chillers are set to play a vital role in the future of industrial cooling technology.
     </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                         </li>
                         </ul>
                           `,
@@ -12197,7 +12197,7 @@ Vapor absorption chillers are gaining prominence as an energy - efficient altern
                           <p>
 A vapor absorption machine(VAM) is a cutting - edge cooling system that utilizes heat energy instead of electricity to drive the refrigeration cycle.By eliminating the need for mechanical compressors, these machines provide a sustainable and efficient alternative for industrial and commercial cooling.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12235,7 +12235,7 @@ A vapor absorption machine(VAM) is a cutting - edge cooling system that utilizes
                     <p>
                     Vapor absorption machines are revolutionizing the cooling industry by providing an efficient and environmentally friendly alternative to conventional systems.Their ability to utilize waste heat makes them a valuable solution for industries focused on energy conservation and sustainability.
     </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                         </li>
                         </ul>
                           `,
@@ -12266,7 +12266,7 @@ A vapor absorption machine(VAM) is a cutting - edge cooling system that utilizes
                           <p>
 Hot water absorption chillers are an advanced cooling technology that operates using hot water instead of electricity.They are an excellent alternative for industries with access to waste hot water from industrial processes, combined heat and power(CHP) plants, or solar thermal systems.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12304,7 +12304,7 @@ Hot water absorption chillers are an advanced cooling technology that operates u
                     <p>
                     Hot water absorption chillers are a sustainable and cost - effective cooling solution for industries with access to surplus hot water.Their ability to utilize waste heat while reducing electricity consumption makes them an essential technology for modern energy - efficient cooling systems.
     </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                         </li>
                         </ul>
                           `,
@@ -12335,7 +12335,7 @@ Hot water absorption chillers are an advanced cooling technology that operates u
                           <p>
 Steam absorption chillers are a game - changing cooling technology that uses steam instead of electricity to power the refrigeration cycle.They offer an efficient alternative to traditional chillers, especially in industries where steam is readily available as a byproduct of industrial processes.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12373,7 +12373,7 @@ Steam absorption chillers are a game - changing cooling technology that uses ste
           <p>
           Steam absorption chillers provide an energy - efficient and environmentally friendly cooling solution for industries with access to surplus steam.Their ability to harness waste heat for cooling makes them a valuable asset in modern energy management systems.
     </p>
-            <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+            <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
               </li>
               </ul>
                 `,
@@ -12404,7 +12404,7 @@ Steam absorption chillers are a game - changing cooling technology that uses ste
                 <p>
 Vapor absorption chillers are a groundbreaking technology in the cooling industry, offering an energy - efficient alternative to conventional vapor compression systems.These chillers operate using heat energy instead of electricity, making them ideal for facilities with access to waste heat, solar energy, or other thermal sources.Their unique ability to function without mechanical compressors significantly reduces energy consumption and operational noise.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12442,7 +12442,7 @@ Vapor absorption chillers are a groundbreaking technology in the cooling industr
                     <p>
                     Vapor absorption chillers are an innovative and sustainable cooling solution that significantly reduces energy costs and environmental impact.As industries shift toward energy - efficient systems, the demand for absorption chillers is expected to grow, reinforcing their role in the future of industrial and commercial cooling.
     </p>
-                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                      <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                         </li>
                         </ul>
                           `,
@@ -12474,7 +12474,7 @@ Vapor absorption chillers are a groundbreaking technology in the cooling industr
                           <p>
 In the world of sustainable cooling solutions, the Vapor Absorption Chiller stands out as a revolutionary technology.Unlike traditional chillers that rely on electricity, the Vapor Absorption Chiller operates on thermal energy, making it an ideal choice for industries and applications where waste heat or renewable energy is abundant.This blog provides a comprehensive guide to Vapor Absorption Chillers, exploring their working principles, benefits, and future potential.Whether you're an engineer, industry professional, or sustainability advocate, this guide will help you understand why Vapor Absorption Chillers are a game-changer in the cooling industry.
   </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12519,7 +12519,7 @@ In the world of sustainable cooling solutions, the Vapor Absorption Chiller stan
                         <p>
                         The Vapor Absorption Chiller is more than just a cooling solution; it is a critical tool in the fight against climate change.By harnessing waste heat and renewable energy, Vapor Absorption Chillers are helping industries reduce their carbon footprint and achieve sustainability goals.As technology continues to evolve, Vapor Absorption Chillers are poised to play an increasingly important role in the future of cooling.Whether you're looking to reduce energy costs, lower carbon emissions, or explore innovative cooling solutions, the Vapor Absorption Chiller is a technology worth considering.
                           </p>
-                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                             </li>
                             </ul>
                               `,
@@ -12551,7 +12551,7 @@ In the world of sustainable cooling solutions, the Vapor Absorption Chiller stan
                               <p>
 The Vapor Absorption Machine is revolutionizing the cooling and refrigeration industry by offering a sustainable and energy - efficient alternative to traditional vapor compression systems.Unlike conventional systems that rely on mechanical energy, the Vapor Absorption Machine operates on thermal energy, making it ideal for applications where waste heat or renewable energy is available.This blog delves into the advanced mechanics, cutting - edge innovations, and real - world applications of the Vapor Absorption Machine, providing engineers and industry professionals with a comprehensive understanding of its potential.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12596,7 +12596,7 @@ The Vapor Absorption Machine is revolutionizing the cooling and refrigeration in
                         <p>
                         The Vapor Absorption Machine represents a paradigm shift in the cooling and refrigeration industry.By leveraging advanced technologies and innovative applications, Vapor Absorption Machines are not only reducing energy consumption and carbon emissions but also paving the way for a more sustainable future.As industries and governments prioritize energy efficiency and environmental sustainability, Vapor Absorption Machines are poised to play a critical role in shaping the future of cooling.
     </p>
-                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                          <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                             </li>
                             </ul>
                               `,
@@ -12628,7 +12628,7 @@ The Vapor Absorption Machine is revolutionizing the cooling and refrigeration in
                               <p>
 As industries and businesses strive for greater energy efficiency and sustainability, hot water absorption chillers are emerging as a key solution.These advanced systems leverage low - grade heat from hot water to provide cooling, making them ideal for applications where waste heat or renewable energy is available.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12659,7 +12659,7 @@ As industries and businesses strive for greater energy efficiency and sustainabi
                 <p>
                 Hot water absorption chillers are at the forefront of sustainable cooling technology.With advancements in heat exchanger design, renewable energy integration, and smart technology, these systems are becoming more efficient, versatile, and environmentally friendly.As industries continue to prioritize sustainability, hot water absorption chillers will play a pivotal role in shaping the future of cooling.
     </p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </li>
                     </ul>
                       `,
@@ -12691,7 +12691,7 @@ As industries and businesses strive for greater energy efficiency and sustainabi
                       <p>
 In the fight against climate change, industries are turning to sustainable technologies to reduce their carbon footprint.Steam absorption chillers, with their ability to harness waste heat and renewable energy, are emerging as a cornerstone of sustainable cooling solutions.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12722,7 +12722,7 @@ In the fight against climate change, industries are turning to sustainable techn
                 <p>
                 Steam absorption chillers are more than just cooling systemsthey are a vital tool for achieving sustainability in industrial and commercial applications.By leveraging waste heat, integrating renewable energy, and adopting smart technologies, these systems are paving the way for a greener, more sustainable future.
     </p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </li>
                     </ul>
                       `,
@@ -12753,7 +12753,7 @@ In the fight against climate change, industries are turning to sustainable techn
                       <p>
 Vapor Absorption Chillers(VAC) are becoming increasingly popular in industrial and commercial applications due to their ability to utilize waste heat or renewable energy sources for cooling.Unlike traditional vapor compression chillers, VACs operate on a thermally driven cycle, making them highly energy - efficient and environmentally friendly.In this blog, we will explore the advanced working principles of VACs, the types of refrigerants used, efficiency optimization techniques, and their potential applications.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12784,7 +12784,7 @@ Vapor Absorption Chillers(VAC) are becoming increasingly popular in industrial a
                 <p>
                 Vapor absorption chillers offer a sustainable and energy - efficient solution for industrial and commercial cooling needs.By leveraging thermally driven cycles, optimizing refrigerant selection, and implementing efficiency - enhancing techniques, VACs can contribute to reduced energy consumption and operational costs.With continued advancements in heat exchanger technology and renewable energy integration, the adoption of VACs is expected to rise, making them a crucial part of the future of sustainable cooling.
     </p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </li>
                     </ul>
                       `,
@@ -12816,7 +12816,7 @@ Vapor Absorption Chillers(VAC) are becoming increasingly popular in industrial a
                       <p>
 In an era where energy efficiency and sustainability are paramount, the vapor absorption chiller(VAC) has evolved beyond a mere alternative to traditional cooling systems.With advancements in technology, modern VAM systems are integrating artificial intelligence, hybrid energy sources, and innovative materials to redefine industrial cooling.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12847,7 +12847,7 @@ In an era where energy efficiency and sustainability are paramount, the vapor ab
                 <p>
                 The vapor absorption chiller is no longer just an alternative cooling technologyit is evolving into a sophisticated, adaptable, and energy - efficient solution for the modern world.By integrating AI, hybrid energy sources, and advanced materials, VAM is set to revolutionize the cooling industry and contribute to a greener future.
     </p>
-                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                     </li>
                     </ul>
                       `,
@@ -12886,7 +12886,7 @@ In today’s fast‑paced industrial and commercial landscape, cooling systems p
   <p>
 While both systems use hot water as a cooling medium, their underlying technologies differ significantly.One relies on waste heat recovery and thermodynamic absorption, while the other depends on mechanical compression and electricity consumption.But which one is better suited for your needs ? Let’s dive in.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12928,7 +12928,7 @@ While both systems use hot water as a cooling medium, their underlying technolog
                                       <p>
       As industries shift toward greener, more efficient cooling technologies, Hot Water Absorption Chillers are leading the way.If you’re aiming for smart, cost‑effective, sustainable investment, HWACs might just be the coolest choice.
     </p>
-  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
     </li>
     </ul>
       `,
@@ -12962,7 +12962,7 @@ Introduction: The Growing Need for Energy‑Efficient Cooling
   <p>
 In industries and commercial buildings where waste heat is readily available, Hot Water Absorption Chillers(HWACs) are emerging as a revolutionary alternative to traditional electric chillers.Unlike mechanical cooling systems that consume large amounts of electricity, HWACs use hot water as the primary energy source to drive the refrigeration cycle.This makes them particularly valuable in industries such as power plants, refineries, data centres, and district cooling systems.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -12998,7 +12998,7 @@ In industries and commercial buildings where waste heat is readily available, Ho
             <p>
             As industries prioritize sustainability and cost - effective cooling, Hot Water Absorption Chillers are an essential component in next‑generation HVAC systems.They use waste heat, minimise energy use, and offer a reliable, quiet, and cleaner cooling solution.
     </p>
-              <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+              <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                 </li>
                 </ul>
                   `,
@@ -13032,7 +13032,7 @@ Introduction
   <p>
 For decades, mechanical chillers have dominated industrial and commercial cooling.However, with rising energy costs and sustainability concerns, a shift toward Steam Absorption Chillers(SACs) is happening.Industries looking for cost‑effective and eco‑friendly solutions are now adopting steam‑driven cooling technology instead of traditional compression‑based chillers.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13062,7 +13062,7 @@ For decades, mechanical chillers have dominated industrial and commercial coolin
                       <p>
                       As green energy goals rise, Steam Absorption Chillers are proving to be the future.Their heat‑powered efficiency, sustainability, and cost‑savings put them ahead of traditional mechanical chillers.
     </p>
-                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                           </li>
                           </ul>
                             `,
@@ -13096,7 +13096,7 @@ Introduction
   <p>
 With industries increasingly focusing on sustainability and cost‑effective operations, the need for energy‑efficient cooling solutions has never been greater.One of the most revolutionary cooling technologies gaining traction is the Steam Absorption Chiller(SAC).Unlike conventional mechanical chillers, SACs use steam as a heat source instead of electricity‑driven compressors.This makes them particularly advantageous in industries where excess steam is available, such as power plants, manufacturing facilities, and chemical plants.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13147,7 +13147,7 @@ With industries increasingly focusing on sustainability and cost‑effective ope
                                 <p>
                                 Steam Absorption Chillers offer sustainable, quiet, and efficient HVAC.As industries push for greener tech, SACs will be central to future cooling strategies.
     </p>
-                                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                                     </li>
                                     </ul>
                                       `,
@@ -13178,7 +13178,7 @@ With industries increasingly focusing on sustainability and cost‑effective ope
                                       <p>
 With the increasing need for energy‑efficient cooling solutions, Vapor Absorption Chillers(VACs) have emerged as a sustainable alternative to traditional electric‑driven chillers.These systems utilize heat energy instead of electricity, making them ideal for industries looking to optimize their energy use.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13212,7 +13212,7 @@ With the increasing need for energy‑efficient cooling solutions, Vapor Absorpt
                       <p>
                       Industries aiming to reduce energy use and costs should consider Vapor Absorption Chillers.Their heat‑driven efficiency, eco‑friendly credentials, and quiet, low‑maintenance design make them a future‑ready cooling solution.
     </p>
-                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                           </li>
                           </ul>
                             `,
@@ -13244,7 +13244,7 @@ With the increasing need for energy‑efficient cooling solutions, Vapor Absorpt
                             <p>
 Cooling technology is evolving rapidly, with a growing focus on energy efficiency and sustainability.One of the most efficient solutions in industrial and commercial cooling is the Vapor Absorption Machine(VAM).Unlike traditional HVAC systems that rely on electricity, VAM utilizes heat sources such as waste heat, solar energy, or steam to drive the cooling process.This article explores how VAMs work and their advantages over conventional systems.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13278,7 +13278,7 @@ Cooling technology is evolving rapidly, with a growing focus on energy efficienc
                       <p>
                       Vapor Absorption Machines present a viable alternative to traditional air conditioning systems, particularly in environments where waste heat is abundant.By leveraging this technology, businesses can reduce energy costs and enhance sustainability efforts.
     </p>
-                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                           </li>
                           </ul>
                             `,
@@ -13308,7 +13308,7 @@ Cooling technology is evolving rapidly, with a growing focus on energy efficienc
                             <p>
 As industries shift towards energy - efficient and eco - friendly cooling solutions, the Vapor Absorption Chiller(VAC) has emerged as a revolutionary technology in HVAC and industrial applications.Unlike conventional refrigeration systems that depend on electricity - driven compressors, VAC utilizes heat energy to facilitate the cooling process.By reducing electricity reliance and leveraging waste heat, Vapor Absorption Chillers offer a cost - effective and sustainable alternative to traditional cooling methods.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13355,7 +13355,7 @@ As industries shift towards energy - efficient and eco - friendly cooling soluti
                                       <p>
                                       The Vapor Absorption Chiller(VAC) is transforming the cooling industry by offering a sustainable, cost - effective, and energy - efficient alternative to traditional refrigeration methods.As businesses prioritize energy conservation and eco - friendly solutions, VAC technology is set to become a fundamental component of modern, sustainable cooling infrastructure worldwide.
     </p>
-                                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                                        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                                           </li>
                                           </ul>
                                             `,
@@ -13385,7 +13385,7 @@ As industries shift towards energy - efficient and eco - friendly cooling soluti
                                             <p>
 Regular inspections of Heating, Ventilation, and Air Conditioning(HVAC) systems are crucial to maintaining their efficiency, prolonging their lifespan, and ensuring they provide a comfortable indoor environment.Neglecting regular maintenance can lead to decreased system performance, higher energy bills, and costly repairs.Here’s why regular HVAC inspections are essential for any system.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13437,7 +13437,7 @@ Regular inspections of Heating, Ventilation, and Air Conditioning(HVAC) systems 
                             <p>
                             Regular HVAC inspections are a minor expense compared to the costs of repairing or replacing a neglected system.Investing in routine maintenance ensures that HVAC systems continue to operate efficiently, provide comfort, and save money in the long run.Homeowners and facility managers should prioritize these inspections to protect their investment and enhance the health and comfort of building occupants.Understanding the critical role that regular maintenance plays can help homeowners and businesses keep their systems in peak condition, avoiding the discomfort and financial strain of HVAC failures.
     </p>
-                              <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                              <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                                 </li>
                                 </ul>
                                   `,
@@ -13467,7 +13467,7 @@ Regular inspections of Heating, Ventilation, and Air Conditioning(HVAC) systems 
                                   <p>
 As temperatures plummet, heating systems work overtime, often leading to increased energy usage and higher utility bills.However, with strategic adjustments and enhancements, both homeowners and businesses can significantly boost the energy efficiency of their HVAC systems during the winter months.Here are five practical tips to help you reduce energy consumption and maintain a comfortable indoor environment without breaking the bank.
 </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13531,7 +13531,7 @@ As temperatures plummet, heating systems work overtime, often leading to increas
       <p>
       By implementing these energy - saving tips, you can significantly reduce your winter heating bills while maintaining an efficient and sustainable HVAC system.These strategies not only contribute to lower energy consumption but also extend the life of your HVAC equipment, offering both immediate and long - term benefits.Remember, taking proactive steps to enhance your HVAC system’s efficiency is key to achieving a warm, comfortable, and eco - friendly home environment this winter.
     </p>
-        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+        <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
           </li>
           </ul>
             `,
@@ -13569,7 +13569,7 @@ As temperatures plummet, heating systems work overtime, often leading to increas
             <p>
 For any new homeowner, choosing the right HVAC(Heating, Ventilation, and Air Conditioning) system is a pivotal decision.It directly impacts your household's comfort, dictates energy efficiency, and influences long-term operational costs. The sheer variety of systems available, coupled with the unique requirements of each home, can make this choice seem daunting. This guide is crafted to equip new homeowners with practical insights, enabling a truly informed selection.
   </br>
-  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour - absorption - chiller">See VAM Product Page</a> | <a href=" / cchp - systems">CCHP Systems</a> | <a href=" / pumpsets">Pump Solutions</a>
+  <a href="/vapour-absorption-chiller/direct-fired-chiller"> Learn about Direct Fired Chiller </a> | <a href="/vapour-absorption-chiller">See VAM Product Page</a> | <a href="/cchp-systems">CCHP Systems</a> | <a href="/pumpsets">Pump Solutions</a>
     </br>
     </p>
 
@@ -13602,7 +13602,7 @@ For any new homeowner, choosing the right HVAC(Heating, Ventilation, and Air Con
                                 <p>
                                 Choosing the appropriate HVAC system for your new home necessitates careful consideration of your specific needs, the unique characteristics of your property, and the prevailing climate in your region.The most prudent step is to consult with reputable HVAC professionals.They can provide detailed home assessments, conduct precise load calculations, and offer tailored recommendations based on your unique situation.By dedicating time and effort to selecting the right system, you are ensuring years of reliable comfort and optimal energy efficiency for your new abode.Thorough research and a holistic consideration of these factors will undoubtedly guide you toward an HVAC system that perfectly aligns with your needs and budget, cultivating a truly comfortable and sustainable home environment.
     </p>
-                                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http:/ / www.broadindia.com / " target="_blank" rel="noopener">Visit BROAD India</a>
+                                  <a href="/contact-us"> Contact us for a free consultation </a> | <a href="http://www.broadindia.com/" target="_blank" rel="noopener">Visit BROAD India</a>
                                     </li>
                                     </ul>
                                       `,

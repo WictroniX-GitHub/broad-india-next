@@ -12,10 +12,9 @@ import TrustedClients from "@/components/TrustedClient";
 import IntroText from "@/components/IntroText";
 
 export const metadata: Metadata = {
-  title:
-    "BROAD India - Leading Non-Electric HVAC Solutions & Vapor Absorption Chillers",
+  title: "Vapor Absorption Chillers India | BROAD India",
   description:
-    "BROAD Air Conditioning India Pvt. Ltd. - Premier provider of energy-efficient vapor absorption chillers, CCHP systems, and sustainable HVAC solutions. Reduce energy costs by up to 50% with our non-electric cooling technology.",
+    "BROAD India offers vapor absorption chillers, CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
   keywords: [
     "BROAD India",
     "vapor absorption chiller",
@@ -29,10 +28,9 @@ export const metadata: Metadata = {
     "absorption heat pump",
   ],
   openGraph: {
-    title:
-      "BROAD India - Leading Non-Electric HVAC Solutions & Vapor Absorption Chillers",
+    title: "Vapor Absorption Chillers India | BROAD India",
     description:
-      "Premier provider of energy-efficient vapor absorption chillers and sustainable HVAC solutions. Reduce energy costs by up to 50% with our non-electric cooling technology.",
+      "BROAD India offers vapor absorption chillers, CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
     type: "website",
     locale: "en_IN",
     url: "https://www.broadindia.com",
@@ -48,9 +46,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BROAD India - Leading Non-Electric HVAC Solutions",
+    title: "Vapor Absorption Chillers India | BROAD India",
     description:
-      "Premier provider of energy-efficient vapor absorption chillers and sustainable HVAC solutions.",
+      "BROAD India offers vapor absorption chillers, CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
     images: ["/images/logo.png"],
   },
   robots: {
@@ -67,8 +65,26 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BROAD India",
+    "url": "https://www.broadindia.com",
+    "logo": "https://www.broadindia.com/images/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/broad-india/",
+      "https://www.exportersindia.com/broad-air-conditioning-india-pvt-ltd/",
+      "https://en.wikipedia.org/wiki/Broad_Group"
+    ]
+  };
+
   return (
     <div style={{ backgroundColor: "#eee", paddingLeft: "0" }}>
+      <h1 className="sr-only">Vapor Absorption Chillers & Non-Electric HVAC Solutions for Indian Industry</h1>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <HomePageCarousel />
       <CTA />
       <IntroText />

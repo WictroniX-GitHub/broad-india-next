@@ -8,7 +8,7 @@ import broadBG3 from "@/public/images/13Podium.webp";
 import broadBG4 from "@/public/images/FTower.webp";
 
 const slides = [
-  { src: broadBG1, text: "BROAD India" },
+  { src: broadBG1, text: "Vapor Absorption Chillers & Non-Electric HVAC Solutions for Indian Industry" },
   { src: broadBG2, text: "Serving India Since 2001" },
   {
     src: broadBG3,
@@ -49,7 +49,11 @@ export default function HomePageCarousel() {
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-black/60 text-white p-4 rounded-lg text-center">
-            <h2 className="text-2xl md:text-4xl uppercase">{slide.text}</h2>
+            {index === 0 ? (
+              <h1 className="text-2xl md:text-4xl uppercase">{slide.text}</h1>
+            ) : (
+              <h2 className="text-2xl md:text-4xl uppercase">{slide.text}</h2>
+            )}
             {slide.link && (
               <a
                 href={slide.link}

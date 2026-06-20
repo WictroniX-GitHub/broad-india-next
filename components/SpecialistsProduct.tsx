@@ -20,7 +20,7 @@ const products = [
     image:
       "https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg",
     description:
-      "Designed for high-performance applications where energy savings, quiet operation, and zero oil contamination matter — featuring magnetic bearing, oil-free technology.",
+      "Designed for high-performance applications where energy savings, quiet operation, and zero oil contamination matter  -  featuring magnetic bearing, oil-free technology.",
     link: "/power-efficient-chiller",
   },
   {
@@ -29,7 +29,7 @@ const products = [
     image:
       "https://broadusa.com/broad/wp-content/uploads/2020/04/home_CCHP-300x195.jpg",
     description:
-      "For facilities seeking to generate cooling, heating, and power from a single fuel source — reducing energy costs and carbon footprint with trigeneration.",
+      "For facilities seeking to generate cooling, heating, and power from a single fuel source  -  reducing energy costs and carbon footprint with trigeneration.",
     link: "/cchp-systems",
   },
   {

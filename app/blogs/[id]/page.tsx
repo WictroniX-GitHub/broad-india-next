@@ -45,8 +45,9 @@ export default async function BlogsDetailPage({ params }: PageProps) {
     image: [blog.image],
     datePublished: blog.date,
     author: {
-      "@type": "Organization",
-      name: "BROAD India",
+      "@type": "Person",
+      name: "BROAD India Technical Team",
+      url: "https://www.broadindia.com",
     },
     description: blog.description,
   };

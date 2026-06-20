@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import ProductFAQ from "@/components/ProductFAQ";
 
 export const metadata: Metadata = {
   title: "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
@@ -44,6 +45,20 @@ export const metadata: Metadata = {
 const PowerEfficientChiller = () => {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            "name": "Power Efficient Chillers  -  Magnetic Bearing Technology",
+            "description": "Oil-free, magnetic bearing centrifugal chillers with IPLV up to 13.26 for commercial and industrial cooling across India.",
+            "provider": { "@type": "Organization", "name": "BROAD India", "url": "https://www.broadindia.com" },
+            "areaServed": { "@type": "Country", "name": "India" },
+            "serviceType": "Electric Chiller Solutions"
+          })
+        }}
+      />
       {/* Hero Section */}
       <div
         className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
@@ -268,6 +283,25 @@ const PowerEfficientChiller = () => {
           </Link>
         </div>
       </div>
+      {/* FAQ Section */}
+      <ProductFAQ faqs={[
+        {
+          question: "What is a magnetic bearing chiller?",
+          answer: "A magnetic bearing chiller uses advanced magnetic levitation technology in its compressor. Instead of conventional mechanical bearings that require heavy oil lubrication, the compressor shaft floats on a magnetic field. This completely eliminates mechanical friction, resulting in hyper-efficient, whisper-quiet operation."
+        },
+        {
+          question: "Why is oil-free technology important for efficiency?",
+          answer: "In traditional chillers, lubricating oil often travels into the heat exchangers, coating the tubes and acting as an insulator. This 'oil fouling' severely degrades heat transfer efficiency over time. An oil-free magnetic chiller eliminates this problem entirely, maintaining its day-one peak efficiency for the entire life of the unit."
+        },
+        {
+          question: "What are the maintenance benefits of magnetic bearing chillers?",
+          answer: "Because there is no oil management system (no oil pumps, filters, heaters, or separators) and no mechanical friction on the bearings, routine maintenance is drastically reduced. Facilities can eliminate the costs and downtime associated with annual oil changes and bearing replacements."
+        },
+        {
+          question: "How quiet is the magnetic bearing chiller?",
+          answer: "Extremely quiet. Because the compressor shaft levitates without physical contact, the typical high-pitched mechanical noise of conventional compressors is eliminated. They are ideal for noise-sensitive environments like hospitals, luxury hotels, and commercial offices."
+        }
+      ]} />
     </div>
   );
 };

@@ -83,8 +83,8 @@ export default function TermsConditions() {
                 4. Intellectual Property
               </h2>
               <p className="text-gray-700 leading-relaxed">
-                All site content—including text, graphics, logos, and
-                software—is owned by BROAD (or used under license) and protected
+                All site content - including text, graphics, logos, and
+                software - is owned by BROAD (or used under license) and protected
                 by copyright and trademark laws.
               </p>
             </section>

@@ -2,18 +2,18 @@
 
 import Image from "next/image";
 import bhilosa from "@/public/images/bhilosa.png";
+import ntpc from "@/public/images/NTPC_Logo.svg.png";
+import itc from "@/public/images/ITC_Limited_Logo.svg.png";
 
 const clients = [
   {
     name: "NTPC",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Thermal_Power_logo.svg/1200px-National_Thermal_Power_logo.svg.png",
+    image: ntpc,
     link: "https://www.ntpc.co.in/",
   },
   {
     name: "ITC",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/ITC_Limited_Logo.svg/1200px-ITC_Limited_Logo.svg.png",
+    image: itc,
     link: "https://www.itcportal.com/",
   },
   {
@@ -35,8 +35,7 @@ const clients = [
   },
   {
     name: "DLF",
-    image:
-      "https://animationvisarts.com/wp-content/uploads/2016/10/dlf-logo-design.jpg",
+    image: "/images/DLF_logo.svg",
     link: "https://www.dlf.in/",
   },
 ];
