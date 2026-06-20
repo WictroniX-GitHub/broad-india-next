@@ -9,6 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import ProductFAQ from "@/components/ProductFAQ";
 
 export const metadata: Metadata = {
   title:
@@ -101,8 +102,64 @@ const VapourAbsorptionChiller = () => {
     },
   ];
 
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a vapor absorption chiller?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A vapor absorption chiller is a cooling system that uses heat (like waste heat or steam) instead of electricity to drive the refrigeration cycle, making it a highly energy-efficient and eco-friendly cooling solution."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does an absorption chiller work without electricity?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It uses a thermal compressor instead of a mechanical one. Heat sources like steam, hot water, natural gas, or waste heat are used to vaporize the refrigerant (typically water) from an absorbent (like lithium bromide), producing a cooling effect with minimal electrical power."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the benefits of using a vapor absorption machine in India?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Benefits include drastically reduced electricity consumption, lower operating costs, utilization of industrial waste heat, and a smaller carbon footprint since they use water as a refrigerant instead of ozone-depleting chemicals."
+        }
+      }
+    ]
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Vapor Absorption Chiller Solutions",
+    "description": "Non-electric cooling solutions using vapor absorption technology for industrial and commercial applications across India.",
+    "provider": {
+      "@type": "Organization",
+      "name": "BROAD India",
+      "url": "https://www.broadindia.com"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    },
+    "serviceType": "Industrial Cooling Solutions"
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero Section */}
       <div
         className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
@@ -122,30 +179,35 @@ const VapourAbsorptionChiller = () => {
 
       {/* Introduction Section */}
       <div className="container mx-auto py-12 px-4">
-        <div className="max-w-4xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-6">
-            BROAD Vapour Absorption Chiller Product Range
+        <div className="max-w-4xl mx-auto mb-12">
+          <h2 className="text-3xl font-bold mb-6 text-center">
+            Pioneering Non-Electric Cooling with BROAD Vapour Absorption Chillers
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            <strong>BROAD India</strong> offers a comprehensive portfolio of{" "}
-            <strong>Vapour Absorption Chillers (VAC)</strong> engineered for
-            energy efficiency, reliability, and sustainability. Our solutions
-            cover direct-fired, waste-heat-driven, two-stage, single-stage,
-            multi-energy, solar-driven, and packaged absorption chillers—each
-            designed to meet diverse industrial and commercial cooling and
-            heating needs.
-            <br />
-            Leveraging advanced lithium bromide-water absorption technology,
-            BROAD chillers deliver powerful cooling and heating with minimal
-            electricity demand, ultra-low emissions, and robust performance. Our
-            systems support India&apos;s net-zero and sustainability goals by
-            reducing power consumption, eliminating harmful refrigerants, and
-            maximizing the use of renewable and waste heat sources.
-            <br />
-            Explore our product range below to find the ideal solution for your
-            facility&apos;s requirements, heat source, and operational
-            priorities.
-          </p>
+          <div className="space-y-6 text-lg text-gray-700 leading-relaxed text-justify">
+            <p>
+              In an era where industrial cooling demands are surging and electricity costs in India continue to fluctuate, <strong>BROAD India</strong> provides a transformative solution: the <strong>Vapour Absorption Chiller (VAC)</strong>. Unlike conventional mechanical chillers that rely heavily on grid electricity, our absorption chillers utilize thermal energy - such as industrial waste heat, steam, hot water, natural gas, or even solar energy - to drive the refrigeration cycle. This paradigm shift in HVAC technology offers unprecedented energy efficiency, operational reliability, and environmental sustainability for large-scale commercial and industrial applications.
+            </p>
+            <p>
+              At the core of our technology is a highly efficient lithium bromide-water absorption cycle. Water acts as the natural, zero-ODP (Ozone Depletion Potential), and zero-GWP (Global Warming Potential) refrigerant, while lithium bromide serves as the absorbent. By completely eliminating the need for ozone-depleting CFCs and HCFCs, BROAD chillers align perfectly with India&apos;s stringent environmental regulations and corporate net-zero sustainability goals. Our chillers represent a critical step toward decarbonizing the cooling sector, which currently accounts for a massive portion of national energy consumption.
+            </p>
+            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Why India&apos;s Industries are Shifting to Absorption Cooling</h3>
+            <p>
+              India&apos;s industrial sector, spanning textiles, pharmaceuticals, chemicals, and heavy manufacturing, generates vast amounts of low-grade waste heat. Traditionally exhausted into the atmosphere, this thermal energy can now be captured and monetized. A waste-heat-driven vapour absorption chiller recovers this otherwise lost energy to produce chilled water for process cooling or facility air conditioning, effectively delivering &quot;free cooling&quot; and drastically reducing the facility&apos;s overall energy intensity. This closed-loop approach to thermal management is the cornerstone of a circular energy economy.
+            </p>
+            <p>
+              Furthermore, many regions across India face grid constraints and high peak tariffs. By deploying a BROAD non-electric chiller, facilities can slash their electrical peak demand load by up to 90%, freeing up critical power infrastructure for core manufacturing processes. This electrical independence translates into enhanced operational resilience, protection against tariff hikes, and a rapid return on investment (ROI) that typically pays for the equipment within a few years of operation.
+            </p>
+            <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Unmatched Reliability and Intelligent Operation</h3>
+            <p>
+              BROAD Absorption Chillers are engineered with virtually no moving parts within the main refrigeration cycle, bypassing the mechanical wear and tear inherent in electric centrifugal or screw compressors. The result is a whisper-quiet, vibration-free operation with an extended lifespan often exceeding 25 years. Coupled with BROAD&apos;s advanced anti-crystallization controls, automated multi-point vacuum purging systems, and comprehensive IoT-enabled remote monitoring, our chillers ensure uninterrupted, trouble-free performance year after year. 
+            </p>
+            <p>
+              Whether you are upgrading an aging chilled water plant, integrating cooling into a cogeneration setup, or looking to harness solar thermal power, BROAD India has the engineering expertise to customize a thermal cooling solution tailored to your exact load profile and heat availability.
+            </p>
+            <p className="pt-4 font-medium text-center text-xl text-blue-800">
+              Explore our comprehensive portfolio of absorption technologies below to find the perfect solution for your facility.
+            </p>
+          </div>
         </div>
 
         {/* Sub-categories Grid */}
@@ -214,6 +276,25 @@ const VapourAbsorptionChiller = () => {
           </div>
         </div>
       </div>
+      {/* FAQ Section */}
+      <ProductFAQ faqs={[
+        {
+          question: "How does a vapour absorption chiller save electricity?",
+          answer: "Unlike conventional electric chillers that rely on power-hungry mechanical compressors, a vapour absorption chiller is driven by heat (like waste heat, steam, or natural gas). This eliminates the main compressor, slashing electrical peak demand by up to 90% and drastically reducing your facility's operational costs."
+        },
+        {
+          question: "What heat sources can drive a BROAD absorption chiller?",
+          answer: "BROAD chillers are highly versatile and can be driven by direct-fired natural gas or diesel, industrial waste heat (exhaust gas or jacket water), high or low-pressure steam, hot water, and even solar thermal energy. Multi-energy models can seamlessly switch between these sources."
+        },
+        {
+          question: "What is the lifespan of a BROAD vapour absorption machine (VAM)?",
+          answer: "Because there are virtually no moving parts in the main refrigeration cycle, a BROAD absorption chiller experiences almost zero mechanical wear and tear. With proper maintenance, these machines typically operate reliably for over 25 years."
+        },
+        {
+          question: "Are absorption chillers environmentally friendly?",
+          answer: "Yes, they are exceptionally green. They utilize pure water as the refrigerant and lithium bromide as the absorbent, completely eliminating ozone-depleting CFCs and HCFCs. Additionally, by recovering industrial waste heat, they significantly reduce fossil fuel consumption and carbon emissions."
+        }
+      ]} />
     </div>
   );
 };

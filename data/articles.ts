@@ -304,7 +304,7 @@ In the rapidly evolving landscape of industrial cooling solutions, Vapor Absorpt
   <li>
     <h2><strong>Understanding VAM Chiller Technology</strong></h2>
     <p>
-      VAM chillers represent a paradigm shift from conventional mechanical compression systems to thermal-driven refrigeration cycles. Unlike traditional electric chillers that consume substantial electrical power, VAM systems utilize heat sources—such as steam, hot water, or exhaust gases—to drive the absorption process using natural working fluids like water and lithium bromide.
+      VAM chillers represent a paradigm shift from conventional mechanical compression systems to thermal-driven refrigeration cycles. Unlike traditional electric chillers that consume substantial electrical power, VAM systems utilize heat sources - such as steam, hot water, or exhaust gases - to drive the absorption process using natural working fluids like water and lithium bromide.
     </p>
     <p><strong>Core Components and Operation:</strong></p>
     <ul>
@@ -463,7 +463,7 @@ In the rapidly evolving landscape of industrial cooling solutions, Vapor Absorpt
   <li>
     <h2><strong>Conclusion: Embracing the VAM Revolution</strong></h2>
     <p>
-      VAM chillers represent more than just an alternative cooling technology—they embody a strategic approach to sustainable industrial operations. By transforming waste heat into valuable cooling capacity, these systems deliver the triple benefit of environmental responsibility, economic efficiency, and operational reliability.
+      VAM chillers represent more than just an alternative cooling technology - they embody a strategic approach to sustainable industrial operations. By transforming waste heat into valuable cooling capacity, these systems deliver the triple benefit of environmental responsibility, economic efficiency, and operational reliability.
     </p>
     <p>
       As the industrial sector transitions toward net-zero carbon targets, VAM chillers offer facilities a commercially viable pathway to significantly reduce their environmental footprint while enhancing operational competitiveness. The technology's maturity, combined with growing market adoption and supportive policy frameworks, positions VAM chillers as essential infrastructure for forward-thinking organizations.
@@ -511,7 +511,7 @@ In the rapidly evolving landscape of industrial cooling solutions, Vapor Absorpt
 
 <h2><strong>Why Choose Broad India's Absorption Chillers?</strong></h2>
 <ul>
-  <li>Save Energy: Uses waste heat, natural gas, or diesel, cutting electricity use by up to 50%—especially in CHP/CCHP systems.</li>
+  <li>Save Energy: Uses waste heat, natural gas, or diesel, cutting electricity use by up to 50% - especially in CHP/CCHP systems.</li>
   <li>Eco-Friendly: Operates using water instead of harmful refrigerants.</li>
   <li>Multi-Industry Use: Silent, efficient, and versatile for factories, hospitals, data centers, and green buildings.</li>
 </ul>
@@ -601,7 +601,7 @@ VACs: Specialized for chilled water cooling only.
   image: "/images/vam-machine-explained.jpg",
   content: `
 <h1><strong>What Is a Vapour Absorption Machine?</strong></h1>
-<p>A vapour absorption machine (VAM) is a non-electric refrigeration system that uses heat instead of electricity—perfect for turning waste energy into clean cooling.</p>
+<p>A vapour absorption machine (VAM) is a non-electric refrigeration system that uses heat instead of electricity - perfect for turning waste energy into clean cooling.</p>
 <p>
     <strong>Related Links:</strong> 
     <a href="/vapour-absorption-chiller">Chiller Solutions</a> | 
@@ -673,22 +673,22 @@ VACs: Specialized for chilled water cooling only.
   <p>
   <h2><strong>Smarter Cities Need Smarter Cooling</strong></h2>
   <p>
-    Traditional HVAC systems are buckling under the pressure of modern energy demands. Enter AI-driven HVAC management—where intelligence, efficiency, and adaptability come together. BROAD’s innovations integrate AI, IoT, and real-time analytics to redefine climate control.
+    Traditional HVAC systems are buckling under the pressure of modern energy demands. Enter AI-driven HVAC management - where intelligence, efficiency, and adaptability come together. BROAD’s innovations integrate AI, IoT, and real-time analytics to redefine climate control.
   </p>
 
   <h2><strong>What Sets AI HVAC Apart</strong></h2>
   <p>
-    Real-time dashboards give managers insight into energy consumption, thermal zones, and system performance. These interfaces go beyond monitoring—they empower proactive control. In Hyderabad, one such system slashed HVAC-related energy use by 38% in just six months.
+    Real-time dashboards give managers insight into energy consumption, thermal zones, and system performance. These interfaces go beyond monitoring - they empower proactive control. In Hyderabad, one such system slashed HVAC-related energy use by 38% in just six months.
   </p>
 
   <h2><strong>Predictive Maintenance in Action</strong></h2>
   <p>
-    AI learns equipment behavior and flags irregularities before breakdowns occur. A Pune-based installation identified a vibration issue weeks in advance—preventing a major failure and avoiding downtime.
+    AI learns equipment behavior and flags irregularities before breakdowns occur. A Pune-based installation identified a vibration issue weeks in advance - preventing a major failure and avoiding downtime.
   </p>
 
   <h2><strong>Sustainability Through Data</strong></h2>
   <p>
-    BROAD’s HVAC platforms allow facility managers to align with ESG benchmarks and green building certifications. In Bengaluru, identifying and fixing overcooling saved ₹12 lakh annually—while improving occupant comfort.
+    BROAD’s HVAC platforms allow facility managers to align with ESG benchmarks and green building certifications. In Bengaluru, identifying and fixing overcooling saved ₹12 lakh annually - while improving occupant comfort.
   </p>
 
   <h2><strong>Tomorrow’s Infrastructure built Today</strong></h2>
@@ -750,7 +750,7 @@ VACs: Specialized for chilled water cooling only.
 
   <h2><strong>Maintenance, Downtime & Lifecycle Costs</strong></h2>
   <ul>
-    <li>Traditional compressors need frequent oil changes, bearing replacements, and vibration monitoring—raising maintenance costs and unplanned downtimes.</li>
+    <li>Traditional compressors need frequent oil changes, bearing replacements, and vibration monitoring - raising maintenance costs and unplanned downtimes.</li>
     <li>Magnetic bearing systems eliminate oil, reduce mechanical contact, and use smart sensors, requiring far less upkeep.</li>
   </ul>
   <p><strong>Cost Insight:</strong> Over a 10-year span, magnetic bearing chillers can lower maintenance costs by up to 60%. Predictive diagnostics and durable components also minimize emergency repairs.</p>
@@ -1447,7 +1447,7 @@ From smart controls to solar and geothermal innovations, the future of HVAC is c
 <p>
 <h2><strong>Introduction</strong></h2>
 <p>
-With rising energy demands and growing environmental concerns, industries are turning to sustainable cooling technologies. Vapor Absorption Machines (VAM) are emerging as a smart alternative to traditional cooling systems by harnessing waste heat rather than relying on electricity-driven compressors. This shift helps reduce both operational costs and carbon emissions—making VAMs a practical choice for future-ready businesses.
+With rising energy demands and growing environmental concerns, industries are turning to sustainable cooling technologies. Vapor Absorption Machines (VAM) are emerging as a smart alternative to traditional cooling systems by harnessing waste heat rather than relying on electricity-driven compressors. This shift helps reduce both operational costs and carbon emissions - making VAMs a practical choice for future-ready businesses.
 </p>
 
 <p>
@@ -1632,7 +1632,7 @@ Vapor absorption chillers are emerging as a superior alternative to traditional 
 
 <h2><strong>How Vapor Absorption Chillers Work:</strong></h2>
 <p>
-The operation of a vapor absorption chiller is based on the absorption refrigeration cycle, which uses a refrigerant-absorbent pair such as water and lithium bromide. The process consists of four main stages—evaporation, absorption, regeneration, and condensation. Unlike conventional chillers that use a mechanical compressor, these chillers rely on thermal energy to drive the refrigeration process, significantly reducing electricity consumption.
+The operation of a vapor absorption chiller is based on the absorption refrigeration cycle, which uses a refrigerant-absorbent pair such as water and lithium bromide. The process consists of four main stages - evaporation, absorption, regeneration, and condensation. Unlike conventional chillers that use a mechanical compressor, these chillers rely on thermal energy to drive the refrigeration process, significantly reducing electricity consumption.
 </p>
 
 <h2><strong>Key Benefits of Vapor Absorption Chillers:</strong></h2>
@@ -1802,7 +1802,7 @@ Hot water absorption chillers turn waste heat into valuable cooling with minimal
   content: `
 <h1><strong>Introduction to Steam Absorption Chillers:</strong></h1>
 <p>
-Steam absorption chillers are revolutionizing industrial cooling by utilizing steam as the energy source instead of electricity. Unlike conventional mechanical chillers, these systems employ a thermally driven process to convert steam into efficient cooling—ideal for facilities with surplus steam.
+Steam absorption chillers are revolutionizing industrial cooling by utilizing steam as the energy source instead of electricity. Unlike conventional mechanical chillers, these systems employ a thermally driven process to convert steam into efficient cooling - ideal for facilities with surplus steam.
 </p>
 <p>
     <strong>Related Links:</strong> 
@@ -1815,7 +1815,7 @@ Steam absorption chillers are revolutionizing industrial cooling by utilizing st
 
 <h2><strong>Working Principle of Steam Absorption Chillers:</strong></h2>
 <p>
-They run an absorption refrigeration cycle using a refrigerant/absorbent pair, typically water and lithium bromide. The cycle—absorption, evaporation, regeneration, condensation—is powered by steam heat, eliminating the need for electric compressors and reducing energy costs.
+They run an absorption refrigeration cycle using a refrigerant/absorbent pair, typically water and lithium bromide. The cycle - absorption, evaporation, regeneration, condensation - is powered by steam heat, eliminating the need for electric compressors and reducing energy costs.
 </p>
 
 <h2><strong>Applications in Industrial Cooling:</strong></h2>
@@ -1837,7 +1837,7 @@ Require stable, high‑temperature steam. Installation costs may be higher, but 
 
 <h2><strong>Conclusion:</strong></h2>
 <p>
-Steam absorption chillers are a smart, sustainable solution for heat‑rich industrial environments. By converting wasted steam into efficient cooling, they help industries reduce costs and carbon footprints—making them a key player in future green HVAC strategies.
+Steam absorption chillers are a smart, sustainable solution for heat‑rich industrial environments. By converting wasted steam into efficient cooling, they help industries reduce costs and carbon footprints - making them a key player in future green HVAC strategies.
 </p>
 `
 },
@@ -1881,7 +1881,7 @@ Absorption chillers work by using a refrigerant-absorbent pair commonly lithium 
 
 <h2><strong>Advantages of Using Vapor Absorption Chillers:</strong></h2>
 <ul>
-  <li>- Operate on low-grade or waste heat—ideal for cogeneration or solar setups</li>
+  <li>- Operate on low-grade or waste heat - ideal for cogeneration or solar setups</li>
   <li>- Natural refrigerants (water or ammonia) ensure eco-friendliness</li>
   <li>- Longer lifespan and lower upkeep due to fewer moving parts</li>
   <li>- Quiet operation and reduced service requirements</li>
@@ -1953,7 +1953,7 @@ Global incentives from Germany to Japan and India are driving adoption. Innovati
 
 <h2><strong>Conclusion:</strong></h2>
 <p>
-Vapor Absorption Chillers are more than cooling machines—they’re strategic tools in the climate battle. Harnessing waste heat to deliver efficient, green cooling, they are set to reshape industrial HVAC and support global sustainability goals.
+Vapor Absorption Chillers are more than cooling machines - they’re strategic tools in the climate battle. Harnessing waste heat to deliver efficient, green cooling, they are set to reshape industrial HVAC and support global sustainability goals.
 </p>
 `
 },
@@ -2232,7 +2232,7 @@ The Vapor Absorption Machine isn’t just a tech upgrade, it’s a cornerstone o
 </ul>
 
 <h2><strong>Conclusion: The Future of Industrial Cooling</strong></h2>
-<p>Hot Water Absorption Chillers represent a smart, sustainable evolution in industrial cooling. By utilising waste heat, they reduce power dependency and carbon footprint—setting a new standard for modern HVAC systems.</p>
+<p>Hot Water Absorption Chillers represent a smart, sustainable evolution in industrial cooling. By utilising waste heat, they reduce power dependency and carbon footprint - setting a new standard for modern HVAC systems.</p>
 `
 },
   {
@@ -2402,7 +2402,7 @@ The Vapor Absorption Machine isn’t just a tech upgrade, it’s a cornerstone o
   </p>
 
 <h2><strong>The Science Behind VAMs</strong></h2>
-<p>These systems use an absorption refrigeration cycle where heat separates refrigerant from absorbent—no electrically driven compressor required.</p>
+<p>These systems use an absorption refrigeration cycle where heat separates refrigerant from absorbent - no electrically driven compressor required.</p>
 
 <h2><strong>Why Businesses Are Shifting to VAMs</strong></h2>
 <ul>
@@ -2439,7 +2439,7 @@ The Vapor Absorption Machine isn’t just a tech upgrade, it’s a cornerstone o
   </p>
 
 <h2><strong>How Vapor Absorption Machines Work</strong></h2>
-<p>The four-stage absorption cycle: evaporation, absorption, regeneration, condensation—driven by heat rather than compression.</p>
+<p>The four-stage absorption cycle: evaporation, absorption, regeneration, condensation - driven by heat rather than compression.</p>
 
 <h2><strong>Benefits and Applications</strong></h2>
 <ul>
@@ -2519,7 +2519,7 @@ The Vapor Absorption Machine isn’t just a tech upgrade, it’s a cornerstone o
 
 <h2><strong>Why Opt for Broad India's Absorption Chillers?</strong></h2>
 <ul>
-  <li>- Lower energy use—cutting electricity by up to 50%</li>
+  <li>- Lower energy use - cutting electricity by up to 50%</li>
   <li>- Zero harmful chemicals</li>
   <li>- Quiet, durable, and versatile across industries</li>
 </ul>

@@ -1,77 +1,63 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft, Calendar, Clock, Tag } from "lucide-react";
 import { articles } from "@/data/articles";
-import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
-import { useParams } from "next/navigation"; // Import useParams
+import ArticleDetailContent from "./ArticleDetailContent";
+import { Metadata } from "next";
 
-export default function ArticlesDetailPage() {
-  const { id } = useParams(); // Use useParams hook to unwrap params
+interface PageProps {
+  params: Promise<{ id: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { id } = await params;
+  const article = articles.find((n) => n.id === id);
+
+  if (!article) {
+    return {
+      title: "Article Not Found",
+    };
+  }
+
+  return {
+    title: article.title,
+    description: article.description || `Read about ${article.title} at BROAD India.`,
+    openGraph: {
+      title: article.title,
+      description: article.description || `Read about ${article.title} at BROAD India.`,
+      images: [article.image],
+      type: "article",
+      publishedTime: article.date,
+    },
+  };
+}
+
+export default async function ArticlesDetailPage({ params }: PageProps) {
+  const { id } = await params;
   const article = articles.find((n) => n.id === id);
 
   if (!article) {
     notFound();
-    return null;
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    image: [article.image],
+    datePublished: article.date,
+    author: {
+      "@type": "Organization",
+      name: "BROAD India",
+    },
+    description: article.description || `Read about ${article.title} at BROAD India.`,
+  };
+
   return (
-    <div className="min-h-screen bg-white text-black">
-      <div className="max-w-4xl mx-auto px-4 py-32">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="space-y-8"
-        >
-          <Link href="/articles">
-            <Button
-              variant="ghost"
-              className="mb-8 text-primary hover:bg-gray-200"
-            >
-              <ArrowLeft className="mr-2 h-4 w-4" /> Back to articles
-            </Button>
-          </Link>
-
-          <div className="relative w-full h-[400px]">
-            <Image
-              src={article.image}
-              alt={article.title}
-              fill
-              className="object-cover rounded-lg"
-            />
-          </div>
-
-          <div className="space-y-4">
-            <h1 className="text-4xl font-bold text-gray-900">
-              {article.title}
-            </h1>
-
-            <div className="flex items-center space-x-4 text-sm text-gray-600">
-              <div className="flex items-center space-x-2">
-                <Calendar className="h-4 w-4" />
-                <span>{article.date}</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Clock className="h-4 w-4" />
-                <span>{article.readTime}</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Tag className="h-4 w-4" />
-                <span>{article.category}</span>
-              </div>
-            </div>
-
-            <div
-              className="prose prose-lg max-w-none text-gray-800"
-              dangerouslySetInnerHTML={{ __html: article.content }}
-            />
-          </div>
-        </motion.div>
-      </div>
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ArticleDetailContent article={article} />
+    </>
   );
 }

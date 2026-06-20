@@ -116,8 +116,8 @@ const WasteHeatChiller = () => {
               low-grade thermal energy from industrial processes to deliver
               powerful cooling and heating in large-scale commercial and
               industrial settings. This system enables facilities to convert
-              waste heat—from exhaust gases, boiler flue gases, or process
-              steam—into useful chilled water (above 5°C) and heating water
+              waste heat - from exhaust gases, boiler flue gases, or process
+              steam - into useful chilled water (above 5°C) and heating water
               (below 95°C), with capacity ranges from 233 kW to 11,630 kW
               (66-3,307 RT).
             </p>

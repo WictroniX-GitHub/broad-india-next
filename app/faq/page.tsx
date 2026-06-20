@@ -13,7 +13,7 @@ const faqData: FAQItem[] = [
   {
     question: "What is a Vapour Absorption Chiller?",
     answer:
-      "It's a thermally-driven cooling system that uses water/LiBr solution and heat (from steam, hot water, exhaust, or gas) instead of electricity to produce chilled water—ideal for energy-efficient HVAC.",
+      "It's a thermally-driven cooling system that uses water/LiBr solution and heat (from steam, hot water, exhaust, or gas) instead of electricity to produce chilled water - ideal for energy-efficient HVAC.",
     category: "Technology",
   },
   {
@@ -43,7 +43,7 @@ const faqData: FAQItem[] = [
   {
     question: "Do Absorption Heat Pumps Save Energy?",
     answer:
-      "Yes. Heat pumps recover and upgrade waste heat—achieving efficiencies 2–3 times higher than conventional boilers; energy savings vary by application (15–41% demonstrated).",
+      "Yes. Heat pumps recover and upgrade waste heat - achieving efficiencies 2–3 times higher than conventional boilers; energy savings vary by application (15–41% demonstrated).",
     category: "Energy Efficiency",
   },
   {

@@ -73,7 +73,7 @@ export default function About() {
               To decarbonize industrial cooling across India, we engineer
               non-electric absorption chillers, CCHP (Combined Cooling, Heating
               & Power) systems, waste-heat-powered HVAC, and absorption heat
-              pumps—helping industries slash energy usage, reduce carbon
+              pumps - helping industries slash energy usage, reduce carbon
               emissions, and meet regulatory goals for a greener tomorrow.
             </p>
 
@@ -141,7 +141,7 @@ export default function About() {
               <div className="text-3xl mb-4">🏆</div>
               <h4 className="font-semibold mb-2">Global Heritage</h4>
               <p className="text-sm text-gray-600">
-                Part of BROAD Group—established in 1988, headquartered in
+                Part of BROAD Group - established in 1988, headquartered in
                 Changsha
               </p>
             </div>

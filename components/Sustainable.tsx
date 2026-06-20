@@ -13,7 +13,7 @@ export default function Sustainable() {
     <div
       className="w-full my-20 bg-fixed bg-center bg-cover flex justify-center items-center"
       style={{
-        backgroundImage: "url('https://picsum.photos/id/10/1920/1440')",
+        backgroundImage: "url('/images/Hero_MB_Sustainability.webp')",
         height: isMobile ? "220vh" : "120vh",
       }}
     >

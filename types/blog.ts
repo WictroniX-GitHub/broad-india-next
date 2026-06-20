@@ -14,6 +14,7 @@ export interface Blog {
   date: string;
   readTime: string;
   category: string;
+  author?: string;
   meta?: {
     description: string;
     keywords: string[];
