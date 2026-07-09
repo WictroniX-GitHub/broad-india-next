@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/broad-logo.webp";
+import logo from "@/public/images/BROAD-India-final.png";
 
 export default function Header() {
   const [isMobile, setIsMobile] = useState(false);
@@ -34,11 +34,10 @@ export default function Header() {
           <Image
             src={logo}
             alt="logo"
-            width={48}
-            height={48}
+            width={130}
+            height={130}
             className="mr-3"
           />
-          BROAD India
         </Link>
         {isMobile ? (
           <button onClick={() => setIsMenuOpen(true)} aria-label="Open Menu">
