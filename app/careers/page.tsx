@@ -51,12 +51,12 @@ const Careers = () => {
     }
   };
 
-  const serviceEngineerHighlights = [
-    "Field service on Absorption Chillers & HVAC systems",
-    "PLC control system operation & maintenance",
-    "Energy-saving services, AMC & spare parts promotion",
-    "User training, CPD sessions & service reporting",
-  ];
+  // const serviceEngineerHighlights = [
+  //   "Field service on Absorption Chillers & HVAC systems",
+  //   "PLC control system operation & maintenance",
+  //   "Energy-saving services, AMC & spare parts promotion",
+  //   "User training, CPD sessions & service reporting",
+  // ];
 
   const customerManagerHighlights = [
     "Market mapping, intelligence & competitor profiling",
@@ -126,7 +126,7 @@ const Careers = () => {
 
         {/* Job Listings Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
-          <CareerCard 
+          {/* <CareerCard 
             title="Service Engineer"
             location="Surat, Gujarat"
             experience="2–3 Years"
@@ -137,7 +137,7 @@ const Careers = () => {
             highlights={serviceEngineerHighlights}
             jdLink="/files/JD_Service engineer BROAD INDIA.pdf"
             onApply={() => handleApply("Service Engineer")}
-          />
+          /> */}
           <CareerCard 
             title="Customer Manager"
             location="Surat · Delhi · Mumbai · Raipur"
@@ -233,7 +233,7 @@ const Careers = () => {
                 }}
               >
                 <option value=""> -  Select a role  - </option>
-                <option value="Service Engineer">Service Engineer – Surat</option>
+                {/* <option value="Service Engineer">Service Engineer – Surat</option> */}
                 <option value="Customer Manager">Customer Manager / Sales Manager – Multiple Locations</option>
                 <option value="Project Engineer">Project Engineer - Surat</option>
               </select>
