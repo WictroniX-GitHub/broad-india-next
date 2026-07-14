@@ -65,6 +65,13 @@ const Careers = () => {
     "Financial modelling, cost-benefit analysis & contract sign-off",
   ];
 
+  const projectDesignHighlights = [
+    "Develop and review P&IDs, BOQ, and piping layouts",
+    "Design instrumentation schemes and maintain CAD/BIM drawings",
+    "Project planning, scheduling, and engineering deliverables",
+    "Coordinate with clients, consultants, and site teams",
+  ];
+
   return (
     <div className="bg-[#F7F9FC] min-h-screen font-['DM_Sans',sans-serif]">
       {/* Hero Section */}
@@ -143,6 +150,18 @@ const Careers = () => {
             jdLink="/files/JD_Customer Manager BROAD INDIA.pdf"
             onApply={() => handleApply("Customer Manager")}
           />
+          <CareerCard 
+            title="Project Design & Planning Engineer"
+            location="Surat, Gujarat"
+            experience="3–7 Years"
+            salary="Competitive"
+            qualification="B.E. Mech"
+            travelLabel="Focus"
+            travelOrFocus="Design & Engineering"
+            highlights={projectDesignHighlights}
+            jdLink="/files/JD Project Design & Planning Engineer BROAD India.pdf"
+            onApply={() => handleApply("Project Engineer")}
+          />
         </div>
 
         {/* Application Form Section */}
@@ -216,6 +235,7 @@ const Careers = () => {
                 <option value=""> -  Select a role  - </option>
                 <option value="Service Engineer">Service Engineer – Surat</option>
                 <option value="Customer Manager">Customer Manager / Sales Manager – Multiple Locations</option>
+                <option value="Project Engineer">Project Engineer - Surat</option>
               </select>
             </div>
 
