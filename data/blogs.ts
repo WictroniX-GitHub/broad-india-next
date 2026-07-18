@@ -3235,11 +3235,13 @@ export const blogs: Blog[] = [
       { type: "heading", level: 2, content: "The Double Effect Advantage in Diesel Fired Machines" },
       { type: "paragraph", content: "All of BROAD India's diesel fired direct-fired chillers operate on the double effect cycle. The COP of 1.0 to 1.4 means that for every kW of diesel energy consumed, the machine delivers 1.0 to 1.4 kW of cooling. In a well-maintained double effect machine at rated conditions, COP of 1.2 to 1.3 is typical." },
       { type: "paragraph", content: "Compare this to the thermodynamic chain for an electric chiller:" },
-      { type: "list", items: [
-        "Diesel burned in a power station electricity generated at ~35 to 40% efficiency",
-        "Electricity transmitted through the grid 8 to 10% transmission loss",
-        "Electric chiller consuming the electricity at COP 5.5 effective source-to-cooling efficiency: ~0.35 × 0.90 × 5.5 = 1.73"
-      ]},
+      {
+        type: "list", items: [
+          "Diesel burned in a power station electricity generated at ~35 to 40% efficiency",
+          "Electricity transmitted through the grid 8 to 10% transmission loss",
+          "Electric chiller consuming the electricity at COP 5.5 effective source-to-cooling efficiency: ~0.35 × 0.90 × 5.5 = 1.73"
+        ]
+      },
       { type: "paragraph", content: "The diesel fired chiller at COP 1.2 looks less efficient on paper but this comparison ignores the cost difference between diesel consumed on-site and grid electricity delivered to the meter, and it ignores the fact that many Indian industrial sites cannot access large blocks of grid power at any price." },
       { type: "heading", level: 2, content: "When a Diesel Fired Chiller Is the Right Choice" },
       { type: "heading", level: 3, content: "Remote Industrial Sites and Mining Operations" },
@@ -3256,29 +3258,33 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "Typical ranges for BROAD India direct-fired, double effect machines: Cooling capacity 66 to 3,300 TR; Thermal COP 1.0 to 1.4; Fuel input HSD or natural gas; Chilled water outlet 5°C to 15°C (standard); Electricity consumption 15 to 25 kW for pumps only (500 TR)." },
       { type: "heading", level: 2, content: "What Diesel Fired Chillers Are Not Good For" },
       { type: "paragraph", content: "An honest assessment requires acknowledging where the technology is not the right fit:" },
-      { type: "list", items: [
-        "When grid electricity is cheap and reliable: In states with subsidised industrial tariffs below ₹6/kWh and stable supply, a high-efficiency electric centrifugal chiller with VFD will almost always have lower OPEX than a diesel fired absorption machine.",
-        "When diesel supply is uncertain: Remote locations with reliable diesel logistics are strong candidates; remote locations where diesel delivery is erratic are not unlike electricity, you cannot top up diesel remotely when a delivery is delayed.",
-        "When very low chilled water temperatures are required: Single effect machines cannot reach below approximately 5°C. Double effect direct-fired machines can reach -2°C in brine configurations, but process applications requiring -10°C or lower need a different refrigeration technology."
-      ]},
+      {
+        type: "list", items: [
+          "When grid electricity is cheap and reliable: In states with subsidised industrial tariffs below ₹6/kWh and stable supply, a high-efficiency electric centrifugal chiller with VFD will almost always have lower OPEX than a diesel fired absorption machine.",
+          "When diesel supply is uncertain: Remote locations with reliable diesel logistics are strong candidates; remote locations where diesel delivery is erratic are not unlike electricity, you cannot top up diesel remotely when a delivery is delayed.",
+          "When very low chilled water temperatures are required: Single effect machines cannot reach below approximately 5°C. Double effect direct-fired machines can reach -2°C in brine configurations, but process applications requiring -10°C or lower need a different refrigeration technology."
+        ]
+      },
       { type: "heading", level: 2, content: "Indicative Pricing in India (2026)" },
       { type: "paragraph", content: "Indicative project cost range (all-in): 100 to 200 TR: ₹2.0 to 3.5 crore; 300 to 500 TR: ₹4.0 to 7.0 crore; 600 to 1,000 TR: ₹7.5 to 12 crore; 1,000 to 3,300 TR: ₹12 to 35 crore." },
       { type: "paragraph", content: "All-in cost includes equipment, cooling tower, fuel system, piping, civil works, and commissioning. Operating cost depends heavily on diesel price at ₹90/litre HSD and COP 1.2, a 500 TR machine running 6,000 hours/year consumes approximately ₹5.5 to 6.5 crore of diesel annually. This is why diesel firing is most appropriate for sites where the alternative is high-cost grid electricity or no viable alternative exists not as a default first choice where gas is available." },
       { type: "heading", level: 2, content: "Frequently Asked Questions" },
-      { type: "faq", faqItems: [
-        {
-          question: "Can a diesel fired chiller switch to natural gas without major modifications?",
-          answer: "BROAD India's direct-fired chillers come with a dual-fuel burner as standard they can switch between HSD and natural gas with a simple changeover at the burner. No major equipment modification is required. This makes them a practical choice for sites where gas infrastructure is planned but not yet operational."
-        },
-        {
-          question: "How often does a diesel fired chiller need servicing compared to an electric chiller?",
-          answer: "The absorption machine components solution pumps, vacuum system, heat exchangers require annual service similar to other VAM machines. The burner and combustion system require additional maintenance: burner nozzle inspection and cleaning every 2,000 to 3,000 operating hours, flue gas analysis, and annual burner calibration. Overall, lifecycle maintenance cost is still lower than an equivalent electric chiller because there is no compressor to overhaul."
-        },
-        {
-          question: "What diesel consumption can I expect per TR-hour?",
-          answer: "At COP 1.2 and standard conditions, diesel consumption is approximately 0.07 to 0.09 litres per TR-hour. For a 300 TR machine running 6,000 hours/year, annual diesel consumption is approximately 1,26,000 to 1,62,000 litres."
-        }
-      ]},
+      {
+        type: "faq", faqItems: [
+          {
+            question: "Can a diesel fired chiller switch to natural gas without major modifications?",
+            answer: "BROAD India's direct-fired chillers come with a dual-fuel burner as standard they can switch between HSD and natural gas with a simple changeover at the burner. No major equipment modification is required. This makes them a practical choice for sites where gas infrastructure is planned but not yet operational."
+          },
+          {
+            question: "How often does a diesel fired chiller need servicing compared to an electric chiller?",
+            answer: "The absorption machine components solution pumps, vacuum system, heat exchangers require annual service similar to other VAM machines. The burner and combustion system require additional maintenance: burner nozzle inspection and cleaning every 2,000 to 3,000 operating hours, flue gas analysis, and annual burner calibration. Overall, lifecycle maintenance cost is still lower than an equivalent electric chiller because there is no compressor to overhaul."
+          },
+          {
+            question: "What diesel consumption can I expect per TR-hour?",
+            answer: "At COP 1.2 and standard conditions, diesel consumption is approximately 0.07 to 0.09 litres per TR-hour. For a 300 TR machine running 6,000 hours/year, annual diesel consumption is approximately 1,26,000 to 1,62,000 litres."
+          }
+        ]
+      },
       { type: "heading", level: 2, content: "Conclusion" },
       { type: "paragraph", content: "A diesel fired absorption chiller is not the right choice for every Indian facility the operating fuel cost is real and significant. But for the right application remote industrial sites, facilities constrained by contracted electrical demand, operations without steam or gas infrastructure, and critical-use facilities requiring off-grid cooling reliability it solves a problem that no electric chiller can." },
       { type: "paragraph", content: "The dual-fuel capability makes it a particularly prudent investment in Indian conditions, where natural gas availability is expanding steadily. A machine specified and installed as a diesel unit today can transition to gas firing as the city gas distribution network reaches the facility without equipment replacement." },
@@ -3318,22 +3324,26 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "Use your actual billed rate, not the published tariff demand charges, time-of-use charges, and power factor penalties often add 15 to 25% to the headline figure." },
       { type: "heading", level: 3, content: "Variable 2: Annual Cooling Hours" },
       { type: "paragraph", content: "How many hours per year does your cooling system run at significant load? This varies dramatically by industry and location:" },
-      { type: "list", items: [
-        "Continuous process industries (pharma, petrochemical, textile): 6,000 to 8,000 hours/year",
-        "Commercial HVAC (offices, hotels, malls in Delhi, Mumbai): 2,500 to 4,000 hours/year",
-        "Seasonal manufacturing (food processing, with summer peak): 3,000 to 5,000 hours/year"
-      ]},
+      {
+        type: "list", items: [
+          "Continuous process industries (pharma, petrochemical, textile): 6,000 to 8,000 hours/year",
+          "Commercial HVAC (offices, hotels, malls in Delhi, Mumbai): 2,500 to 4,000 hours/year",
+          "Seasonal manufacturing (food processing, with summer peak): 3,000 to 5,000 hours/year"
+        ]
+      },
       { type: "paragraph", content: "More operating hours means faster payback. A system running 7,000 hours/year pays back nearly twice as fast as one running 3,500 hours." },
       { type: "heading", level: 3, content: "Variable 3: Hot Water Availability and Temperature" },
       { type: "paragraph", content: "The economics of waste heat recovery depend on the marginal cost of the heat source. If your hot water is genuinely a byproduct already being generated and currently being wasted the marginal cost is near zero. If you are firing a boiler specifically for the chiller, you must account for that fuel cost." },
       { type: "paragraph", content: "Heat source temperature affects output: a single effect machine at 88°C inlet delivers full rated capacity; at 78°C it delivers approximately 85 to 90% of rated capacity. Always calculate savings based on delivered temperature, not source temperature." },
       { type: "heading", level: 3, content: "Variable 4: System Capacity (TR) and Baseline Power Draw" },
       { type: "paragraph", content: "What size chiller are you replacing or supplementing? The baseline electricity consumption of the existing system establishes your savings reference. For a standard electric screw chiller:" },
-      { type: "list", items: [
-        "Energy consumption ≈ 0.65 to 0.75 kW per TR at full load (older equipment: 0.85 to 1.2 kW/TR)",
-        "A 300 TR electric chiller draws approximately 195 to 225 kW at full load",
-        "A 300 TR hot water absorption chiller draws 8 to 12 kW at full load"
-      ]},
+      {
+        type: "list", items: [
+          "Energy consumption ≈ 0.65 to 0.75 kW per TR at full load (older equipment: 0.85 to 1.2 kW/TR)",
+          "A 300 TR electric chiller draws approximately 195 to 225 kW at full load",
+          "A 300 TR hot water absorption chiller draws 8 to 12 kW at full load"
+        ]
+      },
       { type: "paragraph", content: "The difference is your annual electricity saving." },
       { type: "heading", level: 2, content: "The ROI Calculation: A Worked Example" },
       { type: "paragraph", content: "Scenario: A pharmaceutical manufacturing plant in Ahmedabad. Existing 300 TR electric screw chiller. Waste hot water available from reactor cooling at 84°C, continuous during production hours. Electricity tariff: ₹9.5/kWh. Operating hours: 6,500/year." },
@@ -3350,31 +3360,37 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "Simple payback is a useful first filter, but it understates the value of absorption chiller investments because it ignores what happens after payback. A hot water absorption chiller has a 20 to 25 year operational life. An investment that pays back in 2.3 years then generates net savings for another 18 to 22 years." },
       { type: "paragraph", content: "Net Present Value (NPV) analysis discounting future savings at a 10 to 12% hurdle rate typical for Indian industrial capex consistently shows strongly positive results for facilities with tariffs above ₹8/kWh and 5,000+ operating hours. Internal Rate of Return (IRR) on well-specified projects in Maharashtra, Gujarat, and Karnataka regularly exceeds 35 to 50%." },
       { type: "paragraph", content: "Two additional value elements that simple payback calculations typically exclude:" },
-      { type: "list", items: [
-        "Carbon credit and PAT cycle value: Under India's PAT scheme, energy savings from absorption chiller projects generate Energy Saving Certificates (ESCerts). For large designated consumers, these have measurable financial value in addition to the direct electricity saving.",
-        "Peak demand charge elimination: Electric chillers draw substantial power at peak demand periods often the most expensive electricity tariff bands. Absorption chillers draw near-zero electricity regardless of time of day, eliminating peak demand charges entirely. For facilities in Maharashtra on time-of-day tariffs, this alone can add ₹15 to 25 lakh annually to the savings figure."
-      ]},
+      {
+        type: "list", items: [
+          "Carbon credit and PAT cycle value: Under India's PAT scheme, energy savings from absorption chiller projects generate Energy Saving Certificates (ESCerts). For large designated consumers, these have measurable financial value in addition to the direct electricity saving.",
+          "Peak demand charge elimination: Electric chillers draw substantial power at peak demand periods often the most expensive electricity tariff bands. Absorption chillers draw near-zero electricity regardless of time of day, eliminating peak demand charges entirely. For facilities in Maharashtra on time-of-day tariffs, this alone can add ₹15 to 25 lakh annually to the savings figure."
+        ]
+      },
       { type: "heading", level: 2, content: "The Most Common Financial Modelling Mistakes" },
-      { type: "list", items: [
-        "Using average electricity cost instead of marginal cost: If you are on a demand charge tariff structure (most Indian industrial consumers above 500 kVA contracted demand are), the correct comparison is marginal cost including demand charges which is typically 20 to 30% higher than the per-unit energy charge alone.",
-        "Ignoring cooling tower operating cost: The larger cooling tower a VAM requires consumes more water and pumping energy. This adds ₹8 to 14 lakh annually to operating cost at 500 TR scale and should be in the model.",
-        "Assuming 100% load operation: Real cooling systems do not run at full load year-round. A part-load efficiency factor of 0.80 to 0.85 applied to annual hours gives a more conservative and more accurate savings estimate."
-      ]},
+      {
+        type: "list", items: [
+          "Using average electricity cost instead of marginal cost: If you are on a demand charge tariff structure (most Indian industrial consumers above 500 kVA contracted demand are), the correct comparison is marginal cost including demand charges which is typically 20 to 30% higher than the per-unit energy charge alone.",
+          "Ignoring cooling tower operating cost: The larger cooling tower a VAM requires consumes more water and pumping energy. This adds ₹8 to 14 lakh annually to operating cost at 500 TR scale and should be in the model.",
+          "Assuming 100% load operation: Real cooling systems do not run at full load year-round. A part-load efficiency factor of 0.80 to 0.85 applied to annual hours gives a more conservative and more accurate savings estimate."
+        ]
+      },
       { type: "heading", level: 2, content: "Frequently Asked Questions" },
-      { type: "faq", faqItems: [
-        {
-          question: "Is the ROI calculation the same if I am adding absorption capacity alongside an existing electric chiller rather than replacing it?",
-          answer: "The model is similar but the baseline changes. You are not replacing electricity consumption you are avoiding additional electric chiller capacity and its associated CAPEX and OPEX. The saving is the cost of the incremental electric chiller you did not buy, plus the electricity that new chiller would have consumed. In practice, this configuration often produces faster payback than a direct replacement because no decommissioning cost is involved."
-        },
-        {
-          question: "What financial incentives are available for hot water chillers in India?",
-          answer: "Facilities designated under the PAT scheme can generate ESCerts from verified energy savings. Some state electricity boards offer incentive tariffs for industrial energy efficiency investments. Equipment import duties on absorption chillers have been reduced under specific customs classifications your CA and the supplier can advise on current applicability."
-        },
-        {
-          question: "At what capacity does the ROI become compelling?",
-          answer: "Below 50 TR, the project economics are marginal in most Indian settings the fixed project costs (cooling tower, civil works, piping) are too high relative to the energy saving. Above 100 TR with waste heat available, the economics are almost universally positive at current Indian tariffs. The strongest cases are in the 200 to 1,000 TR range where fixed costs are amortised over larger savings."
-        }
-      ]},
+      {
+        type: "faq", faqItems: [
+          {
+            question: "Is the ROI calculation the same if I am adding absorption capacity alongside an existing electric chiller rather than replacing it?",
+            answer: "The model is similar but the baseline changes. You are not replacing electricity consumption you are avoiding additional electric chiller capacity and its associated CAPEX and OPEX. The saving is the cost of the incremental electric chiller you did not buy, plus the electricity that new chiller would have consumed. In practice, this configuration often produces faster payback than a direct replacement because no decommissioning cost is involved."
+          },
+          {
+            question: "What financial incentives are available for hot water chillers in India?",
+            answer: "Facilities designated under the PAT scheme can generate ESCerts from verified energy savings. Some state electricity boards offer incentive tariffs for industrial energy efficiency investments. Equipment import duties on absorption chillers have been reduced under specific customs classifications your CA and the supplier can advise on current applicability."
+          },
+          {
+            question: "At what capacity does the ROI become compelling?",
+            answer: "Below 50 TR, the project economics are marginal in most Indian settings the fixed project costs (cooling tower, civil works, piping) are too high relative to the energy saving. Above 100 TR with waste heat available, the economics are almost universally positive at current Indian tariffs. The strongest cases are in the 200 to 1,000 TR range where fixed costs are amortised over larger savings."
+          }
+        ]
+      },
       { type: "heading", level: 2, content: "Conclusion" },
       { type: "paragraph", content: "The ROI case for a hot water absorption chiller in India is not difficult to make at the right tariff, the right operating hours, and with genuine waste heat available, the numbers are compelling. The challenge is typically the internal capital allocation process, not the project economics." },
       { type: "paragraph", content: "The worked example in this article is a template. Substitute your actual tariff, your measured hot water temperature, and your cooling system operating hours and the calculation produces your site-specific payback period in under an hour." },
@@ -3411,12 +3427,14 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "This article identifies the five Indian industries where this opportunity is largest, what the heat source looks like in each, and what an absorption chiller project realistically delivers." },
       { type: "heading", level: 2, content: "What Qualifies as Usable Waste Heat?" },
       { type: "paragraph", content: "Not every hot water stream is suitable to drive an absorption chiller. The minimum viable conditions for a standard single effect LiBr machine are:" },
-      { type: "list", items: [
-        "Temperature: Hot water at or above 70°C at the chiller inlet (80 to 88°C is optimal for full output)",
-        "Flow rate: Consistent and sufficient approximately 1.45 to 1.55 kW of heat input per kW of cooling required",
-        "Availability: Continuous or near-continuous, aligned with cooling demand hours",
-        "Quality: TDS and pH within acceptable limits for the generator tube material"
-      ]},
+      {
+        type: "list", items: [
+          "Temperature: Hot water at or above 70°C at the chiller inlet (80 to 88°C is optimal for full output)",
+          "Flow rate: Consistent and sufficient approximately 1.45 to 1.55 kW of heat input per kW of cooling required",
+          "Availability: Continuous or near-continuous, aligned with cooling demand hours",
+          "Quality: TDS and pH within acceptable limits for the generator tube material"
+        ]
+      },
       { type: "paragraph", content: "Intermittent or low-temperature streams (below 65°C) are not suitable for standard single effect machines. However, if a facility generates multiple low-grade streams that can be combined, or if heat exchangers can consolidate streams to reach the required temperature, the feasibility changes." },
       { type: "paragraph", content: "With that baseline established, here are the industries where the fit is strongest in India." },
       { type: "heading", level: 2, content: "Industry 1: Textile Manufacturing Ahmedabad, Surat, Coimbatore" },
@@ -3450,28 +3468,32 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "Key heat source: DG set jacket water, lube oil cooler, after-cooler. Temperature: 80 to 92°C." },
       { type: "heading", level: 2, content: "How to Assess Your Facility's Waste Heat Potential" },
       { type: "paragraph", content: "Before specifying equipment, four things must be confirmed:" },
-      { type: "list", items: [
-        "Delivered temperature: Measure hot water temperature at the proposed chiller connection point not at the source. Uninsulated pipe runs lose 1 to 3°C per 10 metres in Indian ambient conditions.",
-        "Flow rate and availability: Is the heat source continuous during cooling hours? If not, what buffer storage is feasible?",
-        "Water quality: Conduct a basic analysis TDS, pH, hardness. This determines tube material selection and maintenance intervals.",
-        "Heat quantity: Calculate total kW available. You need 1.45 to 1.55 kW of heat input per kW of cooling output at standard conditions."
-      ]},
+      {
+        type: "list", items: [
+          "Delivered temperature: Measure hot water temperature at the proposed chiller connection point not at the source. Uninsulated pipe runs lose 1 to 3°C per 10 metres in Indian ambient conditions.",
+          "Flow rate and availability: Is the heat source continuous during cooling hours? If not, what buffer storage is feasible?",
+          "Water quality: Conduct a basic analysis TDS, pH, hardness. This determines tube material selection and maintenance intervals.",
+          "Heat quantity: Calculate total kW available. You need 1.45 to 1.55 kW of heat input per kW of cooling output at standard conditions."
+        ]
+      },
       { type: "paragraph", content: "A one-day heat source audit at the facility, conducted before equipment specification, eliminates the most common causes of post-installation underperformance." },
       { type: "heading", level: 2, content: "Frequently Asked Questions" },
-      { type: "faq", faqItems: [
-        {
-          question: "Can waste heat at 65°C drive a hot water absorption chiller?",
-          answer: "Standard single effect LiBr machines require a minimum of 68 to 70°C at the inlet. At 65°C, the generator cannot sustain the cycle at rated output. Some specialised low-temperature drive machines can operate from 55 to 65°C but are less common and carry a cost premium."
-        },
-        {
-          question: "What if my waste heat is intermittent batch process, not continuous?",
-          answer: "Intermittent heat sources are manageable with a correctly sized hot water buffer tank. The tank stores thermal energy during batch peaks and releases it steadily to the chiller. Buffer sizing depends on the batch cycle duration and the gap between batches this is a site-specific engineering calculation."
-        },
-        {
-          question: "Which city in India has the strongest economics for waste heat VAM?",
-          answer: "Maharashtra, Gujarat, and Karnataka consistently show the strongest project economics a combination of high industrial electricity tariffs (₹9 to 12/kWh), long cooling seasons, and concentrated industrial clusters where waste heat sources are abundant."
-        }
-      ]},
+      {
+        type: "faq", faqItems: [
+          {
+            question: "Can waste heat at 65°C drive a hot water absorption chiller?",
+            answer: "Standard single effect LiBr machines require a minimum of 68 to 70°C at the inlet. At 65°C, the generator cannot sustain the cycle at rated output. Some specialised low-temperature drive machines can operate from 55 to 65°C but are less common and carry a cost premium."
+          },
+          {
+            question: "What if my waste heat is intermittent batch process, not continuous?",
+            answer: "Intermittent heat sources are manageable with a correctly sized hot water buffer tank. The tank stores thermal energy during batch peaks and releases it steadily to the chiller. Buffer sizing depends on the batch cycle duration and the gap between batches this is a site-specific engineering calculation."
+          },
+          {
+            question: "Which city in India has the strongest economics for waste heat VAM?",
+            answer: "Maharashtra, Gujarat, and Karnataka consistently show the strongest project economics a combination of high industrial electricity tariffs (₹9 to 12/kWh), long cooling seasons, and concentrated industrial clusters where waste heat sources are abundant."
+          }
+        ]
+      },
       { type: "heading", level: 2, content: "Conclusion" },
       { type: "paragraph", content: "The industries described in this article textiles, pharmaceuticals, food processing, petrochemicals, and commercial co-generation collectively represent thousands of facilities across India's major industrial cities. In each of them, hot water above 70°C is being generated continuously and discarded as waste while electricity meters run for cooling." },
       { type: "paragraph", content: "The conversion rate is straightforward: every 1 kW of waste hot water recovered at the right temperature replaces ₹1.50 to 2.20 of electricity cost per operating hour at current Indian tariffs. At scale, the annual figures are significant." },
@@ -3512,12 +3534,14 @@ export const blogs: Blog[] = [
       { type: "heading", level: 2, content: "How It Works: The Four-Stage Absorption Cycle" },
       { type: "paragraph", content: "A conventional electric chiller uses a mechanical compressor to drive refrigeration. A hot water absorption chiller replaces the compressor with a thermochemical process using two fluids: water as the refrigerant and lithium bromide (LiBr) as the absorbent." },
       { type: "paragraph", content: "The cycle moves continuously through four chambers:" },
-      { type: "list", items: [
-        "Generator: Hot water from your facility flows through the generator and causes the dilute LiBr-water solution to boil. Water vapour separates and rises; concentrated LiBr flows back toward the absorber. This is where your waste hot water does the work a compressor would otherwise do.",
-        "Condenser: Water vapour from the generator enters the condenser, where cooling water (from a cooling tower at 29 to 32°C) removes its heat and condenses it back into liquid water.",
-        "Evaporator: The liquid water enters the evaporator, which operates at near-vacuum pressure (approximately 0.87 kPa). At this pressure, water boils at around 4.5°C absorbing heat from the chilled water circuit flowing through the evaporator tubes. This is your useful cooling output.",
-        "Absorber: Water vapour from the evaporator is absorbed by the concentrated LiBr solution, maintaining the low pressure essential to the cycle. This releases heat, which is removed by cooling water. The dilute solution is then pumped back to the generator."
-      ] },
+      {
+        type: "list", items: [
+          "Generator: Hot water from your facility flows through the generator and causes the dilute LiBr-water solution to boil. Water vapour separates and rises; concentrated LiBr flows back toward the absorber. This is where your waste hot water does the work a compressor would otherwise do.",
+          "Condenser: Water vapour from the generator enters the condenser, where cooling water (from a cooling tower at 29 to 32°C) removes its heat and condenses it back into liquid water.",
+          "Evaporator: The liquid water enters the evaporator, which operates at near-vacuum pressure (approximately 0.87 kPa). At this pressure, water boils at around 4.5°C absorbing heat from the chilled water circuit flowing through the evaporator tubes. This is your useful cooling output.",
+          "Absorber: Water vapour from the evaporator is absorbed by the concentrated LiBr solution, maintaining the low pressure essential to the cycle. This releases heat, which is removed by cooling water. The dilute solution is then pumped back to the generator."
+        ]
+      },
       { type: "paragraph", content: "Three practical implications for plant engineers: the cooling tower is mandatory (and must be sized generously), hot water temperature at the machine inlet governs output more than flow rate, and total electrical consumption is only 15 to 25 kW for a 500 TR machine versus 350 to 600 kW for an equivalent electric chiller." },
       { type: "heading", level: 2, content: "Single Effect vs Double Effect: Which Type Do You Need?" },
       { type: "paragraph", content: "Single effect machines are the standard choice for Indian industrial waste heat recovery they accept lower-grade hot water and cover the widest range of applications. Double effect machines deliver better efficiency but require pressurised hot water or steam above 140°C, which is typically only available in refineries, petrochemical plants, and paper mills." },
@@ -3531,34 +3555,40 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "These are ex-works equipment prices. Total installed project cost including cooling tower, piping, insulation, civil works, and commissioning typically runs 40 to 65% above equipment price. For a 500 TR installation in Mumbai or Delhi NCR, budget ₹7 to 10.5 crore all-in." },
       { type: "paragraph", content: "Annual operating cost for a 500 TR hot water absorption chiller is approximately ₹24 to 42 lakh, versus ₹5.8 to 7.0 crore for an equivalent electric chiller. The gap in OPEX is the payback engine." },
       { type: "heading", level: 2, content: "When It Makes Sense and When It Does Not" },
-      { type: "list", content: "Strong fit:", items: [
-        "Waste hot water at 70°C+ is already being generated by your process",
-        "Industrial electricity tariffs exceed ₹7 per kWh",
-        "Cooling load is continuous and large (above 100 TR)",
-        "Noise and vibration matter (absorption chillers have no compressor)",
-        "You are targeting LEED, IGBC, or BEE star ratings"
-      ] },
-      { type: "list", content: "Weaker fit:", items: [
-        "No waste heat source exists and hot water must be generated from scratch",
-        "Cooling is intermittent or highly variable",
-        "Available floor space is severely constrained",
-        "Chilled water below 5°C is required for process applications"
-      ] },
+      {
+        type: "list", content: "Strong fit:", items: [
+          "Waste hot water at 70°C+ is already being generated by your process",
+          "Industrial electricity tariffs exceed ₹7 per kWh",
+          "Cooling load is continuous and large (above 100 TR)",
+          "Noise and vibration matter (absorption chillers have no compressor)",
+          "You are targeting LEED, IGBC, or BEE star ratings"
+        ]
+      },
+      {
+        type: "list", content: "Weaker fit:", items: [
+          "No waste heat source exists and hot water must be generated from scratch",
+          "Cooling is intermittent or highly variable",
+          "Available floor space is severely constrained",
+          "Chilled water below 5°C is required for process applications"
+        ]
+      },
       { type: "heading", level: 2, content: "Frequently Asked Questions" },
-      { type: "faq", faqItems: [
-        {
-          question: "What is the minimum hot water temperature for a hot water absorption chiller?",
-          answer: "The minimum viable inlet temperature is 68 to 70°C for a single effect LiBr machine. Below this, the generator cannot sustain the cycle and output drops sharply. The optimal range is 80 to 95°C for full rated output."
-        },
-        {
-          question: "Does a hot water chiller need a cooling tower?",
-          answer: "Yes and a larger one than an equivalent electric chiller. A single effect machine rejects 2.4 to 2.6 kW of heat per kW of cooling produced. For a 500 TR machine, this means a cooling tower rated at 1,800 to 2,200 thermal TR. Undersizing the cooling tower is the most common cause of underperformance in Indian VAM installations."
-        },
-        {
-          question: "What is the typical payback period in India?",
-          answer: "For a facility with waste hot water at 80 to 90°C and industrial electricity at ₹8 to 12 per kWh typical across Maharashtra, Karnataka, Gujarat, and Delhi NCR the simple payback period is 18 to 36 months for a correctly sized and installed system."
-        }
-      ] },
+      {
+        type: "faq", faqItems: [
+          {
+            question: "What is the minimum hot water temperature for a hot water absorption chiller?",
+            answer: "The minimum viable inlet temperature is 68 to 70°C for a single effect LiBr machine. Below this, the generator cannot sustain the cycle and output drops sharply. The optimal range is 80 to 95°C for full rated output."
+          },
+          {
+            question: "Does a hot water chiller need a cooling tower?",
+            answer: "Yes and a larger one than an equivalent electric chiller. A single effect machine rejects 2.4 to 2.6 kW of heat per kW of cooling produced. For a 500 TR machine, this means a cooling tower rated at 1,800 to 2,200 thermal TR. Undersizing the cooling tower is the most common cause of underperformance in Indian VAM installations."
+          },
+          {
+            question: "What is the typical payback period in India?",
+            answer: "For a facility with waste hot water at 80 to 90°C and industrial electricity at ₹8 to 12 per kWh typical across Maharashtra, Karnataka, Gujarat, and Delhi NCR the simple payback period is 18 to 36 months for a correctly sized and installed system."
+          }
+        ]
+      },
       { type: "heading", level: 2, content: "Conclusion" },
       { type: "paragraph", content: "The case for a hot water absorption chiller is strong but specific. The technology performs at its best when continuous waste hot water above 70°C meets high electricity tariffs and large, sustained cooling loads. Those conditions are present at thousands of industrial facilities across Delhi, Mumbai, Bengaluru, Ahmedabad, and Gurgaon." },
       { type: "paragraph", content: "If your facility generates process hot water that is currently being wasted, a heat source assessment is the logical first step. The assessment takes a day. The savings, if the conditions are right, last decades." },
@@ -3591,39 +3621,47 @@ export const blogs: Blog[] = [
       { type: "paragraph", content: "It isn't. The COP comparison between VCR and VAR is one of the most misread metrics in industrial cooling  because the two numbers measure fundamentally different things." },
       { type: "heading", level: 2, content: "The Difference Between VCR and VAR" },
       { type: "paragraph", content: "The essential difference between VCR and VAR lies in how each system drives refrigerant circulation." },
-      { type: "list", items: [
-        "Vapour Compression Refrigeration (VCR): Uses a mechanical compressor powered by grid electricity. Typically 85–90% of total system power goes to the compressor. High-grade electrical energy input.",
-        "Vapour Absorption Refrigeration (VAR): Replaces the compressor with a thermal-chemical process. Generator heated by steam, hot water, exhaust gas, or direct combustion. Electrical demand limited to auxiliary pumps and controls."
-      ] },
+      {
+        type: "list", items: [
+          "Vapour Compression Refrigeration (VCR): Uses a mechanical compressor powered by grid electricity. Typically 85–90% of total system power goes to the compressor. High-grade electrical energy input.",
+          "Vapour Absorption Refrigeration (VAR): Replaces the compressor with a thermal-chemical process. Generator heated by steam, hot water, exhaust gas, or direct combustion. Electrical demand limited to auxiliary pumps and controls."
+        ]
+      },
       { type: "paragraph", content: "VCR consumes high-grade electrical energy. VAR consumes low-grade thermal energy often heat already being produced and discarded by industrial processes." },
       { type: "heading", level: 2, content: "Why Is COP of VARs Less Than VCR?" },
       { type: "paragraph", content: "COP (Coefficient of Performance) = Cooling Output ÷ Energy Input." },
       { type: "paragraph", content: "The reason VCR vs VAR COP numbers look so different is that the energy inputs are not equivalent:" },
-      { type: "list", items: [
-        "VCR COP measures cooling output against electrical input. Electricity is high-grade energy this is why VCR achieves COP 5.0–6.5.",
-        "VAR COP measures cooling output against thermal input. Steam, hot water, and exhaust gases are low-grade energy, thermodynamically limited by their supply temperature. BROAD single-effect systems achieve COP 0.70–0.75; double-effect systems reach 1.20–1.35."
-      ] },
+      {
+        type: "list", items: [
+          "VCR COP measures cooling output against electrical input. Electricity is high-grade energy this is why VCR achieves COP 5.0–6.5.",
+          "VAR COP measures cooling output against thermal input. Steam, hot water, and exhaust gases are low-grade energy, thermodynamically limited by their supply temperature. BROAD single-effect systems achieve COP 0.70–0.75; double-effect systems reach 1.20–1.35."
+        ]
+      },
       { type: "paragraph", content: "So why is COP of VARs less than VCR? Because COP is calculated against the heat input, not against equivalent electrical energy. The two systems are not competing on the same energy currency. The comparison is structurally misleading." },
       { type: "heading", level: 2, content: "What Is the Difference Between VCM and VAM?" },
       { type: "paragraph", content: "A VCM (Vapour Compression Machine) is a compressor-based chiller consuming electrical energy. A VAM (Vapour Absorption Machine) is BROAD's thermally driven alternative. The difference between VCM and VAM is not just mechanical it is a fundamental divergence in operating economics. VCM converts expensive electrical energy into cooling. VAM converts waste or low-cost thermal energy into cooling." },
       { type: "heading", level: 2, content: "The Operating Cost Reality" },
       { type: "paragraph", content: "The advantages of VARs over VCRs become financially decisive when operating costs replace COP as the decision metric." },
       { type: "paragraph", content: "Annual Cost Comparison (500 TR):" },
-      { type: "list", items: [
-        "Electrical Consumption: VCR System (COP 6.0) ~293 kW | BROAD VAR (COP 0.72, Waste Steam) 15–25 kW (auxiliary only)",
-        "Heat Source Cost: VCR System - Significant grid tariff | BROAD VAR - Near zero (waste steam)",
-        "Annual Maintenance: VCR System - Premium compressor rates | BROAD VAR - 25–35% lower, no compressor"
-      ] },
+      {
+        type: "list", items: [
+          "Electrical Consumption: VCR System (COP 6.0) ~293 kW | BROAD VAR (COP 0.72, Waste Steam) 15–25 kW (auxiliary only)",
+          "Heat Source Cost: VCR System - Significant grid tariff | BROAD VAR - Near zero (waste steam)",
+          "Annual Maintenance: VCR System - Premium compressor rates | BROAD VAR - 25–35% lower, no compressor"
+        ]
+      },
       { type: "paragraph", content: "The \"inferior\" COP 0.72 produces cooling at a fraction of the VCR system's operating cost when waste heat is available. COP never captured this because it cannot compare a waste heat input against a grid electricity input." },
       { type: "paragraph", content: "BROAD's exhaust-fired VAM installations at facilities operating diesel generator sets have demonstrated payback periods of 2–3 years, recovering the system's capital cost through eliminated electricity consumption and reduced generator fuel burn." },
       { type: "heading", level: 2, content: "COP of the Vapour Absorption System in Real Operation" },
       { type: "paragraph", content: "In practice, COP of the vapour absorption system varies based on:" },
-      { type: "list", items: [
-        "Heat source temperature and quality higher temperature enables double-effect operation",
-        "Cooling tower water temperature lower tower water improves COP",
-        "Chilled water setpoint higher setpoint reduces generator load",
-        "Ambient conditions affecting cooling tower performance"
-      ] },
+      {
+        type: "list", items: [
+          "Heat source temperature and quality higher temperature enables double-effect operation",
+          "Cooling tower water temperature lower tower water improves COP",
+          "Chilled water setpoint higher setpoint reduces generator load",
+          "Ambient conditions affecting cooling tower performance"
+        ]
+      },
       { type: "paragraph", content: "BROAD India installations operating on exhaust heat from diesel generator sets have delivered contractually guaranteed COP performance consistently across high-ambient industrial environments, including facilities in Gujarat, Tamil Nadu, and Maharashtra running 8,000+ hours annually." },
       { type: "heading", level: 2, content: "The Right Comparison for Your Facility" },
       { type: "paragraph", content: "The VCR vs VAR decision comes down to one practical question: what is your available energy source? If your facility produces steam, hot water, generator exhaust, or any waste heat above 75°C and cooling load exceeds 200 TR the economics consistently favour BROAD VAR technology. The COP number will be lower. The operating cost will not be." }
@@ -7586,7 +7624,7 @@ For gas - based power plants, nearly 50 % of fuel energy escapes as waste heat. 
     date: `December 12, 2025`,
     readTime: `10 min read`,
     category: `Economics`,
-    image: `/ images / 12 Dec - Blog.png`,
+    image: `/images/12 Dec-Blog.png`,
     content: `
   <p>
 Understanding the full economic picture of vapor absorption machines, including capital expenses, operating costs, and hidden costs, is essential.It helps determine if your cooling system will be a valuable asset or a financial burden for the next two decades.
@@ -8716,513 +8754,515 @@ Whether you're running a pharmaceutical plant, food processing facility, textile
           </div>
             `
   },
-  {
-    id: "top-5-vapor-absorption-machine-manufacturers-india-2025",
-    title: "Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review",
-    description: "Comprehensive review of the top VAM manufacturers in India, including BROAD, Thermax, Voltas, Kirloskar, and Blue Star with technology comparison and recommendations.",
-    meta: {
-      description: "Compare the top 5 VAM manufacturers in IndiaBROAD, Thermax, Voltas, Kirloskar, and Blue Star. Review their technology, capacity, service networks, and suitability for different applications.",
-      keywords: [
-        "vapor absorption machine manufacturers India",
-        "VAM manufacturers",
-        "BROAD India",
-        "Thermax VAM",
-        "Voltas VAM chillers",
-        "Kirloskar absorption chillers",
-        "Blue Star VAM systems",
-        "industrial chillers India",
-        "absorption cooling systems",
-        "VAM technology comparison",
-        "best VAM manufacturers"
-      ]
-    },
-    date: "Dec 02, 2025",
-    readTime: "14 min read",
-    category: "Industry Review",
-    image: "/images/02 Dec-Blog.png",
-    content: `
-          <h1> Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review </h1>
-            <br />
-            <p><strong>Quick Links: </strong> <a href="#comparison-table">Compare Manufacturers</a> | <a href="/vapour-absorption-chiller"> BROAD VAM Solutions </a> | <a href="/contact-us">Get Expert Guidance</a></p>
+  /*
+    {
+      id: "top-5-vapor-absorption-machine-manufacturers-india-2025",
+      title: "Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review",
+      description: "Comprehensive review of the top VAM manufacturers in India, including BROAD, Thermax, Voltas, Kirloskar, and Blue Star with technology comparison and recommendations.",
+      meta: {
+        description: "Compare the top 5 VAM manufacturers in IndiaBROAD, Thermax, Voltas, Kirloskar, and Blue Star. Review their technology, capacity, service networks, and suitability for different applications.",
+        keywords: [
+          "vapor absorption machine manufacturers India",
+          "VAM manufacturers",
+          "BROAD India",
+          "Thermax VAM",
+          "Voltas VAM chillers",
+          "Kirloskar absorption chillers",
+          "Blue Star VAM systems",
+          "industrial chillers India",
+          "absorption cooling systems",
+          "VAM technology comparison",
+          "best VAM manufacturers"
+        ]
+      },
+      date: "Dec 02, 2025",
+      readTime: "14 min read",
+      category: "Industry Review",
+      image: "/images/02 Dec-Blog.png",
+      content: `
+            <h1> Top 5 Vapor Absorption Machine Manufacturers in India: A 2025 Review </h1>
               <br />
-
-              <h2><strong>Introduction: India's VAM Market Landscape</strong></h2>
-                <p>
-India's industrial cooling landscape is changing rapidly as facilities look for energy-efficient, sustainable alternatives to traditional electric chillers. Vapor Absorption Machines (VAMs) have become the preferred choice for industries with access to waste heat, steam, or natural gas. They provide substantial electricity savings and reduce carbon emissions.
-  </p>
-
-  <p>
-Choosing the right VAM manufacturer is essential since these systems involve significant capital investments and can last over 20 years.This review looks at the top five vapor absorption machine manufacturers operating in India, focusing on technology, installed capacity, service network, and customer satisfaction.
-</p>
-
-  <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-    <h2><strong>What Makes a Top VAM Manufacturer ? </strong></h2>
-      <p>
-      Before examining specific companies, let's define the evaluation criteria important for industrial decision-makers:
-        </p>
-
-        <div style="background-color: #f5f5f5; padding: 20px; border-radius: 4px; border-left: 4px solid #1976d2;">
-          <ul style="margin: 0; padding-left: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-            <li><strong>Technology Maturity </strong></li>
-              <li><strong>Installed Base </strong></li>
-                <li><strong>Product Range </strong></li>
-                  <li><strong>Efficiency Metrics </strong></li>
-                    <li><strong>After - Sales Support </strong></li>
-                      <li><strong>Customization Capability </strong></li>
-                        </ul>
-                        </div>
-
-                        <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-                          <h2><strong>1. BROAD Group(BROAD India) </strong></h2>
-
-                            <div style="background-color: #e3f2fd; border-left: 4px solid #1976d2; padding: 15px; margin: 15px 0; border-radius: 4px;">
-                              <strong>📍 Headquarters: </strong> Changsha, China (operating in India since 2001)<br/ >
-                                <strong>🌍 Global Installed Capacity: </strong> 35,000+ units, over 30,000 MW cooling capacity – Oldest manufacturer of VAM in Indian market<br/ >
-                                  <strong>🇮🇳 India Presence: </strong> 25 years, with major installations in pharmaceuticals, steel, petrochemicals, textiles, glass, packaging, fertilizer, chemical, and commercial sectors
-                                    </div>
-
-                                    <p>
-BROAD is the global leader in non - electric cooling technology, and its Indian subsidiary is well - known for high - performance vapor absorption systems.BROAD's unique focus is on absorption cooling, while also offering advanced, power-efficient electric chillers based on oil-free magnetic levitation compressor technology; this allows the company to maintain deep R&D specialization in VAM systems while delivering best-in-class efficiency in electric cooling solutions as well.
-  </p>
-
-  <strong> Technology Strengths: </strong>
+              <p><strong>Quick Links: </strong> <a href="#comparison-table">Compare Manufacturers</a> | <a href="/vapour-absorption-chiller"> BROAD VAM Solutions </a> | <a href="/contact-us">Get Expert Guidance</a></p>
+                <br />
+  
+                <h2><strong>Introduction: India's VAM Market Landscape</strong></h2>
+                  <p>
+  India's industrial cooling landscape is changing rapidly as facilities look for energy-efficient, sustainable alternatives to traditional electric chillers. Vapor Absorption Machines (VAMs) have become the preferred choice for industries with access to waste heat, steam, or natural gas. They provide substantial electricity savings and reduce carbon emissions.
+    </p>
+  
     <p>
-BROAD pioneered direct - fired lithium bromide absorption chillers in the 1990s and has continuously improved this technology.Their machines achieve COP values of 1.2 - 1.3 for direct - fired units and 0.7 - 0.75 for single - effect steam / hot water chillers.These industry - leading figures result in lower fuel consumption and operating costs.
-</p>
-
-  <p>
-The company's proprietary heat exchanger design maximizes thermal energy transfer while minimizing refrigerant carry-over, a common problem in absorption systems that reduces efficiency and increases maintenance. BROAD's corrosion - resistant materials and advanced vacuum maintenance systems guarantee long - term performance in India's challenging industrial environments.
+  Choosing the right VAM manufacturer is essential since these systems involve significant capital investments and can last over 20 years.This review looks at the top five vapor absorption machine manufacturers operating in India, focusing on technology, installed capacity, service network, and customer satisfaction.
   </p>
-
-  <strong> Product Portfolio: </strong>
-    <ul style="margin: 15px 0;">
-      <li><strong>Direct - Fired VAM </strong> (natural gas, diesel, biogas): 100-1,500 TR per unit</li>
-        <li><strong>Steam VAM </strong> (single and double-effect): 50-1,400 TR per unit</li>
-          <li><strong>Hot Water VAM: </strong> 50-900 TR per unit</li>
-            <li><strong>Exhaust - Fired VAM </strong> (generator exhaust recovery): 100-1,000 TR per unit</li>
-              <li><strong>CCHP integrated systems </strong> combining power generation with absorption cooling</li>
-                </ul>
-
-                <strong> Notable Projects in India: </strong>
-                  <ul style="margin: 15px 0;">
-                    <li><strong>JSW Steel, Bellary: </strong> Process cooling using waste heat recovery</li>
-                      <li><strong>Indian Oil Corporation, Vadodara: </strong> Multiple VAM installations for petrochemical cooling</li>
-                        <li><strong>ITC facilities: </strong> Process cooling across various manufacturing plants</li>
-                          <li><strong>NTPC power stations: </strong> Auxiliary cooling systems</li>
-                            </ul>
-
-                            <strong> Service Infrastructure: </strong>
-                              <p>
-BROAD India has offices in Delhi NCR, Mumbai, Ahmedabad, and Chennai, with regional service teams covering all major industrial areas.Their spare parts warehouse in Gurgaon ensures delivery in 24 - 48 hours across India, minimizing downtime.
-</p>
-
-  <div style="background-color: #c8e6c9; border-left: 4px solid #2e7d32; padding: 15px; margin: 15px 0; border-radius: 4px;">
-    <strong>✅ Why BROAD Leads: </strong> BROAD's focus on absorption cooling, global track record, superior COP values, and extensive service network make them the benchmark for others. Their ability to manage large-capacity installations (1,000+ TR) and complex CCHP integrations gives them an advantage in large industrial projects.
-      </div>
-
-      <div style="background-color: #e0f2f1; padding: 15px; margin: 20px 0; border-radius: 4px; border: 1px solid #b2dfdb;">
-        <h4 style="margin-top: 0; color: #00695c;"> </h4>
-
-          <div style="margin-bottom: 15px;">
-            <strong>🔬 Advanced Material Engineering: </strong>
-              <p style="margin: 5px 0 10px;"> Use titanium tubes in critical heat exchange sections, which offer exceptional corrosion resistance and virtually eliminate tube leakage risks.This significantly enhances system reliability and extends the overall lifespan of the machine, especially in challenging water quality and industrial operating conditions.</p>
-                </div>
-
-                <div style="margin-bottom: 15px;">
-                  <strong>🧪 Annual LiBr Solution Testing at No Additional Cost: </strong>
-                    <p style="margin: 5px 0 10px;"> This proactive practice ensures early detection of contamination, crystallization risk, or performance degradationhelping customers avoid unplanned shutdowns and maintain optimal efficiency.</p>
-                      </div>
-
-                      <div>
-                      <strong>💻 Comes with Dedicated Online Monitoring System for VAMs: </strong>
-                        <p style="margin: 5px 0;"> BROAD provides a dedicated online monitoring system that continuously tracks chiller health, operating trends, and early - stage fault indicators in real time.</p>
+  
+    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+      <h2><strong>What Makes a Top VAM Manufacturer ? </strong></h2>
+        <p>
+        Before examining specific companies, let's define the evaluation criteria important for industrial decision-makers:
+          </p>
+  
+          <div style="background-color: #f5f5f5; padding: 20px; border-radius: 4px; border-left: 4px solid #1976d2;">
+            <ul style="margin: 0; padding-left: 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+              <li><strong>Technology Maturity </strong></li>
+                <li><strong>Installed Base </strong></li>
+                  <li><strong>Product Range </strong></li>
+                    <li><strong>Efficiency Metrics </strong></li>
+                      <li><strong>After - Sales Support </strong></li>
+                        <li><strong>Customization Capability </strong></li>
+                          </ul>
                           </div>
-                          </div>
-
+  
                           <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-                            <h2><strong>2. Thermax Limited </strong></h2>
-
-                              <div style="background-color: #fff3e0; border-left: 4px solid #f57c00; padding: 15px; margin: 15px 0; border-radius: 4px;">
-                                <strong>📍 Headquarters: </strong> Pune, India<br/ >
-                                  <strong>🇮🇳 India Presence: </strong> Over 60 years in industrial thermal equipment (Started VAM production with Foreign player in Mid 90's)
-                                    </div>
-
-                                    <p>
-Thermax is one of India's most established thermal engineering companies, known for boilers, heat recovery systems. Its absorption chillers are part of a broader portfolio and their VAMs benefit from integration with their boiler and heat recovery systems.
+  
+                            <h2><strong>1. BROAD Group(BROAD India) </strong></h2>
+  
+                              <div style="background-color: #e3f2fd; border-left: 4px solid #1976d2; padding: 15px; margin: 15px 0; border-radius: 4px;">
+                                <strong>📍 Headquarters: </strong> Changsha, China (operating in India since 2001)<br/ >
+                                  <strong>🌍 Global Installed Capacity: </strong> 35,000+ units, over 30,000 MW cooling capacity – Oldest manufacturer of VAM in Indian market<br/ >
+                                    <strong>🇮🇳 India Presence: </strong> 25 years, with major installations in pharmaceuticals, steel, petrochemicals, textiles, glass, packaging, fertilizer, chemical, and commercial sectors
+                                      </div>
+  
+                                      <p>
+  BROAD is the global leader in non - electric cooling technology, and its Indian subsidiary is well - known for high - performance vapor absorption systems.BROAD's unique focus is on absorption cooling, while also offering advanced, power-efficient electric chillers based on oil-free magnetic levitation compressor technology; this allows the company to maintain deep R&D specialization in VAM systems while delivering best-in-class efficiency in electric cooling solutions as well.
+    </p>
+  
+    <strong> Technology Strengths: </strong>
+      <p>
+  BROAD pioneered direct - fired lithium bromide absorption chillers in the 1990s and has continuously improved this technology.Their machines achieve COP values of 1.2 - 1.3 for direct - fired units and 0.7 - 0.75 for single - effect steam / hot water chillers.These industry - leading figures result in lower fuel consumption and operating costs.
   </p>
-
-  <strong> Technology Approach: </strong>
+  
     <p>
-Thermax also offers single - effect, double - effect, and triple - effect steam - driven absorption chillers, particularly excelling in triple - effect systems that achieve higher COP values(1.3 - 1.4) when high - pressure steam is available; however, their solutions are typically positioned as part of a broader thermal package rather than as a standalone absorption - focused system.
-</p>
-
-  <p>
-Their VAMs use standard lithium bromide - water refrigerant pairs and include designs licensed from international partners, ensuring compliance with global performance standards.
-</p>
-
-  <strong> Product Range: </strong>
-    <ul style="margin: 15px 0;">
-      <li><strong>Single - Effect Steam VAM: </strong> 100-1,500 TR</li>
-        <li><strong>Double - Effect Steam VAM: </strong> 350-1,500 TR</li>
-          <li><strong>Triple - Effect Steam VAM: </strong> 500-1,500 TR (specialized applications)</li>
-            <li><strong>Hot Water VAM: </strong> 100-1,200 TR</li>
-              </ul>
-
-              <strong> Market Position: </strong>
-                <p>
-Thermax's domestic manufacturing advantage allows for shorter lead times and competitive pricing for steam-based systems. Their established relationships with India's process industries, especially refineries, steel plants, and chemical facilities, give them a strong presence in steam - rich environments.
-</p>
-
-  <div style="background-color: #fff9c4; border-left: 4px solid #f57f17; padding: 15px; margin: 15px 0; border-radius: 4px;">
-    <strong>⚠️ Considerations: </strong>
-      <p style="margin-bottom: 10px;"> While strong in steam applications, Thermax's portfolio does not include direct-fired and exhaust-fired options, limiting their applicability in facilities without existing steam systems. Response times for service can vary outside major metropolitan areas.</p>
-
-        <ul style="margin: 10px 0; padding-left: 20px;">
-          <li style="margin-bottom: 8px;"> Currently, there is no dedicated, proprietary online condition - monitoring platform available that provides continuous tracking of chiller health, operating trends, and early detection of potential faults in real time.</li>
-            <li style="margin-bottom: 8px;"> The design utilizes industry - standard materials that function adequately under controlled conditions; however, long - term reliability and resistance to corrosion are heavily influenced by factors such as geographical location, water quality, operational discipline, and adherence to periodic maintenance schedules.</li>
-              <li style="margin-bottom: 8px;"> The selection of materials is a critical factor that directly impacts the risk of leakage and determines the overall lifespan of the equipment.</li>
-                <li> There is no publicly available or clearly documented evidence of OEM - driven lithium bromide(LiBr) solution monitoring being offered as a standardized service practice.</li>
+  The company's proprietary heat exchanger design maximizes thermal energy transfer while minimizing refrigerant carry-over, a common problem in absorption systems that reduces efficiency and increases maintenance. BROAD's corrosion - resistant materials and advanced vacuum maintenance systems guarantee long - term performance in India's challenging industrial environments.
+    </p>
+  
+    <strong> Product Portfolio: </strong>
+      <ul style="margin: 15px 0;">
+        <li><strong>Direct - Fired VAM </strong> (natural gas, diesel, biogas): 100-1,500 TR per unit</li>
+          <li><strong>Steam VAM </strong> (single and double-effect): 50-1,400 TR per unit</li>
+            <li><strong>Hot Water VAM: </strong> 50-900 TR per unit</li>
+              <li><strong>Exhaust - Fired VAM </strong> (generator exhaust recovery): 100-1,000 TR per unit</li>
+                <li><strong>CCHP integrated systems </strong> combining power generation with absorption cooling</li>
                   </ul>
+  
+                  <strong> Notable Projects in India: </strong>
+                    <ul style="margin: 15px 0;">
+                      <li><strong>JSW Steel, Bellary: </strong> Process cooling using waste heat recovery</li>
+                        <li><strong>Indian Oil Corporation, Vadodara: </strong> Multiple VAM installations for petrochemical cooling</li>
+                          <li><strong>ITC facilities: </strong> Process cooling across various manufacturing plants</li>
+                            <li><strong>NTPC power stations: </strong> Auxiliary cooling systems</li>
+                              </ul>
+  
+                              <strong> Service Infrastructure: </strong>
+                                <p>
+  BROAD India has offices in Delhi NCR, Mumbai, Ahmedabad, and Chennai, with regional service teams covering all major industrial areas.Their spare parts warehouse in Gurgaon ensures delivery in 24 - 48 hours across India, minimizing downtime.
+  </p>
+  
+    <div style="background-color: #c8e6c9; border-left: 4px solid #2e7d32; padding: 15px; margin: 15px 0; border-radius: 4px;">
+      <strong>✅ Why BROAD Leads: </strong> BROAD's focus on absorption cooling, global track record, superior COP values, and extensive service network make them the benchmark for others. Their ability to manage large-capacity installations (1,000+ TR) and complex CCHP integrations gives them an advantage in large industrial projects.
+        </div>
+  
+        <div style="background-color: #e0f2f1; padding: 15px; margin: 20px 0; border-radius: 4px; border: 1px solid #b2dfdb;">
+          <h4 style="margin-top: 0; color: #00695c;"> </h4>
+  
+            <div style="margin-bottom: 15px;">
+              <strong>🔬 Advanced Material Engineering: </strong>
+                <p style="margin: 5px 0 10px;"> Use titanium tubes in critical heat exchange sections, which offer exceptional corrosion resistance and virtually eliminate tube leakage risks.This significantly enhances system reliability and extends the overall lifespan of the machine, especially in challenging water quality and industrial operating conditions.</p>
                   </div>
-
-                  <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-                    <h2><strong>3. Voltas Limited(TATA Group) </strong></h2>
-
-                      <div style="background-color: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 15px; margin: 15px 0; border-radius: 4px;">
-                        <strong>📍 Headquarters: </strong> Mumbai, India<br/ >
-                          <strong>🏢 Background: </strong> Established air conditioning company expanding into industrial cooling
-                            </div>
-
-                            <p>
-Voltas, part of the TATA conglomerate, brings brand recognition and extensive sales and service networks to the VAM market.While mainly known for residential and commercial air conditioning, they have expanded into industrial absorption cooling through manufacturing partnerships.
-</p>
-
-  <strong> Technology Source: </strong>
-    <p>
-Voltas makes vapor absorption machines under technology collaboration with international partners, focusing on standard capacity ranges suitable for commercial and light industrial applications.
-</p>
-
-  <strong> Product Focus: </strong>
-    <ul style="margin: 15px 0;">
-      <li><strong>Steam VAM: </strong> 100-500 TR</li>
-        <li><strong>Hot Water VAM: </strong> 100-400 TR</li>
-          </ul>
-
-          <strong> Strengths: </strong>
-            <p>
-The TATA brand provides reassurance for cautious buyers, particularly in commercial sectors like hotels, hospitals, and institutions.Their service network, established for consumer AC products, extends to VAM installations with service centers in over 30 cities.
-</p>
-
-  <strong> Limitations: </strong>
-    <p>
-Voltas has a limited capacity range compared to BROAD or Thermax, making them less suitable for large industrial setups.Their technology sourcing through partnerships means they have less control over customization and advancement.Their main focus remains on traditional electric chillers, with VAMs representing a smaller part of their business.
-</p>
-
-  <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-    <h2><strong>4. Kirloskar Group(Multiple Entities) </strong></h2>
-
-      <div style="background-color: #e8f5e9; border-left: 4px solid #388e3c; padding: 15px; margin: 15px 0; border-radius: 4px;">
-        <strong>📍 Background: </strong> Diversified industrial conglomerate with various business units
-          </div>
-
-          <p>
-Kirloskar's presence in vapor absorption cooling comes through multiple group companies involved in HVAC and refrigeration. This decentralized approach provides coverage but can cause confusion about which entity handles specific projects.
-  </p>
-
-  <strong> Market Approach: </strong>
-    <p>
-Kirloskar entities typically focus on smaller capacity VAM systems(50 - 300 TR) for commercial applications rather than large industrial installations.They often act as representatives or assemblers for international VAM technology rather than original manufacturers.
-</p>
-
-  <strong> Service Network: </strong>
-    <p>
-Utilizing the broader Kirloskar Group's industrial presence, their service coverage spans most Indian states; however, expertise in absorption cooling may vary by location.
-  </p>
-
-  <strong> Positioning: </strong>
-    <p>
-Suitable for commercial projects and smaller industrial needs where budget constraints are a priority.They are less competitive for large - scale industrial cooling applications.
-</p>
-
-  <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-    <h2><strong>5. Blue Star Limited </strong></h2>
-
-      <div style="background-color: #fce4ec; border-left: 4px solid #c2185b; padding: 15px; margin: 15px 0; border-radius: 4px;">
-        <strong>📍 Headquarters: </strong> Mumbai, India<br/ >
-          <strong>🏢 Background: </strong> Established commercial HVAC company
-            </div>
-
-            <p>
-Blue Star has gained recognition in commercial refrigeration and air conditioning.Their entry into vapor absorption cooling focuses on institutional and light industrial markets rather than heavy process cooling applications.
-</p>
-
-  <strong> Product Offering: </strong>
-    <p>
-Blue Star's VAM portfolio targets smaller capacities (100-350 TR) suitable for commercial buildings, hospitals, and educational institutions. They offer steam and hot water configurations through technology partnerships.
-  </p>
-
-  <strong> Service Excellence: </strong>
-    <p>
-Blue Star's extensive commercial AC service network provides good coverage for smaller VAM installations. Their strength lies in building management system integration and controls rather than heavy industrial process cooling expertise.
-  </p>
-
-  <strong> Market Segment: </strong>
-    <p>
-Best suited for commercial and institutional applications.They have limited experience and capacity for heavy industrial process cooling compared to BROAD or Thermax.
-</p>
-
-  <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-    <h2 id="comparison-table"> <strong>Comparative Analysis: Making the Right Choice </strong></h2>
-
-      <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
-        <div style="background-color: #e3f2fd; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-          <strong>🏭 For Large Industrial Projects(500 + TR): </strong>
-            <p style="margin: 5px 0;"> BROAD India clearly leads with proven capability in designing, manufacturing, and commissioning large - capacity systems.Their exclusive focus on absorption technology and global installed base provide confidence for mission - critical applications.</p>
-              </div>
-
-              <div style="background-color: #fff3e0; border-left: 4px solid #f57c00; padding: 12px; border-radius: 4px;">
-              <strong>🔥 For Steam - Rich Industries: </strong>
-                <p style="margin: 5px 0;"> Both BROAD and Thermax offer strong solutions.BROAD's superior COP values typically ensure better fuel efficiency, while Thermax's domestic manufacturing may bring cost advantages.A project - specific evaluation is advised.</p>
-                  </div>
-
-                  <div style="background-color: #c8e6c9; border-left: 4px solid #2e7d32; padding: 12px; border-radius: 4px;">
-                    <strong>♻️ For Waste Heat Recovery / CCHP Integration: </strong>
-                      <p style="margin: 5px 0;"> BROAD's extensive portfolio, including exhaust-fired and direct-fired VAMs along with CCHP expertise, positions them as the obvious choice for complex heat integration projects.</p>
+  
+                  <div style="margin-bottom: 15px;">
+                    <strong>🧪 Annual LiBr Solution Testing at No Additional Cost: </strong>
+                      <p style="margin: 5px 0 10px;"> This proactive practice ensures early detection of contamination, crystallization risk, or performance degradationhelping customers avoid unplanned shutdowns and maintain optimal efficiency.</p>
                         </div>
-
-                        <div style="background-color: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 12px; border-radius: 4px;">
-                          <strong>🏨 For Commercial Buildings(Hotels, Hospitals): </strong>
-                            <p style="margin: 5px 0;"> Blue Star and Voltas effectively compete with service networks optimized for commercial needs and expertise in building management integration.</p>
-                              </div>
-
-                              <div style="background-color: #bbdefb; border-left: 4px solid #1565c0; padding: 12px; border-radius: 4px;">
-                                <strong>💰 For Budget - Constrained Projects: </strong>
-                                  <p style="margin: 5px 0;"> Thermax and Kirloskar might provide more competitive pricing for smaller, standard configurations.However, total cost of ownership analysis should consider efficiency differences.</p>
-                                    </div>
-                                    </div>
-
-                                    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-                                      <h2><strong>Technical Specifications Comparison </strong></h2>
-
-                                        <p><strong>COP Performance(Single - Effect Steam VAM): </strong></p>
-                                          <div style="overflow-x: auto;">
-                                            <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
-                                              <tr style="background-color: #1976d2; color: white;">
-                                                <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
-                                                  <th style="border: 1px solid #ddd; padding: 10px;"> COP Range </th>
-                                                    </tr>
-                                                    <tr>
-                                                    <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
-                                                      <td style="border: 1px solid #ddd; padding: 10px;"> 0.72 - 0.75 </td>
-                                                        </tr>
-                                                        <tr style="background-color: #f5f5f5;">
-                                                          <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
-                                                            <td style="border: 1px solid #ddd; padding: 10px;"> 0.68 - 0.72 </td>
-                                                              </tr>
-                                                              <tr>
-                                                              <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Voltas </strong></td>
-                                                                <td style="border: 1px solid #ddd; padding: 10px;"> 0.68 - 0.70 </td>
-                                                                  </tr>
-                                                                  <tr style="background-color: #f5f5f5;">
-                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Blue Star </strong></td>
-                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> 0.68 - 0.72 </td>
-                                                                        </tr>
-                                                                        </table>
-                                                                        </div>
-
-                                                                        <p> <strong>COP Performance(Direct - Fired VAM): </strong></p>
-                                                                          <div style="overflow-x: auto;">
-                                                                            <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
-                                                                              <tr style="background-color: #1976d2; color: white;">
-                                                                                <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
-                                                                                  <th style="border: 1px solid #ddd; padding: 10px;"> COP Range </th>
-                                                                                    </tr>
-                                                                                    <tr style="background-color: #c8e6c9;">
-                                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
-                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> 1.2 - 1.3 </td>
-                                                                                          </tr>
-                                                                                          <tr style="background-color: #ffebee;">
-                                                                                            <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
-                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> Not offered </td>
-                                                                                                </tr>
-                                                                                                <tr style="background-color: #ffebee;">
-                                                                                                  <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Voltas </strong></td>
-                                                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> Not offered </td>
-                                                                                                      </tr>
-                                                                                                      <tr style="background-color: #ffebee;">
-                                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Kirloskar / Blue Star </strong></td>
-                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> Not offered </td>
-                                                                                                            </tr>
-                                                                                                            </table>
-                                                                                                            </div>
-
-                                                                                                            <p> <strong>Maximum Single Unit Capacity: </strong></p>
-                                                                                                              <div style="overflow-x: auto;">
-                                                                                                                <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
-                                                                                                                  <tr style="background-color: #1976d2; color: white;">
-                                                                                                                    <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
-                                                                                                                      <th style="border: 1px solid #ddd; padding: 10px;"> Capacity(TR) </th>
-                                                                                                                        </tr>
-                                                                                                                        <tr>
-                                                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
-                                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> 1, 500 </td>
-                                                                                                                            </tr>
-                                                                                                                            <tr style="background-color: #f5f5f5;">
-                                                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
-                                                                                                                                <td style="border: 1px solid #ddd; padding: 10px;"> 1, 500 </td>
-                                                                                                                                  </tr>
-                                                                                                                                  <tr>
-                                                                                                                                  <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Voltas </strong></td>
-                                                                                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> 500 </td>
-                                                                                                                                      </tr>
-                                                                                                                                      <tr style="background-color: #f5f5f5;">
-                                                                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Kirloskar </strong></td>
-                                                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> 300 </td>
-                                                                                                                                            </tr>
-                                                                                                                                            <tr>
-                                                                                                                                            <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Blue Star </strong></td>
-                                                                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> 350 </td>
-                                                                                                                                                </tr>
-                                                                                                                                                </table>
-                                                                                                                                                </div>
-
-                                                                                                                                                <p> <strong>Heat Source Flexibility: </strong></p>
-                                                                                                                                                  <div style="overflow-x: auto;">
-                                                                                                                                                    <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
-                                                                                                                                                      <tr style="background-color: #1976d2; color: white;">
-                                                                                                                                                        <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
-                                                                                                                                                          <th style="border: 1px solid #ddd; padding: 10px;"> Heat Source Options </th>
-                                                                                                                                                            </tr>
-                                                                                                                                                            <tr>
-                                                                                                                                                            <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
-                                                                                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> Steam, hot water, exhaust gases, direct - fired </td>
-                                                                                                                                                                </tr>
-                                                                                                                                                                <tr style="background-color: #f5f5f5;">
-                                                                                                                                                                  <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
-                                                                                                                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> Steam, hot water </td>
-                                                                                                                                                                      </tr>
-                                                                                                                                                                      <tr>
-                                                                                                                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Others </strong></td>
-                                                                                                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> Primarily steam, limited hot water </td>
-                                                                                                                                                                          </tr>
-                                                                                                                                                                          </table>
-                                                                                                                                                                          </div>
-
-                                                                                                                                                                          <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-                                                                                                                                                                            <h2><strong>The BROAD Advantage in Depth </strong></h2>
-
-                                                                                                                                                                              <p>
-                                                                                                                                                                              While this review remains objective across all manufacturers, BROAD's technological leadership warrants detailed exploration:
-                                                                                                                                                                                </p>
-
-                                                                                                                                                                                <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
-                                                                                                                                                                                  <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                    <strong>🔬 Research Investment: </strong>
-                                                                                                                                                                                      <p style="margin: 5px 0;"> BROAD dedicates 5 % of annual revenue to R & D specifically for absorption cooling, leading to ongoing performance enhancements.Their patented heat exchanger designs and corrosion - resistant materials set industry standards.</p>
-                                                                                                                                                                                        </div>
-
-                                                                                                                                                                                        <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                          <strong>🌍 Global Expertise, Local Execution: </strong>
-                                                                                                                                                                                            <p style="margin: 5px 0;"> BROAD India combines the parent company's 30+ years of global absorption cooling experience with a local engineering team that understands Indian industrial conditions. This results in well-designed systems that account for ambient temperatures, water quality, and operational patterns unique to India.</p>
-                                                                                                                                                                                              </div>
-
-                                                                                                                                                                                              <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                <strong>📋 Comprehensive Solutions: </strong>
-                                                                                                                                                                                                  <p style="margin: 5px 0;"> In addition to equipment supply, BROAD offers thermal integration studies, CCHP system design, and feasibility analyses that optimize total energy flows instead of merely replacing chillers.</p>
-                                                                                                                                                                                                    </div>
-
-                                                                                                                                                                                                    <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                      <strong>✅ Performance Guarantees: </strong>
-                                                                                                                                                                                                        <p style="margin: 5px 0;"> BROAD provides contractual COP guarantees and cooling capacity assurances supported by factory testing and field verification, which minimizes project risks.</p>
-                                                                                                                                                                                                          </div>
-                                                                                                                                                                                                          </div>
-
-                                                                                                                                                                                                          <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-                                                                                                                                                                                                            <h2><strong>Making Your Decision: A Structured Approach </strong></h2>
-
-                                                                                                                                                                                                              <p>
-                                                                                                                                                                                                              Choosing a VAM manufacturer requires matching your specific needs against the strengths of each manufacturer.
-</p>
-
-                                                                                                                                                                                                                <div style="background-color: #f5f5f5; border: 2px solid #1976d2; padding: 20px; margin: 20px 0; border-radius: 4px;">
-                                                                                                                                                                                                                  <strong style="font-size: 16px; color: #1565c0;">📋 Assessment Checklist: </strong>
-
-                                                                                                                                                                                                                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;">
-                                                                                                                                                                                                                      <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                                        <p style="margin: 5px 0; font-size: 14px;"> What is your required cooling capacity and future expansion plans ? </p>
-                                                                                                                                                                                                                          </div>
-
-                                                                                                                                                                                                                          <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                                            <p style="margin: 5px 0; font-size: 14px;"> What heat source is available(steam pressure / temperature, hot water, exhaust, or direct - fired) ? </p>
-                                                                                                                                                                                                                              </div>
-
-                                                                                                                                                                                                                              <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                                                <p style="margin: 5px 0; font-size: 14px;"> Is this a new installation or a replacement for an existing system ? </p>
-                                                                                                                                                                                                                                  </div>
-
-                                                                                                                                                                                                                                  <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                                                    <p style="margin: 5px 0; font-size: 14px;"> What is your acceptable payback period and total project budget ? </p>
-                                                                                                                                                                                                                                      </div>
-
-                                                                                                                                                                                                                                      <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                                                        <p style="margin: 5px 0; font-size: 14px;"> How critical is efficiency(COP) to your operating costs ? </p>
-                                                                                                                                                                                                                                          </div>
-
-                                                                                                                                                                                                                                          <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
-                                                                                                                                                                                                                                            <p style="margin: 5px 0; font-size: 14px;"> What level of after - sales support do you require ? </p>
-                                                                                                                                                                                                                                              </div>
-                                                                                                                                                                                                                                              </div>
-                                                                                                                                                                                                                                              </div>
-
-                                                                                                                                                                                                                                              <p>
-For most industrial applications, particularly those involving waste heat recovery, large capacities, or CCHP integration, BROAD India's established technology and comprehensive capabilities make them the top recommendation. Their 25-year track record in India, thousands of successful installations, and sole focus on absorption cooling offer the assurance needed for substantial capital investments.
+  
+                        <div>
+                        <strong>💻 Comes with Dedicated Online Monitoring System for VAMs: </strong>
+                          <p style="margin: 5px 0;"> BROAD provides a dedicated online monitoring system that continuously tracks chiller health, operating trends, and early - stage fault indicators in real time.</p>
+                            </div>
+                            </div>
+  
+                            <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+                              <h2><strong>2. Thermax Limited </strong></h2>
+  
+                                <div style="background-color: #fff3e0; border-left: 4px solid #f57c00; padding: 15px; margin: 15px 0; border-radius: 4px;">
+                                  <strong>📍 Headquarters: </strong> Pune, India<br/ >
+                                    <strong>🇮🇳 India Presence: </strong> Over 60 years in industrial thermal equipment (Started VAM production with Foreign player in Mid 90's)
+                                      </div>
+  
+                                      <p>
+  Thermax is one of India's most established thermal engineering companies, known for boilers, heat recovery systems. Its absorption chillers are part of a broader portfolio and their VAMs benefit from integration with their boiler and heat recovery systems.
+    </p>
+  
+    <strong> Technology Approach: </strong>
+      <p>
+  Thermax also offers single - effect, double - effect, and triple - effect steam - driven absorption chillers, particularly excelling in triple - effect systems that achieve higher COP values(1.3 - 1.4) when high - pressure steam is available; however, their solutions are typically positioned as part of a broader thermal package rather than as a standalone absorption - focused system.
   </p>
-
-  <p>
-For steam - specific applications with existing relationships, Thermax provides competitive domestic solutions.Projects in commercial and institutional areas may find Blue Star or Voltas to better meet their integration and service needs.
-</p>
-
-  <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
-
-    <h2><strong>Conclusion </strong></h2>
-
+  
     <p>
-    India's vapor absorption machine market has developed significantly, with several manufacturers providing reliable technologies. However, there are clear differences in capacity range, technology depth, and application expertise.
-      </p>
-
-      <div style="background-color: #e8f5e9; border: 2px solid #2e7d32; padding: 20px; margin: 20px 0; border-radius: 4px;">
-        <strong style="font-size: 16px; color: #1b5e20;">🏆 The Case for BROAD India: </strong>
-          <p style="margin-top: 10px;">
-            BROAD's leading position comes from three decades of dedicated absorption cooling focus, industry-leading COP performance, and a broad product portfolio that covers all heat source types. Their global installed base of 35,000+ units provides confidence that few manufacturers can match.
-              </p>
-              </div>
-
-              <p>
-As industrial facilities increasingly focus on energy efficiency and reducing carbon footprints, selecting VAM technology partners with deep expertise and long - term support capabilities is crucial. <strong> The manufacturer you choose will affect your operational costs and carbon footprint for over 20 years, so choose wisely.</strong>
+  Their VAMs use standard lithium bromide - water refrigerant pairs and include designs licensed from international partners, ensuring compliance with global performance standards.
   </p>
-
-  <br />
-  <div style="background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%); color: white; border-radius: 4px; padding: 25px; margin: 25px 0; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
-    <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Ready to Select the Right VAM Manufacturer ? </strong>
-      <p style="margin: 10px 0; font-size: 15px;"> BROAD India's technical team can conduct a comprehensive facility assessment, evaluate your heat sources, and design the optimal cooling solution tailored to your specific needs and goals.</p>
-        <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
-          <a href="/vapour-absorption-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;"> Explore BROAD Solutions </a>
-            <a href="/cchp-systems" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;"> View CCHP Systems </a>
-              <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;"> Request Free Assessment </a>
+  
+    <strong> Product Range: </strong>
+      <ul style="margin: 15px 0;">
+        <li><strong>Single - Effect Steam VAM: </strong> 100-1,500 TR</li>
+          <li><strong>Double - Effect Steam VAM: </strong> 350-1,500 TR</li>
+            <li><strong>Triple - Effect Steam VAM: </strong> 500-1,500 TR (specialized applications)</li>
+              <li><strong>Hot Water VAM: </strong> 100-1,200 TR</li>
+                </ul>
+  
+                <strong> Market Position: </strong>
+                  <p>
+  Thermax's domestic manufacturing advantage allows for shorter lead times and competitive pricing for steam-based systems. Their established relationships with India's process industries, especially refineries, steel plants, and chemical facilities, give them a strong presence in steam - rich environments.
+  </p>
+  
+    <div style="background-color: #fff9c4; border-left: 4px solid #f57f17; padding: 15px; margin: 15px 0; border-radius: 4px;">
+      <strong>⚠️ Considerations: </strong>
+        <p style="margin-bottom: 10px;"> While strong in steam applications, Thermax's portfolio does not include direct-fired and exhaust-fired options, limiting their applicability in facilities without existing steam systems. Response times for service can vary outside major metropolitan areas.</p>
+  
+          <ul style="margin: 10px 0; padding-left: 20px;">
+            <li style="margin-bottom: 8px;"> Currently, there is no dedicated, proprietary online condition - monitoring platform available that provides continuous tracking of chiller health, operating trends, and early detection of potential faults in real time.</li>
+              <li style="margin-bottom: 8px;"> The design utilizes industry - standard materials that function adequately under controlled conditions; however, long - term reliability and resistance to corrosion are heavily influenced by factors such as geographical location, water quality, operational discipline, and adherence to periodic maintenance schedules.</li>
+                <li style="margin-bottom: 8px;"> The selection of materials is a critical factor that directly impacts the risk of leakage and determines the overall lifespan of the equipment.</li>
+                  <li> There is no publicly available or clearly documented evidence of OEM - driven lithium bromide(LiBr) solution monitoring being offered as a standardized service practice.</li>
+                    </ul>
+                    </div>
+  
+                    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+                      <h2><strong>3. Voltas Limited(TATA Group) </strong></h2>
+  
+                        <div style="background-color: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 15px; margin: 15px 0; border-radius: 4px;">
+                          <strong>📍 Headquarters: </strong> Mumbai, India<br/ >
+                            <strong>🏢 Background: </strong> Established air conditioning company expanding into industrial cooling
+                              </div>
+  
+                              <p>
+  Voltas, part of the TATA conglomerate, brings brand recognition and extensive sales and service networks to the VAM market.While mainly known for residential and commercial air conditioning, they have expanded into industrial absorption cooling through manufacturing partnerships.
+  </p>
+  
+    <strong> Technology Source: </strong>
+      <p>
+  Voltas makes vapor absorption machines under technology collaboration with international partners, focusing on standard capacity ranges suitable for commercial and light industrial applications.
+  </p>
+  
+    <strong> Product Focus: </strong>
+      <ul style="margin: 15px 0;">
+        <li><strong>Steam VAM: </strong> 100-500 TR</li>
+          <li><strong>Hot Water VAM: </strong> 100-400 TR</li>
+            </ul>
+  
+            <strong> Strengths: </strong>
+              <p>
+  The TATA brand provides reassurance for cautious buyers, particularly in commercial sectors like hotels, hospitals, and institutions.Their service network, established for consumer AC products, extends to VAM installations with service centers in over 30 cities.
+  </p>
+  
+    <strong> Limitations: </strong>
+      <p>
+  Voltas has a limited capacity range compared to BROAD or Thermax, making them less suitable for large industrial setups.Their technology sourcing through partnerships means they have less control over customization and advancement.Their main focus remains on traditional electric chillers, with VAMs representing a smaller part of their business.
+  </p>
+  
+    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+      <h2><strong>4. Kirloskar Group(Multiple Entities) </strong></h2>
+  
+        <div style="background-color: #e8f5e9; border-left: 4px solid #388e3c; padding: 15px; margin: 15px 0; border-radius: 4px;">
+          <strong>📍 Background: </strong> Diversified industrial conglomerate with various business units
+            </div>
+  
+            <p>
+  Kirloskar's presence in vapor absorption cooling comes through multiple group companies involved in HVAC and refrigeration. This decentralized approach provides coverage but can cause confusion about which entity handles specific projects.
+    </p>
+  
+    <strong> Market Approach: </strong>
+      <p>
+  Kirloskar entities typically focus on smaller capacity VAM systems(50 - 300 TR) for commercial applications rather than large industrial installations.They often act as representatives or assemblers for international VAM technology rather than original manufacturers.
+  </p>
+  
+    <strong> Service Network: </strong>
+      <p>
+  Utilizing the broader Kirloskar Group's industrial presence, their service coverage spans most Indian states; however, expertise in absorption cooling may vary by location.
+    </p>
+  
+    <strong> Positioning: </strong>
+      <p>
+  Suitable for commercial projects and smaller industrial needs where budget constraints are a priority.They are less competitive for large - scale industrial cooling applications.
+  </p>
+  
+    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+      <h2><strong>5. Blue Star Limited </strong></h2>
+  
+        <div style="background-color: #fce4ec; border-left: 4px solid #c2185b; padding: 15px; margin: 15px 0; border-radius: 4px;">
+          <strong>📍 Headquarters: </strong> Mumbai, India<br/ >
+            <strong>🏢 Background: </strong> Established commercial HVAC company
+              </div>
+  
+              <p>
+  Blue Star has gained recognition in commercial refrigeration and air conditioning.Their entry into vapor absorption cooling focuses on institutional and light industrial markets rather than heavy process cooling applications.
+  </p>
+  
+    <strong> Product Offering: </strong>
+      <p>
+  Blue Star's VAM portfolio targets smaller capacities (100-350 TR) suitable for commercial buildings, hospitals, and educational institutions. They offer steam and hot water configurations through technology partnerships.
+    </p>
+  
+    <strong> Service Excellence: </strong>
+      <p>
+  Blue Star's extensive commercial AC service network provides good coverage for smaller VAM installations. Their strength lies in building management system integration and controls rather than heavy industrial process cooling expertise.
+    </p>
+  
+    <strong> Market Segment: </strong>
+      <p>
+  Best suited for commercial and institutional applications.They have limited experience and capacity for heavy industrial process cooling compared to BROAD or Thermax.
+  </p>
+  
+    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+      <h2 id="comparison-table"> <strong>Comparative Analysis: Making the Right Choice </strong></h2>
+  
+        <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+          <div style="background-color: #e3f2fd; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+            <strong>🏭 For Large Industrial Projects(500 + TR): </strong>
+              <p style="margin: 5px 0;"> BROAD India clearly leads with proven capability in designing, manufacturing, and commissioning large - capacity systems.Their exclusive focus on absorption technology and global installed base provide confidence for mission - critical applications.</p>
                 </div>
+  
+                <div style="background-color: #fff3e0; border-left: 4px solid #f57c00; padding: 12px; border-radius: 4px;">
+                <strong>🔥 For Steam - Rich Industries: </strong>
+                  <p style="margin: 5px 0;"> Both BROAD and Thermax offer strong solutions.BROAD's superior COP values typically ensure better fuel efficiency, while Thermax's domestic manufacturing may bring cost advantages.A project - specific evaluation is advised.</p>
+                    </div>
+  
+                    <div style="background-color: #c8e6c9; border-left: 4px solid #2e7d32; padding: 12px; border-radius: 4px;">
+                      <strong>♻️ For Waste Heat Recovery / CCHP Integration: </strong>
+                        <p style="margin: 5px 0;"> BROAD's extensive portfolio, including exhaust-fired and direct-fired VAMs along with CCHP expertise, positions them as the obvious choice for complex heat integration projects.</p>
+                          </div>
+  
+                          <div style="background-color: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 12px; border-radius: 4px;">
+                            <strong>🏨 For Commercial Buildings(Hotels, Hospitals): </strong>
+                              <p style="margin: 5px 0;"> Blue Star and Voltas effectively compete with service networks optimized for commercial needs and expertise in building management integration.</p>
+                                </div>
+  
+                                <div style="background-color: #bbdefb; border-left: 4px solid #1565c0; padding: 12px; border-radius: 4px;">
+                                  <strong>💰 For Budget - Constrained Projects: </strong>
+                                    <p style="margin: 5px 0;"> Thermax and Kirloskar might provide more competitive pricing for smaller, standard configurations.However, total cost of ownership analysis should consider efficiency differences.</p>
+                                      </div>
+                                      </div>
+  
+                                      <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+                                        <h2><strong>Technical Specifications Comparison </strong></h2>
+  
+                                          <p><strong>COP Performance(Single - Effect Steam VAM): </strong></p>
+                                            <div style="overflow-x: auto;">
+                                              <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
+                                                <tr style="background-color: #1976d2; color: white;">
+                                                  <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
+                                                    <th style="border: 1px solid #ddd; padding: 10px;"> COP Range </th>
+                                                      </tr>
+                                                      <tr>
+                                                      <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
+                                                        <td style="border: 1px solid #ddd; padding: 10px;"> 0.72 - 0.75 </td>
+                                                          </tr>
+                                                          <tr style="background-color: #f5f5f5;">
+                                                            <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
+                                                              <td style="border: 1px solid #ddd; padding: 10px;"> 0.68 - 0.72 </td>
+                                                                </tr>
+                                                                <tr>
+                                                                <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Voltas </strong></td>
+                                                                  <td style="border: 1px solid #ddd; padding: 10px;"> 0.68 - 0.70 </td>
+                                                                    </tr>
+                                                                    <tr style="background-color: #f5f5f5;">
+                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Blue Star </strong></td>
+                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> 0.68 - 0.72 </td>
+                                                                          </tr>
+                                                                          </table>
+                                                                          </div>
+  
+                                                                          <p> <strong>COP Performance(Direct - Fired VAM): </strong></p>
+                                                                            <div style="overflow-x: auto;">
+                                                                              <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
+                                                                                <tr style="background-color: #1976d2; color: white;">
+                                                                                  <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
+                                                                                    <th style="border: 1px solid #ddd; padding: 10px;"> COP Range </th>
+                                                                                      </tr>
+                                                                                      <tr style="background-color: #c8e6c9;">
+                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
+                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> 1.2 - 1.3 </td>
+                                                                                            </tr>
+                                                                                            <tr style="background-color: #ffebee;">
+                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
+                                                                                                <td style="border: 1px solid #ddd; padding: 10px;"> Not offered </td>
+                                                                                                  </tr>
+                                                                                                  <tr style="background-color: #ffebee;">
+                                                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Voltas </strong></td>
+                                                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> Not offered </td>
+                                                                                                        </tr>
+                                                                                                        <tr style="background-color: #ffebee;">
+                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Kirloskar / Blue Star </strong></td>
+                                                                                                            <td style="border: 1px solid #ddd; padding: 10px;"> Not offered </td>
+                                                                                                              </tr>
+                                                                                                              </table>
+                                                                                                              </div>
+  
+                                                                                                              <p> <strong>Maximum Single Unit Capacity: </strong></p>
+                                                                                                                <div style="overflow-x: auto;">
+                                                                                                                  <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
+                                                                                                                    <tr style="background-color: #1976d2; color: white;">
+                                                                                                                      <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
+                                                                                                                        <th style="border: 1px solid #ddd; padding: 10px;"> Capacity(TR) </th>
+                                                                                                                          </tr>
+                                                                                                                          <tr>
+                                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
+                                                                                                                            <td style="border: 1px solid #ddd; padding: 10px;"> 1, 500 </td>
+                                                                                                                              </tr>
+                                                                                                                              <tr style="background-color: #f5f5f5;">
+                                                                                                                                <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
+                                                                                                                                  <td style="border: 1px solid #ddd; padding: 10px;"> 1, 500 </td>
+                                                                                                                                    </tr>
+                                                                                                                                    <tr>
+                                                                                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Voltas </strong></td>
+                                                                                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> 500 </td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr style="background-color: #f5f5f5;">
+                                                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Kirloskar </strong></td>
+                                                                                                                                            <td style="border: 1px solid #ddd; padding: 10px;"> 300 </td>
+                                                                                                                                              </tr>
+                                                                                                                                              <tr>
+                                                                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Blue Star </strong></td>
+                                                                                                                                                <td style="border: 1px solid #ddd; padding: 10px;"> 350 </td>
+                                                                                                                                                  </tr>
+                                                                                                                                                  </table>
+                                                                                                                                                  </div>
+  
+                                                                                                                                                  <p> <strong>Heat Source Flexibility: </strong></p>
+                                                                                                                                                    <div style="overflow-x: auto;">
+                                                                                                                                                      <table style="width: 100%; border-collapse: collapse; margin: 15px 0; min-width: 600px;">
+                                                                                                                                                        <tr style="background-color: #1976d2; color: white;">
+                                                                                                                                                          <th style="border: 1px solid #ddd; padding: 10px;"> Manufacturer </th>
+                                                                                                                                                            <th style="border: 1px solid #ddd; padding: 10px;"> Heat Source Options </th>
+                                                                                                                                                              </tr>
+                                                                                                                                                              <tr>
+                                                                                                                                                              <td style="border: 1px solid #ddd; padding: 10px;"> <strong>BROAD </strong></td>
+                                                                                                                                                                <td style="border: 1px solid #ddd; padding: 10px;"> Steam, hot water, exhaust gases, direct - fired </td>
+                                                                                                                                                                  </tr>
+                                                                                                                                                                  <tr style="background-color: #f5f5f5;">
+                                                                                                                                                                    <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Thermax </strong></td>
+                                                                                                                                                                      <td style="border: 1px solid #ddd; padding: 10px;"> Steam, hot water </td>
+                                                                                                                                                                        </tr>
+                                                                                                                                                                        <tr>
+                                                                                                                                                                        <td style="border: 1px solid #ddd; padding: 10px;"> <strong>Others </strong></td>
+                                                                                                                                                                          <td style="border: 1px solid #ddd; padding: 10px;"> Primarily steam, limited hot water </td>
+                                                                                                                                                                            </tr>
+                                                                                                                                                                            </table>
+                                                                                                                                                                            </div>
+  
+                                                                                                                                                                            <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+                                                                                                                                                                              <h2><strong>The BROAD Advantage in Depth </strong></h2>
+  
+                                                                                                                                                                                <p>
+                                                                                                                                                                                While this review remains objective across all manufacturers, BROAD's technological leadership warrants detailed exploration:
+                                                                                                                                                                                  </p>
+  
+                                                                                                                                                                                  <div style="display: flex; flex-direction: column; gap: 12px; margin: 20px 0;">
+                                                                                                                                                                                    <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                      <strong>🔬 Research Investment: </strong>
+                                                                                                                                                                                        <p style="margin: 5px 0;"> BROAD dedicates 5 % of annual revenue to R & D specifically for absorption cooling, leading to ongoing performance enhancements.Their patented heat exchanger designs and corrosion - resistant materials set industry standards.</p>
+                                                                                                                                                                                          </div>
+  
+                                                                                                                                                                                          <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                            <strong>🌍 Global Expertise, Local Execution: </strong>
+                                                                                                                                                                                              <p style="margin: 5px 0;"> BROAD India combines the parent company's 30+ years of global absorption cooling experience with a local engineering team that understands Indian industrial conditions. This results in well-designed systems that account for ambient temperatures, water quality, and operational patterns unique to India.</p>
+                                                                                                                                                                                                </div>
+  
+                                                                                                                                                                                                <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                  <strong>📋 Comprehensive Solutions: </strong>
+                                                                                                                                                                                                    <p style="margin: 5px 0;"> In addition to equipment supply, BROAD offers thermal integration studies, CCHP system design, and feasibility analyses that optimize total energy flows instead of merely replacing chillers.</p>
+                                                                                                                                                                                                      </div>
+  
+                                                                                                                                                                                                      <div style="background-color: #e3f2fd; border: 2px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                        <strong>✅ Performance Guarantees: </strong>
+                                                                                                                                                                                                          <p style="margin: 5px 0;"> BROAD provides contractual COP guarantees and cooling capacity assurances supported by factory testing and field verification, which minimizes project risks.</p>
+                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                            </div>
+  
+                                                                                                                                                                                                            <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+                                                                                                                                                                                                              <h2><strong>Making Your Decision: A Structured Approach </strong></h2>
+  
+                                                                                                                                                                                                                <p>
+                                                                                                                                                                                                                Choosing a VAM manufacturer requires matching your specific needs against the strengths of each manufacturer.
+  </p>
+  
+                                                                                                                                                                                                                  <div style="background-color: #f5f5f5; border: 2px solid #1976d2; padding: 20px; margin: 20px 0; border-radius: 4px;">
+                                                                                                                                                                                                                    <strong style="font-size: 16px; color: #1565c0;">📋 Assessment Checklist: </strong>
+  
+                                                                                                                                                                                                                      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;">
+                                                                                                                                                                                                                        <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                                          <p style="margin: 5px 0; font-size: 14px;"> What is your required cooling capacity and future expansion plans ? </p>
+                                                                                                                                                                                                                            </div>
+  
+                                                                                                                                                                                                                            <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                                              <p style="margin: 5px 0; font-size: 14px;"> What heat source is available(steam pressure / temperature, hot water, exhaust, or direct - fired) ? </p>
+                                                                                                                                                                                                                                </div>
+  
+                                                                                                                                                                                                                                <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                                                  <p style="margin: 5px 0; font-size: 14px;"> Is this a new installation or a replacement for an existing system ? </p>
+                                                                                                                                                                                                                                    </div>
+  
+                                                                                                                                                                                                                                    <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                                                      <p style="margin: 5px 0; font-size: 14px;"> What is your acceptable payback period and total project budget ? </p>
+                                                                                                                                                                                                                                        </div>
+  
+                                                                                                                                                                                                                                        <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                                                          <p style="margin: 5px 0; font-size: 14px;"> How critical is efficiency(COP) to your operating costs ? </p>
+                                                                                                                                                                                                                                            </div>
+  
+                                                                                                                                                                                                                                            <div style="background: white; border-left: 4px solid #1976d2; padding: 12px; border-radius: 4px;">
+                                                                                                                                                                                                                                              <p style="margin: 5px 0; font-size: 14px;"> What level of after - sales support do you require ? </p>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                </div>
+  
+                                                                                                                                                                                                                                                <p>
+  For most industrial applications, particularly those involving waste heat recovery, large capacities, or CCHP integration, BROAD India's established technology and comprehensive capabilities make them the top recommendation. Their 25-year track record in India, thousands of successful installations, and sole focus on absorption cooling offer the assurance needed for substantial capital investments.
+    </p>
+  
+    <p>
+  For steam - specific applications with existing relationships, Thermax provides competitive domestic solutions.Projects in commercial and institutional areas may find Blue Star or Voltas to better meet their integration and service needs.
+  </p>
+  
+    <hr style="margin: 30px 0; border: none; border-top: 2px solid #ddd;">
+  
+      <h2><strong>Conclusion </strong></h2>
+  
+      <p>
+      India's vapor absorption machine market has developed significantly, with several manufacturers providing reliable technologies. However, there are clear differences in capacity range, technology depth, and application expertise.
+        </p>
+  
+        <div style="background-color: #e8f5e9; border: 2px solid #2e7d32; padding: 20px; margin: 20px 0; border-radius: 4px;">
+          <strong style="font-size: 16px; color: #1b5e20;">🏆 The Case for BROAD India: </strong>
+            <p style="margin-top: 10px;">
+              BROAD's leading position comes from three decades of dedicated absorption cooling focus, industry-leading COP performance, and a broad product portfolio that covers all heat source types. Their global installed base of 35,000+ units provides confidence that few manufacturers can match.
+                </p>
                 </div>
-                  `
-  },
+  
+                <p>
+  As industrial facilities increasingly focus on energy efficiency and reducing carbon footprints, selecting VAM technology partners with deep expertise and long - term support capabilities is crucial. <strong> The manufacturer you choose will affect your operational costs and carbon footprint for over 20 years, so choose wisely.</strong>
+    </p>
+  
+    <br />
+    <div style="background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%); color: white; border-radius: 4px; padding: 25px; margin: 25px 0; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+      <strong style="font-size: 18px; display: block; margin-bottom: 10px;">⭐ Ready to Select the Right VAM Manufacturer ? </strong>
+        <p style="margin: 10px 0; font-size: 15px;"> BROAD India's technical team can conduct a comprehensive facility assessment, evaluate your heat sources, and design the optimal cooling solution tailored to your specific needs and goals.</p>
+          <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; flex-wrap: wrap;">
+            <a href="/vapour-absorption-chiller" style="background: white; color: #1976d2; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px;"> Explore BROAD Solutions </a>
+              <a href="/cchp-systems" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;"> View CCHP Systems </a>
+                <a href="/contact-us" style="background: rgba(255,255,255,0.2); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 14px; border: 2px solid white;"> Request Free Assessment </a>
+                  </div>
+                  </div>
+                    `
+    },
+  */
   {
     id: "ai-machine-learning-hvac",
     title: "AI and Machine Learning in HVAC: Predictive Maintenance and Adaptive Climate Management",
