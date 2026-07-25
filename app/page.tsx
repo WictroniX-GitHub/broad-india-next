@@ -68,22 +68,95 @@ export default function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "BROAD India",
+    "name": "BROAD Air Conditioning India Pvt. Ltd.",
+    "alternateName": "BROAD India",
     "url": "https://www.broadindia.com",
-    "logo": "https://www.broadindia.com/images/logo.png",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.broadindia.com/images/logo.png",
+    },
+    "description":
+      "BROAD India delivers cutting-edge Vapor Absorption Machines (VAM) and non-electric HVAC solutions. India's top supplier of absorption chillers, CCHP systems, and fuel gas recovery chillers since 2001.",
+    "foundingDate": "2001",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-9427851584",
+        "contactType": "sales",
+        "email": "akshay@broad.net",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"],
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+91-0124-4012824",
+        "contactType": "sales",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"],
+      },
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "395007",
+      "addressCountry": "IN",
+    },
     "sameAs": [
+      "https://www.facebook.com/BROADAIRINDIA",
+      "https://www.instagram.com/broad_india/",
+      "https://x.com/broad_india",
       "https://www.linkedin.com/company/broad-india/",
       "https://www.exportersindia.com/broad-air-conditioning-india-pvt-ltd/",
-      "https://en.wikipedia.org/wiki/Broad_Group"
-    ]
+      "https://en.wikipedia.org/wiki/Broad_Group",
+    ],
+  };
+
+  const localBusinessSurat = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "BROAD Air Conditioning India Pvt. Ltd. — Surat (HQ)",
+    "image": "https://www.broadindia.com/images/logo.png",
+    "url": "https://www.broadindia.com/contact-us",
+    "telephone": "+91-9427851584",
+    "email": "akshay@broad.net",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd, New Magdalla",
+      "addressLocality": "Surat",
+      "addressRegion": "Gujarat",
+      "postalCode": "395007",
+      "addressCountry": "IN",
+    },
+    "priceRange": "$$$$",
+  };
+
+  const localBusinessGurugram = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "BROAD Air Conditioning India Pvt. Ltd. — Gurugram",
+    "image": "https://www.broadindia.com/images/logo.png",
+    "url": "https://www.broadindia.com/contact-us",
+    "telephone": "+91-0124-4012824",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "N-14/27, DLF Phase-2",
+      "addressLocality": "Gurugram",
+      "addressRegion": "Haryana",
+      "addressCountry": "IN",
+    },
+    "priceRange": "$$$$",
   };
 
   return (
     <div style={{ backgroundColor: "#eee", paddingLeft: "0" }}>
-      <h1 className="sr-only">Vapor Absorption Chillers & Non-Electric HVAC Solutions for Indian Industry</h1>
+      <h1 className="sr-only">Vapor Absorption Chillers &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([organizationSchema, localBusinessSurat, localBusinessGurugram]),
+        }}
       />
       <HomePageCarousel />
       <CTA />

@@ -46,9 +46,8 @@ export default function RecentInstallations() {
               <Image
                 src={install.image}
                 alt={install.title}
-                layout="fill"
-                objectFit="cover"
-                className="rounded-lg"
+                fill
+                className="rounded-lg object-cover"
               />
             </div>
             <h3 className="mt-4 text-xl font-bold text-white">

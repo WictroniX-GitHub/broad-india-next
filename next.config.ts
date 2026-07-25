@@ -2,17 +2,17 @@
 const nextConfig = {
   reactStrictMode: true, // Improves debugging & performance
   images: {
-    domains: [
-      "broadusa.com",
-      "www.jswsteel.in",
-      "www.constructionweekonline.in",
-      "upload.wikimedia.org",
-      "download.logo.wine",
-      "animationvisarts.com",
-      "www.jsw.in",
-      "images.unsplash.com",
-      "m.economictimes.com",
-      "media.proprofs.com",
+    remotePatterns: [
+      { protocol: "https", hostname: "broadusa.com" },
+      { protocol: "https", hostname: "www.jswsteel.in" },
+      { protocol: "https", hostname: "www.constructionweekonline.in" },
+      { protocol: "https", hostname: "upload.wikimedia.org" },
+      { protocol: "https", hostname: "download.logo.wine" },
+      { protocol: "https", hostname: "animationvisarts.com" },
+      { protocol: "https", hostname: "www.jsw.in" },
+      { protocol: "https", hostname: "images.unsplash.com" },
+      { protocol: "https", hostname: "m.economictimes.com" },
+      { protocol: "https", hostname: "media.proprofs.com" },
     ],
     formats: ["image/avif", "image/webp"], // Optimized image formats
     minimumCacheTTL: 60, // Cache images for 1 minute
