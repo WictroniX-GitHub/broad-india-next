@@ -12,6 +12,7 @@ export interface Blog {
   title: string;
   description: string;
   date: string;
+  isoDate?: string;
   readTime: string;
   category: string;
   author?: string;
@@ -19,6 +20,10 @@ export interface Blog {
     description: string;
     keywords: string[];
   };
+  faq?: {
+    question: string;
+    answer: string;
+  }[];
   content: string | BlogContentItem[];
   image: string;
 }
