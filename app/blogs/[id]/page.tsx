@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description,
       images: [blog.image],
       type: "article",
-      publishedTime: blog.date,
+      publishedTime: blog.isoDate || blog.date,
       url: `https://www.broadindia.com/blogs/${blog.id}`,
       siteName: "BROAD India",
       locale: "en_IN",
@@ -76,8 +76,8 @@ export default async function BlogsDetailPage({ params }: PageProps) {
     headline: blog.title,
     description: blog.meta?.description || blog.description,
     image: [`https://www.broadindia.com${blog.image}`],
-    datePublished: blog.date,
-    dateModified: blog.date,
+    datePublished: blog.isoDate || blog.date,
+    dateModified: blog.isoDate || blog.date,
     author: {
       "@type": "Organization",
       name: "BROAD India Engineering Team",
@@ -128,12 +128,27 @@ export default async function BlogsDetailPage({ params }: PageProps) {
     ],
   };
 
+  const faqSchema = blog.faq?.length ? {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: blog.faq.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  } : null;
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([blogPostingSchema, breadcrumbSchema]),
+          __html: JSON.stringify(
+            [blogPostingSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]
+          ),
         }}
       />
       <BlogDetailContent blog={blog} relatedBlogs={relatedBlogs} />
