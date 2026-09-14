@@ -10,6 +10,7 @@ import SpecialistsProduct from "@/components/SpecialistsProduct";
 import Sustainable from "@/components/Sustainable";
 import TrustedClients from "@/components/TrustedClient";
 import IntroText from "@/components/IntroText";
+import PromoPopup from "@/components/PromoPopup";
 
 export const metadata: Metadata = {
   title: "Vapour Absorption Chillers India | BROAD India",
@@ -151,6 +152,10 @@ export default function Home() {
 
   return (
     <div style={{ backgroundColor: "#eee", paddingLeft: "0" }}>
+      <PromoPopup 
+        imageUrl="/images/CII_Event_Banner.png" 
+        altText="CII Event Promotion" 
+      />
       <h1 className="sr-only">Vapour Absorption Chillers (VAC / VAM) &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
       <script
         type="application/ld+json"
