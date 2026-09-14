@@ -152,9 +152,9 @@ export default function Home() {
 
   return (
     <div style={{ backgroundColor: "#eee", paddingLeft: "0" }}>
-      <PromoPopup 
-        imageUrl="/images/CII_Event_Banner.png" 
-        altText="CII Event Promotion" 
+      <PromoPopup
+        imageUrl="/images/CII_Event_Banner.jpeg"
+        altText="CII Event Promotion"
       />
       <h1 className="sr-only">Vapour Absorption Chillers (VAC / VAM) &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
       <script
