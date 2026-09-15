@@ -1,352 +1,87 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import type { Metadata } from "next";
+"use client";
+
+import CategoryTemplate from "@/components/CategoryTemplate";
 import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import ProductFAQ from "@/components/ProductFAQ";
+  Zap, Shield, Gauge, Server, Hospital, Building2, Hotel
+} from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
-  description:
-    "BROAD India's power efficient chillers with magnetic bearing technology deliver superior performance and energy savings. Advanced electric chillers for commercial and industrial applications.",
-  keywords: [
-    "power efficient chiller",
-    "magnetic bearing chiller",
-    "electric chiller",
-    "energy efficient cooling",
-    "commercial chiller",
-    "industrial chiller",
-    "BROAD electric chiller",
-    "high efficiency chiller",
-  ],
-  openGraph: {
-    title:
-      "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
-    description:
-      "BROAD India's power efficient chillers with magnetic bearing technology deliver superior performance and energy savings.",
-    type: "website",
-    locale: "en_IN",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title:
-      "Power Efficient Chillers - Magnetic Bearing Technology | BROAD India",
-    description:
-      "BROAD India's power efficient chillers with magnetic bearing technology deliver superior performance and energy savings.",
-  },
-};
-
-const PowerEfficientChiller = () => {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What is a magnetic bearing chiller?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A magnetic bearing chiller uses advanced magnetic levitation technology in its compressor. Instead of conventional mechanical bearings that require heavy oil lubrication, the compressor shaft floats on a magnetic field. This completely eliminates mechanical friction, resulting in hyper-efficient, whisper-quiet operation."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Why is oil-free technology important for efficiency?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "In traditional chillers, lubricating oil often travels into the heat exchangers, coating the tubes and acting as an insulator. This 'oil fouling' severely degrades heat transfer efficiency over time. An oil-free magnetic chiller eliminates this problem entirely, maintaining its day-one peak efficiency for the entire life of the unit."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the maintenance benefits of magnetic bearing chillers?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Because there is no oil management system (no oil pumps, filters, heaters, or separators) and no mechanical friction on the bearings, routine maintenance is drastically reduced. Facilities can eliminate the costs and downtime associated with annual oil changes and bearing replacements."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How much electricity can a magnetic bearing chiller save?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "BROAD's magnetic bearing chillers are engineered for exceptional part-load performance. Compared to conventional electric chillers, they can deliver energy savings of 30% to 50%, significantly lowering your facility's operational costs."
-        }
-      }
-    ]
-  };
-
+export default function PowerEfficientChillerCategory() {
   return (
-    <div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Service",
-            "name": "Power Efficient Chillers  -  Magnetic Bearing Technology",
-            "description": "Oil-free, magnetic bearing centrifugal chillers with IPLV up to 13.26 for commercial and industrial cooling across India.",
-            "provider": { "@type": "Organization", "name": "BROAD India", "url": "https://www.broadindia.com" },
-            "areaServed": { "@type": "Country", "name": "India" },
-            "serviceType": "Electric Chiller Solutions"
-          })
-        }}
-      />
-      {/* Hero Section */}
-      <div
-        className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
-        style={{
-          backgroundImage: `url('https://broadusa.com/broad/wp-content/uploads/2020/04/Magnetic-bearing-chiller.jpg')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
-          <h1
-            className="text-white text-4xl md:text-6xl font-bold"
-            data-aos="fade-up"
-          >
-            Power Efficient Chillers
-          </h1>
-        </div>
-      </div>
-
-      {/* Introduction Section */}
-      <div className="container mx-auto py-12 px-4">
-        <div className="max-w-4xl mx-auto text-center mb-12">
-          <h2 className="text-3xl font-bold mb-6">
-            BROAD Power Efficient Chiller Solutions
-          </h2>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            BROAD&apos;s Power Efficient Chillers represent the next generation
-            of electric cooling technology, featuring magnetic bearing
-            compressors that deliver unmatched energy efficiency, ultra-quiet
-            operation, and oil-free reliability for commercial and industrial
-            applications.
+    <CategoryTemplate
+      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg"
+      title="Power Efficient Chillers"
+      tagline="Ultra-high-efficiency electric cooling using magnetic levitation"
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Power Efficient Chiller" },
+      ]}
+      introContent={
+        <>
+          <p className="text-lg leading-relaxed mb-6">
+            While BROAD India is globally renowned for non-electric absorption chillers, we recognize that some facilities require ultra-high-efficiency electric cooling. Our Power Efficient Chiller line utilises advanced magnetic-bearing, oil-free centrifugal compressor technology to deliver the highest Coefficient of Performance (COP) available in the commercial HVAC market - reaching up to 11 under part-load conditions.
           </p>
-        </div>
-
-        {/* Sub-category Card */}
-        <div className="max-w-2xl mx-auto mb-12">
-          <Link href="/power-efficient-chiller/magnetic-bearing-oil-free">
-            <Card className="h-full hover:shadow-lg transition-shadow duration-300 cursor-pointer">
-              <div className="relative h-64 overflow-hidden rounded-t-lg">
-                <Image
-                  src="https://broadusa.com/broad/wp-content/uploads/2020/04/Magnetic-bearing-chiller.jpg"
-                  alt="Magnetic Bearing Oil Free Chiller"
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <CardHeader>
-                <CardTitle className="text-2xl">
-                  Magnetic Bearing Oil Free Chiller
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-gray-600 text-lg">
-                  Next-generation, factory-packaged solution with
-                  high-efficiency magnetic bearing centrifugal chillers and
-                  optional heat pump capability, offering unmatched energy
-                  savings and ultra-quiet performance.
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </Link>
-        </div>
-
-        {/* Key Features Section */}
-        <div className="bg-gray-50 rounded-lg p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-6 text-center">
-            Revolutionary Technology Features
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-blue-600 text-2xl">🧲</span>
-              </div>
-              <h4 className="font-semibold mb-2">
-                Magnetic Bearing Technology
-              </h4>
-              <p className="text-gray-600 text-sm">
-                Eliminates mechanical contact through magnetic levitation for
-                zero vibration
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-green-600 text-2xl">⚡</span>
-              </div>
-              <h4 className="font-semibold mb-2">Ultra-High Efficiency</h4>
-              <p className="text-gray-600 text-sm">
-                IPLV ratings up to 13.26 with superior part-load performance
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 text-2xl">🔇</span>
-              </div>
-              <h4 className="font-semibold mb-2">Ultra-Quiet Operation</h4>
-              <p className="text-gray-600 text-sm">
-                Near-zero vibration and significantly reduced noise levels
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-orange-600 text-2xl">🛠️</span>
-              </div>
-              <h4 className="font-semibold mb-2">Oil-Free Design</h4>
-              <p className="text-gray-600 text-sm">
-                No lubricating oil required, reduced maintenance and extended
-                lifespan
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Technology Highlights */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4">
-              Advanced Compressor Technology
-            </h3>
-            <ul className="space-y-3 text-gray-700">
-              <li>• Danfoss Turbocor® twin-impeller compressors</li>
-              <li>• R‑513A refrigerant for environmental compliance</li>
-              <li>• Variable-speed control as low as 0.1 Hz</li>
-              <li>• Precise cooling capacity modulation</li>
-              <li>• Built-in backup power protection</li>
-            </ul>
-          </div>
-
-          <div className="bg-white border border-gray-200 rounded-lg p-6">
-            <h3 className="text-xl font-bold mb-4">Performance Benefits</h3>
-            <ul className="space-y-3 text-gray-700">
-              <li>• Over 50% better part-load performance</li>
-              <li>• Significantly reduced maintenance costs</li>
-              <li>• Extended equipment lifespan</li>
-              <li>• Compact footprint design</li>
-              <li>• Digital control platform integration</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Applications */}
-        <div className="mb-12">
-          <h3 className="text-2xl font-bold mb-6 text-center">
-            Ideal Applications
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-              <div className="text-blue-600 text-3xl mb-2">💻</div>
-              <h4 className="font-semibold">Data Centers</h4>
-              <p className="text-sm text-gray-600">Mission-critical cooling</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-              <div className="text-blue-600 text-3xl mb-2">🏥</div>
-              <h4 className="font-semibold">Healthcare Facilities</h4>
-              <p className="text-sm text-gray-600">Quiet, reliable operation</p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-              <div className="text-blue-600 text-3xl mb-2">🏢</div>
-              <h4 className="font-semibold">High-Rise Buildings</h4>
-              <p className="text-sm text-gray-600">
-                Efficient vertical systems
-              </p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-              <div className="text-blue-600 text-3xl mb-2">🌱</div>
-              <h4 className="font-semibold">Green Campuses</h4>
-              <p className="text-sm text-gray-600">
-                Sustainable cooling solutions
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Compliance & Standards */}
-        <div className="bg-gradient-to-r from-blue-50 to-green-50 rounded-lg p-8 mb-12">
-          <h3 className="text-2xl font-bold mb-6 text-center">
-            Compliance & Standards
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-blue-600 text-2xl">✓</span>
-              </div>
-              <h4 className="font-semibold mb-2">AHRI Certified</h4>
-              <p className="text-gray-600 text-sm">
-                Air-Conditioning, Heating, and Refrigeration Institute standards
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-green-600 text-2xl">✓</span>
-              </div>
-              <h4 className="font-semibold mb-2">ASHRAE Compliant</h4>
-              <p className="text-gray-600 text-sm">
-                American Society of Heating, Refrigerating and Air-Conditioning
-                Engineers
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <span className="text-orange-600 text-2xl">✓</span>
-              </div>
-              <h4 className="font-semibold mb-2">FEMP Standards</h4>
-              <p className="text-gray-600 text-sm">
-                Federal Energy Management Program requirements
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* CTA Section */}
-        <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4">
-            Experience the Future of Efficient Cooling
-          </h3>
-          <p className="text-lg mb-6">
-            Discover how our Power Efficient Chillers can revolutionize your
-            facility&apos;s energy performance.
+          <p className="text-lg leading-relaxed">
+            By eliminating the oil management system entirely, these chillers remove the single biggest cause of efficiency degradation in conventional electric chillers: oil coating the heat exchange tubes. The result is a cooling system that maintains its day-one efficiency year after year, operates with whisper-quiet acoustics, and significantly reduces ongoing maintenance requirements.
           </p>
-          <Link
-            href="/contact-us"
-            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-          >
-            Learn More
-          </Link>
-        </div>
-      </div>
-      {/* FAQ Section */}
-      <ProductFAQ faqs={[
+        </>
+      }
+      stats={[
+        { value: "Up to 11", label: "Part-Load COP" },
+        { value: "Zero", label: "Lubricating Oil" },
+        { value: "< 73 dB", label: "Acoustics" },
+      ]}
+      products={[
         {
-          question: "What is a magnetic bearing chiller?",
-          answer: "A magnetic bearing chiller uses advanced magnetic levitation technology in its compressor. Instead of conventional mechanical bearings that require heavy oil lubrication, the compressor shaft floats on a magnetic field. This completely eliminates mechanical friction, resulting in hyper-efficient, whisper-quiet operation."
-        },
-        {
-          question: "Why is oil-free technology important for efficiency?",
-          answer: "In traditional chillers, lubricating oil often travels into the heat exchangers, coating the tubes and acting as an insulator. This 'oil fouling' severely degrades heat transfer efficiency over time. An oil-free magnetic chiller eliminates this problem entirely, maintaining its day-one peak efficiency for the entire life of the unit."
-        },
-        {
-          question: "What are the maintenance benefits of magnetic bearing chillers?",
-          answer: "Because there is no oil management system (no oil pumps, filters, heaters, or separators) and no mechanical friction on the bearings, routine maintenance is drastically reduced. Facilities can eliminate the costs and downtime associated with annual oil changes and bearing replacements."
-        },
-        {
-          question: "How quiet is the magnetic bearing chiller?",
-          answer: "Extremely quiet. Because the compressor shaft levitates without physical contact, the typical high-pitched mechanical noise of conventional compressors is eliminated. They are ideal for noise-sensitive environments like hospitals, luxury hotels, and commercial offices."
+          title: "Magnetic Bearing Oil-Free Chiller",
+          description: "Frictionless compressor technology delivering unmatched efficiency, silence, and reliability without the complications of an oil management system.",
+          image: "https://broadusa.com/broad/wp-content/uploads/2020/04/Magnetic-bearing-chiller.jpg",
+          link: "/power-efficient-chiller/magnetic-bearing-oil-free"
         }
-      ]} />
-    </div>
+      ]}
+      features={[
+        { icon: <Gauge size={28} />, title: "Magnetic Levitation", description: "The compressor shaft rotates without physical contact, eliminating friction, mechanical wear, and efficiency losses." },
+        { icon: <Shield size={28} />, title: "100% Oil-Free Operation", description: "No oil pumps, filters, heaters, or separators. Heat exchangers remain permanently clean for sustained high efficiency." },
+        { icon: <Zap size={28} />, title: "Integrated VFD", description: "Built-in Variable Frequency Drive continuously matches compressor speed to the building's cooling load for exceptional part-load efficiency." },
+      ]}
+      industries={[
+        { icon: <Server size={24} />, title: "Data Centres", description: "High-density cooling with maximum uptime and ultra-low PUE." },
+        { icon: <Hospital size={24} />, title: "Hospitals & Clinics", description: "Reliable, whisper-quiet operation critical for healthcare environments." },
+        { icon: <Building2 size={24} />, title: "Premium Office Buildings", description: "Slash annual HVAC energy bills while achieving high LEED certification scores." },
+        { icon: <Hotel size={24} />, title: "Luxury Hotels & Resorts", description: "Ensure guest comfort with zero vibration and low acoustic footprints." },
+      ]}
+      faqs={[
+        {
+          question: "Why is 'oil-free' operation so important for chiller efficiency?",
+          answer: "In conventional chillers, lubricating oil inevitably mixes with the refrigerant and circulates through the system. Over time, this oil coats the copper tubes in the heat exchangers, acting as an insulator. Even a thin layer of oil can reduce heat transfer efficiency by 10-15%. By completely eliminating oil, magnetic-bearing chillers maintain their original 'day-one' efficiency for the entire life of the equipment.",
+        },
+        {
+          question: "How does the part-load efficiency compare to conventional chillers?",
+          answer: "It is significantly better. Most commercial buildings operate at partial cooling loads (40-70% capacity) for over 90% of the year. Magnetic-bearing chillers use an integrated Variable Frequency Drive (VFD) to slow down the compressor at partial loads. Because there is no mechanical friction, the compressor remains incredibly efficient at low speeds, achieving Integrated Part Load Value (IPLV) COPs of 9 to 11, compared to 5 to 6 for standard chillers.",
+        },
+        {
+          question: "Are magnetic-bearing chillers more expensive to maintain?",
+          answer: "No, they are actually much cheaper to maintain. Conventional chillers require regular oil analysis, oil changes, oil filter replacements, and eventually, expensive mechanical bearing replacements. A magnetic-bearing compressor has no oil management system and no physical wear on the bearings, virtually eliminating mechanical maintenance.",
+        },
+      ]}
+      customSections={
+        <div className="my-12">
+          <h3 className="text-3xl font-bold mb-10 text-center text-gray-900">Global Standards & Certifications</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 text-center hover:-translate-y-2 transition-transform duration-300">
+              <div className="text-blue-600 font-bold text-2xl mb-4">AHRI Certified</div>
+              <p className="text-gray-600 font-light">Performance verified to international standards</p>
+            </div>
+            <div className="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 text-center hover:-translate-y-2 transition-transform duration-300">
+              <div className="text-green-600 font-bold text-2xl mb-4">ASHRAE Compliant</div>
+              <p className="text-gray-600 font-light">Meets stringent energy efficiency requirements</p>
+            </div>
+            <div className="bg-white p-8 rounded-3xl shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 text-center hover:-translate-y-2 transition-transform duration-300">
+              <div className="text-purple-600 font-bold text-2xl mb-4">FEMP Standards</div>
+              <p className="text-gray-600 font-light">Exceeds Federal Energy Management Program guidelines</p>
+            </div>
+          </div>
+        </div>
+      }
+    />
   );
-};
-
-export default PowerEfficientChiller;
+}

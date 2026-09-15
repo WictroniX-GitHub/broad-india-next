@@ -9,6 +9,7 @@ export default function Header() {
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
+  const [isCompanyOpen, setIsCompanyOpen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -22,6 +23,7 @@ export default function Header() {
   const handleCloseMenu = () => {
     setIsMenuOpen(false);
     setIsProductsOpen(false);
+    setIsCompanyOpen(false);
   };
 
   return (
@@ -107,9 +109,35 @@ export default function Header() {
                 </div>
               )}
             </div>
+            <Link href="/industries">Industries</Link>
             <Link href="/installations">Installations</Link>
-            <Link href="/about">About</Link>
-            <Link href="/broad-group">BROAD Group</Link>
+            <div className="relative">
+              <button
+                onClick={() => setIsCompanyOpen(!isCompanyOpen)}
+                className="focus:outline-none flex items-center gap-1"
+              >
+                Company
+                <span className="text-xs">▼</span>
+              </button>
+              {isCompanyOpen && (
+                <div className="absolute top-full mt-2 w-48 bg-white shadow-lg rounded-lg z-50">
+                  <Link
+                    href="/about"
+                    className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsCompanyOpen(false)}
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    href="/broad-group"
+                    className="block px-4 py-2 hover:bg-gray-200"
+                    onClick={() => setIsCompanyOpen(false)}
+                  >
+                    BROAD Group
+                  </Link>
+                </div>
+              )}
+            </div>
             <Link href="/blogs">Blogs</Link>
             <Link href="/careers">Careers</Link>
             <Link href="/contact-us" className="ml-2">
@@ -183,22 +211,44 @@ export default function Header() {
             )}
 
             <Link
+              href="/industries"
+              className="font-bold"
+              onClick={handleCloseMenu}
+            >
+              Industries
+            </Link>
+            <Link
               href="/installations"
               className="font-bold"
               onClick={handleCloseMenu}
             >
               Installations
             </Link>
-            <Link href="/about" className="font-bold" onClick={handleCloseMenu}>
-              About
-            </Link>
-            <Link
-              href="/broad-group"
-              className="font-bold"
-              onClick={handleCloseMenu}
+
+            <button
+              onClick={() => setIsCompanyOpen(!isCompanyOpen)}
+              className="flex items-center gap-2 font-bold focus:outline-none"
             >
-              BROAD Group
-            </Link>
+              Company <span className="text-xs">▼</span>
+            </button>
+            {isCompanyOpen && (
+              <div className="w-full text-center">
+                <Link
+                  href="/about"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  About Us
+                </Link>
+                <Link
+                  href="/broad-group"
+                  className="block py-2"
+                  onClick={handleCloseMenu}
+                >
+                  BROAD Group
+                </Link>
+              </div>
+            )}
             <Link href="/blogs" className="font-bold" onClick={handleCloseMenu}>
               Blogs
             </Link>

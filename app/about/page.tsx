@@ -61,7 +61,7 @@ export default function About() {
             <p className="mt-4 text-base md:text-lg text-gray-700">
               BROAD India, a proud subsidiary of China&apos;s BROAD Group, has
               been serving India since 2001 with cutting-edge, sustainable HVAC
-              solutions. For over two decades, we&apos;ve delivered 200+ Vapour
+              solutions. For over two decades, we&apos;ve delivered 100+ Vapour
               Absorption Machine (VAM) installations across critical industrial
               sectors.
             </p>

@@ -1,232 +1,87 @@
 "use client";
 
-import React, { useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import PDPTemplate from "@/components/PDPTemplate";
+import {
+  Zap, Leaf, Wrench, Thermometer, Shield, Gauge, Flame,
+  Hospital, Hotel, Building2, Factory, Landmark,
+  DollarSign, Settings, Droplets, RefreshCw, Power, Server
+} from "lucide-react";
 
-const MultiEnergy = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
+export default function MultiEnergyChiller() {
   return (
-    <div>
-      <div
-        className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
-        style={{
-          backgroundImage: `url('https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
-          <h1
-            className="text-white text-4xl md:text-6xl font-bold"
-            data-aos="fade-up"
-          >
-            Multi-Energy Absorption Chiller
-          </h1>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4 py-4">
-        <nav className="text-sm text-gray-600">
-          <Link href="/" className="hover:text-blue-600">
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link
-            href="/vapour-absorption-chiller"
-            className="hover:text-blue-600"
-          >
-            Vapour Absorption Chillers
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">Multi-Energy</span>
-        </nav>
-      </div>
-
-      <div className="container mx-auto py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Multi-Energy Absorption Chiller
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Flexible multi-energy source absorption chiller systems
-            </p>
-          </div>{" "}
-          <div className="prose max-w-none mb-12">
-            <p className="text-lg leading-relaxed">
-              BROAD India&apos;s Multi-Energy Absorption Chiller offers a
-              flexible and versatile solution capable of running on multiple
-              heat sources such as steam, hot water, exhaust gas, and natural
-              gas, enabling efficient switching between energy inputs based on
-              availability and cost optimization.
-            </p>
-          </div>
-          {/* Multi Energy Chiller Models Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center">
-              Multi Energy Chiller Models
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-              {/* BZE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
-                <div className="mb-4 flex-shrink-0">
-                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
-                    <Image
-                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg"
-                      alt="BZE Model"
-                      fill
-                      className="object-contain p-2"
-                    />
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-center">
-                  BZE Model, Exhaust and Direct Fired
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
-                  <li>• Capacity: 30-300 ton</li>
-                  <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
-                  <li>• Dual Fuel Burner (Gas and Oil, Low NOx, &lt; 10ppm)</li>
-                  <li>• Exhaust Pressure Drop: 3 - 8 Inch W.C.</li>
-                  <li>• Exhaust Temperature: 280-532°C</li>
-                  <li>• Cooling / Heating / Domestic Hot Water</li>
-                </ul>
-              </div>
-
-              {/* BHE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
-                <div className="mb-4 flex-shrink-0">
-                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
-                    <Image
-                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bhe-300x203-1-200x135.png"
-                      alt="BHE Model"
-                      fill
-                      className="object-contain p-2"
-                    />
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-center">
-                  BHE Model, Hot (Jacket) Water and Exhaust
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
-                  <li>• Capacity: 30-3300 ton</li>
-                  <li>• Hot Water Temperature: 71-105°C (Standard)</li>
-                  <li>• Exhaust Pressure Drop: 3 - 8 Inch W.C.</li>
-                  <li>• Exhaust Temperature: 305-649°C</li>
-                </ul>
-              </div>
-
-              {/* BZHE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
-                <div className="mb-4 flex-shrink-0">
-                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
-                    <Image
-                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bzhe1_s-300x204-1-200x136.jpg"
-                      alt="BZHE Model"
-                      fill
-                      className="object-contain p-2"
-                    />
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-center">
-                  BZHE Model, Hot (Jacket) Water and Exhaust + Direct Gas Fire
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
-                  <li>• Capacity: 30-3300 ton</li>
-                  <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
-                  <li>• Dual Fuel Burner (Gas and Oil, Low NOx, &lt; 10ppm)</li>
-                  <li>• Exhaust Pressure Drop: 3 - 8 Inch W.C.</li>
-                  <li>• Exhaust Temperature: 305-649°C</li>
-                  <li>• Hot Water Temperature: 88-105°C (Standard)</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* Key Features, Applications, and Benefits Section */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-            {/* Key Features */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
-              <h4 className="text-xl font-semibold mb-4 text-blue-700">
-                Key Features
-              </h4>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>
-                  Operates on multiple energy sources for maximum fuel
-                  flexibility
-                </li>
-                <li>
-                  Dual fuel burner options included for gas and oil, with low
-                  NOx emissions (&lt;10 ppm)
-                </li>
-                <li>
-                  Designed for cooling, heating, and domestic hot water
-                  production with one unit
-                </li>
-                <li>
-                  Supports dynamic fuel switching to optimize operational costs
-                </li>
-                <li>
-                  Robust design suitable for large-scale industrial and
-                  commercial HVAC systems
-                </li>
-              </ul>
-            </div>
-            {/* Applications */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
-              <h4 className="text-xl font-semibold mb-4 text-blue-700">
-                Applications
-              </h4>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>
-                  Industrial facilities with varying waste heat and fuel sources
-                </li>
-                <li>
-                  Large commercial buildings requiring central cooling and
-                  heating
-                </li>
-                <li>Combined Cooling, Heating &amp; Power (CCHP) systems</li>
-                <li>
-                  Hospitals, hotels, district energy systems, and campuses
-                </li>
-              </ul>
-            </div>
-            {/* Benefits */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow-sm">
-              <h4 className="text-xl font-semibold mb-4 text-blue-700">
-                Benefits
-              </h4>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>
-                  Reduces dependence on single fuel source, enhancing energy
-                  security and cost savings
-                </li>
-                <li>
-                  Helps meet environmental regulations with clean combustion and
-                  low emissions
-                </li>
-                <li>
-                  Supports India’s net-zero carbon goals through efficient,
-                  multi-source thermal energy use
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Explore Multi-Energy Solutions
-            </h3>
-            <Link
-              href="/contact-us"
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            >
-              Contact Us
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <PDPTemplate
+      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg"
+      title="Multi-Energy Absorption Chiller"
+      tagline="Maximum operational flexibility - seamlessly switch between multiple heat sources and fuels"
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },
+        { label: "Multi-Energy Chiller" },
+      ]}
+      definitionTerm="Multi-Energy Absorption Chiller"
+      definitionText="A multi-energy absorption chiller is a hybrid thermal cooling system designed to operate on two or more distinct heat sources - either simultaneously or alternately. For example, it can run on exhaust gas from a turbine during peak hours, and seamlessly switch to direct-fired natural gas when the turbine is offline. This provides ultimate energy security and ensures uninterrupted cooling regardless of upstream process fluctuations."
+      introContent={
+        <>
+          <p className="text-lg leading-relaxed mb-6">
+            The BROAD Multi-Energy Vapour Absorption Chiller is the ultimate solution for facilities that require mission-critical cooling but face variable heat source availability. By integrating multiple generators into a single unit, this chiller can harness exhaust gas, steam, hot water, and direct-fired natural gas/oil - adapting dynamically to whatever energy source is most abundant or cost-effective at any given moment.
+          </p>
+          <p className="text-lg leading-relaxed">
+            This technology is particularly valuable in Combined Cooling, Heating, and Power (CCHP) and trigeneration plants, where the primary heat source (e.g., turbine exhaust) may fluctuate based on electrical demand. When the primary waste heat drops, the chiller&apos;s intelligent control system automatically modulates a supplementary heat source (like a direct-fired burner or auxiliary steam) to make up the difference, ensuring consistent chilled water output without operator intervention.
+          </p>
+        </>
+      }
+      specs={[
+        { label: "Cooling capacity", value: "100–3,300 TR" },
+        { label: "Energy switching", value: "Seamless" },
+        { label: "Supplementary fuel", value: "Gas / Oil / Steam" },
+        { label: "Primary waste heat", value: "Exhaust / Hot Water" },
+      ]}
+      modelTable={[
+        {
+          modelNumber: "Hybrid Multi-Energy Series",
+          capacity: "100 - 3,300 TR",
+          dimensions: "Varies by configuration",
+          energyInput: "Multi-Source (Exhaust, Steam, Gas, Oil)"
+        }
+      ]}
+      features={[
+        { icon: <RefreshCw size={20} />, title: "Seamless Fuel Switching", description: "Automatically transitions between waste heat and supplementary fuel without interrupting chilled water production." },
+        { icon: <Power size={20} />, title: "Simultaneous Operation", description: "Can operate on both waste heat and direct-fired fuel simultaneously to meet peak cooling loads when waste heat alone is insufficient." },
+        { icon: <Settings size={20} />, title: "Intelligent Load Management", description: "Advanced PLC controls monitor heat source availability and automatically modulate the burner or steam valve to maintain setpoints." },
+        { icon: <Zap size={20} />, title: "Optimised Efficiency", description: "Prioritises free waste heat first, only engaging paid supplementary fuel when absolutely necessary to minimise operational costs." },
+        { icon: <Shield size={20} />, title: "Uninterrupted Cooling", description: "Provides N+1 redundancy in energy sources, ensuring critical processes or comfort cooling are never compromised by upstream outages." },
+      ]}
+      applications={[
+        { icon: <Landmark size={20} />, title: "Trigeneration & CCHP Plants" },
+        { icon: <Factory size={20} />, title: "Process Industries with Variable Heat" },
+        { icon: <Hospital size={20} />, title: "Mission-Critical Hospitals" },
+        { icon: <Server size={20} />, title: "Data Centres" },
+        { icon: <Building2 size={20} />, title: "District Energy Systems" },
+      ]}
+      benefits={[
+        { icon: <Shield size={20} />, title: "Energy Security", description: "Never rely on a single energy source again. Protect your facility against natural gas shortages, grid outages, or process shutdowns." },
+        { icon: <DollarSign size={20} />, title: "Cost Optimisation", description: "Automatically utilise the cheapest available energy source hour-by-hour, maximising ROI and operational savings." },
+        { icon: <Leaf size={20} />, title: "Sustainable Resilience", description: "Maximise the use of carbon-free waste heat while maintaining the reliability of a conventional fossil-fuel backup." },
+        { icon: <Wrench size={20} />, title: "Space Savings", description: "Eliminates the need to install separate waste-heat chillers and backup direct-fired chillers - combining both into a single footprint." },
+      ]}
+      faqs={[
+        {
+          question: "Can a multi-energy chiller run on exhaust gas and natural gas at the same time?",
+          answer: "Yes. This is one of the primary benefits of a multi-energy (hybrid) chiller. If the available exhaust gas from your turbine or engine can only provide 60% of your required cooling load, the chiller's integrated direct-fired burner will automatically ignite to provide the remaining 40% using natural gas, ensuring your cooling demand is met exactly.",
+        },
+        {
+          question: "What combinations of energy sources are possible?",
+          answer: "Common combinations include Exhaust Gas + Direct-Fired (Gas/Oil), Exhaust Gas + Steam, Hot Water + Direct-Fired, and Steam + Direct-Fired. The specific combination is custom-engineered based on the heat sources available at your facility.",
+        },
+        {
+          question: "How does the chiller decide which energy source to use?",
+          answer: "The chiller's advanced PLC control system is programmed to prioritize 'free' waste heat (like exhaust or hot water). It constantly monitors the chilled water outlet temperature and the waste heat input. If the waste heat drops and the chilled water temperature begins to rise above the setpoint, the control system automatically modulates the supplementary heat source (burner or steam valve) to make up the deficit.",
+        },
+      ]}
+      downloads={[
+        { title: "Multi-Energy Chiller Brochure", size: "3.8 MB", type: "PDF" },
+        { title: "Hybrid Energy Systems Guide", size: "2.5 MB", type: "PDF" },
+      ]}
+    />
   );
-};
-
-export default MultiEnergy;
+}

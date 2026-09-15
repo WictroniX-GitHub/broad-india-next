@@ -108,7 +108,7 @@ export default function BlogDetailContent({ blog, relatedBlogs = [] }: BlogDetai
               <p className="text-blue-100 mb-6 max-w-2xl mx-auto text-base md:text-lg">
                 BROAD India&apos;s engineering team can assess your facility&apos;s
                 cooling requirements and recommend the most energy-efficient
-                solution — from vapour absorption chillers to waste heat recovery
+                solution - from vapour absorption chillers to waste heat recovery
                 systems.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

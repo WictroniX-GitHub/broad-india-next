@@ -38,7 +38,7 @@ export default function ContactUsLayout({
   const localBusinessSurat = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "BROAD Air Conditioning India Pvt. Ltd. — Surat (HQ)",
+    "name": "BROAD Air Conditioning India Pvt. Ltd. - Surat (HQ)",
     "image": "https://www.broadindia.com/images/logo.png",
     "url": "https://www.broadindia.com/contact-us",
     "telephone": "+91-9427851584",
@@ -57,7 +57,7 @@ export default function ContactUsLayout({
   const localBusinessGurugram = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "BROAD Air Conditioning India Pvt. Ltd. — Gurugram",
+    "name": "BROAD Air Conditioning India Pvt. Ltd. - Gurugram",
     "image": "https://www.broadindia.com/images/logo.png",
     "url": "https://www.broadindia.com/contact-us",
     "telephone": "+91-0124-4012824",
