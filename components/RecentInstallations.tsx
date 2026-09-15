@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { FadeInStaggerContainer, FadeInStaggerItem } from "@/components/ui/FadeInStagger";
@@ -13,6 +14,7 @@ const installations = [
     metric: "500 TR Cooling Capacity",
     industry: "Steel & Manufacturing",
     image: "/images/JSW_Bellary.avif",
+    slug: "jsw-bellary",
     description:
       "Deployed vapour absorption chillers at JSW Group's Bellary steel complex, one of India's largest integrated steel plants, delivering industrial-scale process cooling powered by waste heat recovery.",
   },
@@ -22,6 +24,7 @@ const installations = [
     metric: "Waste Heat Recovery",
     industry: "Oil & Gas",
     image: "/images/indian-oil-recent-ints.jpg",
+    slug: "iocl-vadodara",
     description:
       "Installed waste-heat-driven absorption chillers at IOCL's Vadodara refinery, converting surplus process heat into chilled water for plant cooling - reducing electricity consumption and operational costs.",
   },
@@ -31,6 +34,7 @@ const installations = [
     metric: "VAM for 4 Plants",
     industry: "FMCG & Manufacturing",
     image: itcImg,
+    slug: "itc-limited",
     description:
       "Supplied and commissioned Vapour Absorption Machines across four ITC manufacturing plants for process cooling applications, supporting ITC's sustainability and carbon-neutrality commitments.",
   },
@@ -46,82 +50,104 @@ export default function RecentInstallations() {
       </div>
 
       <div className="container mx-auto px-4 md:px-8 relative z-10 max-w-7xl">
-        <motion.div 
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="text-center mb-12"
-        >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Recent Installations</h2>
-          <p className="text-white/70 text-base md:text-lg max-w-2xl mx-auto font-light">
-            Trusted by India&apos;s leading industrial conglomerates for mission-critical cooling
-          </p>
-        </motion.div>
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="max-w-2xl"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">Recent Installations</h2>
+            <p className="text-white/70 text-base md:text-lg font-light">
+              Trusted by India&apos;s leading industrial conglomerates for mission-critical cooling
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            className="shrink-0"
+          >
+            <Link 
+              href="/installations" 
+              className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors group"
+            >
+              <span>View all installations</span>
+              <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-1" />
+            </Link>
+          </motion.div>
+        </div>
 
         <FadeInStaggerContainer staggerDelay={0.15} className="flex overflow-x-auto snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] md:grid md:grid-cols-3 gap-6 pb-8 md:pb-0 -mx-4 px-4 md:mx-0 md:px-0">
           {installations.map((install) => (
             <FadeInStaggerItem key={install.id} className="w-[85vw] md:w-auto shrink-0 snap-center h-full">
-              <div className="group h-full bg-white/5 backdrop-blur-xl rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 hover:bg-white/10 relative flex flex-col">
-                {/* Image */}
-                <div className="relative w-full h-48 overflow-hidden">
-                  <motion.div
-                    className="w-full h-full"
-                    whileHover={{ scale: 1.05 }}
-                    transition={{ type: "spring", stiffness: 100, damping: 20 }}
-                  >
-                    <Image
-                      src={install.image}
-                      alt={install.title}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                    />
-                  </motion.div>
-                  {/* Subtle gradient overlay on image */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
-                </div>
-
-                {/* Content */}
-                <div className="p-8">
-                  {/* Industry tag */}
-                  <span className="inline-block px-4 py-1.5 rounded-full text-xs font-medium bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-4 tracking-wide">
-                    {install.industry}
-                  </span>
-
-                  <h3 className="text-xl font-bold text-white mb-2 tracking-tight">
-                    {install.title}
-                  </h3>
-
-                  {/* Metric highlight */}
-                  <p className="text-green-400 font-medium text-sm mb-4">
-                    {install.metric}
-                  </p>
-
-                  <p className="text-white/70 text-sm md:text-base leading-relaxed mb-6 font-light">
-                    {install.description}
-                  </p>
-
-                  {/* Hover link reveal */}
-                  <div className="flex items-center text-white/50 font-medium group-hover:text-white transition-colors duration-300">
-                    <span className="relative overflow-hidden flex items-center">
-                      <span className="inline-block transition-transform duration-300 group-hover:-translate-y-[120%]">View case study</span>
-                      <span className="absolute left-0 top-0 inline-block translate-y-[120%] transition-transform duration-300 group-hover:translate-y-0">View case study</span>
-                    </span>
+              <Link href={`/installations/${install.slug}`} className="block h-full group">
+                <div className="h-full bg-white/5 backdrop-blur-xl rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 hover:bg-white/10 relative flex flex-col">
+                  {/* Image */}
+                  <div className="relative w-full h-48 overflow-hidden">
                     <motion.div
-                      className="ml-2"
-                      initial={{ x: 0 }}
-                      whileHover={{ x: 4 }}
-                      transition={{ type: "spring", stiffness: 300 }}
+                      className="w-full h-full"
+                      whileHover={{ scale: 1.05 }}
+                      transition={{ type: "spring", stiffness: 100, damping: 20 }}
                     >
-                      <ArrowRight size={16} />
+                      <Image
+                        src={install.image}
+                        alt={install.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                      />
                     </motion.div>
+                    {/* Subtle gradient overlay on image */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
                   </div>
-                </div>
 
-                {/* Soft glow border effect */}
-                <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/0 group-hover:ring-white/20 transition-all duration-500 pointer-events-none" />
-              </div>
+                  {/* Content */}
+                  <div className="p-8 flex flex-col flex-grow">
+                    {/* Industry tag */}
+                    <div>
+                      <span className="inline-block px-4 py-1.5 rounded-full text-xs font-medium bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-4 tracking-wide">
+                        {install.industry}
+                      </span>
+                    </div>
+
+                    <h3 className="text-xl font-bold text-white mb-2 tracking-tight group-hover:text-blue-300 transition-colors">
+                      {install.title}
+                    </h3>
+
+                    {/* Metric highlight */}
+                    <p className="text-green-400 font-medium text-sm mb-4">
+                      {install.metric}
+                    </p>
+
+                    <p className="text-white/70 text-sm md:text-base leading-relaxed mb-6 font-light flex-grow">
+                      {install.description}
+                    </p>
+
+                    {/* Hover link reveal */}
+                    <div className="flex items-center text-white/50 font-medium group-hover:text-white transition-colors duration-300 mt-auto">
+                      <span className="relative overflow-hidden flex items-center">
+                        <span className="inline-block transition-transform duration-300 group-hover:-translate-y-[120%]">View case study</span>
+                        <span className="absolute left-0 top-0 inline-block translate-y-[120%] transition-transform duration-300 group-hover:translate-y-0">View case study</span>
+                      </span>
+                      <motion.div
+                        className="ml-2"
+                        initial={{ x: 0 }}
+                        whileHover={{ x: 4 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                      >
+                        <ArrowRight size={16} />
+                      </motion.div>
+                    </div>
+                  </div>
+
+                  {/* Soft glow border effect */}
+                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/0 group-hover:ring-white/20 transition-all duration-500 pointer-events-none" />
+                </div>
+              </Link>
             </FadeInStaggerItem>
           ))}
         </FadeInStaggerContainer>
@@ -129,3 +155,4 @@ export default function RecentInstallations() {
     </section>
   );
 }
+
