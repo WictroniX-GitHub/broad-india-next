@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     siteName: "BROAD India",
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/BROAD-India-final.png",
         width: 1200,
         height: 630,
         alt: "BROAD India - Non-Electric HVAC Solutions",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
     description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
-    images: ["/images/logo.png"],
+    images: ["/images/BROAD-India-final.png"],
   },
   alternates: {
     canonical: "https://www.broadindia.com/contact-us",
@@ -39,7 +39,7 @@ export default function ContactUsLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "BROAD Air Conditioning India Pvt. Ltd. - Surat (HQ)",
-    "image": "https://www.broadindia.com/images/logo.png",
+    "image": "https://www.broadindia.com/images/BROAD-India-final.png",
     "url": "https://www.broadindia.com/contact-us",
     "telephone": "+91-9427851584",
     "email": "akshay@broad.net",
@@ -58,7 +58,7 @@ export default function ContactUsLayout({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "BROAD Air Conditioning India Pvt. Ltd. - Gurugram",
-    "image": "https://www.broadindia.com/images/logo.png",
+    "image": "https://www.broadindia.com/images/BROAD-India-final.png",
     "url": "https://www.broadindia.com/contact-us",
     "telephone": "+91-0124-4012824",
     "address": {

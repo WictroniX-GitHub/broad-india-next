@@ -2,7 +2,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 import bg from "@/public/images/OurTeam.jpg";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/BROAD-India-final.png";
 
 export const metadata: Metadata = {
   title: "About BROAD India - Leading HVAC Solutions Provider",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/images/logo.png",
+        url: "/images/BROAD-India-final.png",
         width: 160,
         height: 80,
         alt: "BROAD India Logo",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "About BROAD India - Leading HVAC Solutions Provider",
     description:
       "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions.",
-    images: ["/images/logo.png"],
+    images: ["/images/BROAD-India-final.png"],
   },
 };
 
