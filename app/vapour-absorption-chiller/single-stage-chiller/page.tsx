@@ -1,223 +1,93 @@
 "use client";
 
-import React, { useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import PDPTemplate from "@/components/PDPTemplate";
+import {
+  Zap, Leaf, Wrench, Thermometer, Shield, Gauge,
+  Hospital, Hotel, Building2, Factory, Landmark,
+  DollarSign, Settings, Droplets, ArrowRightLeft,
+} from "lucide-react";
 
-const SingleStage = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
+export default function SingleStageChiller() {
   return (
-    <div>
-      <div
-        className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
-        style={{
-          backgroundImage: `url('https://broadusa.com/broad/wp-content/uploads/2020/03/single-stage-300x157-1-200x105.png')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
-          <h1
-            className="text-white text-4xl md:text-6xl font-bold"
-            data-aos="fade-up"
-          >
-            Single-Stage Absorption Chiller
-          </h1>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4 py-4">
-        <nav className="text-sm text-gray-600">
-          <Link href="/" className="hover:text-blue-600">
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link
-            href="/vapour-absorption-chiller"
-            className="hover:text-blue-600"
-          >
-            Vapour Absorption Chillers
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">Single-Stage</span>
-        </nav>
-      </div>
-
-      <div className="container mx-auto py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Single-Stage Absorption Chiller
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Reliable single-stage absorption chiller for standard applications
-            </p>
-          </div>{" "}
-          <div className="prose max-w-none mb-12">
-            <p className="text-lg leading-relaxed">
-              BROAD&apos;s Single-Stage Absorption Chiller offers a proven,
-              reliable, and cost-effective cooling solution based on
-              single-stage lithium bromide absorption technology, designed for
-              standard industrial and commercial applications where simplicity
-              and durability are prioritized.
-            </p>
-          </div>
-          {/* Single Stage Chiller Models Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center">
-              Single Stage Chiller Models
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-              {/* BDH Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
-                <div className="mb-4 flex-shrink-0">
-                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
-                    <Image
-                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/single-stage-300x157-1-200x105.png"
-                      alt="BDH Model"
-                      fill
-                      className="object-contain p-2"
-                    />
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-center">
-                  BDH Model, Single Stage Hot Water Driven
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
-                  <li>• Capacity: 30-1800 ton</li>
-                  <li>• Hot Water Temperature: 71-105°C (Standard)</li>
-                  <li>• Hot water Valve</li>
-                  <li>• Cooling Only</li>
-                </ul>
-              </div>
-
-              {/* BDE Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
-                <div className="mb-4 flex-shrink-0">
-                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
-                    <Image
-                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/bde_s-300x252-1-200x168.jpg"
-                      alt="BDE Model"
-                      fill
-                      className="object-contain p-2"
-                    />
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-center">
-                  BDE Model, Single Stage Exhaust Driven
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
-                  <li>• Capacity: 30-1163 ton</li>
-                  <li>• Exhaust Temperature: 232 - 315°C</li>
-                  <li>• Cooling Only</li>
-                </ul>
-              </div>
-
-              {/* BDS Model */}
-              <div className="bg-white border border-gray-200 rounded-lg p-4 h-full flex flex-col">
-                <div className="mb-4 flex-shrink-0">
-                  <div className="relative h-32 bg-gray-100 rounded-md overflow-hidden">
-                    <Image
-                      src="https://broadusa.com/broad/wp-content/uploads/2020/03/BDS-model.jpg"
-                      alt="BDS Model"
-                      fill
-                      className="object-contain p-2"
-                    />
-                  </div>
-                </div>
-                <h4 className="text-lg font-semibold mb-2 text-center">
-                  BDS Model, Single Stage Steam Driven
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-1 flex-grow">
-                  <li>• Capacity: 30-2000 ton</li>
-                  <li>• Steam Pressure: 0.42-4.2 kg/cm² (Standard)</li>
-                  <li>• Offer Steam Valve</li>
-                  <li>• Cooling only</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* Key Features Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-4">Key Features</h3>
-            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
-              <li>
-                Utilizes single-stage LiBr absorption technology for dependable
-                cooling
-              </li>
-              <li>
-                Suitable for various heat sources including steam, hot water,
-                and exhaust gases
-              </li>
-              <li>
-                Designed for simple operation with a strong focus on reliability
-                and ease of maintenance
-              </li>
-              <li>
-                Efficient performance especially when waste heat exceeds 70°C
-                and low-pressure steam is available
-              </li>
-              <li>
-                Effective for standard commercial and industrial process cooling
-                needs
-              </li>
-            </ul>
-          </div>
-          {/* Typical Applications Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-4">Typical Applications</h3>
-            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
-              <li>Industrial process cooling</li>
-              <li>Commercial buildings</li>
-              <li>
-                Facilities with accessible medium temperature waste heat such as
-                hot water or low-pressure steam
-              </li>
-            </ul>
-          </div>
-          {/* Performance Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-4">Performance</h3>
-            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
-              <li>
-                Operating effectively with waste heat sources typically above
-                70°C
-              </li>
-              <li>
-                Achieves Coefficient of Performance (COP) values ranging roughly
-                0.5 to 0.8, converting waste heat efficiently into cooling
-                capacity
-              </li>
-            </ul>
-          </div>
-          {/* Summary Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-4">Summary</h3>
-            <p className="text-lg text-gray-700">
-              BROAD&apos;s Single-Stage Absorption Chiller is an excellent
-              choice for industries and commercial facilities requiring robust,
-              reliable cooling using waste heat from common temperature ranges.
-              Its simplicity in design ensures low maintenance and operational
-              costs, supporting sustainability goals by cutting down electricity
-              use and leveraging available thermal energy.
-            </p>
-          </div>
-          <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Learn More About Single-Stage Chillers
-            </h3>
-            <Link
-              href="/contact-us"
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            >
-              Contact Us
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <PDPTemplate
+      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/single-stage-300x157-1-200x105.png"
+      title="Single-Stage Absorption Chiller"
+      tagline="Reliable, low-maintenance cooling driven by low-grade waste heat and hot water"
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },
+        { label: "Single-Stage Chiller" },
+      ]}
+      definitionTerm="Single-Stage Absorption Chiller"
+      definitionText="A single-stage absorption chiller is a thermal cooling system that uses a single generator to vaporise refrigerant (water) from the absorbent (lithium bromide). Because it only requires one stage of heat input, it can operate on low-grade thermal energy - such as hot water as low as 70°C or low-pressure steam (0.1–1.5 kg/cm²). While its COP (0.7–0.8) is lower than a two-stage machine, its ability to run on low-grade waste heat makes it an exceptionally cost-effective energy recovery solution."
+      introContent={
+        <>
+          <p className="text-lg leading-relaxed mb-6">
+            The BROAD Single-Stage Absorption Chiller is designed to monetise low-grade thermal energy that would otherwise be wasted. Ideal for industrial processes, cogeneration plants, and district energy systems, this chiller converts low-pressure steam or hot water into reliable, continuous chilled water for HVAC or process cooling.
+          </p>
+          <p className="text-lg leading-relaxed">
+            While single-stage chillers have a lower Coefficient of Performance (COP) compared to two-stage models, their distinct advantage lies in their heat source requirements. They can effectively utilise waste heat as low as 70°C, making them the perfect solution for recovering heat from jacket water, low-pressure exhaust steam, or solar thermal collectors - turning previously unusable thermal energy into valuable cooling.
+          </p>
+        </>
+      }
+      specs={[
+        { label: "Cooling capacity", value: "100–3,300 TR" },
+        { label: "Hot water input", value: "70–95°C" },
+        { label: "Steam pressure", value: "0.1–1.5 kg/cm²" },
+        { label: "Efficiency", value: "COP 0.7–0.8" },
+      ]}
+      modelTable={[
+        {
+          modelNumber: "Single-Stage Steam",
+          capacity: "100 - 3,300 TR",
+          dimensions: "Varies by capacity",
+          energyInput: "Low-Pressure Steam"
+        },
+        {
+          modelNumber: "Single-Stage Hot Water",
+          capacity: "100 - 3,300 TR",
+          dimensions: "Varies by capacity",
+          energyInput: "Hot Water (70–95°C)"
+        }
+      ]}
+      features={[
+        { icon: <Thermometer size={20} />, title: "Low-Grade Heat Utilisation", description: "Operates efficiently on hot water (70–95°C) or low-pressure steam, capturing heat that two-stage chillers cannot use." },
+        { icon: <Shield size={20} />, title: "Simplified Single-Generator Design", description: "Fewer components than two-stage chillers, resulting in lower capital cost, simpler operation, and exceptional reliability." },
+        { icon: <Settings size={20} />, title: "Anti-Crystallisation Technology", description: "Advanced control logic prevents lithium bromide crystallisation even under fluctuating heat input conditions." },
+        { icon: <Zap size={20} />, title: "Minimal Electric Load", description: "Consumes only 1–3% of the electricity required by a conventional mechanical chiller of equivalent capacity." },
+        { icon: <Wrench size={20} />, title: "Low Maintenance", description: "Virtually no moving parts in the primary refrigeration cycle, ensuring a 25+ year lifespan with minimal servicing." },
+      ]}
+      applications={[
+        { icon: <Factory size={20} />, title: "Industrial Process Cooling" },
+        { icon: <Landmark size={20} />, title: "Cogeneration & Trigeneration" },
+        { icon: <Building2 size={20} />, title: "District Cooling Systems" },
+        { icon: <Hospital size={20} />, title: "Hospitals & Campuses" },
+        { icon: <Hotel size={20} />, title: "Hotels & Commercial Buildings" },
+      ]}
+      benefits={[
+        { icon: <DollarSign size={20} />, title: "Monetise Low-Grade Heat", description: "Turn previously unusable low-temperature waste heat into valuable cooling, generating a rapid return on investment." },
+        { icon: <Leaf size={20} />, title: "Zero ODP & Low GWP", description: "Uses water as a natural refrigerant and lithium bromide as the absorbent - environmentally benign and future-proof." },
+        { icon: <Zap size={20} />, title: "Peak Demand Reduction", description: "Significantly reduces electrical peak demand, avoiding high demand charges and freeing up grid capacity." },
+        { icon: <Shield size={20} />, title: "Quiet & Vibration-Free", description: "Absence of large mechanical compressors ensures whisper-quiet operation and zero structural vibration." },
+      ]}
+      faqs={[
+        {
+          question: "When should I choose a single-stage over a two-stage absorption chiller?",
+          answer: "The choice depends on your heat source. Choose a single-stage chiller if you have low-grade waste heat available - specifically, hot water between 70°C and 95°C, or low-pressure steam (0.1–1.5 kg/cm²). A two-stage chiller cannot operate efficiently on these low temperatures. However, if you have high-pressure steam (4+ kg/cm²), direct gas/oil firing, or exhaust gas above 280°C, a two-stage chiller is the better choice because it will deliver 40–70% more cooling (higher COP) from the same heat input.",
+        },
+        {
+          question: "What is the minimum hot water temperature required for a single-stage chiller?",
+          answer: "BROAD single-stage absorption chillers can operate with hot water entering temperatures as low as 70°C, though nominal capacity is typically rated at 90°C to 95°C. At lower temperatures, the chiller will derate (produce less cooling capacity), which our engineers will account for during the design phase.",
+        },
+        {
+          question: "Can a single-stage chiller be used with solar thermal collectors?",
+          answer: "Yes, single-stage chillers are the standard choice for solar cooling applications. Solar thermal collectors typically produce hot water in the 70°C to 95°C range, which perfectly matches the drive requirements of a single-stage lithium bromide absorption chiller.",
+        },
+      ]}
+      downloads={[
+        { title: "Single-Stage Chiller Brochure", size: "3.1 MB", type: "PDF" },
+        { title: "Waste Heat Recovery Guidelines", size: "1.9 MB", type: "PDF" },
+      ]}
+    />
   );
-};
-
-export default SingleStage;
+}

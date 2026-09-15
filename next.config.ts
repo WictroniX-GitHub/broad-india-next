@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true, // Improves debugging & performance
   images: {
+    qualities: [25, 50, 75, 80, 90, 100],
     remotePatterns: [
       { protocol: "https", hostname: "broadusa.com" },
       { protocol: "https", hostname: "www.jswsteel.in" },

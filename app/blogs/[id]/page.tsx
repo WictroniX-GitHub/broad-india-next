@@ -87,7 +87,7 @@ export default async function BlogsDetailPage({ params }: PageProps) {
       "@type": "Organization",
       name: "BROAD India Engineering Team",
       url: "https://www.broadindia.com",
-      logo: "https://www.broadindia.com/images/logo.png",
+      logo: "https://www.broadindia.com/images/BROAD-India-final.png",
     },
     publisher: {
       "@type": "Organization",
@@ -95,7 +95,7 @@ export default async function BlogsDetailPage({ params }: PageProps) {
       url: "https://www.broadindia.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://www.broadindia.com/images/logo.png",
+        url: "https://www.broadindia.com/images/BROAD-India-final.png",
       },
     },
     mainEntityOfPage: {

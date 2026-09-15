@@ -33,6 +33,17 @@ body {
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+
+    /* Design System: Elevation shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+    /* Design System: Brand accent colors */
+    --brand-blue: 222 47% 20%;
+    --brand-green: 142 64% 38%;
+    --surface-alt: 210 20% 97%;
   }
   .dark {
     --background: 222.2 84% 4.9%;
@@ -68,5 +79,220 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+/* ============================================================
+   Design System: Keyframes
+   ============================================================ */
+
+/* Ken-Burns zoom for hero carousel backgrounds */
+@keyframes kenBurns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.08);
+  }
+}
+
+/* Scroll-cue bounce at bottom of hero */
+@keyframes scrollCueBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+/* Infinite marquee for trusted clients */
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Fade-slide-up for scroll reveal */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================================
+   Design System: Component Utility Classes
+   ============================================================ */
+
+@layer components {
+  /* Card hover lift effect */
+  .card-hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+  .card-hover-lift:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: var(--shadow-xl);
+  }
+
+  /* Icon badge — circular background with centered icon */
+  .icon-badge {
+    @apply inline-flex items-center justify-center rounded-full;
+    width: 56px;
+    height: 56px;
+    background: hsl(var(--primary) / 0.08);
+    color: hsl(var(--primary));
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  .icon-badge:hover {
+    transform: rotate(5deg) scale(1.05);
+    background: hsl(var(--primary) / 0.14);
+  }
+  .icon-badge--green {
+    background: hsl(var(--brand-green) / 0.1);
+    color: hsl(var(--brand-green));
+  }
+  .icon-badge--green:hover {
+    background: hsl(var(--brand-green) / 0.18);
+  }
+  .icon-badge--lg {
+    width: 64px;
+    height: 64px;
+  }
+
+  /* Primary button with hover micro-interaction */
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200;
+    background: hsl(var(--primary));
+    box-shadow: var(--shadow-md);
+  }
+  .btn-primary:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-lg);
+    filter: brightness(1.1);
+  }
+  .btn-primary:active {
+    transform: scale(0.98);
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* Secondary button */
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-200;
+    background: hsl(var(--secondary));
+    color: hsl(var(--secondary-foreground));
+    box-shadow: var(--shadow-sm);
+  }
+  .btn-secondary:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-md);
+  }
+  .btn-secondary:active {
+    transform: scale(0.98);
+  }
+
+  /* Ghost button */
+  .btn-ghost {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-200;
+    background: transparent;
+    color: hsl(var(--primary));
+  }
+  .btn-ghost:hover {
+    background: hsl(var(--primary) / 0.06);
+  }
+
+  /* Section with alternating surface background */
+  .section-surface {
+    background: hsl(var(--surface-alt));
+  }
+
+  /* Category / industry tag pill */
+  .tag-pill {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+    background: hsl(var(--primary) / 0.08);
+    color: hsl(var(--primary));
+  }
+  .tag-pill--green {
+    background: hsl(var(--brand-green) / 0.1);
+    color: hsl(var(--brand-green));
+  }
+
+  /* Trusted clients marquee container */
+  .marquee-container {
+    @apply overflow-hidden relative;
+  }
+  .marquee-track {
+    @apply flex items-center gap-12;
+    animation: marqueeScroll 30s linear infinite;
+    width: max-content;
+  }
+  .marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+  }
+
+  /* Grayscale-to-color on hover for logos */
+  .grayscale-hover {
+    filter: grayscale(1);
+    opacity: 0.6;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+  }
+  .grayscale-hover:hover {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+
+  /* Key specs strip for product pages */
+  .specs-strip {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-xl;
+    background: hsl(var(--surface-alt));
+    border: 1px solid hsl(var(--border));
+  }
+  .specs-strip__item {
+    @apply flex items-center gap-3 p-3;
+  }
+  .specs-strip__value {
+    @apply text-lg font-bold;
+    color: hsl(var(--primary));
+  }
+  .specs-strip__label {
+    @apply text-sm text-gray-500;
+  }
+
+  /* SSR-safe FAQ accordion using details/summary */
+  .faq-accordion details {
+    @apply border border-gray-200 rounded-lg overflow-hidden;
+    box-shadow: var(--shadow-sm);
+  }
+  .faq-accordion details + details {
+    @apply mt-3;
+  }
+  .faq-accordion summary {
+    @apply px-6 py-5 cursor-pointer font-semibold text-lg flex justify-between items-center transition-colors;
+    background: hsl(var(--surface-alt));
+    list-style: none;
+  }
+  .faq-accordion summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-accordion summary:hover {
+    background: hsl(var(--muted));
+  }
+  .faq-accordion summary .faq-chevron {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+  }
+  .faq-accordion details[open] summary .faq-chevron {
+    transform: rotate(180deg);
+  }
+  .faq-accordion .faq-answer {
+    @apply px-6 py-5 text-gray-700 leading-relaxed;
+    border-top: 1px solid hsl(var(--border));
   }
 }

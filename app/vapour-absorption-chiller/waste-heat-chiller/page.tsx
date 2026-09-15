@@ -1,348 +1,94 @@
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title:
-    "Waste Heat Driven Vapour Absorption Chiller - Energy Recovery Solutions | BROAD India",
-  description:
-    "BROAD Waste Heat Driven Vapour Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce operating costs with our waste heat recovery chillers.",
-  keywords: [
-    "waste heat chiller",
-    "waste heat recovery",
-    "heat recovery chiller",
-    "waste heat driven cooling",
-    "industrial waste heat",
-    "energy recovery",
-    "Vapour absorption chiller",
-    "BROAD waste heat",
-    "thermal energy recovery",
-  ],
-  openGraph: {
-    title:
-      "Waste Heat Driven Vapour Absorption Chiller - Energy Recovery Solutions | BROAD India",
-    description:
-      "BROAD Waste Heat Driven Vapour Absorption Chillers convert industrial waste heat into cooling energy. Maximize energy efficiency and reduce costs.",
-    type: "website",
-    locale: "en_IN",
-    images: [
-      {
-        url: "/images/wasteHeat.jpg",
-        width: 1200,
-        height: 630,
-        alt: "BROAD Waste Heat Driven Vapour Absorption Chiller",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title:
-      "Waste Heat Driven Vapour Absorption Chiller - Energy Recovery Solutions | BROAD India",
-    description:
-      "BROAD Waste Heat Driven Vapour Absorption Chillers convert industrial waste heat into cooling energy.",
-    images: ["/images/wasteHeat.jpg"],
-  },
-};
+import PDPTemplate from "@/components/PDPTemplate";
+import {
+  Zap, Leaf, Wrench, Thermometer, Shield, Gauge,
+  Hospital, Building2, Factory, Landmark,
+  DollarSign, Settings, Droplets, Recycle,
+} from "lucide-react";
 
-const WasteHeatChiller = () => {
+export default function WasteHeatChiller() {
   return (
-    <div>
-      {/* Hero Section */}
-      <div
-        className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
-        style={{
-          backgroundImage: `url('/images/wasteHeat.jpg')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
-          <h1
-            className="text-white text-4xl md:text-6xl font-bold"
-            data-aos="fade-up"
-          >
-            Waste‑Heat‑Driven Vapour Absorption Chiller
-          </h1>
-        </div>
-      </div>
-
-      {/* Breadcrumb */}
-      <div className="container mx-auto px-4 py-4">
-        <nav className="text-sm text-gray-600">
-          <Link href="/" className="hover:text-blue-600">
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link
-            href="/vapour-absorption-chiller"
-            className="hover:text-blue-600"
-          >
-            Vapour Absorption Chillers
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">Waste Heat Chiller</span>
-        </nav>
-      </div>
-
-      {/* Main Content */}
-      <div className="container mx-auto py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          {/* Title Section */}
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Waste‑Heat‑Driven Vapour Absorption Chiller
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              High-Performance Waste Heat Recovery for Industrial and Commercial
-              Cooling & Heating
-            </p>
-          </div>
-
-          {/* Product Image */}
-          <div className="mb-12">
-            <Image
-              src="/images/wasteHeat.jpg"
-              alt="Waste Heat Driven Vapour Absorption Chiller"
-              width={800}
-              height={500}
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
-
-          {/* Description */}
-          <div className="prose max-w-none mb-12">
-            <p className="text-lg leading-relaxed mb-6">
-              BROAD&apos;s Waste-Heat-Driven Vapour Absorption Chiller is a
-              high-performance, energy recovery solution that leverages
-              low-grade thermal energy from industrial processes to deliver
-              powerful cooling and heating in large-scale commercial and
-              industrial settings. This system enables facilities to convert
-              waste heat - from exhaust gases, boiler flue gases, or process
-              steam - into useful chilled water (above 5°C) and heating water
-              (below 95°C), with capacity ranges from 233 kW to 11,630 kW
-              (66-3,307 RT).
-            </p>
-            <h3 className="text-2xl font-bold mb-4">
-              What Is BROAD Waste-Heat-Driven Absorption Chiller?
-            </h3>
-            <p className="text-lg leading-relaxed mb-6">
-              The chiller utilizes robust lithium bromide-water absorption
-              technology and tailor-engineered shell-and-tube heat exchangers,
-              ensuring durable operation under variable load conditions. It is
-              designed to integrate seamlessly with combined heat and power
-              (CHP) plants, industrial boilers, and flue-gas stacks, making it
-              ideal for process cooling, CCHP systems, district energy, and
-              energy-positive building envelopes.
-            </p>
-          </div>
-
-          {/* Download Catalogue Section */}
-          <div className="text-center mb-8">
-            <a
-              href="/files/nonElec.pdf"
-              download
-              className="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
-            >
-              <svg
-                className="w-5 h-5 mr-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                />
-              </svg>
-              Download Product Catalogue
-            </a>
-          </div>
-
-          {/* Technical Specifications */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            <div className="bg-gray-50 rounded-lg p-6">
-              <h3 className="text-2xl font-bold mb-4">
-                Technical Specifications
-              </h3>
-              <ul className="space-y-3">
-                <li>
-                  <strong>Cooling Capacity:</strong> 233 kW to 11,630 kW
-                  (66-3,307 RT)
-                </li>
-                <li>
-                  <strong>Chilled Water:</strong> Above 5°C
-                </li>
-                <li>
-                  <strong>Heating Water:</strong> Below 95°C
-                </li>
-                <li>
-                  <strong>Waste Heat Input:</strong> From 150°C upwards
-                </li>
-                <li>
-                  <strong>Technology:</strong> Lithium bromide-water absorption
-                </li>
-                <li>
-                  <strong>Heat Exchangers:</strong> Shell-and-tube design
-                </li>
-                <li>
-                  <strong>Operational Electricity Demand:</strong> Minimal, only
-                  for pumps and controls
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 rounded-lg p-6">
-              <h3 className="text-2xl font-bold mb-4">Key Features</h3>
-              <ul className="space-y-3">
-                <li>• Outstanding Coefficient of Performance (COP)</li>
-                <li>• Automatic non-condensable gas purge systems</li>
-                <li>• Crystallisation prevention circuits</li>
-                <li>• Smart controllers with continuous adjustment</li>
-                <li>• Effective condenser control</li>
-                <li>• Vacuum maintenance systems</li>
-                <li>• Modular design and low mechanical complexity</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* Waste Heat Sources */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6">
-              Compatible Waste Heat Sources
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-orange-600 text-3xl mb-2">🔥</div>
-                <h4 className="font-semibold">Hot Exhaust Gases</h4>
-                <p className="text-sm text-gray-600">
-                  From industrial processes
-                </p>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-orange-600 text-3xl mb-2">🏭</div>
-                <h4 className="font-semibold">Boiler Flue Gases</h4>
-                <p className="text-sm text-gray-600">From heating systems</p>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-orange-600 text-3xl mb-2">💨</div>
-                <h4 className="font-semibold">Process Steam</h4>
-                <p className="text-sm text-gray-600">From manufacturing</p>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-orange-600 text-3xl mb-2">⚡</div>
-                <h4 className="font-semibold">CHP Plants</h4>
-                <p className="text-sm text-gray-600">Combined heat and power</p>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-orange-600 text-3xl mb-2">🔧</div>
-                <h4 className="font-semibold">Industrial Boilers</h4>
-                <p className="text-sm text-gray-600">
-                  Steam generation systems
-                </p>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-orange-600 text-3xl mb-2">🏗️</div>
-                <h4 className="font-semibold">Flue‑Gas Stacks</h4>
-                <p className="text-sm text-gray-600">Industrial emissions</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Applications */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6">Applications</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🏭</div>
-                <h4 className="font-semibold">Industrial Parks</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🎓</div>
-                <h4 className="font-semibold">Campuses</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🏥</div>
-                <h4 className="font-semibold">Hospitals</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🏨</div>
-                <h4 className="font-semibold">Hotels</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🌆</div>
-                <h4 className="font-semibold">District Energy Systems</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">🏗️</div>
-                <h4 className="font-semibold">Manufacturing Plants</h4>
-              </div>
-              <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                <div className="text-blue-600 text-3xl mb-2">💻</div>
-                <h4 className="font-semibold">Data Centers</h4>
-              </div>
-            </div>
-          </div>
-
-          {/* Benefits */}
-          <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-8 mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center">
-              Environmental & Economic Benefits
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-green-600 text-2xl">♻️</span>
-                </div>
-                <h4 className="font-semibold mb-2">Waste Heat Recovery</h4>
-                <p className="text-gray-600 text-sm">
-                  Captures and converts heat that would otherwise be lost,
-                  maximizing energy use
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-blue-600 text-2xl">💰</span>
-                </div>
-                <h4 className="font-semibold mb-2">Energy Savings</h4>
-                <p className="text-gray-600 text-sm">
-                  Significantly reduces operational costs and electricity demand
-                </p>
-              </div>
-              <div className="text-center">
-                <div className="bg-orange-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <span className="text-orange-600 text-2xl">🌱</span>
-                </div>
-                <h4 className="font-semibold mb-2">Carbon Reduction</h4>
-                <p className="text-gray-600 text-sm">
-                  Lowers facility carbon footprint by efficiently utilizing
-                  waste heat and avoiding harmful refrigerant
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* CTA Section */}
-          <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Transform Your Waste Heat into Valuable Energy
-            </h3>
-            <p className="text-lg mb-6">
-              Discover how our Waste-Heat-Driven Chillers can improve your
-              energy efficiency and reduce costs.
-            </p>
-            <Link
-              href="/contact-us"
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            >
-              Get a Consultation
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <PDPTemplate
+      heroImage="/images/wasteHeat.jpg"
+      title="Waste-Heat-Driven Vapour Absorption Chiller"
+      tagline="Convert surplus industrial heat into free cooling - zero additional fuel, maximum energy recovery"
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },
+        { label: "Waste Heat Chiller" },
+      ]}
+      definitionTerm="Waste-Heat-Driven Absorption Chiller"
+      definitionText="A waste-heat-driven absorption chiller captures low-grade thermal energy that would otherwise be exhausted into the atmosphere - such as exhaust gas, jacket water, or low-pressure steam from engines, turbines, or industrial processes - and converts it into chilled water for cooling. Because the driving energy is 'free' waste heat, these chillers deliver cooling at near-zero marginal fuel cost."
+      introContent={
+        <>
+          <p className="text-lg leading-relaxed mb-6">
+            BROAD India&apos;s Waste-Heat-Driven Vapour Absorption Chiller is an energy recovery solution that leverages low-grade thermal energy from industrial processes. By converting waste heat - exhaust gas from turbines, jacket water from engines, or low-pressure steam - into chilled water, this system delivers what is effectively &quot;free cooling&quot; and drastically reduces a facility&apos;s overall energy intensity.
+          </p>
+          <p className="text-lg leading-relaxed">
+            India&apos;s industrial sector generates vast amounts of surplus heat from power generation, chemical processing, steel manufacturing, and refining. Rather than exhausting this energy into the atmosphere, BROAD&apos;s waste-heat chillers monetise it - turning a thermal liability into measurable operational savings and lower carbon emissions. This closed-loop approach is the cornerstone of a circular energy economy.
+          </p>
+        </>
+      }
+      specs={[
+        { label: "Cooling capacity", value: "100–3,300 TR" },
+        { label: "Heat source range", value: "70–500°C+" },
+        { label: "Marginal energy cost", value: "Zero Fuel Cost" },
+        { label: "Heat source type", value: "Steam / Exhaust" },
+      ]}
+      modelTable={[
+        {
+          modelNumber: "Exhaust Driven",
+          capacity: "100 - 3,300 TR",
+          dimensions: "Varies by capacity",
+          energyInput: "Turbine Exhaust (280–532°C)"
+        },
+        {
+          modelNumber: "Jacket Water Driven",
+          capacity: "100 - 3,300 TR",
+          dimensions: "Varies by capacity",
+          energyInput: "Engine Water (70–95°C)"
+        }
+      ]}
+      features={[
+        { icon: <Recycle size={20} />, title: "Full Waste Heat Recovery", description: "Captures exhaust gas (280–532°C), jacket water (70–95°C), and low-pressure steam to produce chilled water at no additional fuel cost." },
+        { icon: <Shield size={20} />, title: "Robust Industrial Design", description: "Corrosion-resistant heat exchangers and anti-crystallisation controls engineered for 24/7 operation in harsh industrial environments." },
+        { icon: <Settings size={20} />, title: "Automated Operation", description: "Intelligent load-following controls automatically modulate capacity based on available waste heat and cooling demand." },
+        { icon: <Wrench size={20} />, title: "Low Maintenance", description: "Virtually no moving parts in the refrigeration cycle - minimal wear, minimal servicing, and operational lifespans exceeding 25 years." },
+        { icon: <Zap size={20} />, title: "Near-Zero Electricity", description: "Only minimal electricity needed for control systems and pumps - the absorption cycle itself is entirely heat-driven." },
+      ]}
+      applications={[
+        { icon: <Factory size={20} />, title: "Petrochemical & Chemical Plants" },
+        { icon: <Factory size={20} />, title: "Steel & Metal Manufacturing" },
+        { icon: <Landmark size={20} />, title: "Power Plants & Cogeneration" },
+        { icon: <Factory size={20} />, title: "Oil Refineries" },
+        { icon: <Building2 size={20} />, title: "Cement & Glass Plants" },
+        { icon: <Hospital size={20} />, title: "Pharmaceutical Facilities" },
+      ]}
+      benefits={[
+        { icon: <DollarSign size={20} />, title: "Free Cooling", description: "Driving energy is waste heat - delivering cooling at near-zero marginal fuel cost with rapid ROI, often within 2–3 years." },
+        { icon: <Leaf size={20} />, title: "Carbon Reduction", description: "Eliminates the need for electrically-driven compressor chillers, significantly reducing CO₂ emissions and supporting ESG targets." },
+        { icon: <Zap size={20} />, title: "Grid Independence", description: "Reduces electrical peak demand by up to 90%, freeing up power infrastructure for core manufacturing processes." },
+        { icon: <Shield size={20} />, title: "Operational Resilience", description: "Independent of grid stability - ideal for facilities in regions with unreliable power supply or high peak tariffs." },
+      ]}
+      faqs={[
+        {
+          question: "What types of waste heat can drive a BROAD absorption chiller?",
+          answer: "BROAD waste-heat chillers can be driven by a wide range of heat sources: exhaust gas from gas turbines, diesel engines, or furnaces (280–532°C); jacket water from engines (70–95°C); low-pressure steam (0.3–2 kg/cm²); and hot water from industrial processes (70–180°C). The chiller model is selected based on the temperature, flow rate, and availability of your specific waste heat source.",
+        },
+        {
+          question: "How much cooling can waste heat produce?",
+          answer: "The cooling output depends on the quantity and temperature of the waste heat. As a general guideline, for every 1 MW of available waste heat at 300°C+, a BROAD exhaust-driven chiller can produce approximately 0.7–1.0 MW of cooling. For lower-temperature sources (hot water at 90°C), the ratio is approximately 0.5–0.7 MW of cooling per MW of heat input.",
+        },
+        {
+          question: "What is the payback period for a waste-heat absorption chiller?",
+          answer: "Because the driving energy is free waste heat, the payback period is typically 2–3 years for facilities with consistent waste heat availability. The ROI is calculated based on the electricity savings from displacing conventional electric chillers, plus any carbon credit or compliance benefits. Facilities running turbines, engines, or furnaces 24/7 see the fastest returns.",
+        },
+      ]}
+      downloads={[
+        { title: "Waste-Heat Recovery Brochure", size: "3.7 MB", type: "PDF" },
+        { title: "Industrial Savings Whitepaper", size: "5.1 MB", type: "PDF" },
+      ]}
+    />
   );
-};
-
-export default WasteHeatChiller;
+}

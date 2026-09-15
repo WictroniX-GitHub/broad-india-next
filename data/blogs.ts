@@ -1229,7 +1229,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-06-22",
@@ -1465,7 +1465,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-06-18",
@@ -1672,7 +1672,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-06-14",
@@ -1875,7 +1875,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-06-10",
@@ -2076,7 +2076,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-06-06",
@@ -2259,7 +2259,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-05-22",
@@ -2432,7 +2432,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-05-18",
@@ -2630,7 +2630,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-05-14",
@@ -2834,7 +2834,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-05-09",
@@ -3042,7 +3042,7 @@ export const blogs: Blog[] = [
             "url": "https://www.broadindia.com",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://www.broadindia.com/images/logo.png"
+              "url": "https://www.broadindia.com/images/BROAD-India-final.png"
             }
           },
           "datePublished": "2026-05-05",

@@ -1,187 +1,88 @@
 "use client";
 
-import React, { useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import PDPTemplate from "@/components/PDPTemplate";
+import {
+  Zap, Leaf, Wrench, Thermometer, Flame, Shield,
+  Hospital, Hotel, Building2, Server, Factory, Landmark, Warehouse,
+  DollarSign, Settings, Gauge,
+} from "lucide-react";
 
-const Packaged = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
+export default function PackagedChiller() {
   return (
-    <div>
-      <div
-        className="w-full h-[72vh] bg-cover bg-center relative flex items-center justify-center"
-        style={{
-          backgroundImage: `url('https://broadusa.com/broad/wp-content/uploads/2020/03/package_chiller-300x279-1-200x186.jpg')`,
-        }}
-      >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-end p-10">
-          <h1
-            className="text-white text-4xl md:text-6xl font-bold"
-            data-aos="fade-up"
-          >
-            Packaged Absorption Chiller
-          </h1>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-4 py-4">
-        <nav className="text-sm text-gray-600">
-          <Link href="/" className="hover:text-blue-600">
-            Home
-          </Link>
-          <span className="mx-2">/</span>
-          <Link
-            href="/vapour-absorption-chiller"
-            className="hover:text-blue-600"
-          >
-            Vapour Absorption Chillers
-          </Link>
-          <span className="mx-2">/</span>
-          <span className="text-gray-800">Packaged</span>
-        </nav>
-      </div>
-
-      <div className="container mx-auto py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Packaged Absorption Chiller
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Factory-assembled packaged absorption chiller solutions
-            </p>
-          </div>{" "}
-          <div className="prose max-w-none mb-12">
-            <p className="text-lg leading-relaxed">
-              BROAD India&apos;s Packaged Absorption Chiller offers a complete,
-              factory-assembled solution designed for easy installation,
-              reliable performance, and versatility across industrial and
-              commercial cooling and heating needs.
-            </p>
-          </div>
-          {/* Package Chiller Model Section */}
-          <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center">
-              Package Chiller Model
-            </h3>
-            <div className="flex justify-center">
-              <div className="bg-white border border-gray-200 rounded-lg p-6 max-w-lg">
-                <div className="mb-4">
-                  <Image
-                    src="https://broadusa.com/broad/wp-content/uploads/2020/03/package_chiller-300x279-1-200x186.jpg"
-                    alt="Package Chiller"
-                    width={300}
-                    height={279}
-                    className="w-full rounded-md"
-                  />
-                </div>
-                <h4 className="text-lg font-semibold mb-3">
-                  Package Chiller (Enclosure, Pump System and Cooling Tower
-                  included)
-                </h4>
-                <ul className="text-sm text-gray-600 space-y-2">
-                  <li>• Direct Fire/Hot water/Steam/Exhaust</li>
-                  <li>• Capacity: 40-2200 ton</li>
-                  <li>• Gas Pressure: 0.16-0.51 kg/cm² (Standard)</li>
-                  <li>• Dual Fuel Burner (Gas and Oil, Low NOx, &lt; 10ppm)</li>
-                  <li>• Functionality: Cooling, Heating, Domestic Hot Water</li>
-                  <li>
-                    • Package Includes: Enclosure, Pump System, Cooling Tower
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          {/* Features, Applications, Benefits Section */}
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            {/* Features */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow">
-              <h4 className="text-xl font-semibold text-blue-700 mb-4">
-                Key Features
-              </h4>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>
-                  Fully factory tested and optimized for consistent quality and
-                  simplified commissioning
-                </li>
-                <li>
-                  Compact, self-contained units that reduce onsite installation
-                  time and complexity
-                </li>
-                <li>
-                  Magnetic bearing, oil-free technology available for
-                  high-performance applications
-                </li>
-                <li>
-                  Capable of generating cooling, heating, and domestic hot water
-                  from multiple heat sources
-                </li>
-                <li>
-                  Designed to significantly reduce electricity consumption and
-                  carbon emissions
-                </li>
-              </ul>
-            </div>
-            {/* Applications */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow">
-              <h4 className="text-xl font-semibold text-blue-700 mb-4">
-                Applications
-              </h4>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>Large commercial buildings</li>
-                <li>Industrial process cooling and heating</li>
-                <li>
-                  District cooling and Combined Cooling, Heating & Power (CCHP)
-                  systems
-                </li>
-                <li>
-                  Hotels, hospitals, campuses requiring integrated HVAC
-                  solutions
-                </li>
-              </ul>
-            </div>
-            {/* Benefits */}
-            <div className="bg-gray-50 rounded-lg p-6 shadow">
-              <h4 className="text-xl font-semibold text-blue-700 mb-4">
-                Benefits
-              </h4>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
-                <li>
-                  Reduced installation and commissioning costs with
-                  factory-assembled units
-                </li>
-                <li>
-                  Flexible fuel options and multi-function HVAC capabilities
-                </li>
-                <li>
-                  Supports sustainability goals by leveraging waste heat, steam,
-                  and renewable energy sources
-                </li>
-                <li>
-                  Proven reliability with over two decades of deployments in
-                  critical industries and large-scale facilities
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="bg-blue-600 text-white rounded-lg p-8 text-center">
-            <h3 className="text-2xl font-bold mb-4">
-              Ready-to-Install Solutions
-            </h3>
-            <Link
-              href="/contact-us"
-              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            >
-              Contact Us
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <PDPTemplate
+      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/package_chiller-300x279-1-200x186.jpg"
+      title="Packaged Absorption Chiller"
+      tagline="Complete, factory-assembled absorption chiller solutions - ready to install, ready to cool"
+      breadcrumbs={[
+        { label: "Home", href: "/" },
+        { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },
+        { label: "Packaged Chiller" },
+      ]}
+      introContent={
+        <>
+          <p className="text-lg leading-relaxed mb-4">
+            BROAD India&apos;s Packaged Absorption Chiller offers a complete, factory-assembled solution designed for easy installation, reliable performance, and versatility across industrial and commercial cooling and heating needs. Every unit is factory-tested and optimised before shipment, ensuring consistent quality and dramatically simplified on-site commissioning.
+          </p>
+          <p className="text-lg leading-relaxed">
+            With a capacity range of 40–2,200 TR and multi-fuel flexibility, the packaged chiller is ideal for facilities that need rapid deployment of non-electric cooling without dedicating engineering resources to complex field assembly. The integrated enclosure protects the equipment in outdoor installations, while the included pump system and cooling tower eliminate the need for separate procurement.
+          </p>
+        </>
+      }
+      specs={[
+        { label: "Cooling capacity", value: "40–2,200 TR" },
+        { label: "Energy source", value: "Gas/Oil/Steam" },
+        { label: "Gas pressure", value: "0.16–0.51 kg/cm²" },
+        { label: "NOx emissions", value: "< 10 ppm" },
+      ]}
+      modelTable={[
+        {
+          modelNumber: "BPE-40 to BPE-2200",
+          capacity: "40 TR - 2,200 TR",
+          dimensions: "Varies by capacity (Compact Package)",
+          energyInput: "Direct Fire / Hot water / Steam / Exhaust"
+        }
+      ]}
+      features={[
+        { icon: <Settings size={20} />, title: "Factory Tested & Optimised", description: "Every unit is fully tested at the factory for consistent quality and simplified commissioning on site." },
+        { icon: <Wrench size={20} />, title: "Compact Self-Contained Unit", description: "Reduces on-site installation time and complexity - enclosure, pumps, and cooling tower all included." },
+        { icon: <Zap size={20} />, title: "Multi-Source Operation", description: "Capable of generating cooling, heating, and domestic hot water from natural gas, steam, hot water, or exhaust." },
+        { icon: <Gauge size={20} />, title: "Magnetic Bearing Available", description: "Oil-free, magnetic-bearing technology option for high-performance applications demanding zero oil contamination." },
+        { icon: <Leaf size={20} />, title: "Reduced Electricity & Emissions", description: "Designed to significantly cut electricity consumption and carbon emissions versus conventional electric chillers." },
+      ]}
+      applications={[
+        { icon: <Building2 size={20} />, title: "Large Commercial Buildings" },
+        { icon: <Factory size={20} />, title: "Industrial Process Cooling" },
+        { icon: <Landmark size={20} />, title: "District Cooling / CCHP" },
+        { icon: <Hospital size={20} />, title: "Hospitals" },
+        { icon: <Hotel size={20} />, title: "Hotels & Campuses" },
+        { icon: <Warehouse size={20} />, title: "Outdoor Installations" },
+      ]}
+      benefits={[
+        { icon: <DollarSign size={20} />, title: "Lower Installation Costs", description: "Factory-assembled units reduce on-site construction, procurement, and commissioning costs significantly." },
+        { icon: <Flame size={20} />, title: "Flexible Fuel Options", description: "Multi-fuel capability (gas, oil, steam, exhaust) and multi-function HVAC in a single compact package." },
+        { icon: <Leaf size={20} />, title: "Sustainability Goals", description: "Leverage waste heat, steam, and renewable energy sources to meet corporate ESG and net-zero targets." },
+        { icon: <Shield size={20} />, title: "Proven Reliability", description: "Over two decades of deployments in critical industries and large-scale facilities worldwide." },
+      ]}
+      faqs={[
+        {
+          question: "What is included in a BROAD Packaged Absorption Chiller?",
+          answer: "A BROAD Packaged Chiller is a complete, factory-assembled unit that includes the absorption chiller itself, a weather-proof enclosure, the chilled water and cooling water pump systems, and the cooling tower - all pre-integrated and factory-tested. This eliminates the need for separate procurement and on-site assembly of each component.",
+        },
+        {
+          question: "What capacity range is available for the Packaged Chiller?",
+          answer: "The Packaged Absorption Chiller is available in capacities ranging from 40 TR to 2,200 TR (approximately 140 kW to 7,740 kW). This range covers requirements from mid-sized commercial buildings to large industrial process cooling installations.",
+        },
+        {
+          question: "What fuel types can the Packaged Chiller use?",
+          answer: "The Packaged Chiller features a dual-fuel burner that can run on natural gas or light fuel oil. It can also be configured for steam-driven, hot-water-driven, or exhaust-gas-driven operation, making it extremely versatile for facilities with varying heat source availability.",
+        },
+      ]}
+      downloads={[
+        { title: "Packaged Chiller Product Brochure", size: "2.4 MB", type: "PDF" },
+        { title: "Technical Specifications Sheet", size: "1.1 MB", type: "PDF" },
+        { title: "Installation & Operation Manual", size: "5.6 MB", type: "PDF" },
+        { title: "CAD Drawings (Standard Dimensions)", size: "8.2 MB", type: "DWG" },
+      ]}
+    />
   );
-};
-
-export default Packaged;
+}
