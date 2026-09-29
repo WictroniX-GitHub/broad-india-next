@@ -3,20 +3,28 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronRight, Download, Send } from "lucide-react";
-import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
+import { ArrowRight, ArrowUpRight, Download, FileText, Phone, Send } from "lucide-react";
 import { FadeInStaggerContainer, FadeInStaggerItem } from "@/components/ui/FadeInStagger";
 import ProductFAQ, { type FAQItem } from "@/components/ProductFAQ";
 import ContactForm from "@/components/ContactForm";
+import PageHero from "@/components/ds/PageHero";
+import SectionHeader from "@/components/ds/SectionHeader";
+import StatStrip from "@/components/ds/StatStrip";
+import IconFeatureCard from "@/components/ds/IconFeatureCard";
+import { cta } from "@/components/ds/cta";
+import type { BreadcrumbItem } from "@/components/ds/Breadcrumbs";
+import ScrollSpyNav from "@/components/product/ScrollSpyNav";
+import ProductMedia from "@/components/product/ProductMedia";
+import WorkingPrinciple from "@/components/product/WorkingPrinciple";
+import ModelFinder, { type ModelVariant } from "@/components/product/ModelFinder";
+import ProofSection, { type ReferenceProject } from "@/components/product/ProofSection";
+import { relatedProducts } from "@/data/products";
+import { cn } from "@/lib/utils";
 
 /* ------------------------------------------------------------------ */
-/*  Types                                                              */
+/*  Types (unchanged public API)                                       */
 /* ------------------------------------------------------------------ */
-
-interface BreadcrumbItem {
-  label: string;
-  href?: string;
-}
 
 interface SpecItem {
   label: string;
@@ -30,27 +38,14 @@ interface IconGridItem {
   icon: React.ReactNode;
 }
 
-interface ModelVariant {
-  modelNumber: string;
-  capacity: string;
-  dimensions: string;
-  energyInput: string;
-}
-
 interface DownloadItem {
   title: string;
   size: string;
   type: string;
+  href?: string;
 }
 
-export interface CaseStudy {
-  id: string | number;
-  title: string;
-  metric: string;
-  industry: string;
-  image: string;
-  description: string;
-}
+export type CaseStudy = ReferenceProject;
 
 export interface PDPTemplateProps {
   heroImage: string;
@@ -69,58 +64,31 @@ export interface PDPTemplateProps {
   downloads?: DownloadItem[];
   certifications?: React.ReactNode;
   customSections?: React.ReactNode;
+  /** Extra reference projects; BROAD India case studies are matched automatically from data/caseStudies. */
   caseStudies?: CaseStudy[];
   catalogueUrl?: string;
+  /** Show the absorption-cycle diagram. Defaults to on for the vapour absorption chiller family. */
+  showPrinciple?: boolean;
 }
 
-/* ------------------------------------------------------------------ */
-/*  Subcomponents                                                      */
-/* ------------------------------------------------------------------ */
+const TABS = [
+  { id: "overview", label: "Overview" },
+  { id: "specs", label: "Specifications" },
+  { id: "how-it-works", label: "How it works" },
+  { id: "models", label: "Models" },
+  { id: "features", label: "Features" },
+  { id: "applications", label: "Applications" },
+  { id: "case-studies", label: "Case studies" },
+  { id: "faqs", label: "FAQs" },
+];
 
-function ProductRFQForm({ productName }: { productName: string }) {
+function Block({ id, eyebrow, title, children, className }: { id?: string; eyebrow?: string; title: string; children: React.ReactNode; className?: string }) {
   return (
-    <div className="bg-white rounded-3xl p-8 md:p-12 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100">
-      <div className="mb-8">
-        <h3 className="text-2xl font-bold text-gray-900 mb-2">Request a Quote</h3>
-        <p className="text-gray-600 font-light">Get custom pricing and engineering specifications for the {productName}.</p>
-      </div>
-      
-      <form action="https://formspree.io/f/xqeypqdv" method="post" className="space-y-6">
-        {/* Hidden field for product context */}
-        <input type="hidden" name="Product_Interest" value={productName} />
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="space-y-2">
-            <label className="text-sm font-semibold text-gray-700">Full Name</label>
-            <input type="text" name="name" required className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
-          </div>
-          <div className="space-y-2">
-            <label className="text-sm font-semibold text-gray-700">Email Address</label>
-            <input type="email" name="email" required className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
-          </div>
-        </div>
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="space-y-2">
-            <label className="text-sm font-semibold text-gray-700">Company Name</label>
-            <input type="text" name="company" className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
-          </div>
-          <div className="space-y-2">
-            <label className="text-sm font-semibold text-gray-700">Required Capacity (e.g. 500 TR)</label>
-            <input type="text" name="capacity" className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" />
-          </div>
-        </div>
-
-        <div className="space-y-2">
-          <label className="text-sm font-semibold text-gray-700">Project Details</label>
-          <textarea name="message" rows={4} className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none" />
-        </div>
-
-        <button type="submit" className="w-full md:w-auto px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold flex items-center justify-center gap-2 transition-colors">
-          <Send size={18} /> Request Quote
-        </button>
-      </form>
-    </div>
+    <section id={id} className={cn("scroll-mt-40 border-b border-gray-100 py-12 last:border-0 md:py-16", className)}>
+      {eyebrow && <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-brand-600">{eyebrow}</p>}
+      <h2 className="mb-8 text-2xl md:text-3xl font-bold tracking-tight text-gray-900 [text-wrap:balance]">{title}</h2>
+      {children}
+    </section>
   );
 }
 
@@ -146,295 +114,269 @@ export default function PDPTemplate({
   certifications,
   customSections,
   caseStudies = [],
+  catalogueUrl,
+  showPrinciple,
 }: PDPTemplateProps) {
-  
+  const path = usePathname() ?? "";
+  const principle = showPrinciple ?? path.startsWith("/vapour-absorption-chiller");
+  const related = relatedProducts(path);
+  const category = breadcrumbs.length > 2 ? breadcrumbs[breadcrumbs.length - 2]?.label : "Product";
+  const [lead, ...otherBenefits] = benefits;
+
   return (
-    <div className="bg-slate-50 min-h-screen pb-24">
-      {/* 1. Clean Hero */}
-      <section className="relative pt-32 pb-20 bg-white border-b border-gray-200">
-        <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-          <nav className="flex items-center space-x-2 text-sm text-gray-500 mb-8 font-medium">
-            {breadcrumbs.map((crumb, index) => (
-              <div key={index} className="flex items-center">
-                {index > 0 && <ChevronRight size={14} className="mx-2 text-gray-400" />}
-                {crumb.href ? (
-                  <Link href={crumb.href} className="hover:text-blue-600 transition-colors">
-                    {crumb.label}
-                  </Link>
-                ) : (
-                  <span className="text-gray-900">{crumb.label}</span>
-                )}
-              </div>
+    <div className="bg-white pb-20 xl:pb-0">
+      {/* 1. Split hero */}
+      <PageHero
+        variant="light"
+        breadcrumbs={breadcrumbs}
+        eyebrow={category}
+        title={title}
+        subtitle={tagline}
+        actions={
+          <>
+            <a href="#rfq" className={cta({ size: "lg" })}>
+              <Send size={18} /> Request a quote
+            </a>
+            {catalogueUrl ? (
+              <a href={catalogueUrl} target="_blank" rel="noopener noreferrer" className={cta({ variant: "outline", size: "lg" })}>
+                <Download size={18} /> Download catalogue
+              </a>
+            ) : (
+              <a href="#resources" className={cta({ variant: "outline", size: "lg" })}>
+                <FileText size={18} /> Technical resources
+              </a>
+            )}
+          </>
+        }
+        aside={<ProductMedia src={heroImage} alt={title} priority />}
+      >
+        {specs.length > 0 && (
+          <ul className="flex flex-wrap gap-3">
+            {specs.slice(0, 4).map((s) => (
+              <li key={s.label} className="rounded-2xl border border-gray-100 bg-white px-4 py-2.5 shadow-sm">
+                <span className="block text-[11px] font-semibold uppercase tracking-wider text-gray-500">{s.label}</span>
+                <span className="font-bold text-gray-900">{s.value}</span>
+              </li>
             ))}
-          </nav>
-          
-          <div className="flex flex-col lg:flex-row gap-16 items-center">
-            <div className="lg:w-1/2">
-              <motion.h1 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-900 mb-6 tracking-tight leading-tight [text-wrap:balance]"
-              >
-                {title}
-              </motion.h1>
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1 }}
-                className="text-xl text-blue-600 font-medium mb-8"
-              >
-                {tagline}
-              </motion.div>
-              <motion.div 
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                className="prose prose-lg text-gray-600 font-light leading-relaxed mb-8 [text-wrap:pretty]"
-              >
-                {definitionTerm && definitionText && (
-                  <div className="bg-slate-50 border-l-4 border-blue-600 p-6 rounded-r-2xl mb-8 shadow-sm">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">{definitionTerm}</h3>
-                    <p className="text-gray-700 m-0">{definitionText}</p>
+          </ul>
+        )}
+      </PageHero>
+
+      {/* 2. Sticky scroll-spy navigation */}
+      <ScrollSpyNav tabs={TABS} cta={{ label: "Request a quote", href: "#rfq" }} />
+
+      {/* 3. Body + sticky quote rail */}
+      <div className="container mx-auto max-w-7xl px-4 md:px-8">
+        <div className="grid gap-12 xl:grid-cols-[minmax(0,1fr)_20rem]">
+          <div className="min-w-0">
+            <Block id="overview" eyebrow="Overview" title={`About the ${title}`}>
+              {definitionTerm && definitionText && (
+                <div className="mb-8 rounded-2xl border-l-4 border-brand-600 bg-slate-50 p-6">
+                  <h3 className="mb-2 text-lg font-bold text-gray-900">{definitionTerm}</h3>
+                  <p className="leading-relaxed text-gray-700">{definitionText}</p>
+                </div>
+              )}
+              <div className="font-light leading-relaxed text-gray-600 [text-wrap:pretty]">{introContent}</div>
+            </Block>
+
+            {(specs.length > 0 || certifications) && (
+              <Block id="specs" eyebrow="Key specifications" title="Performance at a glance">
+                {specs.length > 0 && <StatStrip stats={specs.map((s) => ({ value: s.value, label: s.label, icon: s.icon }))} />}
+                {certifications && <div className="mt-10">{certifications}</div>}
+              </Block>
+            )}
+
+            {principle && (
+              <Block id="how-it-works" eyebrow="How it works" title="The absorption cycle, step by step">
+                <WorkingPrinciple />
+              </Block>
+            )}
+
+            {modelTable.length > 0 && (
+              <Block id="models" eyebrow="Model finder" title="Model Specifications">
+                <ModelFinder rows={modelTable} />
+              </Block>
+            )}
+
+            {features.length > 0 && (
+              <Block id="features" eyebrow="Engineering" title="Key Features">
+                <FadeInStaggerContainer className="grid gap-5 sm:grid-cols-2">
+                  {features.map((f) => (
+                    <FadeInStaggerItem key={f.title}>
+                      <IconFeatureCard icon={f.icon} title={f.title} description={f.description} tone="slate" />
+                    </FadeInStaggerItem>
+                  ))}
+                </FadeInStaggerContainer>
+              </Block>
+            )}
+
+            {lead && (
+              <Block eyebrow="Business case" title="Core Benefits">
+                <div className="grid gap-5 md:grid-cols-2">
+                  <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-8 text-white md:row-span-2">
+                    <div aria-hidden className="absolute -right-16 -top-16 h-56 w-56 rounded-full bg-brand-500/40 blur-3xl" />
+                    <div className="relative flex h-12 w-12 items-center justify-center rounded-xl bg-white/10 text-brand-300">{lead.icon}</div>
+                    <h3 className="relative mt-6 text-2xl font-bold tracking-tight">{lead.title}</h3>
+                    {lead.description && <p className="relative mt-3 font-light leading-relaxed text-white/75">{lead.description}</p>}
                   </div>
+                  {otherBenefits.map((b) => (
+                    <IconFeatureCard key={b.title} icon={b.icon} title={b.title} description={b.description} />
+                  ))}
+                </div>
+              </Block>
+            )}
+
+            {applications.length > 0 && (
+              <Block id="applications" eyebrow="Where it’s used" title="Applications">
+                <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {applications.map((a) => (
+                    <li key={a.title} className="group flex items-start gap-4 rounded-2xl border border-gray-100 bg-white p-4 transition-all hover:border-brand-200 hover:shadow-card">
+                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
+                        {a.icon}
+                      </span>
+                      <span>
+                        <span className="block font-semibold text-gray-900">{a.title}</span>
+                        {a.description && <span className="mt-1 block text-sm font-light text-gray-600">{a.description}</span>}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </Block>
+            )}
+
+            {customSections && <section className="border-b border-gray-100 py-12 md:py-16">{customSections}</section>}
+          </div>
+
+          {/* Sticky quote rail (desktop) */}
+          <aside className="hidden xl:block">
+            <div className="sticky top-40 mt-12 overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-card">
+              <div className="relative aspect-[16/9] bg-[radial-gradient(circle_at_50%_40%,#ffffff_0%,#eef2f7_75%)]">
+                <Image src={heroImage} alt="" fill sizes="20rem" className="object-contain p-4" />
+              </div>
+              <div className="p-6">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-600">{category}</p>
+                <p className="mt-1 font-bold leading-snug text-gray-900">{title}</p>
+                {specs.length > 0 && (
+                  <dl className="mt-4 space-y-2 border-t border-gray-100 pt-4 text-sm">
+                    {specs.slice(0, 3).map((s) => (
+                      <div key={s.label} className="flex justify-between gap-3">
+                        <dt className="text-gray-500">{s.label}</dt>
+                        <dd className="text-right font-semibold text-gray-900">{s.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
                 )}
-                {introContent}
-              </motion.div>
-              
-              <div className="flex flex-wrap gap-4 items-center">
-                <a href="#rfq" className="inline-flex px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-bold shadow-lg shadow-blue-600/30 transition-all hover:-translate-y-1">
-                  Request Specifications
+                <a href="#rfq" className={cn(cta({ size: "sm" }), "mt-6 w-full py-3")}>
+                  <Send size={16} /> Request a quote
+                </a>
+                <a href="tel:+919427851584" className={cn(cta({ variant: "outline", size: "sm" }), "mt-3 w-full py-3")}>
+                  <Phone size={16} /> +91 94278 51584
                 </a>
               </div>
             </div>
-            
-            <div className="lg:w-1/2 w-full">
-              <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-gray-100 bg-white">
-                <Image src={heroImage} alt={title} fill className="object-contain p-8" priority />
-              </div>
-            </div>
-          </div>
+          </aside>
         </div>
-      </section>
+      </div>
 
-      {/* 2. Certifications & Key Specs Strip */}
-      <section className="py-16 bg-slate-50 border-b border-gray-100">
-        <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-          {certifications && (
-            <div className="mb-12">
-              {certifications}
-            </div>
-          )}
+      {/* 4. Case studies */}
+      <ProofSection path={path} references={caseStudies} subtitle="Real-world implementations of this technology across industrial facilities." />
 
-          {specs.length > 0 && (
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {specs.map((spec, index) => (
-                <div key={index} className="bg-white border border-gray-100 rounded-2xl p-6 text-center shadow-[0_2px_10px_rgb(0,0,0,0.02)] transition-transform hover:-translate-y-1">
-                  <p className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">{spec.label}</p>
-                  <p className="text-2xl md:text-3xl font-bold text-blue-600">{spec.value}</p>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* 3. Specs Data Table */}
-      {modelTable.length > 0 && (
-        <section className="py-20 bg-white border-b border-gray-100">
-          <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-            <h3 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Model Specifications</h3>
-            <div className="overflow-x-auto bg-white rounded-2xl shadow-[0_4px_20px_rgb(0,0,0,0.03)] border border-gray-100">
-              <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="bg-slate-50 border-b border-gray-200">
-                    <th className="py-5 px-6 font-semibold text-gray-900 whitespace-nowrap sticky top-0 bg-slate-50">Model Number</th>
-                    <th className="py-5 px-6 font-semibold text-gray-900 whitespace-nowrap sticky top-0 bg-slate-50">Cooling Capacity</th>
-                    <th className="py-5 px-6 font-semibold text-gray-900 whitespace-nowrap sticky top-0 bg-slate-50">Dimensions (L×W×H)</th>
-                    <th className="py-5 px-6 font-semibold text-gray-900 whitespace-nowrap sticky top-0 bg-slate-50">Energy Input</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {modelTable.map((row, idx) => (
-                    <tr key={idx} className="border-b border-gray-100 hover:bg-blue-50/50 transition-colors">
-                      <td className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap">{row.modelNumber}</td>
-                      <td className="py-4 px-6 text-gray-600 whitespace-nowrap">{row.capacity}</td>
-                      <td className="py-4 px-6 text-gray-600 whitespace-nowrap">{row.dimensions}</td>
-                      <td className="py-4 px-6 text-gray-600 whitespace-nowrap">{row.energyInput}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* 4. Features & Benefits Icon Grids */}
-      <section className="py-20 bg-slate-50 border-b border-gray-100 relative">
-        <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-          <div className="flex flex-col lg:flex-row gap-16">
-            
-            {features.length > 0 && (
-              <div className="flex-1 group/container">
-                <h3 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Key Features</h3>
-                <FadeInStaggerContainer className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
-                  {features.map((item, idx) => {
-                    return (
-                      <FadeInStaggerItem key={idx}>
-                        <div className="bg-white/70 backdrop-blur-md p-6 rounded-2xl border border-white h-full shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 [transition-property:all] group-hover/container:[&:not(:hover)]:opacity-70 group-hover/container:[&:not(:hover)]:scale-[0.98]">
-                          <div className="w-12 h-12 rounded-xl bg-slate-50 text-blue-600 flex items-center justify-center mb-4 transition-colors">
-                            {item.icon}
-                          </div>
-                          <h4 className="font-bold text-gray-900 mb-2">{item.title}</h4>
-                          {item.description && <p className="text-sm text-gray-600 font-light">{item.description}</p>}
-                        </div>
-                      </FadeInStaggerItem>
-                    );
-                  })}
-                </FadeInStaggerContainer>
-              </div>
-            )}
-            
-            {applications.length > 0 && (
-              <div className="flex-1 group/container">
-                <h3 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Applications</h3>
-                <FadeInStaggerContainer className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
-                  {applications.map((item, idx) => {
-                    return (
-                      <FadeInStaggerItem key={idx}>
-                        <div className="bg-white/70 backdrop-blur-md p-6 rounded-2xl border border-white h-full shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 [transition-property:all] group-hover/container:[&:not(:hover)]:opacity-70 group-hover/container:[&:not(:hover)]:scale-[0.98]">
-                          <div className="w-12 h-12 rounded-xl bg-slate-50 text-blue-600 flex items-center justify-center mb-4 transition-colors">
-                            {item.icon}
-                          </div>
-                          <h4 className="font-bold text-gray-900 mb-2">{item.title}</h4>
-                          {item.description && <p className="text-sm text-gray-600 font-light">{item.description}</p>}
-                        </div>
-                      </FadeInStaggerItem>
-                    );
-                  })}
-                </FadeInStaggerContainer>
-              </div>
-            )}
-            
-          </div>
-
-          {benefits.length > 0 && (
-            <div className="mt-16 group/container">
-              <h3 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Core Benefits</h3>
-              <FadeInStaggerContainer className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
-                {benefits.map((item, idx) => {
-                  return (
-                    <FadeInStaggerItem key={idx}>
-                      <div className="bg-white/70 backdrop-blur-md p-6 rounded-2xl border border-white h-full shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 [transition-property:all] group-hover/container:[&:not(:hover)]:opacity-70 group-hover/container:[&:not(:hover)]:scale-[0.98]">
-                        <div className="w-12 h-12 rounded-xl bg-slate-50 text-blue-600 flex items-center justify-center mb-4 transition-colors">
-                          {item.icon}
-                        </div>
-                        <h4 className="font-bold text-gray-900 mb-2">{item.title}</h4>
-                        {item.description && <p className="text-sm text-gray-600 font-light">{item.description}</p>}
-                      </div>
-                    </FadeInStaggerItem>
-                  );
-                })}
-              </FadeInStaggerContainer>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* Custom Restored Legacy Sections */}
-      {customSections && (
-        <section className="py-20 bg-white border-b border-gray-100">
-          <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-            {customSections}
-          </div>
-        </section>
-      )}
-
-      {/* 5. Case Studies / Installations */}
-      {caseStudies.length > 0 && (
-        <section className="py-20 bg-slate-900 text-white border-b border-gray-100">
-          <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-            <div className="text-center mb-16">
-              <h3 className="text-3xl font-bold text-white mb-4 tracking-tight [text-wrap:balance]">Proven in the Field</h3>
-              <div className="w-24 h-1.5 bg-blue-500 mx-auto mb-6 rounded-full" />
-              <p className="text-lg text-white/70 font-light max-w-2xl mx-auto [text-wrap:pretty]">
-                Real-world implementations of this specific model across industrial facilities.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {caseStudies.map((install) => (
-                <div key={install.id} className="group h-full bg-white/5 backdrop-blur-xl rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 hover:bg-white/10 relative flex flex-col hover:-translate-y-2">
-                  <div className="relative w-full h-56 overflow-hidden bg-gray-800">
-                    <Image src={install.image} alt={install.title} fill className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" sizes="(max-width: 768px) 100vw, 33vw" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent transition-opacity" />
-                    
-                    <div className="absolute bottom-4 left-4 right-4">
-                      <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-2 shadow-sm backdrop-blur-md">
-                        {install.industry}
-                      </span>
-                      <h4 className="text-2xl font-bold text-white leading-tight">{install.title}</h4>
-                    </div>
-                  </div>
-                  <div className="p-6 flex flex-col flex-grow">
-                    <p className="text-blue-400 font-semibold text-sm mb-4">{install.metric}</p>
-                    <p className="text-gray-300 font-light text-sm mb-6 leading-relaxed flex-grow">
-                      {install.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* 5.5 FAQs */}
+      {/* 5. FAQs */}
       {faqs.length > 0 && (
-        <section id="faqs" className="py-20 bg-slate-50 scroll-mt-24">
-          <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight [text-wrap:balance]">Frequently Asked Questions</h2>
-              <div className="w-24 h-1.5 bg-blue-600 mx-auto rounded-full" />
-            </div>
-            <ProductFAQ faqs={faqs} />
+        <section id="faqs" className="scroll-mt-40 bg-white py-16 md:py-24">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8">
+            <SectionHeader title="Frequently Asked Questions" />
+            <ProductFAQ faqs={faqs} bare />
           </div>
         </section>
       )}
 
-      {/* 6. RFQ Form & Downloads */}
-      <section id="rfq" className="py-20 bg-white">
-        <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-          <div className="flex flex-col lg:flex-row gap-12">
-            <div className="flex-1">
-              <ContactForm />
+      {/* 6. RFQ + resources */}
+      <section id="rfq" className="scroll-mt-40 bg-slate-50 py-16 md:py-24">
+        <div className="container mx-auto max-w-7xl px-4 md:px-8">
+          <div className="grid gap-10 lg:grid-cols-12">
+            <div className="lg:col-span-8">
+              <ContactForm
+                productName={title}
+                title="Request a Quote"
+                subtitle={`Get custom pricing and engineering specifications for the ${title}.`}
+              />
             </div>
-            
-            <div className="lg:w-1/3">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Technical Resources</h3>
-              {downloads.length > 0 ? (
-                <div className="flex flex-col gap-4">
-                  {downloads.map((doc, idx) => (
-                    <a key={idx} href="#" className="group flex items-center justify-between p-4 bg-slate-50 rounded-xl border border-gray-100 hover:border-blue-300 hover:shadow-md transition-all hover:-translate-y-1">
-                      <div>
-                        <h4 className="font-bold text-gray-900 group-hover:text-blue-600 transition-colors">{doc.title}</h4>
-                        <p className="text-xs text-gray-500 uppercase">{doc.type} • {doc.size}</p>
-                      </div>
-                      <div className="w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white group-hover:scale-110 duration-300">
-                        <Download size={16} />
-                      </div>
-                    </a>
-                  ))}
-                </div>
-              ) : (
-                <p className="text-gray-500 font-light">Resources are currently being updated.</p>
-              )}
+            <div id="resources" className="scroll-mt-40 lg:col-span-4">
+              <h3 className="mb-6 text-2xl font-bold text-gray-900">Technical Resources</h3>
+              <div className="flex flex-col gap-4">
+                {catalogueUrl && (
+                  <a href={catalogueUrl} target="_blank" rel="noopener noreferrer" className="group flex items-center justify-between rounded-2xl border border-gray-100 bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-card">
+                    <span>
+                      <span className="block font-bold text-gray-900 group-hover:text-brand-700">Product catalogue</span>
+                      <span className="text-xs uppercase text-gray-500">PDF</span>
+                    </span>
+                    <Download size={18} className="text-brand-600" />
+                  </a>
+                )}
+                {downloads.map((doc) => (
+                  <a
+                    key={doc.title}
+                    href={doc.href ?? "#rfq"}
+                    {...(doc.href ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    className="group flex items-center justify-between rounded-2xl border border-gray-100 bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-card"
+                  >
+                    <span>
+                      <span className="block font-bold text-gray-900 group-hover:text-brand-700">{doc.title}</span>
+                      <span className="text-xs uppercase text-gray-500">
+                        {doc.type} • {doc.size}
+                        {!doc.href && " • on request"}
+                      </span>
+                    </span>
+                    <span className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
+                      {doc.href ? <Download size={16} /> : <Send size={16} />}
+                    </span>
+                  </a>
+                ))}
+                {downloads.length === 0 && !catalogueUrl && <p className="font-light text-gray-500">Resources are currently being updated.</p>}
+              </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* 7. Related products */}
+      {related.length > 0 && (
+        <section className="bg-white py-16 md:py-24">
+          <div className="container mx-auto max-w-7xl px-4 md:px-8">
+            <SectionHeader align="left" eyebrow="Explore more" title="Related products" />
+            <div className="grid gap-6 md:grid-cols-3">
+              {related.map((p) => (
+                <Link key={p.href} href={p.href} className="group overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-card-hover">
+                  <div className="relative aspect-[16/10] bg-[radial-gradient(circle_at_50%_40%,#ffffff_0%,#eef2f7_75%)]">
+                    <Image src={p.image} alt={p.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-contain p-6 transition-transform duration-700 group-hover:scale-105" />
+                  </div>
+                  <div className="flex items-center justify-between gap-4 p-6">
+                    <span>
+                      <span className="block font-bold text-gray-900 group-hover:text-brand-700">{p.title}</span>
+                      {p.capacity && <span className="text-sm text-gray-500">{p.capacity}</span>}
+                    </span>
+                    <ArrowUpRight size={18} className="shrink-0 text-brand-600 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Mobile / tablet quote bar */}
+      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-gray-200 bg-white/95 p-3 backdrop-blur-lg xl:hidden">
+        <div className="container mx-auto flex max-w-3xl items-center gap-3">
+          <p className="hidden min-w-0 flex-1 truncate text-sm font-semibold text-gray-900 sm:block">{title}</p>
+          <a href="tel:+919427851584" aria-label="Call BROAD India" className={cn(cta({ variant: "outline", size: "sm" }), "px-3 py-2.5")}>
+            <Phone size={16} />
+          </a>
+          <a href="#rfq" className={cn(cta({ size: "sm" }), "flex-1 py-2.5 sm:flex-none")}>
+            Request a quote <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

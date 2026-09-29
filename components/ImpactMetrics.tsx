@@ -5,11 +5,10 @@ import {
   Activity,
   MapPin,
   TrendingDown,
-  Settings2,
   CalendarDays,
-  ShieldCheck
 } from "lucide-react";
 import { FadeInStaggerContainer, FadeInStaggerItem } from "@/components/ui/FadeInStagger";
+import { CountUpValue } from "@/components/ds/StatStrip";
 
 const metrics = [
   {
@@ -73,7 +72,9 @@ export default function ImpactMetrics() {
                     <Icon size={24} strokeWidth={2.5} />
                   </div>
                   <div className="flex items-baseline justify-center gap-1 mb-1">
-                    <span className="text-3xl md:text-4xl font-bold tracking-tight">{metric.value}</span>
+                    <span className="text-3xl md:text-4xl font-bold tracking-tight">
+                      <CountUpValue value={metric.value} />
+                    </span>
                     {metric.unit && (
                       <span className="text-blue-200 font-semibold text-sm md:text-base">{metric.unit}</span>
                     )}

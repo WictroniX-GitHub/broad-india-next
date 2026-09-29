@@ -1,10 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from "next";
+import { redirects } from "./lib/redirects";
+
+const nextConfig: NextConfig = {
   reactStrictMode: true, // Improves debugging & performance
   images: {
     qualities: [25, 50, 75, 80, 90, 100],
     remotePatterns: [
-      { protocol: "https", hostname: "broadusa.com" },
       { protocol: "https", hostname: "www.jswsteel.in" },
       { protocol: "https", hostname: "www.constructionweekonline.in" },
       { protocol: "https", hostname: "upload.wikimedia.org" },
@@ -22,56 +23,15 @@ const nextConfig = {
     scrollRestoration: true, // Enables native browser scroll restoration
   },
   async redirects() {
-    return [
-      {
-        source: "/hvac-systems",
-        destination: "/vapour-absorption-chiller",
-        permanent: true,
-      },
-      {
-        source: "/cchp",
-        destination: "/cchp-systems",
-        permanent: true,
-      },
-      {
-        source: "/articles/:slug*",
-        destination: "/blogs/:slug*",
-        permanent: true,
-      },
-      // Fix broken slug with spaces
-      {
-        source: "/blogs/real%20-%20cost%20-%20absorption%20-%20chillers%20-%20india%20-%20capex%20-%20opex%20-%20breakdown",
-        destination: "/blogs/real-cost-absorption-chillers-india-capex-opex-breakdown",
-        permanent: true,
-      },
-      // Group C: Blog competing with product page — rename to educational angle
-      {
-        source: "/blogs/vapor-absorption-chiller",
-        destination: "/blogs/how-vapour-absorption-chillers-work",
-        permanent: true,
-      },
-      // Group C: Merge "smart alternative" article into strongest "future" post
-      {
-        source: "/blogs/vapour-absorption-machine-vam-a-smart-alternative-for-energy-efficient-cooling",
-        destination: "/blogs/vapor-absorption-machine-vam-the-future-of-energy-efficient-cooling",
-        permanent: true,
-      },
-      // Group C: Merge "why future of cooling" article into strongest "future" post
-      {
-        source: "/blogs/why-vapor-absorption-chillers-are-the-future-of-cooling",
-        destination: "/blogs/vapor-absorption-machine-vam-the-future-of-energy-efficient-cooling",
-        permanent: true,
-      },
-      // Phase 3: Group D: Merge generic AI post into strongest AI monitoring post
-      {
-        source: "/blogs/how-ai-powered-hvac-system-optimization-is-revolutionizing-energy-efficiency",
-        destination: "/blogs/ai-machine-learning-hvac",
-        permanent: true,
-      },
-    ];
+    return redirects;
   },
   async headers() {
     return [
+      // Gated case-study PDFs: reachable by direct link, kept out of search indexes
+      {
+        source: "/case-studies/:path*.pdf",
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+      },
       {
         source: "/(.*)",
         headers: [
@@ -105,4 +65,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

@@ -1,137 +1,111 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft, Calendar, Clock, Tag, User } from "lucide-react";
-import Link from "next/link";
 import Image from "next/image";
-import { Blog } from "@/types/blog";
+import Link from "next/link";
+import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
+import type { Blog } from "@/types/blog";
 import BlogContentRenderer from "@/components/BlogContentRenderer";
 import RelatedPosts from "@/components/RelatedPosts";
 import ProductFAQ from "@/components/ProductFAQ";
+import Breadcrumbs from "@/components/ds/Breadcrumbs";
+import CTABand from "@/components/ds/CTABand";
+import { prepareArticleHtml } from "@/lib/articleHtml";
+import { ArticleTocCard, ArticleTocMobile } from "@/components/blog/ArticleToc";
 
 interface BlogDetailContentProps {
   blog: Blog;
   relatedBlogs?: Blog[];
+  /** FAQs shown on the page; the page emits the matching FAQPage JSON-LD. */
+  faqs: { question: string; answer: string }[];
 }
 
-const standardBlogFaqs = [
-  {
-    question: "What is a Vapour Absorption Chiller?",
-    answer: "It's a thermally-driven cooling system that uses water/LiBr solution and heat (from steam, hot water, exhaust, or gas) instead of electricity to produce chilled water, drastically reducing energy costs."
-  },
-  {
-    question: "Can BROAD chillers run on waste heat?",
-    answer: "Yes, our absorption chillers can capture waste heat from industrial processes, generator exhaust, or boiler steam to provide free cooling, resulting in significant OPEX savings."
-  },
-  {
-    question: "Do you provide after-sales service in India?",
-    answer: "Absolutely. BROAD India provides comprehensive design consultation, commissioning, operator training, and 24/7 after-sales support with remote monitoring capabilities."
-  }
-];
+export default function BlogDetailContent({ blog, relatedBlogs = [], faqs }: BlogDetailContentProps) {
+  const article = typeof blog.content === "string" ? prepareArticleHtml(blog.content, blog.title) : null;
+  const toc = article?.toc ?? [];
+  const showToc = toc.length >= 3;
+  // Most posts with their own FAQ already render it in the body; don't show it twice
+  const bodyText = typeof blog.content === "string" ? blog.content : JSON.stringify(blog.content);
+  const faqInBody = faqs.length > 0 && bodyText.includes(faqs[0].question.slice(0, 30));
 
-export default function BlogDetailContent({ blog, relatedBlogs = [] }: BlogDetailContentProps) {
   return (
-    <div className="min-h-screen bg-white text-black">
-      <div className="max-w-4xl mx-auto px-4 py-32">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="space-y-8"
-        >
-          <Link href="/blogs">
-            <Button
-              variant="ghost"
-              className="mb-8 text-primary hover:bg-gray-200"
-            >
-              <ArrowLeft className="mr-2 h-4 w-4" /> Back to blogs
-            </Button>
-          </Link>
-
-          <div className="relative w-full h-[400px]">
-            <Image
-              src={blog.image}
-              alt={blog.title}
-              fill
-              priority
-              className="object-cover rounded-lg"
-              sizes="(max-width: 768px) 100vw, 896px"
-            />
+    <div className="bg-white">
+      {/* Header */}
+      <header className="relative overflow-hidden border-b border-gray-100 pb-10 pt-32 md:pt-40">
+        <div aria-hidden className="pointer-events-none absolute -top-40 right-0 h-96 w-96 rounded-full bg-brand-100/70 blur-[100px]" />
+        <div className="container relative mx-auto max-w-4xl px-4 md:px-8">
+          {/* Breadcrumb JSON-LD is emitted by the page, so render the trail without a second schema */}
+          <Breadcrumbs
+            items={[{ label: "Home", href: "/" }, { label: "Blogs", href: "/blogs" }, { label: blog.category }]}
+            schema={false}
+            className="mb-8"
+          />
+          <span className="tag-pill">{blog.category}</span>
+          <h1 className="mt-4 text-3xl md:text-5xl font-bold leading-tight tracking-tight text-gray-900 [text-wrap:balance]">
+            {blog.title}
+          </h1>
+          {blog.description && <p className="mt-5 text-lg md:text-xl font-light text-gray-600 [text-wrap:pretty]">{blog.description}</p>}
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-gray-600">
+            <span className="inline-flex items-center gap-2 font-medium text-gray-900">
+              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-50 text-brand-600">
+                <User size={16} />
+              </span>
+              {blog.author || "BROAD India Engineering Team"}
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <Calendar size={16} /> {blog.date}
+            </span>
+            <span className="inline-flex items-center gap-1.5">
+              <Clock size={16} /> {blog.readTime}
+            </span>
           </div>
+        </div>
+      </header>
 
-          <div className="space-y-4">
-            <h1 className="text-4xl font-bold text-gray-900">{blog.title}</h1>
+      <div className="container mx-auto max-w-6xl px-4 md:px-8">
+        <div className="relative -mt-px aspect-[16/8] w-full overflow-hidden rounded-b-3xl md:rounded-3xl md:mt-10">
+          <Image src={blog.image} alt={blog.title} fill priority sizes="(max-width: 1200px) 100vw, 1152px" className="object-cover" />
+        </div>
 
-            <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-              <div className="flex items-center space-x-2">
-                <User className="h-4 w-4" />
-                <span className="font-medium text-gray-900">
-                  {blog.author || "BROAD India Engineering Team"}
-                </span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Calendar className="h-4 w-4" />
-                <span>{blog.date}</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Clock className="h-4 w-4" />
-                <span>{blog.readTime}</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Tag className="h-4 w-4" />
-                <span>{blog.category}</span>
-              </div>
-            </div>
-
-            {typeof blog.content === "string" ? (
-              <div
-                className="prose prose-lg max-w-none text-gray-800"
-                dangerouslySetInnerHTML={{ __html: blog.content }}
-              />
+        <div className={showToc ? "mt-12 grid gap-12 lg:grid-cols-[minmax(0,1fr)_18rem] xl:gap-16" : "mt-12"}>
+          <article id="article-content" className="mx-auto w-full max-w-3xl">
+            {showToc && <ArticleTocMobile items={toc} articleId="article-content" />}
+            {article ? (
+              <div className="article-body" dangerouslySetInnerHTML={{ __html: article.html }} />
             ) : (
-              <BlogContentRenderer content={blog.content} />
+              <BlogContentRenderer content={blog.content as Exclude<Blog["content"], string>} />
             )}
-          </div>
+          </article>
 
-          {/* Standard FAQ Section for all blogs */}
-          <div className="mt-12 pt-8 border-t border-gray-200">
-            <ProductFAQ faqs={standardBlogFaqs} />
-          </div>
+          {showToc && (
+            <aside className="hidden lg:block">
+              <ArticleTocCard items={toc} articleId="article-content" />
+            </aside>
+          )}
+        </div>
 
-          {/* Contact Us CTA Section */}
-          <div className="mt-8">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-8 text-center text-white shadow-lg">
-              <h2 className="text-2xl md:text-3xl font-bold mb-3">
-                Need Help With Your Cooling System?
-              </h2>
-              <p className="text-blue-100 mb-6 max-w-2xl mx-auto text-base md:text-lg">
-                BROAD India&apos;s engineering team can assess your facility&apos;s
-                cooling requirements and recommend the most energy-efficient
-                solution - from vapour absorption chillers to waste heat recovery
-                systems.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  href="/contact-us"
-                  className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-blue-700 bg-white rounded-lg hover:bg-blue-50 transition-colors shadow-sm"
-                >
-                  Contact Us Today
-                </Link>
-                <Link
-                  href="/faq"
-                  className="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white border-2 border-white/30 rounded-lg hover:bg-white/10 transition-colors"
-                >
-                  Browse FAQs
-                </Link>
-              </div>
-            </div>
+        {!faqInBody && (
+          <div className="mx-auto mt-16 max-w-3xl border-t border-gray-100 pt-12">
+            <h2 className="mb-8 text-2xl md:text-3xl font-bold tracking-tight text-gray-900">Frequently Asked Questions</h2>
+            <ProductFAQ faqs={faqs} bare schema={false} />
           </div>
+        )}
 
-          {/* Related Posts */}
+        <div className="mx-auto max-w-5xl">
           <RelatedPosts posts={relatedBlogs} />
-        </motion.div>
+        </div>
+
+        <div className="mx-auto mt-10 max-w-3xl">
+          <Link href="/blogs" className="inline-flex items-center gap-2 font-semibold text-brand-600 hover:text-brand-700">
+            <ArrowLeft size={16} /> Back to blogs
+          </Link>
+        </div>
       </div>
+
+      <CTABand
+        title="Need Help With Your Cooling System?"
+        text="BROAD India's engineering team can assess your facility's cooling requirements and recommend the most energy-efficient solution - from vapour absorption chillers to waste heat recovery systems."
+        primary={{ label: "Contact Us Today", href: "/contact-us" }}
+        secondary={{ label: "Browse FAQs", href: "/faq" }}
+        showContacts={false}
+      />
     </div>
   );
 }

@@ -13,6 +13,7 @@ export default function WasteHeatChiller() {
       heroImage="/images/wasteHeat.jpg"
       title="Waste-Heat-Driven Vapour Absorption Chiller"
       tagline="Convert surplus industrial heat into free cooling - zero additional fuel, maximum energy recovery"
+      catalogueUrl="/files/nonElec.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },

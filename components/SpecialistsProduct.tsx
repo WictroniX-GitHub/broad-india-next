@@ -11,7 +11,7 @@ const products = [
   {
     id: 1,
     title: "Vapour Absorption Chiller (VAC / VAM)",
-    image: "https://broadusa.com/broad/wp-content/uploads/2020/04/home_DFA.jpg",
+    image: "/images/products/direct-fired-chiller.jpg",
     description:
       "Thermally-driven cooling systems available in 40–3,300 TR capacity, powered by steam, waste heat, natural gas, or solar energy. Eliminate electricity-driven compressors and reduce peak demand by up to 90% across industrial and commercial facilities.",
     link: "/vapour-absorption-chiller",
@@ -20,7 +20,7 @@ const products = [
     id: 2,
     title: "Power Efficient Chiller",
     image:
-      "https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg",
+      "/images/products/power-efficient-chillers.jpg",
     description:
       "Magnetic-bearing, oil-free compressor technology achieving COP up to 11 - the highest in its class. Designed for high-performance applications where energy savings, whisper-quiet operation, and zero oil contamination are critical.",
     link: "/power-efficient-chiller",
@@ -29,7 +29,7 @@ const products = [
     id: 3,
     title: "CCHP Systems",
     image:
-      "https://broadusa.com/broad/wp-content/uploads/2020/04/home_CCHP-300x195.jpg",
+      "/images/products/cchp-system.jpg",
     description:
       "Trigeneration systems that produce cooling, heating, and power from a single natural gas source. Achieve 80–90% total energy utilisation, drastically reducing energy costs, carbon footprint, and grid dependency for large facilities.",
     link: "/cchp-systems",

@@ -10,7 +10,7 @@ import {
 export default function SingleStageChiller() {
   return (
     <PDPTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/single-stage-300x157-1-200x105.png"
+      heroImage="/images/products/single-stage-chiller.png"
       title="Single-Stage Absorption Chiller"
       tagline="Reliable, low-maintenance cooling driven by low-grade waste heat and hot water"
       breadcrumbs={[

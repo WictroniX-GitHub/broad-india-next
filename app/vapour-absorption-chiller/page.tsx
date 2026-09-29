@@ -38,7 +38,7 @@ const VapourAbsorptionChiller = () => {
 
   return (
     <CategoryTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/04/broadusa-products.jpg"
+      heroImage="/images/products/broad-product-range.jpg"
       title="Vapour Absorption Chillers"
       tagline="Pioneering Non-Electric Cooling with Thermal Energy"
       breadcrumbs={[
@@ -68,25 +68,25 @@ const VapourAbsorptionChiller = () => {
         {
           title: "Two-Stage Absorption Chiller",
           description: "Advanced dual-cycle system for high efficiency, reliability, and superior energy savings using steam or exhaust.",
-          image: "https://broadusa.com/broad/wp-content/uploads/2020/03/BH-Model.jpg",
+          image: "/images/products/bh-model-chiller.jpg",
           link: "/vapour-absorption-chiller/two-stage-chiller"
         },
         {
           title: "Single-Stage Absorption Chiller",
           description: "Proven, reliable, and cost-effective cooling using single-stage lithium bromide absorption technology.",
-          image: "https://broadusa.com/broad/wp-content/uploads/2020/03/BDS-model.jpg",
+          image: "/images/products/bds-steam-chiller.jpg",
           link: "/vapour-absorption-chiller/single-stage-chiller"
         },
         {
           title: "Multi-Energy Absorption Chiller",
           description: "Flexible solution capable of running on steam, hot water, exhaust gas, and natural gas simultaneously.",
-          image: "https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg",
+          image: "/images/products/bze-multi-energy-chiller.jpg",
           link: "/vapour-absorption-chiller/multi-energy-chiller"
         },
         {
           title: "Packaged Absorption Chiller",
           description: "Complete, factory-assembled solution for easy installation and reliable performance. Versatile cooling.",
-          image: "https://broadusa.com/broad/wp-content/uploads/2020/03/package_chiller-300x279-1-200x186.jpg",
+          image: "/images/products/packaged-chiller.jpg",
           link: "/vapour-absorption-chiller/packaged-chiller"
         }
       ]}

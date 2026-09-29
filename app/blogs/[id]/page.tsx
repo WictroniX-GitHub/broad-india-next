@@ -108,7 +108,7 @@ export default async function BlogsDetailPage({ params }: PageProps) {
       : undefined,
   };
 
-  // Standard fallback FAQs matching BlogDetailContent.tsx
+  // Fallback FAQs for posts without their own; the same list is rendered and emitted as schema
   const standardBlogFaqs = [
     {
       question: "What is a Vapour Absorption Chiller?",
@@ -173,7 +173,7 @@ export default async function BlogsDetailPage({ params }: PageProps) {
           ),
         }}
       />
-      <BlogDetailContent blog={blog} relatedBlogs={relatedBlogs} />
+      <BlogDetailContent blog={blog} relatedBlogs={relatedBlogs} faqs={faqItems} />
     </>
   );
 }

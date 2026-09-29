@@ -13,6 +13,7 @@ export default function Pumpsets() {
       heroImage="/images/broadPump.webp"
       title="Factory-Assembled Pumpsets"
       tagline="Pre-engineered, skid-mounted pumping solutions for seamless HVAC integration"
+      catalogueUrl="/files/pumpSet.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Pumpsets" },

@@ -10,9 +10,10 @@ import {
 export default function TwoStageChiller() {
   return (
     <PDPTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/BH-Model.jpg"
+      heroImage="/images/products/bh-model-chiller.jpg"
       title="Two-Stage Absorption Chiller"
       tagline="Advanced dual-cycle absorption technology for maximum efficiency and superior energy savings"
+      catalogueUrl="/files/nonElec.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },

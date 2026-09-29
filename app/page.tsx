@@ -8,7 +8,6 @@ import SpecialistsProduct from "@/components/SpecialistsProduct";
 import Sustainable from "@/components/Sustainable";
 import TrustedClients from "@/components/TrustedClient";
 import IntroText from "@/components/IntroText";
-import PromoPopup from "@/components/PromoPopup";
 import ProductFAQ from "@/components/ProductFAQ";
 import ImpactMetrics from "@/components/ImpactMetrics";
 import WhyNonElectric from "@/components/WhyNonElectric";
@@ -180,10 +179,6 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      <PromoPopup
-        imageUrl="/images/CII_Event_Banner.jpeg"
-        altText="CII Event Promotion"
-      />
       <h1 className="sr-only">Vapour Absorption Chillers (VAC / VAM) &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
       <script
         type="application/ld+json"

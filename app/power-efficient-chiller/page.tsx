@@ -8,7 +8,7 @@ import {
 export default function PowerEfficientChillerCategory() {
   return (
     <CategoryTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/04/home_power-efficient-chillers.jpg"
+      heroImage="/images/products/power-efficient-chillers.jpg"
       title="Power Efficient Chillers"
       tagline="Ultra-high-efficiency electric cooling using magnetic levitation"
       breadcrumbs={[
@@ -34,7 +34,7 @@ export default function PowerEfficientChillerCategory() {
         {
           title: "Magnetic Bearing Oil-Free Chiller",
           description: "Frictionless compressor technology delivering unmatched efficiency, silence, and reliability without the complications of an oil management system.",
-          image: "https://broadusa.com/broad/wp-content/uploads/2020/04/Magnetic-bearing-chiller.jpg",
+          image: "/images/products/magnetic-bearing-chiller.jpg",
           link: "/power-efficient-chiller/magnetic-bearing-oil-free"
         }
       ]}
