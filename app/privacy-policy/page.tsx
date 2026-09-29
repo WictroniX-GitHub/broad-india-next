@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Container from "@/components/Container";
+import LegalLayout from "@/components/ds/LegalLayout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - BROAD India | Data Protection & Privacy",
@@ -27,27 +27,23 @@ export const metadata: Metadata = {
   },
 };
 
+const TOC = [
+  { id: "introduction", title: "1. Introduction" },
+  { id: "data-we-collect", title: "2. Data We Collect" },
+  { id: "purpose-of-collection", title: "3. Purpose of Collection" },
+  { id: "data-sharing", title: "4. Data Sharing" },
+  { id: "international-transfers", title: "5. International Transfers" },
+  { id: "security-measures", title: "6. Security Measures" },
+  { id: "retention-policy", title: "7. Retention Policy" },
+  { id: "your-rights", title: "8. Your Rights" },
+  { id: "updates-to-policy", title: "9. Updates to Policy" },
+];
+
 export default function PrivacyPolicy() {
   return (
-    <div className="w-full overflow-hidden">
-      {/* Hero Section */}
-      <div className="w-full h-[40vh] bg-gradient-to-r from-blue-900 to-blue-700 flex justify-center items-center">
-        <div className="text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Privacy Policy
-          </h1>
-          <p className="text-xl md:text-2xl opacity-90">
-            Last updated: June 2025
-          </p>
-        </div>
-      </div>
-
-      {/* Content Section */}
-      <Container>
-        <div className="py-16">
-          <div className="max-w-4xl mx-auto prose prose-lg">
+    <LegalLayout title="Privacy Policy" updated="Last updated: June 2025" toc={TOC}>
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="introduction" className="text-3xl font-bold text-gray-900 mb-6">
                 1. Introduction
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -65,7 +61,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="data-we-collect" className="text-3xl font-bold text-gray-900 mb-6">
                 2. Data We Collect
               </h2>
               <div className="space-y-4">
@@ -102,7 +98,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="purpose-of-collection" className="text-3xl font-bold text-gray-900 mb-6">
                 3. Purpose of Collection
               </h2>
               <ul className="space-y-3 text-gray-700">
@@ -123,7 +119,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="data-sharing" className="text-3xl font-bold text-gray-900 mb-6">
                 4. Data Sharing
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -134,7 +130,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="international-transfers" className="text-3xl font-bold text-gray-900 mb-6">
                 5. International Transfers
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -145,7 +141,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="security-measures" className="text-3xl font-bold text-gray-900 mb-6">
                 6. Security Measures
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -156,7 +152,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="retention-policy" className="text-3xl font-bold text-gray-900 mb-6">
                 7. Retention Policy
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -166,7 +162,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="your-rights" className="text-3xl font-bold text-gray-900 mb-6">
                 8. Your Rights
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -183,7 +179,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="updates-to-policy" className="text-3xl font-bold text-gray-900 mb-6">
                 9. Updates to Policy
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -192,9 +188,6 @@ export default function PrivacyPolicy() {
                 use implies acceptance.
               </p>
             </section>
-          </div>
-        </div>
-      </Container>
-    </div>
+    </LegalLayout>
   );
 }

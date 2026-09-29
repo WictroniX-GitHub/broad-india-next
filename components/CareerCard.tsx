@@ -1,6 +1,8 @@
 "use client";
 
-import React from "react";
+import { ArrowRight, Briefcase, Download, GraduationCap, IndianRupee, MapPin, Target } from "lucide-react";
+import { cta } from "@/components/ds/cta";
+import { cn } from "@/lib/utils";
 
 type CareerCardProps = {
   title: string;
@@ -15,7 +17,7 @@ type CareerCardProps = {
   onApply: () => void;
 };
 
-const CareerCard: React.FC<CareerCardProps> = ({
+export default function CareerCard({
   title,
   location,
   experience,
@@ -26,80 +28,47 @@ const CareerCard: React.FC<CareerCardProps> = ({
   highlights,
   jdLink,
   onApply,
-}) => {
+}: CareerCardProps) {
+  const meta = [
+    { icon: <Briefcase size={16} />, label: "Experience", value: experience },
+    { icon: <IndianRupee size={16} />, label: "Salary range", value: salary },
+    { icon: <GraduationCap size={16} />, label: "Qualification", value: qualification },
+    { icon: <Target size={16} />, label: travelLabel, value: travelOrFocus },
+  ];
+
   return (
-    <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden flex flex-col transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 group">
-      {/* Card Header */}
-      <div className="p-7 border-b border-gray-100 bg-gradient-to-br from-[#0D1E3C] to-[#1A3460] relative overflow-hidden">
-        <div className="absolute -right-5 -top-5 w-24 h-24 rounded-full bg-blue-400/10" />
-        <div className="inline-flex items-center gap-2 bg-blue-400/20 border border-blue-400/30 text-[#00A3E0] text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-full mb-3">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#00A3E0] animate-pulse" />
-          Now Hiring
-        </div>
-        <h3 className="text-2xl font-bold text-white tracking-tight mb-2 relative z-10">
-          {title}
-        </h3>
-        <div className="flex items-center gap-1.5 text-white/60 text-sm relative z-10">
-          <svg
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-          {location}
-        </div>
-      </div>
+    <article className="group flex h-full flex-col overflow-hidden rounded-3xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover">
+      <header className="relative overflow-hidden bg-slate-900 p-7">
+        <div aria-hidden className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-brand-500/30 blur-3xl" />
+        <span className="relative inline-flex items-center gap-2 rounded-full border border-eco-400/30 bg-eco-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-widest text-eco-300">
+          <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-eco-400" />
+          Now hiring
+        </span>
+        <h3 className="relative mt-3 text-2xl font-bold tracking-tight text-white">{title}</h3>
+        <p className="relative mt-2 flex items-center gap-1.5 text-sm text-white/65">
+          <MapPin size={14} /> {location}
+        </p>
+      </header>
 
-      {/* Card Body */}
-      <div className="p-7 flex-1 flex flex-col gap-6">
-        {/* Meta Grid */}
-        <div className="grid grid-cols-2 gap-3">
-          <div className="bg-gray-50 border border-gray-100 rounded-xl p-3">
-            <div className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mb-1">
-              Experience
+      <div className="flex flex-1 flex-col gap-6 p-7">
+        <dl className="grid grid-cols-2 gap-3">
+          {meta.map((m) => (
+            <div key={m.label} className="rounded-xl bg-slate-50 p-3">
+              <dt className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-gray-500">
+                <span className="text-brand-600">{m.icon}</span>
+                {m.label}
+              </dt>
+              <dd className="text-sm font-semibold text-gray-900">{m.value}</dd>
             </div>
-            <div className="text-sm font-semibold text-[#0D1E3C]">
-              {experience}
-            </div>
-          </div>
-          <div className="bg-gray-50 border border-gray-100 rounded-xl p-3">
-            <div className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mb-1">
-              Salary Range
-            </div>
-            <div className="text-sm font-semibold text-[#0D1E3C]">{salary}</div>
-          </div>
-          <div className="bg-gray-50 border border-gray-100 rounded-xl p-3">
-            <div className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mb-1">
-              Qualification
-            </div>
-            <div className="text-sm font-semibold text-[#0D1E3C]">
-              {qualification}
-            </div>
-          </div>
-          <div className="bg-gray-50 border border-gray-100 rounded-xl p-3">
-            <div className="text-[10px] font-bold tracking-widest uppercase text-gray-400 mb-1">
-              {travelLabel}
-            </div>
-            <div className="text-sm font-semibold text-[#0D1E3C]">
-              {travelOrFocus}
-            </div>
-          </div>
-        </div>
+          ))}
+        </dl>
 
-        {/* Highlights */}
         <div>
-          <h4 className="text-[11px] font-bold tracking-widest uppercase text-blue-700 mb-3">
-            Role Highlights
-          </h4>
+          <h4 className="mb-3 text-xs font-semibold uppercase tracking-widest text-brand-700">Role highlights</h4>
           <ul className="space-y-2.5">
-            {highlights.map((item, idx) => (
-              <li key={idx} className="flex gap-3 text-sm text-gray-600 leading-relaxed">
-                <span className="text-[#00A3E0] font-bold mt-0.5">→</span>
+            {highlights.map((item) => (
+              <li key={item} className="flex gap-3 text-sm leading-relaxed text-gray-600">
+                <ArrowRight size={16} className="mt-0.5 shrink-0 text-brand-500" />
                 {item}
               </li>
             ))}
@@ -107,46 +76,14 @@ const CareerCard: React.FC<CareerCardProps> = ({
         </div>
       </div>
 
-      {/* Card Footer */}
-      <div className="p-7 border-t border-gray-100 flex gap-3">
-        <button
-          onClick={onApply}
-          className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg shadow-blue-600/20 active:scale-95"
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
-          Apply Now
+      <footer className="flex gap-3 border-t border-gray-100 p-7">
+        <button type="button" onClick={onApply} className={cn(cta({ size: "sm" }), "flex-1 py-3")}>
+          Apply now <ArrowRight size={16} />
         </button>
-        <a
-          href={jdLink}
-          download
-          className="flex items-center justify-center gap-2 py-3 px-4 border border-gray-200 rounded-xl text-gray-500 hover:text-blue-600 hover:border-blue-600 hover:bg-blue-50 text-sm font-semibold transition-all duration-200 whitespace-nowrap active:scale-95"
-        >
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-          >
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <polyline points="7 10 12 15 17 10" />
-            <line x1="12" y1="15" x2="12" y2="3" />
-          </svg>
-          Full JD
+        <a href={jdLink} download className={cn(cta({ variant: "outline", size: "sm" }), "py-3")}>
+          <Download size={16} /> Full JD
         </a>
-      </div>
-    </div>
+      </footer>
+    </article>
   );
-};
-
-export default CareerCard;
+}

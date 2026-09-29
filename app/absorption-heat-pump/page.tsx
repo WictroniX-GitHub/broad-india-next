@@ -13,6 +13,7 @@ export default function AbsorptionHeatPump() {
       heroImage="/images/Absorption Heat Pump.jpg"
       title="Absorption Heat Pumps"
       tagline="Recover and upgrade low-grade industrial waste heat into high-value heating"
+      catalogueUrl="/files/heatpump.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Absorption Heat Pump" },

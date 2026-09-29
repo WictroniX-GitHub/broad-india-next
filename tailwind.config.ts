@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
 
 export default {
     darkMode: ["class"],
@@ -10,6 +11,9 @@ export default {
   theme: {
   	extend: {
   		colors: {
+  			/* Design system: brand aliases. Swap the scale here to re-theme every page. */
+  			brand: colors.blue,
+  			eco: colors.green,
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -50,6 +54,11 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
+  		},
+  		boxShadow: {
+  			card: '0 8px 30px rgb(0 0 0 / 0.08)',
+  			'card-hover': '0 24px 48px -16px rgb(15 23 42 / 0.22)',
+  			brand: '0 10px 25px -5px rgb(37 99 235 / 0.35)'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

@@ -1,44 +1,14 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { FadeInStaggerContainer, FadeInStaggerItem } from "@/components/ui/FadeInStagger";
-import itcImg from "@/public/images/itc.webp";
+import CaseStudyCard from "@/components/CaseStudyCard";
+import { caseStudies } from "@/data/caseStudies";
 
-const installations = [
-  {
-    id: 1,
-    title: "JSW Bellary",
-    metric: "500 TR Cooling Capacity",
-    industry: "Steel & Manufacturing",
-    image: "/images/JSW_Bellary.avif",
-    slug: "jsw-bellary",
-    description:
-      "Deployed vapour absorption chillers at JSW Group's Bellary steel complex, one of India's largest integrated steel plants, delivering industrial-scale process cooling powered by waste heat recovery.",
-  },
-  {
-    id: 2,
-    title: "Indian Oil Corporation",
-    metric: "Waste Heat Recovery",
-    industry: "Oil & Gas",
-    image: "/images/indian-oil-recent-ints.jpg",
-    slug: "iocl-vadodara",
-    description:
-      "Installed waste-heat-driven absorption chillers at IOCL's Vadodara refinery, converting surplus process heat into chilled water for plant cooling - reducing electricity consumption and operational costs.",
-  },
-  {
-    id: 3,
-    title: "ITC Limited",
-    metric: "VAM for 4 Plants",
-    industry: "FMCG & Manufacturing",
-    image: itcImg,
-    slug: "itc-limited",
-    description:
-      "Supplied and commissioned Vapour Absorption Machines across four ITC manufacturing plants for process cooling applications, supporting ITC's sustainability and carbon-neutrality commitments.",
-  },
-];
+// Latest three from shared data (Kejriwal first)
+const installations = caseStudies.slice(0, 3);
 
 export default function RecentInstallations() {
   return (
@@ -82,72 +52,9 @@ export default function RecentInstallations() {
         </div>
 
         <FadeInStaggerContainer staggerDelay={0.15} className="flex overflow-x-auto snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] md:grid md:grid-cols-3 gap-6 pb-8 md:pb-0 -mx-4 px-4 md:mx-0 md:px-0">
-          {installations.map((install) => (
-            <FadeInStaggerItem key={install.id} className="w-[85vw] md:w-auto shrink-0 snap-center h-full">
-              <Link href={`/installations/${install.slug}`} className="block h-full group">
-                <div className="h-full bg-white/5 backdrop-blur-xl rounded-2xl overflow-hidden border border-white/10 shadow-2xl transition-all duration-500 hover:bg-white/10 relative flex flex-col">
-                  {/* Image */}
-                  <div className="relative w-full h-48 overflow-hidden">
-                    <motion.div
-                      className="w-full h-full"
-                      whileHover={{ scale: 1.05 }}
-                      transition={{ type: "spring", stiffness: 100, damping: 20 }}
-                    >
-                      <Image
-                        src={install.image}
-                        alt={install.title}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                      />
-                    </motion.div>
-                    {/* Subtle gradient overlay on image */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
-                  </div>
-
-                  {/* Content */}
-                  <div className="p-8 flex flex-col flex-grow">
-                    {/* Industry tag */}
-                    <div>
-                      <span className="inline-block px-4 py-1.5 rounded-full text-xs font-medium bg-blue-500/20 text-blue-300 border border-blue-500/30 mb-4 tracking-wide">
-                        {install.industry}
-                      </span>
-                    </div>
-
-                    <h3 className="text-xl font-bold text-white mb-2 tracking-tight group-hover:text-blue-300 transition-colors">
-                      {install.title}
-                    </h3>
-
-                    {/* Metric highlight */}
-                    <p className="text-green-400 font-medium text-sm mb-4">
-                      {install.metric}
-                    </p>
-
-                    <p className="text-white/70 text-sm md:text-base leading-relaxed mb-6 font-light flex-grow">
-                      {install.description}
-                    </p>
-
-                    {/* Hover link reveal */}
-                    <div className="flex items-center text-white/50 font-medium group-hover:text-white transition-colors duration-300 mt-auto">
-                      <span className="relative overflow-hidden flex items-center">
-                        <span className="inline-block transition-transform duration-300 group-hover:-translate-y-[120%]">View case study</span>
-                        <span className="absolute left-0 top-0 inline-block translate-y-[120%] transition-transform duration-300 group-hover:translate-y-0">View case study</span>
-                      </span>
-                      <motion.div
-                        className="ml-2"
-                        initial={{ x: 0 }}
-                        whileHover={{ x: 4 }}
-                        transition={{ type: "spring", stiffness: 300 }}
-                      >
-                        <ArrowRight size={16} />
-                      </motion.div>
-                    </div>
-                  </div>
-
-                  {/* Soft glow border effect */}
-                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/0 group-hover:ring-white/20 transition-all duration-500 pointer-events-none" />
-                </div>
-              </Link>
+          {installations.map((study) => (
+            <FadeInStaggerItem key={study.slug} className="w-[85vw] md:w-auto shrink-0 snap-center h-full">
+              <CaseStudyCard study={study} tone="dark" />
             </FadeInStaggerItem>
           ))}
         </FadeInStaggerContainer>

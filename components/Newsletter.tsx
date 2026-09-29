@@ -8,6 +8,13 @@ import Link from "next/link";
 
 const newsletters = [
   {
+    id: 7,
+    title: "Issue 07: August Highlights",
+    date: "August 2026",
+    images: ["/newsletter/August/August_01.jpg", "/newsletter/August/August_02.jpg"],
+    link: "https://www.instagram.com/p/DdqWYB4Doxb/"
+  },
+  {
     id: 1,
     title: "Issue 06: July Updates",
     date: "July 2026",

@@ -10,7 +10,7 @@ import {
 export default function PackagedChiller() {
   return (
     <PDPTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/package_chiller-300x279-1-200x186.jpg"
+      heroImage="/images/products/packaged-chiller.jpg"
       title="Packaged Absorption Chiller"
       tagline="Complete, factory-assembled absorption chiller solutions - ready to install, ready to cool"
       breadcrumbs={[

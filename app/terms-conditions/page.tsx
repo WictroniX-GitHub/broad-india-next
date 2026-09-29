@@ -1,33 +1,23 @@
-"use client";
+import LegalLayout from "@/components/ds/LegalLayout";
 
-import { useEffect } from "react";
-import Container from "@/components/Container";
+const TOC = [
+  { id: "acceptance-of-terms", title: "1. Acceptance of Terms" },
+  { id: "use-license", title: "2. Use License" },
+  { id: "user-responsibilities", title: "3. User Responsibilities" },
+  { id: "intellectual-property", title: "4. Intellectual Property" },
+  { id: "third-party-links", title: "5. Third-Party Links" },
+  { id: "disclaimers-liability", title: "6. Disclaimers & Liability" },
+  { id: "indemnification", title: "7. Indemnification" },
+  { id: "governing-law", title: "8. Governing Law" },
+  { id: "changes-to-terms", title: "9. Changes to Terms" },
+];
 
 export default function TermsConditions() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
-    <div className="w-full overflow-hidden">
-      {/* Hero Section */}
-      <div className="w-full h-[40vh] bg-gradient-to-r from-blue-900 to-blue-700 flex justify-center items-center">
-        <div className="text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Terms & Conditions
-          </h1>
-          <p className="text-xl md:text-2xl opacity-90">
-            Effective date: June 2025
-          </p>
-        </div>
-      </div>
-
-      {/* Content Section */}
-      <Container>
-        <div className="py-16">
-          <div className="max-w-4xl mx-auto prose prose-lg">
+    <LegalLayout title="Terms & Conditions" updated="Effective date: June 2025" toc={TOC}>
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="acceptance-of-terms" className="text-3xl font-bold text-gray-900 mb-6">
                 1. Acceptance of Terms
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -37,7 +27,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="use-license" className="text-3xl font-bold text-gray-900 mb-6">
                 2. Use License
               </h2>
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
@@ -59,7 +49,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="user-responsibilities" className="text-3xl font-bold text-gray-900 mb-6">
                 3. User Responsibilities
               </h2>
               <ul className="space-y-3 text-gray-700">
@@ -79,7 +69,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="intellectual-property" className="text-3xl font-bold text-gray-900 mb-6">
                 4. Intellectual Property
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -90,7 +80,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="third-party-links" className="text-3xl font-bold text-gray-900 mb-6">
                 5. Third-Party Links
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -100,7 +90,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="disclaimers-liability" className="text-3xl font-bold text-gray-900 mb-6">
                 6. Disclaimers & Liability
               </h2>
               <div className="space-y-4">
@@ -126,7 +116,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="indemnification" className="text-3xl font-bold text-gray-900 mb-6">
                 7. Indemnification
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -136,7 +126,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="governing-law" className="text-3xl font-bold text-gray-900 mb-6">
                 8. Governing Law
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -146,7 +136,7 @@ export default function TermsConditions() {
             </section>
 
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 id="changes-to-terms" className="text-3xl font-bold text-gray-900 mb-6">
                 9. Changes to Terms
               </h2>
               <p className="text-gray-700 leading-relaxed">
@@ -154,9 +144,6 @@ export default function TermsConditions() {
                 changes constitutes acceptance.
               </p>
             </section>
-          </div>
-        </div>
-      </Container>
-    </div>
+    </LegalLayout>
   );
 }

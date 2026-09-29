@@ -10,9 +10,10 @@ import {
 export default function MagneticBearingOilFree() {
   return (
     <PDPTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/04/Magnetic-bearing-chiller.jpg"
+      heroImage="/images/products/magnetic-bearing-chiller.jpg"
       title="Magnetic Bearing Oil-Free Chiller"
       tagline="Frictionless compression for unmatched efficiency, silence, and reliability"
+      catalogueUrl="/files/broadElectricChiller.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Power Efficient Chillers", href: "/power-efficient-chiller" },

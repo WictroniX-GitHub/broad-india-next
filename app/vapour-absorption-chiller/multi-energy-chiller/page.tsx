@@ -10,9 +10,10 @@ import {
 export default function MultiEnergyChiller() {
   return (
     <PDPTemplate
-      heroImage="https://broadusa.com/broad/wp-content/uploads/2020/03/bze-300x201-1-200x134.jpg"
+      heroImage="/images/products/bze-multi-energy-chiller.jpg"
       title="Multi-Energy Absorption Chiller"
       tagline="Maximum operational flexibility - seamlessly switch between multiple heat sources and fuels"
+      catalogueUrl="/files/nonElec.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "Vapour Absorption Chillers", href: "/vapour-absorption-chiller" },

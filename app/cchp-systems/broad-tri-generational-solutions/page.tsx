@@ -13,6 +13,7 @@ export default function TriGenerationalSolutions() {
       heroImage="/images/CCHP_1.jpg"
       title="BROAD Tri-Generational Solutions"
       tagline="Integrated turnkey trigeneration plants for industrial and district energy"
+      catalogueUrl="/files/CCHP.pdf"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "CCHP Systems", href: "/cchp-systems" },

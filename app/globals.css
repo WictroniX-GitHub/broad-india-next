@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -294,5 +290,57 @@ body {
   .faq-accordion .faq-answer {
     @apply px-6 py-5 text-gray-700 leading-relaxed;
     border-top: 1px solid hsl(var(--border));
+  }
+}
+
+/* ============================================================
+   Design System: Article typography (HTML-string blog posts).
+   Replaces the no-op `prose` classes (typography plugin is not installed).
+   ============================================================ */
+@layer components {
+  .article-body {
+    @apply text-lg leading-relaxed text-gray-700;
+  }
+  .article-body > * + * {
+    @apply mt-5;
+  }
+  .article-body h2 {
+    @apply mt-12 scroll-mt-28 text-2xl md:text-3xl font-bold tracking-tight text-gray-900;
+  }
+  .article-body h3 {
+    @apply mt-8 text-xl md:text-2xl font-semibold text-gray-900;
+  }
+  .article-body h4 {
+    @apply mt-6 text-lg font-semibold text-gray-900;
+  }
+  .article-body a {
+    @apply font-medium text-brand-600 underline decoration-brand-200 underline-offset-4 transition-colors hover:text-brand-800 hover:decoration-brand-600;
+  }
+  .article-body strong {
+    @apply font-semibold text-gray-900;
+  }
+  .article-body ul {
+    @apply list-disc space-y-2 pl-6 marker:text-brand-500;
+  }
+  .article-body ol {
+    @apply list-decimal space-y-2 pl-6 marker:font-semibold marker:text-brand-600;
+  }
+  .article-body blockquote {
+    @apply border-l border-gray-300 pl-6 text-xl font-light italic leading-relaxed text-gray-800;
+  }
+  .article-body img {
+    @apply h-auto max-w-full rounded-2xl;
+  }
+  .article-body table {
+    @apply block w-full overflow-x-auto border-collapse text-base;
+  }
+  .article-body th {
+    @apply border-b-2 border-gray-200 bg-slate-50 px-4 py-3 text-left font-semibold text-gray-900;
+  }
+  .article-body td {
+    @apply border-b border-gray-100 px-4 py-3 align-top;
+  }
+  .article-body hr {
+    @apply my-10 border-gray-200;
   }
 }
