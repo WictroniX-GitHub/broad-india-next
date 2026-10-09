@@ -75,6 +75,8 @@ export const redirects: Redirect[] = [
   { source: "/products/pumpsets", destination: "/pumpsets", permanent: true },
   { source: "/products/:slug*", destination: "/vapour-absorption-chiller", permanent: true },
   { source: "/vapAbsorptionChiller", destination: "/vapour-absorption-chiller", permanent: true },
+  // Listicle is offline for now; temporary (307) so the URL can return as a 2026 edition later
+  { source: "/blogs/top-5-vapor-absorption-machine-manufacturers-india-2025", destination: "/vapour-absorption-chiller", permanent: false },
   // Mistyped or truncated URLs that Google still shows impressions for (GSC Pages export, Oct 2026)
   { source: "/absorption-heat-punk", destination: "/absorption-heat-pump", permanent: true },
   { source: "/blogs/understanding-vapour-absorption-machines", destination: "/blogs/understanding-vapour-absorption-machines-vam-and-their-role-in-energy-efficiency", permanent: true },
