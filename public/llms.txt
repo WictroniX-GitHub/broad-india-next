@@ -1,32 +1,56 @@
-# BROAD Air Conditioning India Pvt. Ltd.
+# BROAD India (BROAD Air Conditioning India Pvt. Ltd.)
 
-**Website:** https://www.broadindia.com/
-**Headquarters:** 908 Luxuria Trade Hub, Surat 395007, India
-**Gurugram Office:** N-14/27, DLF Phase-2, Gurugram, Haryana, India
+> BROAD India is the Indian subsidiary of BROAD Group, supplying non-electric vapour absorption chillers (VAM / VAC), CCHP trigeneration systems, absorption heat pumps and oil-free magnetic-bearing chillers to Indian industry since 2001. Headquarters: Surat, Gujarat. Office: Gurugram, Haryana. 100+ VAM installations across India.
 
-## About Us
-BROAD India delivers cutting-edge Vapour Absorption Machines (VAM) and non-electric HVAC solutions. We provide sustainable cooling for Indian industries using waste heat, steam, hot water, oil, and natural gas, reducing electricity consumption and carbon footprint. With over two decades of experience, we are India's top supplier of absorption chillers, CCHP systems, and fuel gas recovery chillers.
+BROAD India's absorption chillers produce chilled water from waste heat, steam, hot water, exhaust gas, natural gas, oil or solar heat instead of grid electricity. This cuts electricity use and carbon emissions for industrial and commercial buildings. Typical customers include textile mills, steel plants, refineries, pharmaceutical plants, data centres, hospitals and hotels in India.
 
-## Priority Products & Capabilities
-- Vapour Absorption Chillers (VAC / VAM): https://www.broadindia.com/vapour-absorption-chiller
-- Direct-Fired Chillers: https://www.broadindia.com/vapour-absorption-chiller/direct-fired-chiller
-- Multi-Energy Chillers: https://www.broadindia.com/vapour-absorption-chiller/multi-energy-chiller
-- Packaged Chillers: https://www.broadindia.com/vapour-absorption-chiller/packaged-chiller
-- Single-Stage Chillers: https://www.broadindia.com/vapour-absorption-chiller/single-stage-chiller
-- Solar-Driven Chillers: https://www.broadindia.com/vapour-absorption-chiller/solar-driven
-- Two-Stage Chillers: https://www.broadindia.com/vapour-absorption-chiller/two-stage-chiller
-- Waste Heat Chillers: https://www.broadindia.com/vapour-absorption-chiller/waste-heat-chiller
-- CCHP Systems: https://www.broadindia.com/cchp-systems
-- Absorption Heat Pumps: https://www.broadindia.com/absorption-heat-pump
+Key facts:
+- Legal name: BROAD Air Conditioning India Pvt. Ltd. (brand: BROAD India)
+- Parent company: BROAD Group
+- Operating in India since: 2001
+- Headquarters: 908 Luxuria Trade Hub, Surat 395007, Gujarat, India
+- Office: N-14/27, DLF Phase-2, Gurugram 122002, Haryana, India
+- Sales enquiries: +91 94278 51584; akshay@broad.net
+- Market served: India
 
-## Key Resources
-- About BROAD Group: https://www.broadindia.com/about
-- Latest Articles & News: https://www.broadindia.com/blogs
-- Frequently Asked Questions: https://www.broadindia.com/faq
-- Contact Us: https://www.broadindia.com/contact-us
+## Products
 
-## Official Social Media Profiles
-- LinkedIn: https://www.linkedin.com/company/broad-india/?viewAsMember=true
-- Facebook: https://www.facebook.com/BROADAIRINDIA
-- Instagram: https://www.instagram.com/broad_india/
-- Twitter / X: https://x.com/broad_india
+- [Vapour Absorption Chillers](https://www.broadindia.com/vapour-absorption-chiller): Full range of BROAD vapour absorption chillers (VAM / VAC) for India, with how they work, model types and FAQs.
+- [Direct-Fired Absorption Chiller](https://www.broadindia.com/vapour-absorption-chiller/direct-fired-chiller): Absorption chiller-heater fired by natural gas or oil, providing cooling and heating from one machine.
+- [Waste Heat Chiller](https://www.broadindia.com/vapour-absorption-chiller/waste-heat-chiller): Absorption chiller driven by exhaust gas or process waste heat from engines, turbines and furnaces.
+- [Single-Stage Absorption Chiller](https://www.broadindia.com/vapour-absorption-chiller/single-stage-chiller): Runs on low-pressure steam or hot water.
+- [Two-Stage Absorption Chiller](https://www.broadindia.com/vapour-absorption-chiller/two-stage-chiller): Runs on high-pressure steam, with higher efficiency than single-stage.
+- [Steam & Hot Water Absorption Chiller](https://www.broadindia.com/vapour-absorption-chiller/steam-hot-water-absorption-chiller): Selection guide for steam- and hot-water-driven chillers: single-stage for 0.1–1.5 kg/cm² steam or 70–95°C hot water, two-stage for 4.2–10.5 kg/cm² steam or 138–180°C hot water.
+- [Multi-Energy Chiller](https://www.broadindia.com/vapour-absorption-chiller/multi-energy-chiller): Uses more than one heat source in a single absorption chiller.
+- [Packaged Absorption Chiller](https://www.broadindia.com/vapour-absorption-chiller/packaged-chiller): Factory-packaged unit for faster installation.
+- [Solar-Driven Absorption Chiller](https://www.broadindia.com/vapour-absorption-chiller/solar-driven): Absorption cooling powered by solar thermal heat.
+- [CCHP / Trigeneration Systems](https://www.broadindia.com/cchp-systems): Combined cooling, heating and power from one fuel source, with up to 81% total energy utilisation (vs ~40% for engine-only power) and a typical 3–5 year return on investment.
+- [BROAD Tri-Generational Solutions](https://www.broadindia.com/cchp-systems/broad-tri-generational-solutions): Turnkey trigeneration plants designed and supplied by BROAD.
+- [Magnetic-Bearing Oil-Free Chiller](https://www.broadindia.com/power-efficient-chiller/magnetic-bearing-oil-free): Power-efficient electric chiller with oil-free magnetic-bearing compressor.
+- [Absorption Heat Pumps](https://www.broadindia.com/absorption-heat-pump): Upgrade low-grade waste heat into useful process or space heating.
+- [Pumpsets](https://www.broadindia.com/pumpsets): Factory-assembled, skid-mounted HVAC pump sets with variable-frequency drives.
+
+## Buying guides
+
+- [Vapour Absorption Chiller Price in India](https://www.broadindia.com/vapour-absorption-chiller/price-in-india): What drives the cost of an absorption chiller project, running cost versus an electric chiller, and a payback calculator.
+
+## Indian installations (case studies)
+
+- [Kejriwal Geotech, Surat](https://www.broadindia.com/installations/kejriwal-geotech-surat): 1,200 TR of cooling from waste steam, with a 7-month payback.
+- [All installations](https://www.broadindia.com/installations): Full list of BROAD India projects by industry.
+
+## Company
+
+- [About BROAD India](https://www.broadindia.com/about): Company history, BROAD Group background and India operations.
+- [Industries served](https://www.broadindia.com/industries): Applications by industry.
+- [FAQ](https://www.broadindia.com/faq): Answers on absorption chiller operation, fuels, efficiency and maintenance.
+- [Contact BROAD India](https://www.broadindia.com/contact-us): Sizing, quotations and service enquiries.
+
+## Optional
+
+- [Technical articles](https://www.broadindia.com/blogs): Guides on absorption cooling, waste heat recovery and trigeneration.
+- [LinkedIn](https://www.linkedin.com/company/broad-india/)
+- [YouTube](https://youtube.com/channel/UCVaHso3cFpo0kQn2uTo1jtA)
+- [Instagram](https://www.instagram.com/broad_india/)
+- [Facebook](https://www.facebook.com/BROADAIRINDIA)
+- [X / Twitter](https://x.com/broad_india)

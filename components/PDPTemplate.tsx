@@ -74,6 +74,7 @@ export interface PDPTemplateProps {
 const TABS = [
   { id: "overview", label: "Overview" },
   { id: "specs", label: "Specifications" },
+  { id: "sizing", label: "Sizing & price" },
   { id: "how-it-works", label: "How it works" },
   { id: "models", label: "Models" },
   { id: "features", label: "Features" },
@@ -122,6 +123,11 @@ export default function PDPTemplate({
   const related = relatedProducts(path);
   const category = breadcrumbs.length > 2 ? breadcrumbs[breadcrumbs.length - 2]?.label : "Product";
   const [lead, ...otherBenefits] = benefits;
+  // Question-style headings match how buyers search ("what is a…", "how much…") and give AI answers a clean hook
+  const plural = /s$/i.test(title);
+  const subject = plural ? title : `${/^[AEIOU]/i.test(title) ? "an" : "a"} ${title}`;
+  const whatIs = `What ${plural ? "are" : "is"} ${subject}?`;
+  const capacity = specs.find((s) => /capacity/i.test(s.label))?.value;
 
   return (
     <div className="bg-white pb-20 xl:pb-0">
@@ -169,7 +175,7 @@ export default function PDPTemplate({
       <div className="container mx-auto max-w-7xl px-4 md:px-8">
         <div className="grid gap-12 xl:grid-cols-[minmax(0,1fr)_20rem]">
           <div className="min-w-0">
-            <Block id="overview" eyebrow="Overview" title={`About the ${title}`}>
+            <Block id="overview" eyebrow="Overview" title={whatIs}>
               {definitionTerm && definitionText && (
                 <div className="mb-8 rounded-2xl border-l-4 border-brand-600 bg-slate-50 p-6">
                   <h3 className="mb-2 text-lg font-bold text-gray-900">{definitionTerm}</h3>
@@ -180,26 +186,51 @@ export default function PDPTemplate({
             </Block>
 
             {(specs.length > 0 || certifications) && (
-              <Block id="specs" eyebrow="Key specifications" title="Performance at a glance">
+              <Block id="specs" eyebrow="Key specifications" title="What capacity and performance does it offer?">
                 {specs.length > 0 && <StatStrip stats={specs.map((s) => ({ value: s.value, label: s.label, icon: s.icon }))} />}
                 {certifications && <div className="mt-10">{certifications}</div>}
               </Block>
             )}
 
+            <Block id="sizing" eyebrow="Sizing & price" title="How is it sized and priced?">
+              <div className="space-y-4 text-lg font-light leading-relaxed text-gray-600">
+                <p>
+                  {capacity && <>BROAD supplies the {title} from {capacity}. </>}
+                  There is no list price: the cost depends on the capacity you need, the heat source or fuel conditions at your site, the cooling water system and the installation scope. BROAD quotes each project after a sizing study.
+                </p>
+                <p className="font-normal text-gray-900">For a sizing study, share:</p>
+                <ul className="list-disc space-y-1 pl-6">
+                  <li>Peak and average cooling or heating load</li>
+                  <li>Heat source or fuel, with its pressure, temperature and flow</li>
+                  <li>Operating hours per year and your electricity tariff</li>
+                </ul>
+              </div>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a href="#rfq" className={cta({ size: "md" })}>
+                  <Send size={16} /> Request a sizing study
+                </a>
+                {path.startsWith("/vapour-absorption-chiller") && (
+                  <Link href="/vapour-absorption-chiller/price-in-india#calculator" className={cta({ variant: "outline", size: "md" })}>
+                    Estimate your payback
+                  </Link>
+                )}
+              </div>
+            </Block>
+
             {principle && (
-              <Block id="how-it-works" eyebrow="How it works" title="The absorption cycle, step by step">
+              <Block id="how-it-works" eyebrow="How it works" title="How does an absorption chiller work?">
                 <WorkingPrinciple />
               </Block>
             )}
 
             {modelTable.length > 0 && (
-              <Block id="models" eyebrow="Model finder" title="Model Specifications">
+              <Block id="models" eyebrow="Model finder" title="Which model fits your heat source?">
                 <ModelFinder rows={modelTable} />
               </Block>
             )}
 
             {features.length > 0 && (
-              <Block id="features" eyebrow="Engineering" title="Key Features">
+              <Block id="features" eyebrow="Engineering" title="What makes the BROAD design different?">
                 <FadeInStaggerContainer className="grid gap-5 sm:grid-cols-2">
                   {features.map((f) => (
                     <FadeInStaggerItem key={f.title}>
@@ -211,7 +242,7 @@ export default function PDPTemplate({
             )}
 
             {lead && (
-              <Block eyebrow="Business case" title="Core Benefits">
+              <Block eyebrow="Business case" title={`What are the benefits of ${subject}?`}>
                 <div className="grid gap-5 md:grid-cols-2">
                   <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-8 text-white md:row-span-2">
                     <div aria-hidden className="absolute -right-16 -top-16 h-56 w-56 rounded-full bg-brand-500/40 blur-3xl" />
@@ -227,7 +258,7 @@ export default function PDPTemplate({
             )}
 
             {applications.length > 0 && (
-              <Block id="applications" eyebrow="Where it’s used" title="Applications">
+              <Block id="applications" eyebrow="Where it’s used" title="Which industries use it?">
                 <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                   {applications.map((a) => (
                     <li key={a.title} className="group flex items-start gap-4 rounded-2xl border border-gray-100 bg-white p-4 transition-all hover:border-brand-200 hover:shadow-card">
@@ -285,7 +316,7 @@ export default function PDPTemplate({
       {faqs.length > 0 && (
         <section id="faqs" className="scroll-mt-40 bg-white py-16 md:py-24">
           <div className="container mx-auto max-w-7xl px-4 md:px-8">
-            <SectionHeader title="Frequently Asked Questions" />
+            <SectionHeader title={`${title}: frequently asked questions`} />
             <ProductFAQ faqs={faqs} bare />
           </div>
         </section>

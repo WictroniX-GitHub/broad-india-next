@@ -1,33 +1,12 @@
 import { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
-  description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
-  openGraph: {
-    title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
+  ...pageMetadata({
+    path: "/contact-us",
+    title: "Contact BROAD India | Vapour Absorption Chillers & HVAC",
     description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
-    url: "https://www.broadindia.com/contact-us",
-    siteName: "BROAD India",
-    images: [
-      {
-        url: "/images/BROAD-India-final.png",
-        width: 1200,
-        height: 630,
-        alt: "BROAD India - Non-Electric HVAC Solutions",
-      },
-    ],
-    type: "website",
-    locale: "en_IN",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Contact BROAD India | Vapour Absorption Chillers & HVAC Solutions",
-    description: "Get in touch with BROAD India for advanced Vapour Absorption Chillers and non-electric HVAC solutions. Reach our Surat or Gurugram offices for inquiries.",
-    images: ["/images/BROAD-India-final.png"],
-  },
-  alternates: {
-    canonical: "https://www.broadindia.com/contact-us",
-  },
+  }),
 };
 
 export default function ContactUsLayout({
@@ -45,7 +24,7 @@ export default function ContactUsLayout({
     "email": "akshay@broad.net",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd, New Magdalla",
+      "streetAddress": "Office No. 908, Luxuria Trade Hub, Vr mall, Dumas Rd, New Magdalla",
       "addressLocality": "Surat",
       "addressRegion": "Gujarat",
       "postalCode": "395007",
@@ -66,6 +45,7 @@ export default function ContactUsLayout({
       "streetAddress": "N-14/27, DLF Phase-2",
       "addressLocality": "Gurugram",
       "addressRegion": "Haryana",
+      "postalCode": "122002",
       "addressCountry": "IN",
     },
     "priceRange": "$$$$",

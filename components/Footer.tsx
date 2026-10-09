@@ -91,10 +91,10 @@ export default function Footer() {
             <ul className="space-y-4">
               {[
                 { name: "Vapour Absorption Chiller", href: "/vapour-absorption-chiller" },
-                { name: "CCHP Systems", href: "/products/cchp-systems" },
-                { name: "Power Efficient Chiller", href: "/products/power-efficient-chiller" },
-                { name: "Absorption Heat Pumps", href: "/products/absorption-heat-pumps" },
-                { name: "Pumpsets", href: "/products/pumpsets" },
+                { name: "CCHP Systems", href: "/cchp-systems" },
+                { name: "Power Efficient Chiller", href: "/power-efficient-chiller" },
+                { name: "Absorption Heat Pumps", href: "/absorption-heat-pump" },
+                { name: "Pumpsets", href: "/pumpsets" },
               ].map((link, index) => (
                 <li key={index}>
                   <Link 

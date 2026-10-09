@@ -15,7 +15,7 @@ const OFFICES = [
   {
     city: "Surat Office",
     tag: "Head office",
-    address: "Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd, Road, New Magdalla, Surat, Gujarat 395007",
+    address: "Office No. 908, Luxuria Trade Hub, Vr mall, Dumas Rd, Road, New Magdalla, Surat, Gujarat 395007",
   },
   {
     city: "Gurugram Office",

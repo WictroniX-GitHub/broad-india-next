@@ -5,33 +5,17 @@ import Image from "next/image";
 import { ArrowRight, Clock } from "lucide-react";
 import { motion } from "framer-motion";
 import { FadeInStaggerContainer, FadeInStaggerItem } from "@/components/ui/FadeInStagger";
-import { blogs as allBlogs } from "@/data/blogs";
+export interface NewsCard {
+  title: string;
+  description: string;
+  image: string;
+  link: string;
+  category: string;
+  readTime: string;
+}
 
-// The specific blog IDs we want to showcase on the Home page
-const showcaseBlogIds = [
-  "vcr-vs-var-operating-costs-comparison",
-  "understanding-cop-absorption-chillers-roi",
-  "top-5-vapor-absorption-machine-manufacturers-india-2025",
-  "dx-chiller-vs-absorption-chiller-comparison",
-  "4-key-components-absorption-chiller"
-];
-
-// Map over the IDs to maintain the exact order and extract the data from the main blogs array
-const blogs = showcaseBlogIds.map(id => {
-  const blogData = allBlogs.find(b => b.id === id);
-  if (!blogData) return null;
-  
-  return {
-    title: blogData.title,
-    description: blogData.description,
-    image: blogData.image,
-    link: `/blogs/${blogData.id}`,
-    category: blogData.category,
-    readTime: blogData.readTime,
-  };
-}).filter((b): b is NonNullable<typeof b> => b !== null);
-
-export default function RecentNews() {
+// Cards are picked on the server (app/page.tsx): importing data/blogs here would ship every article to the browser
+export default function RecentNews({ blogs }: { blogs: NewsCard[] }) {
   return (
     <section className="py-20 md:py-32 bg-slate-50 border-t border-gray-100">
       <div className="container mx-auto px-4 md:px-8 max-w-7xl">

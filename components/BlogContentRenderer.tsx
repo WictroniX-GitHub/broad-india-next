@@ -67,11 +67,12 @@ export default function BlogContentRenderer({
                 : "text-xl mb-3 mt-6"
             }`;
 
+            // The post title is the page H1, so in-body level-1 headings render as H2
             if (item.level === 1) {
               contentElement = (
-                <h1 key={`h1-${index}`} className={headingClass}>
+                <h2 key={`h1-${index}`} className={headingClass}>
                   {item.content}
-                </h1>
+                </h2>
               );
             } else if (item.level === 2) {
               contentElement = (

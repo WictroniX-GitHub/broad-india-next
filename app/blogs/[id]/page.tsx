@@ -1,10 +1,17 @@
 import { blogs } from "@/data/blogs";
 import { notFound } from "next/navigation";
 import BlogDetailContent from "./BlogDetailContent";
+import { embeddedFaqs } from "@/lib/articleHtml";
+import { isoDateIST, trimDescription } from "@/lib/seo";
 import { Metadata } from "next";
 
 interface PageProps {
   params: Promise<{ id: string }>;
+}
+
+// Pre-render every post so its metadata ships in the static HTML <head>
+export function generateStaticParams() {
+  return [...new Set(blogs.map((b) => b.id))].map((id) => ({ id }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -19,11 +26,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const suffix = " | BROAD India";
   const maxTitleLen = 60 - suffix.length;
-  const truncatedTitle = blog.title.length > maxTitleLen 
-    ? blog.title.substring(0, maxTitleLen - 1).trimEnd() + "…"
+  // Cut at a word boundary so the SERP title never ends mid-word
+  const truncatedTitle = blog.title.length > maxTitleLen
+    ? blog.title.slice(0, maxTitleLen - 1).replace(/\s+\S*$/, "").replace(/[\s,:;–-]+$/, "") + "…"
     : blog.title;
   const pageTitle = `${truncatedTitle}${suffix}`;
-  const description = blog.meta?.description || blog.description;
+  const description = trimDescription(blog.meta?.description || blog.description);
 
   return {
     title: pageTitle,
@@ -32,9 +40,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       title: pageTitle,
       description,
-      images: [blog.image],
+      images: [encodeURI(blog.image)],
       type: "article",
-      publishedTime: blog.isoDate || blog.date,
+      publishedTime: isoDateIST(blog.isoDate || blog.date),
       url: `https://www.broadindia.com/blogs/${blog.id}`,
       siteName: "BROAD India",
       locale: "en_IN",
@@ -43,7 +51,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: "summary_large_image",
       title: pageTitle,
       description,
-      images: [blog.image],
+      images: [encodeURI(blog.image)],
     },
     robots: {
       index: true,
@@ -80,9 +88,9 @@ export default async function BlogsDetailPage({ params }: PageProps) {
     "@type": "BlogPosting",
     headline: blog.title,
     description: blog.meta?.description || blog.description,
-    image: [`https://www.broadindia.com${blog.image}`],
-    datePublished: blog.isoDate || blog.date,
-    dateModified: blog.isoDate || blog.date,
+    image: [`https://www.broadindia.com${encodeURI(blog.image)}`],
+    datePublished: isoDateIST(blog.isoDate || blog.date),
+    dateModified: isoDateIST(blog.isoDate || blog.date),
     author: {
       "@type": "Organization",
       name: "BROAD India Engineering Team",
@@ -150,10 +158,12 @@ export default async function BlogsDetailPage({ params }: PageProps) {
   };
 
   const faqItems = blog.faq?.length ? blog.faq : standardBlogFaqs;
+  // Only the post's own FAQs are marked up: its faq field, or a FAQPage embedded in the article HTML
+  const ownFaqs = blog.faq?.length ? blog.faq : typeof blog.content === "string" ? embeddedFaqs(blog.content) : [];
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqItems.map((item) => ({
+    mainEntity: ownFaqs.map((item) => ({
       "@type": "Question",
       name: item.question,
       acceptedAnswer: {
@@ -169,7 +179,8 @@ export default async function BlogsDetailPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
-            [blogPostingSchema, breadcrumbSchema, faqSchema]
+            // The generic fallback FAQ is shown but not marked up: identical FAQPage schema on hundreds of posts reads as spam
+            ownFaqs.length ? [blogPostingSchema, breadcrumbSchema, faqSchema] : [blogPostingSchema, breadcrumbSchema]
           ),
         }}
       />

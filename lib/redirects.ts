@@ -68,4 +68,18 @@ export const redirects: Redirect[] = [
     destination: "/blogs/ai-machine-learning-hvac",
     permanent: true,
   },
+  // Old /products/* section (was linked from the footer); specific paths first, catch-all last
+  { source: "/products/cchp-systems", destination: "/cchp-systems", permanent: true },
+  { source: "/products/power-efficient-chiller", destination: "/power-efficient-chiller", permanent: true },
+  { source: "/products/absorption-heat-pumps", destination: "/absorption-heat-pump", permanent: true },
+  { source: "/products/pumpsets", destination: "/pumpsets", permanent: true },
+  { source: "/products/:slug*", destination: "/vapour-absorption-chiller", permanent: true },
+  { source: "/vapAbsorptionChiller", destination: "/vapour-absorption-chiller", permanent: true },
+  // Mistyped or truncated URLs that Google still shows impressions for (GSC Pages export, Oct 2026)
+  { source: "/absorption-heat-punk", destination: "/absorption-heat-pump", permanent: true },
+  { source: "/blogs/understanding-vapour-absorption-machines", destination: "/blogs/understanding-vapour-absorption-machines-vam-and-their-role-in-energy-efficiency", permanent: true },
+  { source: "/blogs/central-air-conditoners-in-india-the-ultimate-solution-to-beating-the-heat", destination: "/blogs/central-air-conditioners-in-india-the-ultimate-solution-to-beating-the-heat", permanent: true },
+  { source: "/blogs/chillers-definition-calculation-absorption-systems", destination: "/blogs/tr-in-chillers-definition-calculation-absorption-systems", permanent: true },
+  { source: "/blogs/vapor-absorption-chiller-the-smart-way-to-reduce-energy-costs", destination: "/blogs/vapor-absorption-chillers-the-smart-way-to-reduce-energy-costs", permanent: true },
+  { source: "/blogs/what-is-vampour-absorption-machine", destination: "/blogs/what-is-a-vapour-absorption-machine", permanent: true },
 ];

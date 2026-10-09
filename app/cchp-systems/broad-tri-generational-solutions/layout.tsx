@@ -1,14 +1,22 @@
-import type { Metadata } from "next";
+import { pageMetadata, productSchema } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "BROAD Tri-Generational Solutions | CCHP Systems | BROAD India",
-  description: "Discover BROAD India's tri-generational solutions combining cooling, heating, and power for maximum industrial energy efficiency.",
+const seo = {
+  path: "/cchp-systems/broad-tri-generational-solutions",
+  title: "Turnkey Trigeneration Plant Manufacturer in India | BROAD",
+  description: "Turnkey trigeneration (CCHP) plants from BROAD India: engine, absorption chiller and controls engineered as one system for up to 81% energy utilisation.",
+  image: "/images/CCHP_1.jpg",
 };
 
-export default function TriGenerationalLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return <>{children}</>;
+export const metadata = pageMetadata(seo);
+
+export default function BroadTriGenerationalSolutionsLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema({ ...seo, name: "BROAD Tri-Generational Solutions", category: "CCHP / Trigeneration System" })) }}
+      />
+      {children}
+    </>
+  );
 }

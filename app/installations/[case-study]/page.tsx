@@ -13,6 +13,7 @@ import { cta } from "@/components/ds/cta";
 import CaseStudyCard from "@/components/CaseStudyCard";
 import CaseStudyGallery from "@/components/case-study/CaseStudyGallery";
 import CaseStudyDownload from "@/components/case-study/CaseStudyDownload";
+import { ORG_ID, trimDescription } from "@/lib/seo";
 
 type Params = { "case-study": string };
 
@@ -25,15 +26,19 @@ export function generateStaticParams(): Params[] {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const study = getCaseStudy((await params)["case-study"]);
   if (!study) return {};
-  const title = `${study.client} Case Study: ${study.headline} | BROAD India`;
+  // Full headline only when it fits Google's ~60-character title width
+  const long = `${study.client} Case Study: ${study.headline} | BROAD India`;
+  const title = long.length <= 60 ? long : `${study.client} Case Study | BROAD India`;
+  const description = trimDescription(study.summary);
   const image = typeof study.images.workplace.src === "string" ? study.images.workplace.src : study.images.workplace.src.src;
   return {
     title,
-    description: study.summary,
+    description,
     alternates: { canonical: `/installations/${study.slug}` },
     // Placeholder studies stay reachable but out of the index until real content lands.
     robots: study.status === "placeholder" ? { index: false, follow: true } : undefined,
-    openGraph: { title, description: study.summary, type: "article", images: [image] },
+    openGraph: { title, description, type: "article", images: [image] },
+    twitter: { card: "summary_large_image", title, description, images: [image] },
   };
 }
 
@@ -50,6 +55,8 @@ export default async function CaseStudyPage({ params }: { params: Promise<Params
     headline: `${study.client}: ${study.headline}`,
     description: study.summary,
     about: study.productLinks.map((p) => p.label),
+    image: `https://www.broadindia.com${encodeURI(typeof workplace.src === "string" ? workplace.src : workplace.src.src)}`,
+    author: { "@type": "Organization", "@id": ORG_ID, name: "BROAD India", url: "https://www.broadindia.com" },
     publisher: { "@type": "Organization", name: "BROAD Air Conditioning India Pvt. Ltd.", url: "https://www.broadindia.com" },
   };
 

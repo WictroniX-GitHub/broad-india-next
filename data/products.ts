@@ -57,6 +57,16 @@ export const products: ProductEntry[] = [
     highlight: "COP 0.7–0.8",
   },
   {
+    title: "Steam & Hot Water Absorption Chiller",
+    href: "/vapour-absorption-chiller/steam-hot-water-absorption-chiller",
+    image: "/images/products/bds-steam-chiller.jpg",
+    category: "/vapour-absorption-chiller",
+    capacity: "30–3,300 TR",
+    heatSources: ["Steam", "Hot water"],
+    drive: "Steam 0.1–10.5 kg/cm² / Hot water 70–180°C",
+    highlight: "COP 0.7–1.4",
+  },
+  {
     title: "Multi-Energy Absorption Chiller",
     href: "/vapour-absorption-chiller/multi-energy-chiller",
     image: "/images/products/bze-multi-energy-chiller.jpg",

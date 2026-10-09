@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ArrowRight, Award, Check, FlaskConical, Globe2, Leaf, Wrench } from "lucide-react";
@@ -15,9 +16,11 @@ import bg from "@/public/images/OurTeam.jpg";
 import logo from "@/public/images/BROAD-India-final.png";
 
 export const metadata: Metadata = {
-  title: "About BROAD India - Leading HVAC Solutions Provider",
-  description:
-    "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions. Discover our mission, values, and commitment to energy-efficient cooling systems.",
+  ...pageMetadata({
+    path: "/about",
+    title: "About BROAD India - Leading HVAC Solutions Provider",
+    description: "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions.",
+  }),
   keywords: [
     "BROAD India",
     "HVAC solutions",
@@ -26,28 +29,6 @@ export const metadata: Metadata = {
     "sustainable HVAC",
     "energy efficient cooling",
   ],
-  openGraph: {
-    title: "About BROAD India - Leading HVAC Solutions Provider",
-    description:
-      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions.",
-    type: "website",
-    locale: "en_IN",
-    images: [
-      {
-        url: "/images/BROAD-India-final.png",
-        width: 160,
-        height: 80,
-        alt: "BROAD India Logo",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "About BROAD India - Leading HVAC Solutions Provider",
-    description:
-      "Learn about BROAD Air Conditioning India Pvt. Ltd., a leading provider of non-electric Vapour absorption chillers and sustainable HVAC solutions.",
-    images: ["/images/BROAD-India-final.png"],
-  },
 };
 
 const APART = [

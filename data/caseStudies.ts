@@ -51,7 +51,10 @@ export const caseStudies: CaseStudy[] = [
     metric: "1,200 TR · 7-month payback",
     summary:
       "Two BROAD single-stage steam chillers turn zero-pressure steam left over from Kejriwal’s continuous polymerisation line into chilled water for POY and FDY yarn production.",
-    productLinks: [{ label: "Single-Stage Absorption Chiller", href: "/vapour-absorption-chiller/single-stage-chiller" }],
+    productLinks: [
+      { label: "Single-Stage Absorption Chiller", href: "/vapour-absorption-chiller/single-stage-chiller" },
+      { label: "Steam & Hot Water Absorption Chiller", href: "/vapour-absorption-chiller/steam-hot-water-absorption-chiller" },
+    ],
     facts: [
       { label: "Chiller type", value: "Single-stage steam absorption chiller" },
       { label: "Cooling capacity", value: "800 TR × 1 + 400 TR × 1" },

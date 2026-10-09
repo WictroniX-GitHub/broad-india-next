@@ -82,7 +82,7 @@ export default function HomePageCarousel() {
               alt={slide.headline}
               fill
               priority={index === 0}
-              quality={100}
+              quality={75}
               className="object-cover"
               sizes="100vw"
             />
@@ -98,7 +98,8 @@ export default function HomePageCarousel() {
         style={{ y: textY, opacity: textOpacity }}
       >
         <div className="container mx-auto px-6 pb-28 md:pb-32 max-w-5xl">
-          <AnimatePresence mode="wait">
+          {/* initial={false}: the first slide paints visible in the server HTML instead of fading in after hydration (LCP) */}
+          <AnimatePresence mode="wait" initial={false}>
             <motion.div
               key={currentSlide}
               initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}

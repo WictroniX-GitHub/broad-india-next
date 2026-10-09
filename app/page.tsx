@@ -4,6 +4,7 @@ import HomePageCarousel from "@/components/HomePageCarousel";
 import MissionFocus from "@/components/MissionFocus";
 import RecentInstallations from "@/components/RecentInstallations";
 import RecentNews from "@/components/RecentNews";
+import { blogs } from "@/data/blogs";
 import SpecialistsProduct from "@/components/SpecialistsProduct";
 import Sustainable from "@/components/Sustainable";
 import TrustedClients from "@/components/TrustedClient";
@@ -14,11 +15,12 @@ import WhyNonElectric from "@/components/WhyNonElectric";
 import IndustriesAccordion from "@/components/IndustriesAccordion";
 import EventsGallery from "@/components/EventsGallery";
 import Newsletter from "@/components/Newsletter";
+import { ORG_ID } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Vapour Absorption Chillers India | BROAD India",
   description:
-    "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
+    "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation.",
   keywords: [
     "BROAD India",
     "vapour absorption chiller",
@@ -34,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Vapour Absorption Chillers India | BROAD India",
     description:
-      "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
+      "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation.",
     type: "website",
     locale: "en_IN",
     url: "https://www.broadindia.com",
@@ -52,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Vapour Absorption Chillers India | BROAD India",
     description:
-      "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation today.",
+      "BROAD India offers vapour absorption chillers (VAC / VAM), CCHP systems & non-electric HVAC solutions. Cut cooling costs by 50%. Get a free consultation.",
     images: ["/images/BROAD-India-final.png"],
   },
   robots: {
@@ -92,10 +94,25 @@ const homeFaqs = [
   },
 ];
 
+// The posts showcased on the Home page, in display order
+const showcaseBlogIds = [
+  "vcr-vs-var-operating-costs-comparison",
+  "understanding-cop-absorption-chillers-roi",
+  "top-5-vapor-absorption-machine-manufacturers-india-2025",
+  "dx-chiller-vs-absorption-chiller-comparison",
+  "4-key-components-absorption-chiller",
+];
+
+const newsCards = showcaseBlogIds.flatMap((id) => {
+  const b = blogs.find((post) => post.id === id);
+  return b ? [{ title: b.title, description: b.description, image: b.image, link: `/blogs/${b.id}`, category: b.category, readTime: b.readTime }] : [];
+});
+
 export default function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ORG_ID,
     "name": "BROAD Air Conditioning India Pvt. Ltd.",
     "alternateName": "BROAD India",
     "url": "https://www.broadindia.com",
@@ -125,7 +142,7 @@ export default function Home() {
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd",
+      "streetAddress": "Office No. 908, Luxuria Trade Hub, Vr mall, Dumas Rd",
       "addressLocality": "Surat",
       "addressRegion": "Gujarat",
       "postalCode": "395007",
@@ -137,8 +154,14 @@ export default function Home() {
       "https://x.com/broad_india",
       "https://www.linkedin.com/company/broad-india/",
       "https://www.exportersindia.com/broad-air-conditioning-india-pvt-ltd/",
-      "https://en.wikipedia.org/wiki/Broad_Group",
+      "https://youtube.com/channel/UCVaHso3cFpo0kQn2uTo1jtA",
     ],
+    // The Wikipedia article is about the parent group, so it belongs here, not in sameAs
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "BROAD Group",
+      "sameAs": "https://en.wikipedia.org/wiki/Broad_Group",
+    },
   };
 
   const localBusinessSurat = {
@@ -151,7 +174,7 @@ export default function Home() {
     "email": "akshay@broad.net",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Office No. 209, Luxuria Trade Hub, Vr mall, Dumas Rd, New Magdalla",
+      "streetAddress": "Office No. 908, Luxuria Trade Hub, Vr mall, Dumas Rd, New Magdalla",
       "addressLocality": "Surat",
       "addressRegion": "Gujarat",
       "postalCode": "395007",
@@ -172,6 +195,7 @@ export default function Home() {
       "streetAddress": "N-14/27, DLF Phase-2",
       "addressLocality": "Gurugram",
       "addressRegion": "Haryana",
+      "postalCode": "122002",
       "addressCountry": "IN",
     },
     "priceRange": "$$$$",
@@ -179,7 +203,6 @@ export default function Home() {
 
   return (
     <div className="bg-white">
-      <h1 className="sr-only">Vapour Absorption Chillers (VAC / VAM) &amp; Non-Electric HVAC Solutions for Indian Industry</h1>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -204,7 +227,7 @@ export default function Home() {
       <IndustriesAccordion />
       
       <EventsGallery />
-      <RecentNews />
+      <RecentNews blogs={newsCards} />
       <Newsletter />
       
       <ProductFAQ faqs={homeFaqs} />
