@@ -31,7 +31,7 @@ const products = [
     image:
       "/images/products/cchp-system.jpg",
     description:
-      "Trigeneration systems that produce cooling, heating, and power from a single natural gas source. Achieve 80–90% total energy utilisation, drastically reducing energy costs, carbon footprint, and grid dependency for large facilities.",
+      "Trigeneration systems that produce cooling, heating, and power from a single natural gas source. Achieve up to 81% total energy utilisation (vs ~40% for engine-only power), drastically reducing energy costs, carbon footprint, and grid dependency for large facilities.",
     link: "/cchp-systems",
   },
   {

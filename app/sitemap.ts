@@ -15,30 +15,33 @@ type Entry = MetadataRoute.Sitemap[number];
 type Freq = Entry['changeFrequency'];
 
 // Indexable static pages. /privacy-policy is excluded because it is noindex.
-const staticPages: { path: string; priority: number; changeFrequency: Freq }[] = [
-  { path: '', priority: 1.0, changeFrequency: 'weekly' },
+// `updated` overrides PAGES_UPDATED for pages whose last content change was on another date
+const staticPages: { path: string; priority: number; changeFrequency: Freq; updated?: string }[] = [
+  { path: '', priority: 1.0, changeFrequency: 'weekly', updated: '2026-10-09' },
 
   // Product categories
-  { path: '/vapour-absorption-chiller', priority: 0.9, changeFrequency: 'monthly' },
-  { path: '/cchp-systems', priority: 0.9, changeFrequency: 'monthly' },
+  { path: '/vapour-absorption-chiller', priority: 0.9, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/cchp-systems', priority: 0.9, changeFrequency: 'monthly', updated: '2026-10-09' },
   { path: '/power-efficient-chiller', priority: 0.9, changeFrequency: 'monthly' },
 
   // Products
-  { path: '/vapour-absorption-chiller/direct-fired-chiller', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/vapour-absorption-chiller/waste-heat-chiller', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/vapour-absorption-chiller/two-stage-chiller', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/vapour-absorption-chiller/single-stage-chiller', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/vapour-absorption-chiller/multi-energy-chiller', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/vapour-absorption-chiller/packaged-chiller', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/vapour-absorption-chiller/solar-driven', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/cchp-systems/broad-tri-generational-solutions', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/power-efficient-chiller/magnetic-bearing-oil-free', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/absorption-heat-pump', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/pumpsets', priority: 0.8, changeFrequency: 'monthly' },
+  { path: '/vapour-absorption-chiller/direct-fired-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/waste-heat-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/two-stage-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/steam-hot-water-absorption-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/price-in-india', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/single-stage-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/multi-energy-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/packaged-chiller', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/vapour-absorption-chiller/solar-driven', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/cchp-systems/broad-tri-generational-solutions', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/power-efficient-chiller/magnetic-bearing-oil-free', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/absorption-heat-pump', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
+  { path: '/pumpsets', priority: 0.8, changeFrequency: 'monthly', updated: '2026-10-09' },
 
   // Proof & industries
   { path: '/installations', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/industries', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/industries', priority: 0.7, changeFrequency: 'monthly', updated: '2026-09-15' },
   { path: '/industries/industrial', priority: 0.6, changeFrequency: 'monthly' },
   { path: '/industries/commercial', priority: 0.6, changeFrequency: 'monthly' },
   { path: '/industries/healthcare', priority: 0.6, changeFrequency: 'monthly' },
@@ -52,7 +55,7 @@ const staticPages: { path: string; priority: number; changeFrequency: Freq }[] =
   { path: '/about', priority: 0.6, changeFrequency: 'yearly' },
   { path: '/broad-group', priority: 0.5, changeFrequency: 'yearly' },
   { path: '/careers', priority: 0.5, changeFrequency: 'monthly' },
-  { path: '/contact-us', priority: 0.6, changeFrequency: 'yearly' },
+  { path: '/contact-us', priority: 0.6, changeFrequency: 'yearly', updated: '2026-10-09' },
   { path: '/terms-conditions', priority: 0.2, changeFrequency: 'yearly' },
 ];
 
@@ -64,9 +67,9 @@ const redirected = new Set(
 );
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages: MetadataRoute.Sitemap = staticPages.map(({ path, priority, changeFrequency }) => ({
+  const pages: MetadataRoute.Sitemap = staticPages.map(({ path, priority, changeFrequency, updated }) => ({
     url: `${baseUrl}${path}`,
-    lastModified: PAGES_UPDATED,
+    lastModified: updated ? new Date(updated) : PAGES_UPDATED,
     changeFrequency,
     priority,
   }));

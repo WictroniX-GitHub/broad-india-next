@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { ArrowUpRight, Building, Building2, Droplets, Fan, Gauge, Landmark, Recycle, Snowflake, TrainFront, Wind } from "lucide-react";
 import PageHero from "@/components/ds/PageHero";
 import Section from "@/components/ds/Section";
@@ -11,9 +12,11 @@ import { FadeInStaggerContainer, FadeInStaggerItem } from "@/components/ui/FadeI
 import bg from "@/public/images/bgbg.jpg";
 
 export const metadata: Metadata = {
-  title: "BROAD Group - Global Leader in Sustainable Technology | BROAD India",
-  description:
-    "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions. Discover our commitment to original innovation and low-carbon technology for humanity's future.",
+  ...pageMetadata({
+    path: "/broad-group",
+    title: "BROAD Group - Global Leader in Sustainable Technology",
+    description: "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions.",
+  }),
   keywords: [
     "BROAD Group",
     "sustainable technology",
@@ -24,21 +27,6 @@ export const metadata: Metadata = {
     "environmental solutions",
     "BROAD global",
   ],
-  openGraph: {
-    title:
-      "BROAD Group - Global Leader in Sustainable Technology | BROAD India",
-    description:
-      "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions.",
-    type: "website",
-    locale: "en_IN",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title:
-      "BROAD Group - Global Leader in Sustainable Technology | BROAD India",
-    description:
-      "Learn about BROAD Group, established in 1988, a pioneer in sustainable technology and energy-efficient solutions.",
-  },
 };
 
 const SUBSIDIARIES = [

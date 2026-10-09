@@ -12,7 +12,7 @@ export default function CCHPSystems() {
     <CategoryTemplate
       heroImage="/images/CCHP_1.jpg"
       title="CCHP (Combined Cooling, Heating & Power)"
-      tagline="Trigeneration systems delivering up to 90% total energy utilisation"
+      tagline="Trigeneration systems delivering up to 81% total energy utilisation"
       breadcrumbs={[
         { label: "Home", href: "/" },
         { label: "CCHP Systems" },
@@ -23,12 +23,12 @@ export default function CCHPSystems() {
             BROAD India is a pioneer in CCHP and trigeneration solutions, offering comprehensive systems that fundamentally transform how large facilities consume energy. By integrating gas turbines or reciprocating engines with our world-class vapour absorption chillers, we enable industrial complexes, data centres, and commercial hubs to generate their own power while simultaneously fulfilling their massive HVAC demands - all from a single fuel source.
           </p>
           <p className="text-lg leading-relaxed">
-            The efficiency gains are staggering. A conventional grid-power + electric-chiller setup typically achieves a total energy utilisation of just 40–45%. A BROAD CCHP system captures the waste heat from the generator&apos;s exhaust and jacket water, converting it into free cooling and heating. This pushes total system efficiency to 80–90%, delivering massive reductions in both operational expenditure and carbon emissions.
+            The efficiency gains are staggering. A conventional grid-power + electric-chiller setup typically achieves a total energy utilisation of just 40–45%. A BROAD CCHP system captures the waste heat from the generator&apos;s exhaust and jacket water, converting it into free cooling and heating. On BROAD heat-recovery projects this has raised total plant efficiency from around 40% to as much as 81%, delivering massive reductions in both operational expenditure and carbon emissions.
           </p>
         </>
       }
       stats={[
-        { value: "80-90%", label: "Total Energy Efficiency" },
+        { value: "Up to 81%", label: "Total Energy Efficiency" },
         { value: "3-5", label: "Years Typical ROI" },
         { value: "100%", label: "Grid Independence" },
       ]}

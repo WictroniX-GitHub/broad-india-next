@@ -30,7 +30,7 @@ export default function TriGenerationalSolutions() {
         </>
       }
       specs={[
-        { label: "Total efficiency", value: "80–90%" },
+        { label: "Total efficiency", value: "Up to 81%" },
         { label: "Delivery model", value: "Turnkey" },
         { label: "Control system", value: "Integrated" },
         { label: "Fuel configuration", value: "Custom" },
@@ -76,35 +76,36 @@ export default function TriGenerationalSolutions() {
         },
       ]}
       downloads={[
-        { title: "Turnkey Trigeneration Brochure", size: "4.5 MB", type: "PDF" },
+        { title: "BROAD CCHP Catalogue", size: "3.5 MB", type: "PDF", href: "/files/CCHP.pdf" },
         { title: "System Integration Capabilities", size: "2.1 MB", type: "PDF" },
         { title: "Case Studies: District Cooling", size: "3.8 MB", type: "PDF" },
       ]}
+      // BROAD CCHP projects with measured results, from the BROAD CCHP catalogue (/files/CCHP.pdf)
       caseStudies={[
         {
-          id: 1,
-          title: "University Medical Campuses",
-          metric: "High uptime trigeneration system",
-          industry: "Healthcare & Education",
+          id: "psl-pet",
+          title: "Pakistan Synthetic Limited (PET), Hub",
+          metric: "Plant efficiency 42% → 81%",
+          industry: "Plastics · 2 MW + 1 MW gas engines",
           image: "/images/CCHP_2.jpg",
-          description: "Large-scale educational and healthcare facilities requiring reliable, efficient energy solutions with high uptime requirements. Featured: University of Maryland medical campus with comprehensive trigeneration system.",
+          description: "A BROAD multi-energy chiller (1,857 kW, ≈ 528 TR) recovers flue gas and jacket water heat from MTU and Jenbacher engines, replacing electric chillers.",
         },
         {
-          id: 2,
-          title: "District Heating Networks",
-          metric: "Centralized energy generation",
-          industry: "Municipal & Community",
+          id: "alkaram",
+          title: "Alkaram Textile, Nooriabad",
+          metric: "Plant efficiency 43.5% → 81%",
+          industry: "Textile · 2 × 1.5 MW gas engines",
           image: "/images/CCHP_1.jpg",
-          description: "Municipal and community-scale systems providing centralized energy generation with distributed benefits across multiple buildings. Advantage: Centralized efficiency, reduced infrastructure costs, community-wide benefits.",
+          description: "Two BROAD exhaust and jacket water chillers (1,590 kW + 1,100 kW, ≈ 765 TR) cool a new 240-loom air-jet weaving plant.",
         },
         {
-          id: 3,
-          title: "Industrial Facilities",
-          metric: "Continuous process cooling and power",
-          industry: "Manufacturing",
-          image: "/images/Absorption Heat Pump.jpg",
-          description: "Manufacturing and processing plants requiring continuous, cost-effective energy with minimal grid dependence. Benefits: Energy independence, cost control, production continuity assurance.",
-        }
+          id: "125-broad",
+          title: "125 Broad Street, New York",
+          metric: "Carbon footprint cut by over 70%",
+          industry: "Commercial office · 1 MW gas engine",
+          image: "/images/cchp.jpg",
+          description: "A 320 RT BROAD hot water chiller is part of a CCHP plant expected to save over $1.25 million a year and cut electricity use by 42%+.",
+        },
       ]}
       customSections={
         <div className="space-y-12 mb-8">

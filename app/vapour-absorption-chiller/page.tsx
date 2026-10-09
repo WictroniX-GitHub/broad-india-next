@@ -1,17 +1,15 @@
 import React from "react";
-import type { Metadata } from "next";
+import Link from "next/link";
+import { pageMetadata } from "@/lib/seo";
 import CategoryTemplate from "@/components/CategoryTemplate";
 import { ZapOff, Leaf, Wrench, Factory, TestTube, Apple } from "lucide-react";
 
-export const metadata: Metadata = {
-  title: "Vapour Absorption Chillers - Non-Electric Cooling Solutions | BROAD India",
-  description: "Explore BROAD India's range of Vapour absorption chillers including direct-fired, waste heat, solar-driven, and multi-energy chillers. Energy-efficient, non-electric cooling solutions for industrial applications.",
-  keywords: [
-    "Vapour absorption chiller", "non-electric chiller", "absorption chiller",
-    "direct fired chiller", "waste heat chiller", "solar chiller",
-    "multi-energy chiller", "BROAD chiller", "industrial cooling"
-  ],
-};
+export const metadata = pageMetadata({
+  path: "/vapour-absorption-chiller",
+  title: "Vapour Absorption Chiller Manufacturer in India | BROAD",
+  description: "BROAD India vapour absorption chillers (VAM) cool with waste heat, steam, hot water, gas or solar heat, not grid power. 30–3,300 TR. Get a sizing quote.",
+  image: "/images/products/broad-product-range.jpg",
+});
 
 const VapourAbsorptionChiller = () => {
   const introContent = (
@@ -27,7 +25,7 @@ const VapourAbsorptionChiller = () => {
         India&apos;s industrial sector, spanning textiles, pharmaceuticals, chemicals, and heavy manufacturing, generates vast amounts of low-grade waste heat. Traditionally exhausted into the atmosphere, this thermal energy can now be captured and monetized. A waste-heat-driven vapour absorption chiller recovers this otherwise lost energy to produce chilled water for process cooling or facility air conditioning, effectively delivering &quot;free cooling&quot; and drastically reducing the facility&apos;s overall energy intensity.
       </p>
       <p>
-        Furthermore, many regions across India face grid constraints and high peak tariffs. By deploying a BROAD non-electric chiller, facilities can slash their electrical peak demand load by up to 90%, freeing up critical power infrastructure for core manufacturing processes.
+        Furthermore, many regions across India face grid constraints and high peak tariffs. By deploying a BROAD non-electric chiller, facilities can slash their electrical peak demand load by up to 90%, freeing up critical power infrastructure for core manufacturing processes. To estimate what this is worth for your plant, see our <Link href="/vapour-absorption-chiller/price-in-india" className="font-semibold text-brand-600 hover:text-brand-700">vapour absorption chiller price and payback guide</Link>.
       </p>
       <h3 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Unmatched Reliability and Intelligent Operation</h3>
       <p>
@@ -70,6 +68,12 @@ const VapourAbsorptionChiller = () => {
           description: "Advanced dual-cycle system for high efficiency, reliability, and superior energy savings using steam or exhaust.",
           image: "/images/products/bh-model-chiller.jpg",
           link: "/vapour-absorption-chiller/two-stage-chiller"
+        },
+        {
+          title: "Steam & Hot Water Absorption Chiller",
+          description: "Single-stage and two-stage chillers that turn process steam, waste steam or hot water into chilled water. Selection guide inside.",
+          image: "/images/products/bds-steam-chiller.jpg",
+          link: "/vapour-absorption-chiller/steam-hot-water-absorption-chiller"
         },
         {
           title: "Single-Stage Absorption Chiller",

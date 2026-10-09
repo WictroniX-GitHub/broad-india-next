@@ -7,6 +7,10 @@
 - **URLs:** short slugs under `/industries/`, with the keyword carried by the title and H1. The old 6 URLs get 301 redirects.
 - **Keywords:** I draft clusters from research (this doc, §3); you validate search volumes in SEMrush/Ubersuggest before copy is written.
 - **Images:** real assets first (site photos, product images, client logos), plus **licensed stock** for industry scenes until real photos arrive, plus **custom SVG process diagrams** per industry.
+- **ROI blocks:** illustrative worked examples are allowed, clearly labelled "Illustrative sizing" with their assumptions, and reviewed by engineers before publishing.
+- **Reviewer byline:** "Reviewed by BROAD India Engineering Team" (the organisational byline, matching the blogs).
+- **Rollout:** Wave 1 first (template + Textile, Petrochemical & Refinery, Pharmaceutical & Chemical). The other 6 industries stay on the current page until their wave, and each old URL redirects only when its replacement ships.
+- **Spelling:** "Aviation & Defence", slug `aviation-defence`; the Home label is updated to match.
 
 ---
 
@@ -32,7 +36,7 @@
 | 6 | Hospitals & Medical Facilities | `/industries/hospitals` | `/industries/healthcare` → here |
 | 7 | Commercial Buildings & Hotels | `/industries/commercial-buildings-hotels` | `/industries/commercial`, `/industries/retail`, `/industries/hospitality` → here |
 | 8 | Data Centers & Green Buildings | `/industries/data-centers` | **URL unchanged** (keeps any existing equity) |
-| 9 | Aviation & Defense | `/industries/aviation-defence` | — |
+| 9 | Aviation & Defence | `/industries/aviation-defence` | — |
 
 The redirects go in `lib/redirects.ts`, so the sitemap automatically excludes the old URLs.
 
@@ -100,7 +104,7 @@ Section order is chosen for answer extraction: answer first, evidence next, acti
 
 **Length:** 1,200–1,800 words of unique copy per page (the audit found product pages thin at under 800).
 
-**Byline:** "Reviewed by [named BROAD engineer], [role]" plus a last-updated date. This is an E-E-A-T and GEO trust signal.
+**Byline:** "Reviewed by BROAD India Engineering Team" plus a last-updated date. This is an E-E-A-T and GEO trust signal.
 
 ---
 
@@ -181,7 +185,6 @@ Each wave:
 - Number of installations in the industry, typical capacity (TR) range, heat sources seen
 - Named clients that may be shown (confirm the §4 mappings)
 - 1–2 real savings figures, or permission to publish an illustrative ROI example
-- Reviewer name and role for the byline
 - Real photos (shot list, §8)
 
 ## 12. Success measures (90 days after each wave)

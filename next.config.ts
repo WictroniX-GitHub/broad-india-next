@@ -3,6 +3,8 @@ import { redirects } from "./lib/redirects";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true, // Improves debugging & performance
+  // Never stream metadata: LinkedIn, Slack and AI fetchers must find title/OG/canonical in <head>
+  htmlLimitedBots: /.*/,
   images: {
     qualities: [25, 50, 75, 80, 90, 100],
     remotePatterns: [

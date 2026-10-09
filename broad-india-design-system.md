@@ -114,3 +114,31 @@ Based on a structural review of broadindia.com as it stands today:
 - **Icons:** `lucide-react` — inline SVG, effectively zero added page weight per icon.
 - **Counters:** a small custom hook (~1KB) rather than a full animation library.
 - **Budget:** keep total added JS for all interactions under roughly 10–15KB gzipped to preserve current load performance.
+
+---
+
+## 10. Implemented tokens & components (Phase 5, 2026-09-29)
+
+**Tokens** (`tailwind.config.ts`, `app/globals.css`)
+- `brand-*` = Tailwind blue scale, `eco-*` = green scale. Re-theme the site by changing these two aliases. Use `brand-600` wherever older code hardcodes `blue-600`.
+- Shadows: `shadow-card` (0 8px 30px, 8% black), `shadow-card-hover`, `shadow-brand` (blue glow for primary CTAs).
+- `.article-body`: typography for HTML-string blog posts (the Tailwind typography plugin is **not** installed, so `prose` classes do nothing).
+
+**Primitives** (`components/ds/`)
+| Component | Use |
+|---|---|
+| `Section` | Standard section: `surface` white / slate / dark / brand, optional `glow`, container widths |
+| `SectionHeader` | Eyebrow + title + blue bar + subtitle; `align`, `tone`, optional `action` slot |
+| `PageHero` | `image` (photo + gradient), `dark` (slate + glow + grid), `light`; breadcrumbs, actions, `aside`, children |
+| `Breadcrumbs` | Trail + `BreadcrumbList` JSON-LD (`schema={false}` if the page emits its own) |
+| `StatStrip` | Count-up stats; SSR shows the final value; years and ranges stay static |
+| `IconFeatureCard` | Icon-badge card (light / slate / dark) |
+| `CTABand` | Closing dark CTA with contacts |
+| `cta()` | cva pill-button classes: primary / outline / light / ghost-light / link |
+| `FormField` + `useFormspree` | Labelled inputs; async Formspree submit with inline success/error (`FORMSPREE_CONTACT`, `FORMSPREE_CAREERS`) |
+| `LegalLayout` | Legal pages: hero + sticky contents |
+
+**Product / case-study building blocks**
+- `components/product/`: `ScrollSpyNav`, `ProductMedia` (framed image for small source photos), `WorkingPrinciple` (absorption cycle), `ModelFinder` (TR slider over the model table), `ProofSection` (case studies matched by URL).
+- `ProductFAQ` is the single accordion (`bare` to embed, `schema={false}` to suppress its JSON-LD).
+- Data: `data/caseStudies.ts` (all case studies; `status: "placeholder"` ⇒ noindex + excluded from sitemap), `data/products.ts` (heat sources, capacities, related products), `data/faqs.ts`.
